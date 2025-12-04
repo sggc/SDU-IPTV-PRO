@@ -1,0 +1,62 @@
+name: Update Sources
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'  # 每小时运行一次
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+permissions:
+  contents: write
+
+jobs:
+  update-sources:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: Create .data directory
+      run: |
+        mkdir -p .data
+        
+    - name: Process unicast source
+      run: |
+        echo "处理单播源..."
+        python scripts/process_unicast.py
+        
+    - name: Process multicast source
+      run: |
+        echo "处理组播源..."
+        python scripts/process_multicast.py
+        
+    - name: Check for changes and commit
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # 添加所有相关文件
+        git add unicast.m3u multicast-rtp.m3u .data/
+        
+        # 检查是否有变化
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto-update: 更新播放列表 $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+          echo "Changes committed and pushed"
+        fi
