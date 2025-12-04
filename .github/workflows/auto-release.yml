@@ -8,7 +8,7 @@ on:
       - 'multicast-rtp.m3u'
   workflow_dispatch:  # 允许手动触发
   schedule:
-    - cron: '0 0 * * *'  # 每天凌晨运行一次
+    - cron: '0 0 * * *'  # 每天凌晨运行一次（北京时间）
 
 jobs:
   create-release:
@@ -23,10 +23,14 @@ jobs:
         fetch-depth: 0
         token: ${{ secrets.PAT }}  # 使用PAT而不是默认的GITHUB_TOKEN
     
+    - name: Set timezone to Beijing
+      run: |
+        sudo timedatectl set-timezone Asia/Shanghai
+    
     - name: Detect changes and generate release info
       id: release-info
       run: |
-        # 获取当前日期和时间
+        # 获取当前日期和时间（北京时间）
         CURRENT_DATE=$(date +'%Y-%-m-%-d')
         CURRENT_DATETIME=$(date +'%Y-%m-%d %H:%M:%S')
         
@@ -166,7 +170,7 @@ jobs:
         
         echo "" >> release_body.md
         echo "## 生成信息" >> release_body.md
-        echo "- **生成时间**: ${{ steps.release-info.outputs.current_datetime }}" >> release_body.md
+        echo "- **生成时间**: ${{ steps.release-info.outputs.current_datetime }} (北京时间)" >> release_body.md
         echo "- **提交哈希**: ${{ github.sha }}" >> release_body.md
         
         echo "已创建release说明文件"
