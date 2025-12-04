@@ -21,7 +21,8 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-        token: ${{ secrets.PAT }}  # 使用PAT而不是默认的GITHUB_TOKEN
+        # 移除 token 参数，使用默认的 GITHUB_TOKEN
+        # 如果需要更高权限，可以保留但需要先创建 PAT secret
     
     - name: Set timezone to Beijing
       run: |
