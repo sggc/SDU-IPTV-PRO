@@ -1,4 +1,4 @@
-name: Auto Packaging
+name: Auto Release
 
 on:
   push:
@@ -7,8 +7,6 @@ on:
       - 'unicast.m3u'
       - 'multicast-rtp.m3u'
   workflow_dispatch:  # 允许手动触发
-  schedule:
-    - cron: '0 0 * * *'  # 每天凌晨运行一次（北京时间）
 
 jobs:
   create-release:
@@ -21,14 +19,32 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-        # 移除 token 参数，使用默认的 GITHUB_TOKEN
-        # 如果需要更高权限，可以保留但需要先创建 PAT secret
     
     - name: Set timezone to Beijing
       run: |
         sudo timedatectl set-timezone Asia/Shanghai
     
-    - name: Detect changes and generate release info
+    - name: Get changed files
+      id: changed-files
+      run: |
+        # 获取本次提交变更的 M3U 文件
+        CHANGED_M3U_FILES=$(git diff --name-only HEAD~1 HEAD | grep -E "\.(m3u)$" || true)
+        
+        if [ -n "$CHANGED_M3U_FILES" ]; then
+          echo "检测到 M3U 文件变更:"
+          echo "$CHANGED_M3U_FILES"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+          
+          # 将文件列表转换为单行，用逗号分隔
+          CHANGED_FILES_SINGLE_LINE=$(echo "$CHANGED_M3U_FILES" | tr '\n' ',' | sed 's/,$//')
+          echo "changed_files=$CHANGED_FILES_SINGLE_LINE" >> $GITHUB_OUTPUT
+        else
+          echo "未检测到 M3U 文件变更"
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Generate release info
+      if: steps.changed-files.outputs.has_changes == 'true'
       id: release-info
       run: |
         # 获取当前日期和时间（北京时间）
@@ -42,60 +58,17 @@ jobs:
         RELEASE_NAME="存档$CURRENT_DATE-r$NEW_VERSION"
         FILE_NAME="存档$CURRENT_DATE-r$NEW_VERSION"
         
-        # 检测文件变动 - 与最新tag比较，而不是前一次提交
-        LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
-        if [ -z "$LATEST_TAG" ]; then
-          # 如果没有tag，比较最近两次提交
-          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep -vE "README.md|.gitignore" | head -20)
-        else
-          # 与最新tag比较
-          CHANGED_FILES=$(git diff --name-only $LATEST_TAG HEAD | grep -vE "README.md|.gitignore" | head -20)
-        fi
-        
-        # 检查是否有文件变动（不只是特殊文件）
-        HAS_CHANGES=false
-        if [ -n "$CHANGED_FILES" ]; then
-          HAS_CHANGES=true
-          echo "检测到文件变动: $CHANGED_FILES"
-        fi
-        
-        # 检查是否有特殊文件变动（.m3u文件）
-        SPECIAL_FILES_CHANGED=false
-        SPECIAL_FILES=$(echo "$CHANGED_FILES" | grep -E "\.(m3u)$" || true)
-        if [ -n "$SPECIAL_FILES" ]; then
-          SPECIAL_FILES_CHANGED=true
-          echo "检测到特殊文件变动: $SPECIAL_FILES"
-          # 将多行文件列表转换为单行，用逗号分隔
-          SPECIAL_FILES_SINGLE_LINE=$(echo "$SPECIAL_FILES" | tr '\n' ',' | sed 's/,$//')
-        else
-          SPECIAL_FILES_SINGLE_LINE=""
-        fi
-        
-        # 将CHANGED_FILES也转换为单行
-        CHANGED_FILES_SINGLE_LINE=$(echo "$CHANGED_FILES" | tr '\n' ',' | sed 's/,$//')
-        if [ -z "$CHANGED_FILES_SINGLE_LINE" ]; then
-          CHANGED_FILES_SINGLE_LINE="无重要文件变更"
-          HAS_CHANGES=false
-        fi
-        
-        # 输出到GITHUB_OUTPUT - 使用单行格式
+        # 输出到GITHUB_OUTPUT
         echo "release_name=$RELEASE_NAME" >> $GITHUB_OUTPUT
         echo "file_name=$FILE_NAME" >> $GITHUB_OUTPUT
         echo "current_datetime=$CURRENT_DATETIME" >> $GITHUB_OUTPUT
-        echo "has_changes=$HAS_CHANGES" >> $GITHUB_OUTPUT
-        echo "special_files_changed=$SPECIAL_FILES_CHANGED" >> $GITHUB_OUTPUT
-        echo "special_files=$SPECIAL_FILES_SINGLE_LINE" >> $GITHUB_OUTPUT
-        echo "changed_files=$CHANGED_FILES_SINGLE_LINE" >> $GITHUB_OUTPUT
         
         echo "Release名称: $RELEASE_NAME"
         echo "文件名: $FILE_NAME"
-        echo "是否有文件变动: $HAS_CHANGES"
-        echo "特殊文件变动: $SPECIAL_FILES_CHANGED"
-        echo "特殊文件列表: $SPECIAL_FILES_SINGLE_LINE"
-        echo "提交信息: ${{ github.event.head_commit.message }}"
+        echo "变更文件: ${{ steps.changed-files.outputs.changed_files }}"
     
     - name: Create full repository archive
-      if: steps.release-info.outputs.has_changes == 'true'
+      if: steps.changed-files.outputs.has_changes == 'true'
       run: |
         # 创建完整仓库压缩包
         ARCHIVE_NAME="${{ steps.release-info.outputs.file_name }}.zip"
@@ -104,37 +77,29 @@ jobs:
         echo "已创建完整存档: $ARCHIVE_NAME"
     
     - name: Prepare release assets
-      if: steps.release-info.outputs.has_changes == 'true' && steps.release-info.outputs.special_files_changed == 'true'
+      if: steps.changed-files.outputs.has_changes == 'true'
       run: |
         # 准备要发布的文件列表
         ASSETS="${{ env.ARCHIVE_NAME }}"
         
-        # 直接查找特殊文件（.m3u文件），避免环境变量解析问题
-        CHANGED_SPECIAL_FILES=$(git diff --name-only HEAD~1 HEAD | grep -E "\.(m3u)$" || true)
-        
-        # 添加特殊文件到发布列表
-        if [ -n "$CHANGED_SPECIAL_FILES" ]; then
-          while IFS= read -r file; do
-            if [ -f "$file" ] && [ -n "$file" ]; then
+        # 添加变更的 M3U 文件到发布列表
+        CHANGED_FILES="${{ steps.changed-files.outputs.changed_files }}"
+        if [ -n "$CHANGED_FILES" ]; then
+          # 将逗号分隔的文件列表转换回数组
+          IFS=',' read -ra FILES <<< "$CHANGED_FILES"
+          for file in "${FILES[@]}"; do
+            if [ -f "$file" ]; then
               ASSETS="$ASSETS,$file"
-              echo "添加特殊文件到发布列表: $file"
+              echo "添加文件到发布列表: $file"
             fi
-          done <<< "$CHANGED_SPECIAL_FILES"
+          done
         fi
         
         echo "ASSETS=$ASSETS" >> $GITHUB_ENV
         echo "将要发布的文件: $ASSETS"
     
-    - name: Prepare release assets (no special files changes)
-      if: steps.release-info.outputs.has_changes == 'true' && steps.release-info.outputs.special_files_changed == 'false'
-      run: |
-        # 准备要发布的文件列表（没有特殊文件变动时）
-        ASSETS="${{ env.ARCHIVE_NAME }}"
-        echo "ASSETS=$ASSETS" >> $GITHUB_ENV
-        echo "将要发布的文件: $ASSETS"
-    
     - name: Create release body
-      if: steps.release-info.outputs.has_changes == 'true'
+      if: steps.changed-files.outputs.has_changes == 'true'
       run: |
         # 创建release说明
         echo "# ${{ steps.release-info.outputs.release_name }}" > release_body.md
@@ -149,7 +114,7 @@ jobs:
         echo "## 变更文件" >> release_body.md
         echo "\`\`\`" >> release_body.md
         # 将逗号分隔的列表转换回可读格式
-        CHANGED_FILES_READABLE=$(echo "${{ steps.release-info.outputs.changed_files }}" | tr ',' '\n')
+        CHANGED_FILES_READABLE=$(echo "${{ steps.changed-files.outputs.changed_files }}" | tr ',' '\n')
         echo "$CHANGED_FILES_READABLE" >> release_body.md
         echo "\`\`\`" >> release_body.md
         echo "" >> release_body.md
@@ -157,15 +122,14 @@ jobs:
         echo "## 包含的文件" >> release_body.md
         echo "- **${{ env.ARCHIVE_NAME }}**: 完整仓库存档" >> release_body.md
         
-        # 条件性添加特殊文件信息
-        if [ "${{ steps.release-info.outputs.special_files_changed }}" == "true" ]; then
+        # 添加单独发布的 M3U 文件信息
+        if [ -n "${{ steps.changed-files.outputs.changed_files }}" ]; then
           echo "" >> release_body.md
-          echo "## 单独发布的M3U文件" >> release_body.md
-          echo "以下M3U文件已单独发布（保持原文件名）：" >> release_body.md
+          echo "## 单独发布的 M3U 文件" >> release_body.md
+          echo "以下 M3U 文件已单独发布（保持原文件名）：" >> release_body.md
           echo "\`\`\`" >> release_body.md
-          # 直接获取文件列表
-          SPECIAL_FILES_READABLE=$(git diff --name-only HEAD~1 HEAD | grep -E "\.(m3u)$" || echo "无M3U文件变动")
-          echo "$SPECIAL_FILES_READABLE" >> release_body.md
+          CHANGED_FILES_READABLE=$(echo "${{ steps.changed-files.outputs.changed_files }}" | tr ',' '\n')
+          echo "$CHANGED_FILES_READABLE" >> release_body.md
           echo "\`\`\`" >> release_body.md
         fi
         
@@ -177,7 +141,7 @@ jobs:
         echo "已创建release说明文件"
     
     - name: Create GitHub Release
-      if: steps.release-info.outputs.has_changes == 'true'
+      if: steps.changed-files.outputs.has_changes == 'true'
       uses: softprops/action-gh-release@v1
       with:
         tag_name: ${{ steps.release-info.outputs.release_name }}
