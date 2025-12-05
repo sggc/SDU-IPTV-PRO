@@ -7,7 +7,7 @@ on:
       - 'unicast.m3u'
       - 'multicast-rtp.m3u'
       - 'multicast-nofcc.m3u'
-  workflow_dispatch:
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   create-release:
@@ -86,8 +86,9 @@ jobs:
         # 添加变更的 M3U 文件到发布列表
         CHANGED_FILES="${{ steps.changed-files.outputs.changed_files }}"
         if [ -n "$CHANGED_FILES" ]; then
-          # 使用简单的方法处理文件列表
-          echo "$CHANGED_FILES" | tr ',' '\n' | while read -r file; do
+          # 将逗号分隔的文件列表转换回数组
+          IFS=',' read -ra FILES <<< "$CHANGED_FILES"
+          for file in "${FILES[@]}"; do
             if [ -f "$file" ]; then
               ASSETS="$ASSETS,$file"
               echo "添加文件到发布列表: $file"
@@ -102,31 +103,41 @@ jobs:
       if: steps.changed-files.outputs.has_changes == 'true'
       run: |
         # 创建release说明
-        cat > release_body.md << EOF
-# ${{ steps.release-info.outputs.release_name }}
-自动生成的存档版本
-
-## 提交信息
-${{ github.event.head_commit.message }}
-
-## 变更文件
-\`\`\`
-$(echo "${{ steps.changed-files.outputs.changed_files }}" | tr ',' '\n')
-\`\`\`
-
-## 包含的文件
-- **${{ env.ARCHIVE_NAME }}**: 完整仓库存档
-
-## 单独发布的 M3U 文件
-以下 M3U 文件已单独发布（保持原文件名）：
-\`\`\`
-$(echo "${{ steps.changed-files.outputs.changed_files }}" | tr ',' '\n')
-\`\`\`
-
-## 生成信息
-- **生成时间**: ${{ steps.release-info.outputs.current_datetime }} (北京时间)
-- **提交哈希**: ${{ github.sha }}
-EOF
+        echo "# ${{ steps.release-info.outputs.release_name }}" > release_body.md
+        echo "自动生成的存档版本" >> release_body.md
+        echo "" >> release_body.md
+        
+        # 显示提交信息
+        echo "## 提交信息" >> release_body.md
+        echo "${{ github.event.head_commit.message }}" >> release_body.md
+        echo "" >> release_body.md
+        
+        echo "## 变更文件" >> release_body.md
+        echo "\`\`\`" >> release_body.md
+        # 将逗号分隔的列表转换回可读格式
+        CHANGED_FILES_READABLE=$(echo "${{ steps.changed-files.outputs.changed_files }}" | tr ',' '\n')
+        echo "$CHANGED_FILES_READABLE" >> release_body.md
+        echo "\`\`\`" >> release_body.md
+        echo "" >> release_body.md
+        
+        echo "## 包含的文件" >> release_body.md
+        echo "- **${{ env.ARCHIVE_NAME }}**: 完整仓库存档" >> release_body.md
+        
+        # 添加单独发布的 M3U 文件信息
+        if [ -n "${{ steps.changed-files.outputs.changed_files }}" ]; then
+          echo "" >> release_body.md
+          echo "## 单独发布的 M3U 文件" >> release_body.md
+          echo "以下 M3U 文件已单独发布（保持原文件名）：" >> release_body.md
+          echo "\`\`\`" >> release_body.md
+          CHANGED_FILES_READABLE=$(echo "${{ steps.changed-files.outputs.changed_files }}" | tr ',' '\n')
+          echo "$CHANGED_FILES_READABLE" >> release_body.md
+          echo "\`\`\`" >> release_body.md
+        fi
+        
+        echo "" >> release_body.md
+        echo "## 生成信息" >> release_body.md
+        echo "- **生成时间**: ${{ steps.release-info.outputs.current_datetime }} (北京时间)" >> release_body.md
+        echo "- **提交哈希**: ${{ github.sha }}" >> release_body.md
         
         echo "已创建release说明文件"
     
