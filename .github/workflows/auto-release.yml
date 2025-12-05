@@ -6,6 +6,7 @@ on:
     paths:
       - 'unicast.m3u'
       - 'multicast-rtp.m3u'
+      - 'multicast-nofcc.m3u'  # 新增
   workflow_dispatch:  # 允许手动触发
 
 jobs:
