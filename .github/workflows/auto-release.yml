@@ -8,7 +8,7 @@ on:
       - 'multicast-rtp.m3u'
   workflow_dispatch:  # 允许手动触发
   schedule:
-    - cron: '0 0 * * *'  # 每天凌晨运行一次（北京时间）
+    - cron: '*/30 * * * *'  # 每天凌晨运行一次（北京时间）
 
 jobs:
   create-release:
