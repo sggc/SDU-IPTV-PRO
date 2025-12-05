@@ -8,15 +8,15 @@ from datetime import datetime, timezone, timedelta
 # ==================== 配置 ====================
 SOURCE_M3U_URL = "https://raw.githubusercontent.com/plsy1/iptv/refs/heads/main/multicast/multicast-weifang.m3u"
 OUTPUT_FILENAME = "multicast-rtp.m3u"
-OUTPUT_NO_FCC_FILENAME = "multicast-nofcc.m3u"  # 新增
+OUTPUT_NOFCC_FILENAME = "multicast-nofcc.m3u"  # 新增：无FCC后缀的输出文件
 HASH_FILE = ".data/multicast_hash.txt"
 # ==============================================
 
 class MulticastM3UProcessor:
-    def __init__(self, source_url, output_file, output_no_fcc_file, hash_file):
+    def __init__(self, source_url, output_file, output_nofcc_file, hash_file):
         self.source_url = source_url
         self.output_file = output_file
-        self.output_no_fcc_file = output_no_fcc_file  # 新增
+        self.output_nofcc_file = output_nofcc_file  # 新增
         self.hash_file = hash_file
         self.channels = []
         self.extm3u_line = "#EXTM3U"  # 保存原始的EXTM3U行
@@ -267,6 +267,11 @@ class MulticastM3UProcessor:
         # 将 http://192.168.0.1:5140/rtp/... 改为 http://192.168.100.1:5140/rtp/...
         return url.replace('http://192.168.0.1:5140/', 'http://192.168.100.1:5140/')
     
+    def remove_fcc_suffix(self, url):
+        """删除直播源中的FCC后缀"""
+        # 删除 ?fcc=124.132.240.66:15970 后缀
+        return re.sub(r'\?fcc=124\.132\.240\.66:15970$', '', url)
+    
     def process_url_conversion(self):
         """处理URL转换 - 包含新的回看源转换规则"""
         print("开始处理URL转换...")
@@ -308,10 +313,9 @@ class MulticastM3UProcessor:
         beijing_time = self.get_beijing_time()
         
         # 使用原始的EXTM3U行（保留EPG信息）
-        file_type = "（无fcc后缀）" if remove_fcc else ""
         header = f"""{self.extm3u_line}
 # 源文件: {self.source_url}
-# 修改时间: {beijing_time.strftime('%Y-%m-%d %H:%M:%S')} (北京时间){file_type}
+# 修改时间: {beijing_time.strftime('%Y-%m-%d %H:%M:%S')} (北京时间)
 # 处理规则:
 # 1. CGTN频道改为"其他频道"
 # 2. 复制山东卫视到CCTV1下面并改为"央视频道"
@@ -320,19 +324,22 @@ class MulticastM3UProcessor:
 # 5. 回看源转换规则:
 #    rtsp://...${{(b)yyyyMMddHHmmss:utc}}...${{(e)yyyyMMddHHmmss:utc}}...
 #    -> http://192.168.100.1:5140/rtsp/...${{(b)yyyyMMddHHmmss}}...${{(e)yyyyMMddHHmmss}}...&r2h-seek-offset=-28800
-# 6. 直播源: 192.168.0.1 -> 192.168.100.1
-{'# 7. 移除直播源中的fcc后缀' if remove_fcc else ''}
-
-"""
+# 6. 直播源: 192.168.0.1 -> 192.168.100.1"""
+        
+        # 如果是生成无FCC版本，添加说明
+        if remove_fcc:
+            header += "\n# 7. 移除FCC后缀: ?fcc=124.132.240.66:15970"
+        
+        header += "\n\n"
         
         content = header
         for channel in self.channels:
             content += channel['extinf'] + '\n'
-            # 如果需要移除fcc后缀，则处理URL
+            url = channel['url']
+            # 如果需要移除FCC后缀，则处理URL
             if remove_fcc:
-                content += re.sub(r'\?fcc=[^&\s]*', '', channel['url']) + '\n'
-            else:
-                content += channel['url'] + '\n'
+                url = self.remove_fcc_suffix(url)
+            content += url + '\n'
         
         return content
     
@@ -361,16 +368,18 @@ class MulticastM3UProcessor:
             standard_content = self.generate_m3u_content(remove_fcc=False)
             with open(self.output_file, 'w', encoding='utf-8') as f:
                 f.write(standard_content)
+            print(f"标准版本已保存到 {self.output_file}")
             
-            # 生成无fcc版本内容并保存
-            no_fcc_content = self.generate_m3u_content(remove_fcc=True)
-            with open(self.output_no_fcc_file, 'w', encoding='utf-8') as f:
-                f.write(no_fcc_content)
+            # 生成无FCC版本内容并保存
+            nofcc_content = self.generate_m3u_content(remove_fcc=True)
+            with open(self.output_nofcc_file, 'w', encoding='utf-8') as f:
+                f.write(nofcc_content)
+            print(f"无FCC版本已保存到 {self.output_nofcc_file}")
             
             # 保存当前哈希值
             self.save_current_hash(content)
             
-            print(f"处理完成，已保存到 {self.output_file} 和 {self.output_no_fcc_file}")
+            print("处理完成")
             return True
             
         except Exception as e:
@@ -381,7 +390,7 @@ class MulticastM3UProcessor:
 
 
 def main():
-    processor = MulticastM3UProcessor(SOURCE_M3U_URL, OUTPUT_FILENAME, OUTPUT_NO_FCC_FILENAME, HASH_FILE)
+    processor = MulticastM3UProcessor(SOURCE_M3U_URL, OUTPUT_FILENAME, OUTPUT_NOFCC_FILENAME, HASH_FILE)
     success = processor.process()
     
     if not success:
