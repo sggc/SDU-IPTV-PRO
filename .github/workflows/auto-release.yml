@@ -1,5 +1,4 @@
-# 创建修改后的 auto-release.yml 文件
-auto_release_content = '''name: Auto Release
+name: Auto Release
 
 on:
   push:
@@ -7,7 +6,7 @@ on:
     paths:
       - 'unicast.m3u'
       - 'multicast-rtp.m3u'
-      - 'multicast-nofcc.m3u'
+      - 'multicast-nofcc.m3u'  # 新增
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -30,7 +29,7 @@ jobs:
       id: changed-files
       run: |
         # 获取本次提交变更的 M3U 文件
-        CHANGED_M3U_FILES=$(git diff --name-only HEAD~1 HEAD | grep -E "\\.(m3u)$" || true)
+        CHANGED_M3U_FILES=$(git diff --name-only HEAD~1 HEAD | grep -E "\.(m3u)$" || true)
         
         if [ -n "$CHANGED_M3U_FILES" ]; then
           echo "检测到 M3U 文件变更:"
@@ -38,8 +37,8 @@ jobs:
           echo "has_changes=true" >> $GITHUB_OUTPUT
           
           # 将文件列表转换为单行，用逗号分隔
-          CHANGED_FILES_SINGLE_LINE=$(echo "$CHANGED_M3U_FILES" | tr '\\n' ',' | sed 's/,$//')
-          echo "changed_files=$CHANGED_FILES_SINGLE_LINE" >>$GITHUB_OUTPUT
+          CHANGED_FILES_SINGLE_LINE=$(echo "$CHANGED_M3U_FILES" | tr '\n' ',' | sed 's/,$//')
+          echo "changed_files=$CHANGED_FILES_SINGLE_LINE" >> $GITHUB_OUTPUT
         else
           echo "未检测到 M3U 文件变更"
           echo "has_changes=false" >> $GITHUB_OUTPUT
@@ -61,9 +60,9 @@ jobs:
         FILE_NAME="存档$CURRENT_DATE-r$NEW_VERSION"
         
         # 输出到GITHUB_OUTPUT
-        echo "release_name=$RELEASE_NAME" >>$GITHUB_OUTPUT
-        echo "file_name=$FILE_NAME" >>$GITHUB_OUTPUT
-        echo "current_datetime=$CURRENT_DATETIME" >>$GITHUB_OUTPUT
+        echo "release_name=$RELEASE_NAME" >> $GITHUB_OUTPUT
+        echo "file_name=$FILE_NAME" >> $GITHUB_OUTPUT
+        echo "current_datetime=$CURRENT_DATETIME" >> $GITHUB_OUTPUT
         
         echo "Release名称: $RELEASE_NAME"
         echo "文件名: $FILE_NAME"
@@ -75,7 +74,7 @@ jobs:
         # 创建完整仓库压缩包
         ARCHIVE_NAME="${{ steps.release-info.outputs.file_name }}.zip"
         zip -r "$ARCHIVE_NAME" . -x "*.git*" "*.github*" "*.zip" "*.tar.gz"
-        echo "ARCHIVE_NAME=$ARCHIVE_NAME" >>$GITHUB_ENV
+        echo "ARCHIVE_NAME=$ARCHIVE_NAME" >> $GITHUB_ENV
         echo "已创建完整存档: $ARCHIVE_NAME"
     
     - name: Prepare release assets
@@ -97,7 +96,7 @@ jobs:
           done
         fi
         
-        echo "ASSETS=$ASSETS" >>$GITHUB_ENV
+        echo "ASSETS=$ASSETS" >> $GITHUB_ENV
         echo "将要发布的文件: $ASSETS"
     
     - name: Create release body
@@ -105,18 +104,40 @@ jobs:
       run: |
         # 创建release说明
         echo "# ${{ steps.release-info.outputs.release_name }}" > release_body.md
+        echo "自动生成的存档版本" >> release_body.md
+        echo "" >> release_body.md
+        
+        # 显示提交信息
+        echo "## 提交信息" >> release_body.md
+        echo "${{ github.event.head_commit.message }}" >> release_body.md
         echo "" >> release_body.md
         
         echo "## 变更文件" >> release_body.md
-        echo "\\`\\`\\`" >> release_body.md
+        echo "\`\`\`" >> release_body.md
         # 将逗号分隔的列表转换回可读格式
-        CHANGED_FILES_READABLE=$(echo "${{ steps.changed-files.outputs.changed_files }}" | tr ',' '\\n')
+        CHANGED_FILES_READABLE=$(echo "${{ steps.changed-files.outputs.changed_files }}" | tr ',' '\n')
         echo "$CHANGED_FILES_READABLE" >> release_body.md
-        echo "\\`\\`\\`" >> release_body.md
+        echo "\`\`\`" >> release_body.md
         echo "" >> release_body.md
         
-        echo "## 变更时间" >> release_body.md
-        echo "${{ steps.release-info.outputs.current_datetime }} (北京时间)" >> release_body.md
+        echo "## 包含的文件" >> release_body.md
+        echo "- **${{ env.ARCHIVE_NAME }}**: 完整仓库存档" >> release_body.md
+        
+        # 添加单独发布的 M3U 文件信息
+        if [ -n "${{ steps.changed-files.outputs.changed_files }}" ]; then
+          echo "" >> release_body.md
+          echo "## 单独发布的 M3U 文件" >> release_body.md
+          echo "以下 M3U 文件已单独发布（保持原文件名）：" >> release_body.md
+          echo "\`\`\`" >> release_body.md
+          CHANGED_FILES_READABLE=$(echo "${{ steps.changed-files.outputs.changed_files }}" | tr ',' '\n')
+          echo "$CHANGED_FILES_READABLE" >> release_body.md
+          echo "\`\`\`" >> release_body.md
+        fi
+        
+        echo "" >> release_body.md
+        echo "## 生成信息" >> release_body.md
+        echo "- **生成时间**: ${{ steps.release-info.outputs.current_datetime }} (北京时间)" >> release_body.md
+        echo "- **提交哈希**: ${{ github.sha }}" >> release_body.md
         
         echo "已创建release说明文件"
     
@@ -139,9 +160,3 @@ jobs:
         # 清理临时文件
         rm -f *.zip release_body.md
         echo "已清理临时文件"
-'''
-
-with open('/mnt/data/auto-release.yml', 'w', encoding='utf-8') as f:
-    f.write(auto_release_content)
-
-print("已创建修改后的 auto-release.yml")
