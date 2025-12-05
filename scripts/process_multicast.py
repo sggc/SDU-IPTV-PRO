@@ -8,7 +8,7 @@ from datetime import datetime, timezone, timedelta
 # ==================== 配置 ====================
 SOURCE_M3U_URL = "https://raw.githubusercontent.com/plsy1/iptv/refs/heads/main/multicast/multicast-weifang.m3u"
 OUTPUT_FILENAME = "multicast-rtp.m3u"
-OUTPUT_NO_FCC_FILENAME = "multicast-nofcc.m3u"  # 新增：无fcc后缀的文件
+OUTPUT_NO_FCC_FILENAME = "multicast-nofcc.m3u"  # 新增
 HASH_FILE = ".data/multicast_hash.txt"
 # ==============================================
 
@@ -267,18 +267,12 @@ class MulticastM3UProcessor:
         # 将 http://192.168.0.1:5140/rtp/... 改为 http://192.168.100.1:5140/rtp/...
         return url.replace('http://192.168.0.1:5140/', 'http://192.168.100.1:5140/')
     
-    def remove_fcc_suffix(self, url):
-        """移除URL中的fcc后缀"""
-        # 移除 ?fcc=xxx 格式的后缀
-        return re.sub(r'\?fcc=[^&\s]*', '', url)
-    
     def process_url_conversion(self):
         """处理URL转换 - 包含新的回看源转换规则"""
         print("开始处理URL转换...")
         
         catchup_count = 0
         live_count = 0
-        fcc_count = 0
         
         for channel in self.channels:
             # 转换回看源（新的转换规则）
@@ -300,12 +294,8 @@ class MulticastM3UProcessor:
             if old_url != new_url:
                 channel['url'] = new_url
                 live_count += 1
-            
-            # 检查并统计需要移除fcc后缀的URL
-            if '?fcc=' in channel['url']:
-                fcc_count += 1
         
-        print(f"URL转换完成: 回看源转换 {catchup_count} 个, 直播源转换 {live_count} 个, 包含fcc后缀 {fcc_count} 个")
+        print(f"URL转换完成: 回看源转换 {catchup_count} 个, 直播源转换 {live_count} 个")
         
         # 转换示例
         if catchup_count > 0:
@@ -340,7 +330,7 @@ class MulticastM3UProcessor:
             content += channel['extinf'] + '\n'
             # 如果需要移除fcc后缀，则处理URL
             if remove_fcc:
-                content += self.remove_fcc_suffix(channel['url']) + '\n'
+                content += re.sub(r'\?fcc=[^&\s]*', '', channel['url']) + '\n'
             else:
                 content += channel['url'] + '\n'
         
@@ -391,12 +381,7 @@ class MulticastM3UProcessor:
 
 
 def main():
-    processor = MulticastM3UProcessor(
-        SOURCE_M3U_URL, 
-        OUTPUT_FILENAME, 
-        OUTPUT_NO_FCC_FILENAME,  # 新增参数
-        HASH_FILE
-    )
+    processor = MulticastM3UProcessor(SOURCE_M3U_URL, OUTPUT_FILENAME, OUTPUT_NO_FCC_FILENAME, HASH_FILE)
     success = processor.process()
     
     if not success:
