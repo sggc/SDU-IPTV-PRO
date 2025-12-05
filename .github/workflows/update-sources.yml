@@ -52,8 +52,8 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # 添加所有相关文件（包括新的 multicast-nofcc.m3u）
-        git add unicast.m3u multicast-rtp.m3u multicast-nofcc.m3u .data/
+        # 添加所有相关文件
+        git add unicast.m3u multicast-rtp.m3u .data/
         
         # 检查是否有变化
         if git diff --staged --quiet; then
