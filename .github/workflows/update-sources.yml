@@ -1,5 +1,4 @@
-# 创建修改后的 update-sources.yml 文件
-update_sources_content = '''name: Update Sources
+name: Update Sources
 
 on:
   schedule:
@@ -53,7 +52,7 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # 添加所有相关文件
+        # 添加所有相关文件（包括新的 multicast-nofcc.m3u）
         git add unicast.m3u multicast-rtp.m3u multicast-nofcc.m3u .data/
         
         # 检查是否有变化
@@ -64,9 +63,3 @@ jobs:
           git push
           echo "Changes committed and pushed"
         fi
-'''
-
-with open('/mnt/data/update-sources.yml', 'w', encoding='utf-8') as f:
-    f.write(update_sources_content)
-
-print("已创建修改后的 update-sources.yml")
