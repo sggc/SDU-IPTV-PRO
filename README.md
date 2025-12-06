@@ -48,8 +48,8 @@ SDU-IPTV-PRO/
 ```
 rtsp://...\({(b)yyyyMMddHHmmss:utc}...
 →http://192.168.100.1:5140/rtsp/...\)
-{(b)yyyyMMddHHmmss}...&r2h-seek-offset=
--28800
+{(b)yyyyMMddHHmmss}...&r2h-seek-offset
+=-28800
 ```
 - 单播RTSP协议转HTTP协议，兼容Ku9播放器
 - 适配rtp2httpd网页端播放器回看格式，优化时间戳同步
