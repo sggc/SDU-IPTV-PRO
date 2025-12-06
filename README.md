@@ -4,14 +4,14 @@
 ## 📁 项目结构
 ```
 SDU-IPTV-PRO/
-├── unicast.m3u                 # 处理后的单播源
-├── multicast-rtp.m3u           # 处理后的组播源
-├── multicast-nofcc.m3u         # 处理后的组播源
-├── scripts/                    # 处理脚本
-│   ├── process_unicast.py      # 单播处理
-│   └── process_multicast.py    # 组播处理
-├── .data/                      # 数据文件
-├── .github/workflows/          # 自动化工作流
+├── unicast.m3u             
+├── multicast-rtp.m3u     
+├── multicast-nofcc.m3u    
+├── scripts/               
+│   ├── process_unicast.py 
+│   └── process_multicast.py
+├── .data/                     
+├── .github/workflows/         
 └── README.md
 ```
 
