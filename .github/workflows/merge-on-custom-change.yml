@@ -42,6 +42,6 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "Auto-update: 自定义频道变更，重新合并播放列表"
-          git push
+          git push --force-with-lease
           echo "Changes committed and pushed"
         fi
