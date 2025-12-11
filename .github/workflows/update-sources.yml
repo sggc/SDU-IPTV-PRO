@@ -34,7 +34,9 @@ jobs:
       uses: actions/cache@v3
       with:
         path: .data/
-        key: ${{ runner.os }}-iptv-data
+        key: ${{ runner.os }}-iptv-data-${{ github.run_number }}
+        restore-keys: |
+          ${{ runner.os }}-iptv-data-
         
     - name: Process unicast source
       run: |
