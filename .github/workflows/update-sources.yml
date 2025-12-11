@@ -59,6 +59,7 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "Auto-update: 合并并更新播放列表 $(date +'%Y-%m-%d %H:%M:%S')"
+          git pull --rebase
           git push
           echo "Changes committed and pushed"
         fi
