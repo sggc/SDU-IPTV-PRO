@@ -7,8 +7,8 @@ from datetime import datetime, timezone, timedelta
 
 # ==================== 配置 ====================
 SOURCE_M3U_URL = "https://raw.githubusercontent.com/plsy1/iptv/refs/heads/main/multicast/multicast-weifang.m3u"
-OUTPUT_FILENAME = "multicast-rtp.m3u"
-OUTPUT_NOFCC_FILENAME = "multicast-nofcc.m3u"  # 新增配置
+OUTPUT_FILENAME = "temp/multicast-rtp.m3u"
+OUTPUT_NOFCC_FILENAME = "temp/multicast-nofcc.m3u"  # 新增配置
 HASH_FILE = ".data/multicast_hash.txt"
 # ==============================================
 
