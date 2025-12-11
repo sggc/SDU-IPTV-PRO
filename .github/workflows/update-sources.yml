@@ -30,15 +30,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
         
-    # 注释掉缓存，避免哈希文件更新不及时的问题
-    # - name: Cache .data directory
-    #   uses: actions/cache@v3
-    #   with:
-    #     path: .data/
-    #     key: ${{ runner.os }}-iptv-data-${{ github.run_number }}
-    #     restore-keys: |
-    #       ${{ runner.os }}-iptv-data-
-        
     - name: Process unicast source
       run: |
         echo "处理单播源..."
@@ -57,8 +48,8 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # 添加所有相关文件
-        git add unicast.m3u multicast-rtp.m3u multicast-nofcc.m3u .data/
+        # 添加所有变化，但不包括.data目录
+        git add temp/temp-multicast-r2h.m3u temp/temp-multicast-nofcc.m3u temp/temp-unicast.m3u
         
         # 检查是否有变化
         if git diff --staged --quiet; then
