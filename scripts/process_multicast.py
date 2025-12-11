@@ -45,21 +45,35 @@ class MulticastM3UProcessor:
             f.write(current_hash)
         return current_hash
     
-    def has_source_changed(self, content):
-        """检查源文件是否发生变化"""
-        current_hash = self.get_content_hash(content)
-        previous_hash = self.get_previous_hash()
+def has_source_changed(self, content):
+    """检查源文件是否发生变化"""
+    current_hash = self.get_content_hash(content)
+    
+    if os.path.exists(self.hash_file):
+        with open(self.hash_file, 'r', encoding='utf-8') as f:
+            saved_content = f.read().strip()
         
-        if previous_hash is None:
-            print("首次运行，没有之前的哈希记录")
+        # 检查是否包含强制更新标记
+        if saved_content.endswith(':new'):
+            print("检测到强制更新标记，跳过哈希检查")
+            # 保存正常哈希（去掉标记）
+            os.makedirs(os.path.dirname(self.hash_file), exist_ok=True)
+            with open(self.hash_file, 'w', encoding='utf-8') as f:
+                f.write(current_hash)
             return True
         
+        # 正常哈希比较
+        previous_hash = saved_content
         if current_hash == previous_hash:
             print("源文件没有变化，跳过处理")
             return False
         else:
             print(f"源文件发生变化: 旧哈希 {previous_hash[:8]}... -> 新哈希 {current_hash[:8]}...")
             return True
+    else:
+        print("首次运行，没有之前的哈希记录")
+        return True
+
     
     def download_file(self):
         """下载M3U文件"""
