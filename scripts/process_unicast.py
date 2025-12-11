@@ -7,7 +7,7 @@ from datetime import datetime, timezone, timedelta
 
 # ==================== 需要您修改的配置 ====================
 SOURCE_M3U_URL = "https://raw.githubusercontent.com/plsy1/iptv/refs/heads/main/unicast/unicast-ku9.m3u"
-OUTPUT_FILENAME = "temp/unicast.m3u"
+OUTPUT_FILENAME = "temp/temp-unicast.m3u"
 HASH_FILE = ".data/unicast_hash.txt"
 # =======================================================
 
