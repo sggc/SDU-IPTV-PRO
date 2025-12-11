@@ -4,37 +4,65 @@
 ## 📁 项目结构
 ```
 SDU-IPTV-PRO/
-├── unicast.m3u             
-├── multicast-rtp.m3u     
-├── multicast-nofcc.m3u    
-├── scripts/               
-│   ├── process_unicast.py 
-│   └── process_multicast.py
-├── .data/                     
-├── .github/workflows/         
+├── .github/
+│ └── workflows/
+│   └── update-sources.yml
+│   ├── merge-on-custom-change.yml
+│   └── auto-packaging.yml
+├── custom/
+│ └── custom.m3u
+├── scripts/
+│ ├── process_unicast.py
+│ ├── process_multicast.py
+│ └── merge_m3u.py
+├── temp/
+│ ├── temp-unicast.m3u
+│ ├── temp-multicast-r2h.m3u
+│ └── temp-multicast-nofcc.m3u
+├── unicast.m3u
+├── multicast-r2h.m3u
+├── multicast-nofcc.m3u
+├── .data/hash
 └── README.md
 ```
 
 ## 🚀 核心特性
 - **自动更新机制**: 每小时监测原始源文件变动，实时同步最新内容
-- **智能频道管理**: 自动完成频道分类、排序，优化观看体验
+- **智能频道管理**: 自动完成频道分类、排序、合并，优化观看体验
 - **URL格式适配**: 组播源回看地址自动转换，兼容主流播放器
+- **高可靠自动化**：通过智能并发控制，确保多个自动化任务有序执行
 - **版本自动留档**: 源文件变更时自动创建Release，保留历史版本
 - **多格式输出**: 提供单播、组播（含去FCC版本）多类型源文件
 
 ## 📖 使用指南
 ### 直接使用
 - **单播源**: 下载 `unicast.m3u`，直接导入Ku9等播放器使用
-- **组播源**: 下载 `multicast-rtp.m3u`，配合rtp2httpd服务使用
+- **组播源**: 下载 `multicast-r2h.m3u`，配合rtp2httpd服务使用
 - **去FCC组播源**: 下载 `multicast-nofcc.m3u`，适用于无法使用FCC场景
+
+### 自定义你的频道
+1.  Fork 本仓库
+2.  编辑 `custom/custom.m3u` 文件，添加你想要的频道
+3.  提交更改
+4.  系统将自动检测到你的修改，并在几分钟内完成合并、更新和发布
 
 ### 历史版本获取
 访问仓库 [Releases](../../releases) 页面，可查看所有历史版本及更新日志，按需下载。
 
 ## ⚙️ 配置说明
-### 自动化工作流触发规则
-- **更新触发**: 检测到原始源文件有变动时，自动执行处理流程
-- **发布触发**: 项目内源文件处理完成后，自动创建新版本发布
+本项目由三个核心的 GitHub Actions 工作流驱动，它们协同工作，实现了无人值守的自动化：
+
+1.  **Update Sources (更新源)**
+    - **触发**：每小时定时运行，或手动触发。
+    - **任务**：获取最新源，进行处理，生成临时文件。
+
+2.  **Merge on Custom Change (响应自定义变更)**
+    - **触发**：当 `custom/custom.m3u` 文件被修改时。
+    - **任务**：将自定义频道与临时源文件合并，生成最终的 `.m3u` 文件并推送到仓库。
+
+3.  **Auto Packaging (自动打包发布)**
+    - **触发**：当最终的 `.m3u` 文件发生任何变更时。
+    - **任务**：自动创建一个新的 GitHub Release，将最新的播放列表和完整仓库打包存档。
 
 ## 🔧 关键转换规则
 ### 频道排序优化
