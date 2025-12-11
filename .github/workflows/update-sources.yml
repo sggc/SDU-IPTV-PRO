@@ -48,8 +48,10 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # 添加所有变化，但不包括.data目录，忽略不存在的文件
-        git add --ignore-missing temp/temp-multicast-r2h.m3u temp/temp-multicast-nofcc.m3u temp/temp-unicast.m3u
+        # 逐个检查文件是否存在，存在才添加
+        [ -f "temp/temp-multicast-r2h.m3u" ] && git add temp/temp-multicast-r2h.m3u
+        [ -f "temp/temp-multicast-nofcc.m3u" ] && git add temp/temp-multicast-nofcc.m3u
+        [ -f "temp/temp-unicast.m3u" ] && git add temp/temp-unicast.m3u
         
         # 检查是否有变化
         if git diff --staged --quiet; then
