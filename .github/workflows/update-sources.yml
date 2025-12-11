@@ -4,7 +4,8 @@ on:
   schedule:
     - cron: '0 */1 * * *'  # 每小时运行一次（北京时间）
   workflow_dispatch:
-  # !!! 移除了 push 触发器 !!!
+  push:
+    branches: [ main, master ] # 必须恢复这个！
 
 permissions:
   contents: write
@@ -16,6 +17,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # 修正点1：获取完整历史
         
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -56,6 +59,6 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "Auto-update: 合并并更新播放列表 $(date +'%Y-%m-%d %H:%M:%S')"
-          git push # 恢复最简单的 push
+          git push # 修正点2：使用最普通的push
           echo "Changes committed and pushed"
         fi
