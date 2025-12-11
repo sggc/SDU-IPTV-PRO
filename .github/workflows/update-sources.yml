@@ -10,13 +10,13 @@ on:
 permissions:
   contents: write
 
-jobs:
-  # --- 在这里加入并发控制 ---
-  concurrency:
-    group: playlist-update-group # 任意名字，但两个文件必须相同
-    cancel-in-progress: false     # 不取消正在运行的，而是排队等待
-  # ---------------------------
+# --- 并发控制在这里，和 jobs 同级 ---
+concurrency:
+  group: playlist-update-group
+  cancel-in-progress: false
+# ----------------------------------
 
+jobs:
   update-sources:
     runs-on: ubuntu-latest
     
