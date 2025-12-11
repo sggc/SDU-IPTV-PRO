@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://fastly.jsdelivr.net/gh/plsy1/epg@master/e/seven-days.xml.gz"
 # 源文件: https://raw.githubusercontent.com/plsy1/iptv/refs/heads/main/multicast/multicast-weifang.m3u
-# 修改时间: 2025-12-11 21:25:08 (北京时间)
+# 修改时间: 2025-12-11 20:58:26 (北京时间)
 # 处理规则:
 # 1. CGTN频道改为"其他频道"
 # 2. 复制山东卫视到CCTV1下面并改为"央视频道"
@@ -405,3 +405,4 @@ http://192.168.100.1:5140/rtp/239.253.246.166:8000?fcc=124.132.240.66:15970
 http://192.168.100.1:5140/rtp/239.253.246.81:8000
 #EXTINF:-1 group-title="其他频道",九屏同看
 http://192.168.100.1:5140/rtp/239.253.246.167:8000
+
