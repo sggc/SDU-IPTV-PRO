@@ -15,8 +15,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
         
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -42,6 +40,6 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "Auto-update: 自定义频道变更，重新合并播放列表"
-          git push --force-with-lease
+          git push # 恢复最简单的 push
           echo "Changes committed and pushed"
         fi
