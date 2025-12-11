@@ -284,7 +284,6 @@ class M3UProcessor:
             # 检查源文件是否发生变化
             if not self.has_source_changed(content):
                 print("源文件没有变化，跳过处理")
-                if not os.path.exists(self.output_file):
                 return True
             
             # 解析和处理内容
