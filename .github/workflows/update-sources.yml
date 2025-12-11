@@ -40,7 +40,7 @@ jobs:
         echo "处理组播源..."
         python scripts/process_multicast.py
         
-    - name: Check for changes and commit
+    - name: Merge and commit final files
       run: |
         # 设置时区为北京时间
         export TZ='Asia/Shanghai'
@@ -48,16 +48,17 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # 逐个检查文件是否存在，存在才添加
-        [ -f "temp/temp-multicast-r2h.m3u" ] && git add temp/temp-multicast-r2h.m3u
-        [ -f "temp/temp-multicast-nofcc.m3u" ] && git add temp/temp-multicast-nofcc.m3u
-        [ -f "temp/temp-unicast.m3u" ] && git add temp/temp-unicast.m3u
+        # 调用合并脚本
+        python scripts/merge_m3u.py
+        
+        # 添加合并后的最终文件
+        git add unicast.m3u multicast-r2h.m3u multicast-nofcc.m3u
         
         # 检查是否有变化
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "Auto-update: 更新播放列表 $(date +'%Y-%m-%d %H:%M:%S')"
+          git commit -m "Auto-update: 合并并更新播放列表 $(date +'%Y-%m-%d %H:%M:%S')"
           git push
           echo "Changes committed and pushed"
         fi
