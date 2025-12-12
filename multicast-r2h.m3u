@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://fastly.jsdelivr.net/gh/plsy1/epg@master/e/seven-days.xml.gz"
 # 源文件: https://raw.githubusercontent.com/plsy1/iptv/refs/heads/main/multicast/multicast-weifang.m3u
-# 修改时间: 2025-12-12 22:23:14 (北京时间)
+# 修改时间: 2025-12-12 23:22:40 (北京时间)
 # 处理规则:
 # 1. CGTN频道改为"其他频道"
 # 2. 复制山东卫视到CCTV1下面并改为"央视频道"
@@ -401,6 +401,7 @@ http://192.168.100.1:5140/rtp/239.253.246.199:8000?fcc=124.132.240.66:15970
 http://192.168.100.1:5140/rtp/239.253.246.71:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="山东经济广播" group-title="广播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东经济广播.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch24040915081276788638.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东经济广播
 http://192.168.100.1:5140/rtp/239.253.246.166:8000?fcc=124.132.240.66:15970
+
 #EXTINF:-1 group-title="其他频道",重温经典影视
 http://192.168.100.1:5140/rtp/239.253.246.81:8000
 #EXTINF:-1 group-title="其他频道",九屏同看
