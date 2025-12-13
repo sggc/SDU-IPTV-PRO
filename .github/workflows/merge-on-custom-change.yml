@@ -5,6 +5,7 @@ on:
     paths:
       # 【关键修改】：使用通配符匹配所有 custom*.m3u 文件
       - 'custom/custom*.m3u'
+  workflow_dispatch: 
 
 permissions:
   contents: write
