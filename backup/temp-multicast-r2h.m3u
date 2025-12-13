@@ -379,6 +379,3 @@ http://192.168.100.1:5140/rtp/239.253.246.230:8000?fcc=124.132.240.66:15970
 http://192.168.100.1:5140/rtp/239.253.246.71:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="山东经济广播" group-title="广播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东经济广播.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch24040915081276788638.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东经济广播
 http://192.168.100.1:5140/rtp/239.253.246.166:8000?fcc=124.132.240.66:15970
-
-#EXTINF:-1 group-title="其他频道",重温经典影视
-http://192.168.100.1:5140/rtp/239.253.246.81:8000
