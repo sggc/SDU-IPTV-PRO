@@ -59,13 +59,12 @@ def process_huya_source():
         if not has_source_changed(content):
             return True # 无变化，视为成功
             
-        # 3. 筛选和转换内容
+        # 3. 【关键修正】筛选和转换内容
         print("开始筛选和转换频道...")
         processed_lines = []
-        keep_next_url = False
         
         lines = content.split('\n')
-        for line in lines:
+        for i, line in enumerate(lines):
             line = line.strip()
             if not line:
                 continue
@@ -75,23 +74,19 @@ def process_huya_source():
                 processed_lines.append(line)
                 continue
             
-            # 筛选并修改 EXTINF 行
+            # 【核心逻辑】筛选并修改 EXTINF 行
             if line.startswith('#EXTINF:'):
                 if 'group-title="一起看"' in line:
                     # 修改分组标题
                     new_line = line.replace('group-title="一起看"', 'group-title="虎牙一起看"')
                     processed_lines.append(new_line)
-                    keep_next_url = True # 标记需要保留下一行的URL
-                else:
-                    keep_next_url = False
-            
-            # 保留对应的 URL 行
-            elif not line.startswith('#') and keep_next_url:
-                processed_lines.append(line)
-                keep_next_url = False
+                    # 检查下一行是否存在且是URL，如果是则一并添加
+                    if i + 1 < len(lines) and not lines[i+1].strip().startswith('#'):
+                        processed_lines.append(lines[i+1].strip())
         
         # 4. 保存处理后的文件
-        print(f"处理完成，共找到 {len(processed_lines) - 1} 个频道。") # -1 for the header
+        channel_count = len([l for l in processed_lines if not l.startswith('#')])
+        print(f"处理完成，共找到 {channel_count} 个目标频道。")
         os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             f.write('\n'.join(processed_lines))
