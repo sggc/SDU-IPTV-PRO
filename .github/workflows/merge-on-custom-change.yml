@@ -45,7 +45,8 @@ jobs:
         if git diff --quiet unicast.m3u multicast-r2h.m3u multicast-nofcc.m3u; then
           echo "No changes to commit"
         else
-          git add unicast.m3u multicast-r2h.m3u multicast-nofcc.m3u
+          # 【关键修改】：提交 backup/ 目录
+          git add unicast.m3u multicast-r2h.m3u multicast-nofcc.m3u backup/
           git commit -m "Auto-update: 自定义频道变更，重新合并播放列表"
           git push
           echo "Changes committed and pushed"
