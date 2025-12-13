@@ -39,13 +39,13 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # 检查 custom/custom1.m3u 是否有变化
-        if git diff --quiet custom/custom1.m3u; then
-          echo "No changes to custom1.m3u, skipping commit."
-        else
-          echo "Changes detected in custom1.m3u, committing..."
+        # 【关键修复】：使用 git status 检查，包括未追踪的新文件
+        if [[ -n $(git status --porcelain custom/custom1.m3u .data/huya_source_hash.txt) ]]; then
+          echo "Changes detected in custom1.m3u or hash file, committing..."
           # 添加更新后的文件和哈希记录
           git add custom/custom1.m3u .data/huya_source_hash.txt
           git commit -m "Auto-update: 虎牙一起看源文件已更新 $(date +'%Y-%m-%d %H:%M:%S')"
           git push
+        else
+          echo "No changes to custom1.m3u or hash file, skipping commit."
         fi
