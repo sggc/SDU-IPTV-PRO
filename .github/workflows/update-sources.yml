@@ -26,28 +26,57 @@ jobs:
         
     - name: Pull latest changes
       run: git pull origin ${{ github.ref_name }}
+
+    # === 新增：前置检查步骤 ===
+    - name: Check for source changes
+      id: check-changes
+      run: |
+        # 检查单播源
+        UNICAST_HASH_URL="https://raw.githubusercontent.com/plsy1/iptv/refs/heads/main/unicast/unicast-ku9.m3u"
+        UNICAST_NEW_HASH=$(curl -s "$UNICAST_HASH_URL" | md5sum | cut -d' ' -f1)
+        UNICAST_OLD_HASH=""
+        if [ -f ".data/unicast_hash.txt" ]; then UNICAST_OLD_HASH=$(cat .data/unicast_hash.txt); fi
+
+        # 检查组播源
+        MULTICAST_HASH_URL="https://raw.githubusercontent.com/plsy1/iptv/refs/heads/main/multicast/multicast-weifang.m3u"
+        MULTICAST_NEW_HASH=$(curl -s "$MULTICAST_HASH_URL" | md5sum | cut -d' ' -f1)
+        MULTICAST_OLD_HASH=""
+        if [ -f ".data/multicast_hash.txt" ]; then MULTICAST_OLD_HASH=$(cat .data/multicast_hash.txt); fi
+
+        if [ "$UNICAST_NEW_HASH" != "$UNICAST_OLD_HASH" ] || [ "$MULTICAST_NEW_HASH" != "$MULTICAST_OLD_HASH" ]; then
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+          echo "检测到源文件变化，将继续处理。"
+        else
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+          echo "源文件无变化，跳过本次更新。"
+        fi
         
     - name: Set up Python
+      if: steps.check-changes.outputs.has_changes == 'true'
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
         
     - name: Install dependencies
+      if: steps.check-changes.outputs.has_changes == 'true'
       run: |
         python -m pip install --upgrade pip
         pip install requests
         
     - name: Process unicast source
+      if: steps.check-changes.outputs.has_changes == 'true'
       run: |
         echo "处理单播源..."
         python scripts/process_unicast.py
         
     - name: Process multicast source
+      if: steps.check-changes.outputs.has_changes == 'true'
       run: |
         echo "处理组播源..."
         python scripts/process_multicast.py
         
     - name: Merge and commit final files
+      if: steps.check-changes.outputs.has_changes == 'true'
       run: |
         # 设置时区为北京时间
         export TZ='Asia/Shanghai'
@@ -55,14 +84,15 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # 调用合并脚本
+        # 调用同一个合并脚本
         python scripts/merge_m3u.py
         
         # 检查工作区是否有文件被更新
         if git diff --quiet unicast.m3u multicast-r2h.m3u multicast-nofcc.m3u; then
           echo "No changes to commit"
         else
-          git add unicast.m3u multicast-r2h.m3u multicast-nofcc.m3u
+          # 【关键修改】：提交 backup/ 目录
+          git add unicast.m3u multicast-r2h.m3u multicast-nofcc.m3u backup/
           git commit -m "Auto-update: 合并并更新播放列表 $(date +'%Y-%m-%d %H:%M:%S')"
           git push
           echo "Changes committed and pushed"
