@@ -1,11 +1,9 @@
 name: Auto Packaging
 
 on:
-  push:
-    paths:
-      - 'unicast.m3u'
-      - 'multicast-r2h.m3u'
-      - 'multicast-nofcc.m3u'
+  schedule:
+    # 每个整点检测一次（UTC 时间，北京时间需 +8）
+    - cron: '0 * * * *'
   workflow_dispatch: 
 
 permissions:
@@ -18,44 +16,148 @@ concurrency:
 jobs:
   release:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-        
-    - name: Get version info
-      id: version
+
+    - name: Check for m3u file changes
+      id: check_changes
       run: |
-        # 获取北京时间
+        # 获取上次提交和当前提交之间的变化
+        # 如果是首次运行或没有上次 release tag，则检查最近一次提交
+        
+        CHANGED_FILES=""
+        HAS_CHANGES="false"
+        
+        # 获取最近一次 release 的 tag
+        LAST_TAG=$(git tag --sort=-creatordate | head -n 1)
+        
+        if [ -z "$LAST_TAG" ]; then
+          # 没有任何 tag，检查最近一次提交的变化
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
+        else
+          # 对比上次 tag 到当前 HEAD 的变化
+          CHANGED_FILES=$(git diff --name-only "$LAST_TAG" HEAD 2>/dev/null || echo "")
+        fi
+        
+        echo "Changed files since last release:"
+        echo "$CHANGED_FILES"
+        
+        # 检查三个 m3u 文件是否有变化
+        UNICAST_CHANGED="false"
+        MULTICAST_R2H_CHANGED="false"
+        MULTICAST_NOFCC_CHANGED="false"
+        
+        if echo "$CHANGED_FILES" | grep -q "^unicast.m3u$"; then
+          UNICAST_CHANGED="true"
+          HAS_CHANGES="true"
+        fi
+        
+        if echo "$CHANGED_FILES" | grep -q "^multicast-r2h.m3u$"; then
+          MULTICAST_R2H_CHANGED="true"
+          HAS_CHANGES="true"
+        fi
+        
+        if echo "$CHANGED_FILES" | grep -q "^multicast-nofcc.m3u$"; then
+          MULTICAST_NOFCC_CHANGED="true"
+          HAS_CHANGES="true"
+        fi
+        
+        echo "has_changes=$HAS_CHANGES" >> $GITHUB_OUTPUT
+        echo "unicast_changed=$UNICAST_CHANGED" >> $GITHUB_OUTPUT
+        echo "multicast_r2h_changed=$MULTICAST_R2H_CHANGED" >> $GITHUB_OUTPUT
+        echo "multicast_nofcc_changed=$MULTICAST_NOFCC_CHANGED" >> $GITHUB_OUTPUT
+
+    - name: Skip if no changes
+      if: steps.check_changes.outputs.has_changes == 'false'
+      run: |
+        echo "No m3u file changes detected. Skipping release."
+
+    - name: Get version info
+      if: steps.check_changes.outputs.has_changes == 'true'
+      id: version
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        export TZ='Asia/Shanghai'
+        TODAY=$(date +'%Y%m%d')
+        
+        # 统计今天已有多少个 release
+        EXISTING_COUNT=$(gh release list --limit 100 | grep -c "存档${TODAY}-v" || echo "0")
+        
+        # 新版本号
+        NEW_VERSION=$((EXISTING_COUNT + 1))
+        
+        RELEASE_NAME="存档${TODAY}-v${NEW_VERSION}"
+        
+        echo "release_name=$RELEASE_NAME" >> $GITHUB_OUTPUT
+        echo "Release name: $RELEASE_NAME"
+
+    - name: Create archive
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        RELEASE_NAME="${{ steps.version.outputs.release_name }}"
+        
+        # 创建压缩包，只包含指定文件类型
+        zip -r "${RELEASE_NAME}.zip" . \
+          -i "*.m3u" \
+          -i "*.py" \
+          -i ".github/*" \
+          -i ".github/**/*"
+        
+        echo "Archive created: ${RELEASE_NAME}.zip"
+        unzip -l "${RELEASE_NAME}.zip"
+
+    - name: Create Release and Upload Assets
+      if: steps.check_changes.outputs.has_changes == 'true'
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        RELEASE_NAME="${{ steps.version.outputs.release_name }}"
+        
         export TZ='Asia/Shanghai'
         BEIJING_TIME=$(date +'%Y-%m-%d %H:%M:%S')
         
-        # 生成一个简短的版本号，例如: 20231205-1530
-        VERSION_TAG=$(date +'%Y%m%d-%H%M')
+        # 构建上传文件列表
+        ASSETS="${RELEASE_NAME}.zip"
         
-        # 设置输出变量，供后续步骤使用
-        echo "name=$VERSION_TAG" >> $GITHUB_OUTPUT
-        echo "body=📅 更新时间: $BEIJING_TIME (北京时间)" >> $GITHUB_OUTPUT
-
-    - name: Create Release and Upload Assets
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        # 检查是否已存在同名tag，存在则删除
-        if git rev-parse --verify "refs/tags/${{ steps.version.outputs.name }}" >/dev/null 2>&1; then
-          echo "Tag ${{ steps.version.outputs.name }} already exists. Deleting it..."
-          gh release delete "${{ steps.version.outputs.name }}" --yes || true
-          git tag -d "${{ steps.version.outputs.name }}" || true
-          git push origin ":refs/tags/${{ steps.version.outputs.name }}" || true
+        # 添加有变化的 m3u 文件
+        if [ "${{ steps.check_changes.outputs.unicast_changed }}" == "true" ]; then
+          ASSETS="$ASSETS unicast.m3u"
         fi
         
-        # 创建 Release 并上传指定的三个 .m3u 文件作为 Assets
-        gh release create "${{ steps.version.outputs.name }}" \
-          --title "Playlist Update ${{ steps.version.outputs.name }}" \
-          --notes "${{ steps.version.outputs.body }}" \
+        if [ "${{ steps.check_changes.outputs.multicast_r2h_changed }}" == "true" ]; then
+          ASSETS="$ASSETS multicast-r2h.m3u"
+        fi
+        
+        if [ "${{ steps.check_changes.outputs.multicast_nofcc_changed }}" == "true" ]; then
+          ASSETS="$ASSETS multicast-nofcc.m3u"
+        fi
+        
+        echo "Uploading assets: $ASSETS"
+        
+        # 构建 release notes
+        NOTES="📅 更新时间: $BEIJING_TIME (北京时间)"
+        NOTES="$NOTES\n\n📝 本次更新的文件:"
+        
+        if [ "${{ steps.check_changes.outputs.unicast_changed }}" == "true" ]; then
+          NOTES="$NOTES\n- unicast.m3u"
+        fi
+        
+        if [ "${{ steps.check_changes.outputs.multicast_r2h_changed }}" == "true" ]; then
+          NOTES="$NOTES\n- multicast-r2h.m3u"
+        fi
+        
+        if [ "${{ steps.check_changes.outputs.multicast_nofcc_changed }}" == "true" ]; then
+          NOTES="$NOTES\n- multicast-nofcc.m3u"
+        fi
+        
+        # 创建 Release
+        gh release create "$RELEASE_NAME" \
+          --title "$RELEASE_NAME" \
+          --notes "$(echo -e "$NOTES")" \
           --latest \
-          unicast.m3u multicast-r2h.m3u multicast-nofcc.m3u
-
+          $ASSETS
