@@ -140,7 +140,7 @@ jobs:
         echo "Uploading assets: $ASSETS"
         
         # 构建 release notes
-        NOTES="📅 更新时间: $BEIJING_TIME (北京时间)"
+        NOTES="📅 更新时间: $BEIJING_TIME"
         NOTES="$NOTES\n\n📝 本次更新的文件:"
         
         if [ "${{ steps.check_changes.outputs.unicast_changed }}" == "true" ]; then
