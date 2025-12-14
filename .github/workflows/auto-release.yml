@@ -6,6 +6,7 @@ on:
       - 'unicast.m3u'
       - 'multicast-r2h.m3u'
       - 'multicast-nofcc.m3u'
+  workflow_dispatch: 
 
 permissions:
   contents: write
