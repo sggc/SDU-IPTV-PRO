@@ -2,7 +2,7 @@
 基于 [plsy1/iptv](https://github.com/plsy1/iptv) 项目开发的自动化 IPTV 源处理与发布系统，专注于优化源文件可用性、提升使用便捷性，实现全流程自动化运维。
 
 ## ❗️ 注意
-由于源仓库[plsy1/iptv](https://github.com/plsy1/iptv)内容已被第三方用于付费倒卖，该行为与其项目宗旨严重不符，亦可能引发合规与法律风险，原作者决定无限期停更。所以，本项目只保留`multicast-static.m3u`不定时手动更新
+由于源仓库[plsy1/iptv](https://github.com/plsy1/iptv)内容已被第三方用于付费倒卖，该行为与其项目宗旨严重不符，亦可能引发合规与法律风险，原作者决定无限期停更。所以，本项目只保留`multicast-static.m3u`不定时手动更新，其余项目跟随源项目做停更处理
 
 ## 📁 项目结构
 ```
