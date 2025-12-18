@@ -1,6 +1,9 @@
 # SDU-IPTV-PRO
 基于 [plsy1/iptv](https://github.com/plsy1/iptv) 项目开发的自动化 IPTV 源处理与发布系统，专注于优化源文件可用性、提升使用便捷性，实现全流程自动化运维。
 
+## ❗️ 注意
+由于源仓库[plsy1/iptv](https://github.com/plsy1/iptv)内容已被第三方用于付费倒卖，该行为与其项目宗旨严重不符，亦可能引发合规与法律风险，原作者决定无限期停更。所以，本项目只保留`multicast-static.m3u`不定时手动更新
+
 ## 📁 项目结构
 ```
 SDU-IPTV-PRO/
@@ -24,6 +27,7 @@ SDU-IPTV-PRO/
 ├── unicast.m3u
 ├── multicast-r2h.m3u
 ├── multicast-nofcc.m3u
+├── multicast-static.m3u
 ├── .data/hash
 └── README.md
 ```
@@ -41,7 +45,7 @@ SDU-IPTV-PRO/
 ### 直接使用
 - **单播源**: 下载 `unicast.m3u`，直接导入Ku9等播放器使用
 - **组播源**: 下载 `multicast-r2h.m3u`，配合rtp2httpd服务使用
-- **去FCC组播源**: 下载 `multicast-nofcc.m3u`，适用于无法使用FCC场景
+- **去FCC组播源**: 下载 `multicast-nofcc.m3u`或`multicast-static.m3u`，适用于无法使用FCC场景
 
 ### 自定义你的频道
 1.  Fork 本仓库
