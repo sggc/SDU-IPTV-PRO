@@ -45,21 +45,21 @@ http://192.168.100.1:5140/rtp/239.253.246.187:8000?fcc=60.210.139.78:8027
 
 #EXTINF:-1 tvg-name="山东卫视" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东卫视.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch15050916441119736372.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东卫视
 http://192.168.100.1:5140/rtp/239.253.246.78:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="山东齐鲁" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东齐鲁.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch10120117223157422538.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东齐鲁
+#EXTINF:-1 tvg-name="山东齐鲁" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东齐鲁.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch10120117223157422538.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东齐鲁
 http://192.168.100.1:5140/rtp/239.253.246.114:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="山东文旅" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东文旅.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch10120117133527564831.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东文旅
+#EXTINF:-1 tvg-name="山东文旅" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东文旅.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch10120117133527564831.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东文旅
 http://192.168.100.1:5140/rtp/239.253.246.160:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="山东生活" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东生活.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch10120117100570561699.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东生活
+#EXTINF:-1 tvg-name="山东生活" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东生活.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch10120117100570561699.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东生活
 http://192.168.100.1:5140/rtp/239.253.246.151:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="山东综艺" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东综艺.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch11012815051671532768.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东综艺
+#EXTINF:-1 tvg-name="山东综艺" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东综艺.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch11012815051671532768.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东综艺
 http://192.168.100.1:5140/rtp/239.253.246.159:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="山东体育" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东体育.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch10111720502861127519.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东体育
+#EXTINF:-1 tvg-name="山东体育" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东体育.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch10111720502861127519.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东体育
 http://192.168.100.1:5140/rtp/239.253.246.22:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="山东新闻" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东新闻.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.38:1554/iptv/Tvod/iptv/001/001/ch10120117023986249401.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东新闻
+#EXTINF:-1 tvg-name="山东新闻" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东新闻.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.38:1554/iptv/Tvod/iptv/001/001/ch10120117023986249401.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东新闻
 http://192.168.100.1:5140/rtp/239.253.246.23:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="山东农科" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东农科.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch11012815072111657053.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东农科
+#EXTINF:-1 tvg-name="山东农科" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东农科.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch11012815072111657053.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东农科
 http://192.168.100.1:5140/rtp/239.253.246.24:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="山东少儿" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东少儿.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch11012815083626567264.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东少儿
+#EXTINF:-1 tvg-name="山东少儿" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东少儿.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch11012815083626567264.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东少儿
 http://192.168.100.1:5140/rtp/239.253.246.25:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="山东教育" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东教育.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch10120118342495301658.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东教育
 http://192.168.100.1:5140/rtp/239.253.246.59:8000?fcc=60.210.139.78:8027
@@ -73,7 +73,7 @@ http://192.168.100.1:5140/rtp/239.253.246.254:8000?fcc=60.210.139.78:8027
 http://192.168.100.1:5140/rtp/239.253.246.242:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="潍坊科教文化" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊文旅.png", 潍坊科教文化
 http://192.168.100.1:5140/rtp/239.253.246.241:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="奎文电视台" group-title="山东频道", 奎文电视台
+#EXTINF:-1 tvg-name="奎文电视台" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊奎文.png", 奎文电视台
 http://192.168.100.1:5140/rtp/239.253.246.250:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="临朐综合" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊临朐.png", 临朐综合
 http://192.168.100.1:5140/rtp/239.253.246.240:8000?fcc=60.210.139.78:8027
@@ -81,13 +81,13 @@ http://192.168.100.1:5140/rtp/239.253.246.240:8000?fcc=60.210.139.78:8027
 http://192.168.100.1:5140/rtp/239.253.246.251:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="青州综合" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊青州.png", 青州综合
 http://192.168.100.1:5140/rtp/239.253.246.247:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="青州文化旅游" group-title="山东频道", 青州文化旅游
+#EXTINF:-1 tvg-name="青州文化旅游" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊青州文旅.png", 青州文化旅游
 http://192.168.100.1:5140/rtp/239.253.246.246:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="诸城综合" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊临朐.png", 诸城综合
 http://192.168.100.1:5140/rtp/239.253.246.249:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="寿光综合" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊寿光.png", 寿光综合
 http://192.168.100.1:5140/rtp/239.253.246.252:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="寿光蔬菜" group-title="山东频道", 寿光蔬菜
+#EXTINF:-1 tvg-name="寿光蔬菜" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊寿光蔬菜.png", 寿光蔬菜
 http://192.168.100.1:5140/rtp/239.253.246.248:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="安丘综合" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊安丘.png", 安丘综合
 http://192.168.100.1:5140/rtp/239.253.246.245:8000?fcc=60.210.139.78:8027
@@ -283,7 +283,7 @@ http://192.168.100.1:5140/rtp/239.253.246.157:8000?fcc=60.210.139.78:8027
 http://192.168.100.1:5140/rtp/239.253.246.230:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="环球旅游" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/环球旅游.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch22122209125585392509.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 环球旅游
 http://192.168.100.1:5140/rtp/239.253.246.71:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 group-title="其他频道",重温经典影视
+#EXTINF:-1 tvg-name="重温经典影视" group-title="其他频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/重温经典影视.png",重温经典影视
 http://192.168.100.1:5140/rtp/239.253.246.81:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="山东经济广播" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东经济广播.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch24040915081276788638.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东经济广播
 http://192.168.100.1:5140/rtp/239.253.246.166:8000?fcc=60.210.139.78:8027
