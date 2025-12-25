@@ -83,7 +83,7 @@ http://192.168.100.1:5140/rtp/239.253.246.251:8000?fcc=60.210.139.78:8027
 http://192.168.100.1:5140/rtp/239.253.246.247:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="青州文化旅游" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊青州文旅.png", 青州文化旅游
 http://192.168.100.1:5140/rtp/239.253.246.246:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="诸城综合" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊临朐.png", 诸城综合
+#EXTINF:-1 tvg-name="诸城综合" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊诸城.png", 诸城综合
 http://192.168.100.1:5140/rtp/239.253.246.249:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="寿光综合" group-title="山东频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊寿光.png", 寿光综合
 http://192.168.100.1:5140/rtp/239.253.246.252:8000?fcc=60.210.139.78:8027
@@ -288,90 +288,90 @@ http://192.168.100.1:5140/rtp/239.253.246.81:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="山东经济广播" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东经济广播.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch24040915081276788638.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东经济广播
 http://192.168.100.1:5140/rtp/239.253.246.166:8000?fcc=60.210.139.78:8027
 
-#EXTINF:-1 tvg-name="谍战剧场" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/谍战剧场.png", 谍战剧场
+#EXTINF:-1 tvg-name="谍战剧场" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 谍战剧场
 http://192.168.100.1:5140/rtp/239.253.246.135:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="城市剧场" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/城市剧场.png", 城市剧场
+#EXTINF:-1 tvg-name="城市剧场" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 城市剧场
 http://192.168.100.1:5140/rtp/239.253.246.201:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="军旅剧场" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/军旅剧场.png", 军旅剧场
+#EXTINF:-1 tvg-name="军旅剧场" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 军旅剧场
 http://192.168.100.1:5140/rtp/239.253.246.203:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="古装剧场" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/古装剧场.png", 古装剧场
+#EXTINF:-1 tvg-name="古装剧场" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 古装剧场
 http://192.168.100.1:5140/rtp/239.253.246.205:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="经典剧场" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/经典剧场.png", 经典剧场
+#EXTINF:-1 tvg-name="经典剧场" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 经典剧场
 http://192.168.100.1:5140/rtp/239.253.246.211:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="武侠剧场" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/武侠剧场.png", 武侠剧场
+#EXTINF:-1 tvg-name="武侠剧场" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 武侠剧场
 http://192.168.100.1:5140/rtp/239.253.246.212:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="热播剧场" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/热播剧场.png", 热播剧场
+#EXTINF:-1 tvg-name="热播剧场" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 热播剧场
 http://192.168.100.1:5140/rtp/239.253.246.125:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="红色影院" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/红色影院.png", 红色影院
+#EXTINF:-1 tvg-name="红色影院" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 红色影院
 http://192.168.100.1:5140/rtp/239.253.246.209:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="家庭影院" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/家庭影院.png", 家庭影院
+#EXTINF:-1 tvg-name="家庭影院" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 家庭影院
 http://192.168.100.1:5140/rtp/239.253.246.218:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="喜剧影院" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/喜剧影院.png", 喜剧影院
+#EXTINF:-1 tvg-name="喜剧影院" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 喜剧影院
 http://192.168.100.1:5140/rtp/239.253.246.220:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="动作影院" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/动作影院.png", 动作影院
+#EXTINF:-1 tvg-name="动作影院" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 动作影院
 http://192.168.100.1:5140/rtp/239.253.246.221:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="足球" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/足球.png", 足球
+#EXTINF:-1 tvg-name="足球" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 足球
 http://192.168.100.1:5140/rtp/239.253.246.204:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="军事" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/军事.png", 军事
+#EXTINF:-1 tvg-name="军事" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 军事
 http://192.168.100.1:5140/rtp/239.253.246.207:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="地理" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/地理.png", 地理
+#EXTINF:-1 tvg-name="地理" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 地理
 http://192.168.100.1:5140/rtp/239.253.246.208:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="精选" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/精选.png", 精选
+#EXTINF:-1 tvg-name="精选" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 精选
 http://192.168.100.1:5140/rtp/239.253.246.210:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="美人" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/美人.png", 美人
+#EXTINF:-1 tvg-name="美人" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 美人
 http://192.168.100.1:5140/rtp/239.253.246.213:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="鉴赏" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/鉴赏.png", 鉴赏
+#EXTINF:-1 tvg-name="鉴赏" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 鉴赏
 http://192.168.100.1:5140/rtp/239.253.246.214:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="国学" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/国学.png", 国学
+#EXTINF:-1 tvg-name="国学" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 国学
 http://192.168.100.1:5140/rtp/239.253.246.215:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="星影" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/星影.png", 星影
+#EXTINF:-1 tvg-name="星影" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 星影
 http://192.168.100.1:5140/rtp/239.253.246.216:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="早教" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/早教.png", 早教
+#EXTINF:-1 tvg-name="早教" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 早教
 http://192.168.100.1:5140/rtp/239.253.246.217:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="墨宝" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/墨宝.png", 墨宝
+#EXTINF:-1 tvg-name="墨宝" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 墨宝
 http://192.168.100.1:5140/rtp/239.253.246.222:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="光影" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/光影.png", 光影
+#EXTINF:-1 tvg-name="光影" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 光影
 http://192.168.100.1:5140/rtp/239.253.246.223:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="戏曲" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/戏曲.png", 戏曲
+#EXTINF:-1 tvg-name="戏曲" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 戏曲
 http://192.168.100.1:5140/rtp/239.253.246.224:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="解密" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/解密.png", 解密
+#EXTINF:-1 tvg-name="解密" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 解密
 http://192.168.100.1:5140/rtp/239.253.246.226:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="武术" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/武术.png", 武术
+#EXTINF:-1 tvg-name="武术" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 武术
 http://192.168.100.1:5140/rtp/239.253.246.227:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="美妆" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/美妆.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch15090915493052938184.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 美妆
+#EXTINF:-1 tvg-name="美妆" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch15090915493052938184.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 美妆
 http://192.168.100.1:5140/rtp/239.253.246.228:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="动画" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/动画.png", 动画
+#EXTINF:-1 tvg-name="动画" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 动画
 http://192.168.100.1:5140/rtp/239.253.246.229:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="好学生" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/好学生.png", 好学生
+#EXTINF:-1 tvg-name="好学生" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 好学生
 http://192.168.100.1:5140/rtp/239.253.246.219:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="音乐现场" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/音乐现场.png", 音乐现场
+#EXTINF:-1 tvg-name="音乐现场" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 音乐现场
 http://192.168.100.1:5140/rtp/239.253.246.202:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="经典电影" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/经典电影.png", 经典电影
+#EXTINF:-1 tvg-name="经典电影" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 经典电影
 http://192.168.100.1:5140/rtp/239.253.246.126:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="少儿动画" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/少儿动画.png", 少儿动画
+#EXTINF:-1 tvg-name="少儿动画" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 少儿动画
 http://192.168.100.1:5140/rtp/239.253.246.127:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="相声小品" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/相声小品.png", 相声小品
+#EXTINF:-1 tvg-name="相声小品" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 相声小品
 http://192.168.100.1:5140/rtp/239.253.246.136:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="魅力时尚" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/魅力时尚.png", 魅力时尚
+#EXTINF:-1 tvg-name="魅力时尚" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 魅力时尚
 http://192.168.100.1:5140/rtp/239.253.246.130:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="IPTV野外" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/IPTV野外.png", IPTV野外
+#EXTINF:-1 tvg-name="IPTV野外" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", IPTV野外
 http://192.168.100.1:5140/rtp/239.253.246.137:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="IPTV法治" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/IPTV法治.png", IPTV法治
+#EXTINF:-1 tvg-name="IPTV法治" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", IPTV法治
 http://192.168.100.1:5140/rtp/239.253.246.138:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="爱体育" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/爱体育.png", 爱体育
+#EXTINF:-1 tvg-name="爱体育" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 爱体育
 http://192.168.100.1:5140/rtp/239.253.246.109:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="爱生活" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/爱生活.png", 爱生活
+#EXTINF:-1 tvg-name="爱生活" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 爱生活
 http://192.168.100.1:5140/rtp/239.253.246.225:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="爱综艺" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/爱综艺.png", 爱综艺
+#EXTINF:-1 tvg-name="爱综艺" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 爱综艺
 http://192.168.100.1:5140/rtp/239.253.246.129:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="爱体育" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/爱体育.png", 爱体育
+#EXTINF:-1 tvg-name="爱体育" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 爱体育
 http://192.168.100.1:5140/rtp/239.253.246.131:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="爱电影" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/爱电影.png", 爱电影
+#EXTINF:-1 tvg-name="爱电影" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 爱电影
 http://192.168.100.1:5140/rtp/239.253.246.128:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="爱大剧" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/爱大剧.png", 爱大剧
+#EXTINF:-1 tvg-name="爱大剧" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 爱大剧
 http://192.168.100.1:5140/rtp/239.253.246.132:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="海看演艺" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/海看演艺.png", 海看演艺
+#EXTINF:-1 tvg-name="海看演艺" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 海看演艺
 http://192.168.100.1:5140/rtp/239.253.246.158:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="收视指南" group-title="轮播频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/收视指南.png", 收视指南
+#EXTINF:-1 tvg-name="收视指南" group-title="轮播频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/轮播.png", 收视指南
 http://192.168.100.1:5140/rtp/239.253.246.124:8000?fcc=60.210.139.78:8027
 
