@@ -41,6 +41,16 @@ rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch21062215382556856499.
 rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch21062215392161397058.rsc/91682_Uni.sdp
 #EXTINF:-1 tvg-name="CGTN" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CGTN.png" catchup="default" catchup-source="rtsp://112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch15050914501799552135.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", CGTN
 rtsp://112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch15050914501799552135.rsc/70003_Uni.sdp
+#EXTINF:-1 tvg-name="CGTN纪录" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CGTN纪录.png" catchup="default" catchup-source="rtsp://112.245.125.47:1554/iptv/Tvod/iptv/001/001/ch21062215405197977873.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", CGTN纪录
+rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch21062215405197977873.rsc/91702_Uni.sdp
+#EXTINF:-1 tvg-name="CGTN西语" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CGTN西语.png" catchup="default" catchup-source="rtsp://112.245.125.38:1554/iptv/Tvod/iptv/001/001/ch21062215411249555526.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", CGTN西语
+rtsp://112.245.125.38:1554/iptv/import/Tvod/iptv/001/001/ch21062215411249555526.rsc/91514_Uni.sdp
+#EXTINF:-1 tvg-name="CGTN法语" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CGTN法语.png" catchup="default" catchup-source="rtsp://112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch21062215412921826390.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", CGTN法语
+rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch21062215412921826390.rsc/91584_Uni.sdp
+#EXTINF:-1 tvg-name="CGTN阿语" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CGTN阿语.png" catchup="default" catchup-source="rtsp://112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch21062215414116185265.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", CGTN阿语
+rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch21062215414116185265.rsc/91594_Uni.sdp
+#EXTINF:-1 tvg-name="CGTN俄语" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CGTN俄语.png" catchup="default" catchup-source="rtsp://112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch21062215415309865050.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", CGTN俄语
+rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch21062215415309865050.rsc/91606_Uni.sdp
 #EXTINF:-1 tvg-name="山东卫视" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东卫视.png" catchup="default" catchup-source="rtsp://112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch15050916441119736372.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", 山东卫视
 rtsp://112.245.125.38:1554/iptv/import/Tvod/iptv/001/001/ch15050916441119736372.rsc/70010_Uni.sdp
 #EXTINF:-1 tvg-name="山东齐鲁" group-title="山东频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东齐鲁.png" catchup="default" catchup-source="rtsp://112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch10120117223157422538.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", 山东齐鲁
@@ -231,16 +241,6 @@ rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch16051316174673479081.
 rtsp://112.245.125.38:1554/iptv/import/Tvod/iptv/001/001/ch21092610322847858391.rsc/92512_Uni.sdp
 #EXTINF:-1 tvg-name="求索纪录" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/求索纪录.png" catchup="default" catchup-source="rtsp://112.245.125.47:1554/iptv/Tvod/iptv/001/001/ch25041514142600797103.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", 求索纪录
 rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch25041514142600797103.rsc/102871_Uni.sdp
-#EXTINF:-1 tvg-name="CGTN纪录" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CGTN纪录.png" catchup="default" catchup-source="rtsp://112.245.125.47:1554/iptv/Tvod/iptv/001/001/ch21062215405197977873.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", CGTN纪录
-rtsp://112.245.125.47:1554/iptv/import/Tvod/iptv/001/001/ch21062215405197977873.rsc/91702_Uni.sdp
-#EXTINF:-1 tvg-name="CGTN西语" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CGTN西语.png" catchup="default" catchup-source="rtsp://112.245.125.38:1554/iptv/Tvod/iptv/001/001/ch21062215411249555526.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", CGTN西语
-rtsp://112.245.125.38:1554/iptv/import/Tvod/iptv/001/001/ch21062215411249555526.rsc/91514_Uni.sdp
-#EXTINF:-1 tvg-name="CGTN法语" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CGTN法语.png" catchup="default" catchup-source="rtsp://112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch21062215412921826390.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", CGTN法语
-rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch21062215412921826390.rsc/91584_Uni.sdp
-#EXTINF:-1 tvg-name="CGTN阿语" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CGTN阿语.png" catchup="default" catchup-source="rtsp://112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch21062215414116185265.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", CGTN阿语
-rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch21062215414116185265.rsc/91594_Uni.sdp
-#EXTINF:-1 tvg-name="CGTN俄语" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CGTN俄语.png" catchup="default" catchup-source="rtsp://112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch21062215415309865050.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", CGTN俄语
-rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch21062215415309865050.rsc/91606_Uni.sdp
 #EXTINF:-1 tvg-name="书画" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/书画.png" catchup="default" catchup-source="rtsp://112.245.125.38:1554/iptv/Tvod/iptv/001/001/ch21092610331127874295.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", 书画
 rtsp://112.245.125.38:1554/iptv/import/Tvod/iptv/001/001/ch21092610331127874295.rsc/92486_Uni.sdp
 #EXTINF:-1 tvg-name="优优宝贝" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/优优宝贝.png" catchup="default" catchup-source="rtsp://112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch22122209132553924896.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", 优优宝贝
