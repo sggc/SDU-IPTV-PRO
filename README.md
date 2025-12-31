@@ -24,6 +24,7 @@ SDU-IPTV-PRO/
 │ ├── temp-unicast.m3u
 │ ├── temp-multicast-r2h.m3u
 │ └── temp-multicast-nofcc.m3u
+├── logo/
 ├── unicast.m3u
 ├── multicast-r2h.m3u
 ├── multicast-nofcc.m3u
