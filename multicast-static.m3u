@@ -207,8 +207,6 @@ http://192.168.100.1:5140/rtp/239.253.246.143:8000?fcc=60.210.139.78:8027
 http://192.168.100.1:5140/rtp/239.253.246.144:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="金鹰卡通" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/金鹰卡通.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch11122400412227153064.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 金鹰卡通
 http://192.168.100.1:5140/rtp/239.253.246.117:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="先锋乒羽" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/先锋乒羽.png", 先锋乒羽
-http://192.168.100.1:5140/rtp/239.253.246.155:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="梨园" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/梨园.png", 梨园
 http://192.168.100.1:5140/rtp/239.253.246.139:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="武术世界" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/武术世界.png", 武术世界
@@ -279,8 +277,6 @@ http://192.168.100.1:5140/rtp/239.253.246.163:8000?fcc=60.210.139.78:8027
 http://192.168.100.1:5140/rtp/239.253.246.164:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="新动漫" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/新动漫.png", 新动漫
 http://192.168.100.1:5140/rtp/239.253.246.157:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="财富天下" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/财富天下.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch15090915413342804586.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 财富天下
-http://192.168.100.1:5140/rtp/239.253.246.230:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="环球旅游" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/环球旅游.png", 环球旅游
 http://192.168.100.1:5140/rtp/239.253.246.71:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="重温经典影视" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/重温经典影视.png",重温经典影视
