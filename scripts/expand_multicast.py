@@ -1,4 +1,4 @@
-    import requests
+import requests
 import hashlib
 import os
 import sys
