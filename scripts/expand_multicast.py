@@ -17,17 +17,18 @@ HASH_FILE = ".data/expand_hash.txt"
 # 4. 外部直播源列表（按优先级排序，排在前面的优先匹配）
 EXTERNAL_SOURCES = [
     "https://raw.githubusercontent.com/q1017673817/iptvz/main/组播_北京联通.txt",
-    "https://raw.githubusercontent.com/q1017673817/iptvz/main/组播_天津联通.txt"
+    "https://raw.githubusercontent.com/q1017673817/iptvz/main/组播_河北联通.txt"
 ]
 
 # 5. 自定义模糊匹配规则
 # 格式: "本地频道名": ["允许匹配的外部名1", "允许匹配的外部名2"]
-# 如果外部源的名字包含在这些列表里，就会被视为匹配成功。
-# 留空则使用默认模糊匹配逻辑（包含关系）
 CUSTOM_MATCH_RULES = {
     "CCTV16": ["CCTV-16奥林匹克", "CCTV16", "奥林匹克"],
     "CCTV4K": ["CCTV-4K", "CCTV4K"],
     "CCTV1": ["CCTV-1", "CCTV1综合"],
+    "CCTV-15音乐": ["CCTV15", "CCTV-15"],
+    "CCTV-16奥林匹克": ["CCTV16"],
+    "CCTV-17农业农村": ["CCTV17"],
     # 在这里添加更多规则...
 }
 
@@ -56,9 +57,9 @@ def download_external_sources():
             lines = resp.text.splitlines()
             for line in lines:
                 if ',' in line:
-                    name, url = line.split(',', 1)
-                    name = name.strip()
-                    url = url.strip()
+                    parts = line.split(',', 1)
+                    name = parts[0].strip()
+                    url = parts[1].strip()
                     if name and url:
                         if name not in external_data:
                             external_data[name] = []
@@ -77,9 +78,14 @@ def is_match(local_name, external_name):
             if alias in external_name or external_name in alias:
                 return True
     
-    # 2. 默认模糊匹配：只要名字互相包含（去除特殊字符后）
-    clean_local = local_name.replace("-", "").replace(" ", "").lower()
-    clean_external = external_name.replace("-", "").replace(" ", "").lower()
+    # 2. 反向检查（如果外部名在自定义规则中）
+    if external_name in CUSTOM_MATCH_RULES:
+        if local_name in CUSTOM_MATCH_RULES[external_name]:
+            return True
+    
+    # 3. 默认模糊匹配：只要名字互相包含（去除特殊字符后）
+    clean_local = local_name.replace("-", "").replace(" ", "").replace("频道", "").replace("高清", "").lower()
+    clean_external = external_name.replace("-", "").replace(" ", "").replace("频道", "").replace("高清", "").lower()
     
     if clean_local in clean_external or clean_external in clean_local:
         return True
@@ -127,50 +133,60 @@ def process_m3u():
     n = len(lines)
 
     while i < n:
-        line = lines[i].strip()
-        output_lines.append(lines[i]) # 保留原行格式（含换行符等）
+        line = lines[i]
+        output_lines.append(line)  # 追加当前行（保持原格式）
         
-        if line.startswith('#EXTINF'):
-            # 下一行应该是直播源
-            if i + 1 < n:
-                next_line = lines[i+1].strip()
-                # 提取频道名，假设格式为 ... , ChannelName
-                channel_name = line.split(',')[-1].strip()
-                
-                # 判断下一行是否为空、注释或无效链接（即"扣好空了"）
-                if not next_line or next_line.startswith('#') or "replace_me" in next_line.lower():
-                    # 需要补全
-                    matched_urls = []
-                    matched_names = []
-                    
-                    # 在外部源中查找
-                    for ext_name, urls in external_sources.items():
-                        if is_match(channel_name, ext_name):
-                            matched_urls.extend(urls)
-                            matched_names.append(ext_name)
-                    
-                    if matched_urls:
-                        # 填入第一个匹配的源
-                        output_lines.append(matched_urls[0] + '\n')
-                        print(f"匹配成功: {channel_name} <- {matched_names[0]} ({matched_urls[0]})")
-                        
-                        # 剩下的源放入 append_lines
-                        if len(matched_urls) > 1:
-                            for extra_url in matched_urls[1:]:
-                                append_lines.append(line + '\n')
-                                append_lines.append(extra_url + '\n')
-                    else:
-                        # 没找到匹配，保留原样或者留空
-                        output_lines.append(lines[i+1]) 
-                        print(f"未匹配: {channel_name}")
-                    i += 1 # 跳过下一行，因为已经处理过了
-                else:
-                    # 已有源，直接保留
-                    output_lines.append(lines[i+1])
-                    i += 1
+        # 如果不是EXTINF行，直接跳到下一行
+        if not line.strip().startswith('#EXTINF'):
+            i += 1
+            continue
+        
+        # 提取频道名
+        channel_name = line.split(',')[-1].strip()
+        
+        # 检查下一行是否存在
+        if i + 1 < n:
+            next_line = lines[i + 1]
+            # 判断下一行是否为空行、注释或有效URL
+            next_line_stripped = next_line.strip()
+            is_empty = not next_line_stripped or next_line_stripped.startswith('#')
+            is_url = next_line_stripped.startswith('http://') or next_line_stripped.startswith('rtp://')
+            
+            # 只有下一行是URL时才追加，否则视为需要补全
+            if not is_empty and is_url:
+                output_lines.append(next_line)  # 追加原有的URL行
+                i += 2  # 跳过URL行
             else:
+                # 需要补全
+                matched_urls = []
+                matched_names = []
+                
+                # 在外部源中查找
+                for ext_name, urls in external_sources.items():
+                    if is_match(channel_name, ext_name):
+                        matched_urls.extend(urls)
+                        matched_names.append(ext_name)
+                        print(f"匹配检查: {channel_name} <- {ext_name} (命中)")
+                
+                if matched_urls:
+                    # 填入第一个匹配的源
+                    output_lines.append(matched_urls[0] + '\n')
+                    print(f"✓ 匹配成功: {channel_name} <- {matched_names[0]} ({matched_urls[0]})")
+                    
+                    # 剩下的源放入 append_lines（用于追加到末尾）
+                    if len(matched_urls) > 1:
+                        for extra_url in matched_urls[1:]:
+                            append_lines.append(line.rstrip('\n') + '\n')  # 去除原换行，避免空行
+                            append_lines.append(extra_url + '\n')
+                            print(f"  → 追加备用源: {extra_url}")
+                else:
+                    # 没找到匹配，追加下一行（可能为空）
+                    output_lines.append(next_line)
+                    print(f"✗ 未匹配: {channel_name}")
+                    i += 1
                 i += 1
         else:
+            # 文件末尾，没有下一行
             i += 1
 
     # 3. 写入文件
