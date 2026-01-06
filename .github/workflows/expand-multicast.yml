@@ -1,0 +1,41 @@
+name: Expand Multicast Sources
+
+on:
+  schedule:
+    # 每3小时运行一次 ( cron语法: 分 时 日 月 周)
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run expand script
+      run: python scripts/expand_multicast.py
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        # 添加修改的文件
+        git add expand/multicast-expand.m3u .data/expand_hash.txt
+        # 检查是否有变动
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto update: Expand multicast sources"
+          git push
+        fi
