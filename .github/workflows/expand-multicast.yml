@@ -41,7 +41,7 @@ jobs:
         cd public_repo
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add expand/multicast-expand.m3u .data/expand_hash.txt
+        git add .github/expand/multicast-expand.m3u .data/expand_hash.txt
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
