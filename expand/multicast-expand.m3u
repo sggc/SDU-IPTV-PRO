@@ -34,7 +34,7 @@ http://192.168.100.1:5140/rtp/239.253.246.236:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV15" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV15.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch11122400365842237336.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV15
 http://192.168.100.1:5140/rtp/239.253.246.170:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV16
-http://114.241.246.84:4022/rtp/239.3.1.184:8001
+http://114.241.246.84:4022/rtp/239.3.1.184:8001$北京联通
 #EXTINF:-1 tvg-name="CCTV17" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV17.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch19073116233495000222.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV17
 http://192.168.100.1:5140/rtp/239.253.246.168:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV4K" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV4K.png", CCTV4K
@@ -218,17 +218,29 @@ http://192.168.100.1:5140/rtp/239.253.246.107:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="中国教育4" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中国教育4.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch17120418055568047747.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 中国教育4
 http://192.168.100.1:5140/rtp/239.253.246.116:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV第一剧场" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV第一剧场.png",CCTV第一剧场
+http://111.162.204.145:8686/rtp/225.1.2.175:5002$天津联通
 #EXTINF:-1 tvg-name="CCTV怀旧剧场" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV怀旧剧场.png",CCTV怀旧剧场
+http://111.162.204.145:8686/rtp/225.1.2.173:5002$天津联通
 #EXTINF:-1 tvg-name="CCTV风云剧场" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV风云剧场.png",CCTV风云剧场
+http://111.162.204.145:8686/rtp/225.1.2.174:5002$天津联通
 #EXTINF:-1 tvg-name="CCTV风云音乐" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV风云音乐.png",CCTV风云音乐
+http://111.162.204.145:8686/rtp/225.1.2.176:5002$天津联通
 #EXTINF:-1 tvg-name="CCTV风云足球" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV风云足球.png",CCTV风云足球
+http://111.162.204.145:8686/rtp/225.1.2.168:5002$天津联通
 #EXTINF:-1 tvg-name="CCTV高尔夫网球" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV高尔夫网球.png",CCTV高尔夫网球
+http://111.162.204.145:8686/rtp/225.1.2.169:5002$天津联通
 #EXTINF:-1 tvg-name="CCTV女性时尚" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV女性时尚.png",CCTV女性时尚
+http://111.162.204.145:8686/rtp/225.1.2.172:5002$天津联通
 #EXTINF:-1 tvg-name="CCTV兵器科技" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV兵器科技.png",CCTV兵器科技
+http://111.162.204.145:8686/rtp/225.1.2.166:5002$天津联通
 #EXTINF:-1 tvg-name="CCTV世界地理" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV世界地理.png",CCTV世界地理
+http://111.162.204.145:8686/rtp/225.1.2.171:5002$天津联通
 #EXTINF:-1 tvg-name="CCTV央视文化精品" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV央视文化精品.png",CCTV央视文化精品
+http://111.162.204.145:8686/rtp/225.1.2.177:5002$天津联通
 #EXTINF:-1 tvg-name="CCTV央视台球" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV央视台球.png",CCTV央视台球
+http://111.162.204.145:8686/rtp/225.1.2.170:5002$天津联通
 #EXTINF:-1 tvg-name="CCTV电视指南" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV电视指南.png",CCTV电视指南
+http://111.162.204.145:8686/rtp/225.1.2.167:5002$天津联通
 #EXTINF:-1 tvg-name="四海钓鱼" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/四海钓鱼.png", 四海钓鱼
 http://192.168.100.1:5140/rtp/239.253.246.118:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="汽摩" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/汽摩.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch23112715323902470603.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 汽摩
@@ -382,4 +394,30 @@ http://192.168.100.1:5140/rtp/239.253.246.124:8000?fcc=60.210.139.78:8027
 
 # --- Extra Sources ---
 #EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV16
-http://114.254.34.19:18888/rtp/239.3.1.184:8001
+http://114.254.34.19:18888/rtp/239.3.1.184:8001$北京联通1
+#EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV16
+http://111.162.204.145:8686/rtp/225.1.2.237:5002$天津联通1
+#EXTINF:-1 tvg-name="CCTV第一剧场" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV第一剧场.png",CCTV第一剧场
+http://121.29.141.237:4022/rtp/239.253.93.138:6428$河北联通1
+#EXTINF:-1 tvg-name="CCTV怀旧剧场" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV怀旧剧场.png",CCTV怀旧剧场
+http://121.29.141.237:4022/rtp/239.253.93.252:6430$河北联通1
+#EXTINF:-1 tvg-name="CCTV风云剧场" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV风云剧场.png",CCTV风云剧场
+http://121.29.141.237:4022/rtp/239.253.93.251:6429$河北联通1
+#EXTINF:-1 tvg-name="CCTV风云音乐" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV风云音乐.png",CCTV风云音乐
+http://121.29.141.237:4022/rtp/239.253.93.253:6431$河北联通1
+#EXTINF:-1 tvg-name="CCTV风云足球" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV风云足球.png",CCTV风云足球
+http://121.29.141.237:4022/rtp/239.253.93.254:6432$河北联通1
+#EXTINF:-1 tvg-name="CCTV高尔夫网球" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV高尔夫网球.png",CCTV高尔夫网球
+http://121.29.141.237:4022/rtp/239.253.93.122:6465$河北联通1
+#EXTINF:-1 tvg-name="CCTV女性时尚" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV女性时尚.png",CCTV女性时尚
+http://121.29.141.237:4022/rtp/239.253.92.144:6114$河北联通1
+#EXTINF:-1 tvg-name="CCTV兵器科技" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV兵器科技.png",CCTV兵器科技
+http://121.29.141.237:4022/rtp/239.253.93.47:6435$河北联通1
+#EXTINF:-1 tvg-name="CCTV世界地理" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV世界地理.png",CCTV世界地理
+http://121.29.141.237:4022/rtp/239.253.92.131:6113$河北联通1
+#EXTINF:-1 tvg-name="CCTV央视文化精品" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV央视文化精品.png",CCTV央视文化精品
+http://121.29.141.237:4022/rtp/239.253.93.175:6439$河北联通1
+#EXTINF:-1 tvg-name="CCTV央视台球" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV央视台球.png",CCTV央视台球
+http://121.29.141.237:4022/rtp/239.253.93.231:6409$河北联通1
+#EXTINF:-1 tvg-name="CCTV电视指南" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV电视指南.png",CCTV电视指南
+http://121.29.141.237:4022/rtp/239.253.93.249:6427$河北联通1
