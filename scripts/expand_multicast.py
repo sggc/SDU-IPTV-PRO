@@ -1,4 +1,4 @@
-import requests
+    import requests
 import hashlib
 import os
 import sys
@@ -20,7 +20,7 @@ HASH_FILE = ".data/expand_hash.txt"
 EXTERNAL_SOURCES = [
     ("https://raw.githubusercontent.com/q1017673817/iptvz/main/组播_北京联通.txt", "$北京联通"),
     ("https://raw.githubusercontent.com/q1017673817/iptvz/main/组播_天津联通.txt", "$天津联通"),
-    ("https://raw.githubusercontent.com/q1017673817/iptvz/main/组播_河北联通.txt", "$河北联通")
+    ("https://raw.githubusercontent.com/q1017673817/iptvz/main/组播_河北联通.txt", "$河北联通"),
 ]
 
 # 5. 自定义模糊匹配规则
@@ -167,15 +167,22 @@ def process_m3u():
         if i + 1 < n:
             next_line = lines[i + 1]
             next_line_stripped = next_line.strip()
+            
+            # 判断下一行是否为空行或注释（需要补全）
             is_empty = not next_line_stripped or next_line_stripped.startswith('#')
             is_url = next_line_stripped.startswith('http://') or next_line_stripped.startswith('rtp://')
             
-            if not is_empty and is_url:
-                # 已有源，直接保留
-                output_lines.append(next_line)
-                i += 2
+            if not is_empty:
+                # 非空行，如果也不是URL行，说明是其他内容，需要跳过
+                if is_url:
+                    # 已有源，直接保留
+                    output_lines.append(next_line)
+                    i += 2
+                else:
+                    # 不是URL也不是空，可能是有问题的情况，跳过
+                    i += 1
             else:
-                # 需要补全
+                # 空行或注释，需要补全
                 matched_sources = []  # [(url, tag, source_index, matched_external_name)]
                 matched_names = []
                 
@@ -190,26 +197,21 @@ def process_m3u():
                     # 按优先级排序（source_index小的在前）
                     matched_sources.sort(key=lambda x: x[2])
                     
-                    # 取第一个作为主要源
+                    # 取第一个作为主要源（不带数字）
                     primary_url, primary_tag, _, matched_name = matched_sources[0]
                     output_lines.append(primary_url + primary_tag + "\n")
                     print(f"✓ 匹配成功: {channel_name} <- {matched_name} ({primary_url}{primary_tag})")
                     
                     # 剩下的放入 append_lines（追加到末尾）
                     if len(matched_sources) > 1:
-                        # 按来源分组计数
+                        # 按来源分组计数，从2开始
                         source_counter = {}  # {source_index: count}
                         for url, tag, idx, matched_name in matched_sources[1:]:
-                            # 添加计数标记（如果有多个相同来源）
-                            count_tag = ""
-                            if idx in source_counter:
-                                source_counter[idx] += 1
-                                count_tag = str(source_counter[idx])
-                            else:
-                                source_counter[idx] = 2  # 从2开始，因为第一个是1（默认不显示）
-                                count_tag = "1"
+                            # 添加计数标记（从2开始）
+                            count = source_counter.get(idx, 1) + 1  # 从2开始计数
+                            source_counter[idx] = count
                             
-                            full_tag = tag + count_tag
+                            full_tag = tag + str(count)
                             append_lines.append(line.rstrip('\n') + '\n')
                             append_lines.append(url + full_tag + '\n')
                             print(f"  → 追加备用源: {matched_name} ({url}{full_tag})")
