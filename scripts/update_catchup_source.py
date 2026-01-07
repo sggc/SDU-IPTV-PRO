@@ -141,11 +141,17 @@ def main():
     new_hash = get_content_hash(source_content)
     old_hash = read_hash()
     
-    if new_hash == old_hash:
+    # 检查是否强制更新
+    force_update = os.environ.get('FORCE_UPDATE', 'false').lower() == 'true'
+    
+    if new_hash == old_hash and not force_update:
         print("\n源文件没有变化，跳过更新")
         return False
     
-    print(f"\n源文件已更新 (hash: {old_hash[:8]}... -> {new_hash[:8]}...)")
+    if force_update:
+        print("\n强制更新模式")
+    else:
+        print(f"\n源文件已更新 (hash: {old_hash[:8] if old_hash else 'none'}... -> {new_hash[:8]}...)")
     
     # 解析源文件
     print("\n--- 解析源文件 ---")
