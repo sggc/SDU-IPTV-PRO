@@ -1,8 +1,8 @@
 EPG 聚合日志
-生成时间: 2026-01-07 01:55:32
+生成时间: 2026-01-07 02:14:35
 ============================================================
 
-【成功获取的频道】共 183 个
+【成功获取的频道】共 328 个
 ------------------------------------------------------------
 频道ID: 1
 频道名称: CCTV1
@@ -41,32 +41,32 @@ EPG 聚合日志
 
 频道ID: 13
 频道名称: CCTV10
-匹配关键词: CCTV1
+匹配关键词: CCTV10
 来源: Main Source
 
 频道ID: 14
 频道名称: CCTV11
-匹配关键词: CCTV1
+匹配关键词: CCTV11
 来源: Main Source
 
 频道ID: 15
 频道名称: CCTV12
-匹配关键词: CCTV1
+匹配关键词: CCTV12
 来源: Main Source
 
 频道ID: 16
 频道名称: CCTV13
-匹配关键词: CCTV1
+匹配关键词: CCTV13
 来源: Main Source
 
 频道ID: 17
 频道名称: CCTV14
-匹配关键词: CCTV1
+匹配关键词: CCTV14
 来源: Main Source
 
 频道ID: 18
 频道名称: CCTV15
-匹配关键词: CCTV1
+匹配关键词: CCTV15
 来源: Main Source
 
 频道ID: 19
@@ -326,7 +326,7 @@ EPG 聚合日志
 
 频道ID: 79
 频道名称: CCTV17
-匹配关键词: CCTV1
+匹配关键词: CCTV17
 来源: Main Source
 
 频道ID: 80
@@ -366,42 +366,42 @@ EPG 聚合日志
 
 频道ID: 87
 频道名称: CCTV4欧洲
-匹配关键词: CCTV4
+匹配关键词: CCTV4欧洲
 来源: Main Source
 
 频道ID: 88
 频道名称: CCTV4美洲
-匹配关键词: CCTV4
+匹配关键词: CCTV4美洲
 来源: Main Source
 
 频道ID: 89
 频道名称: CGTN纪录
-匹配关键词: CGTN
+匹配关键词: CGTN纪录
 来源: Main Source
 
 频道ID: 90
 频道名称: CGTN西语
-匹配关键词: CGTN
+匹配关键词: CGTN西语
 来源: Main Source
 
 频道ID: 91
 频道名称: CGTN法语
-匹配关键词: CGTN
+匹配关键词: CGTN法语
 来源: Main Source
 
 频道ID: 92
 频道名称: CGTN阿语
-匹配关键词: CGTN
+匹配关键词: CGTN阿语
 来源: Main Source
 
 频道ID: 93
 频道名称: CGTN俄语
-匹配关键词: CGTN
+匹配关键词: CGTN俄语
 来源: Main Source
 
 频道ID: 94
 频道名称: CCTV4K
-匹配关键词: CCTV4
+匹配关键词: CCTV4K
 来源: Main Source
 
 频道ID: 100
@@ -681,7 +681,7 @@ EPG 聚合日志
 
 频道ID: 163
 频道名称: 少儿动画
-匹配关键词: 动画
+匹配关键词: 少儿动画
 来源: Main Source
 
 频道ID: 164
@@ -761,7 +761,7 @@ EPG 聚合日志
 
 频道ID: 193
 频道名称: 山东卫视4K
-匹配关键词: 山东卫视
+匹配关键词: 山东卫视4K
 来源: Main Source
 
 频道ID: 194
@@ -802,127 +802,879 @@ EPG 聚合日志
 频道ID: 43
 频道名称: 辽宁卫视
 匹配关键词: 辽宁卫视
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 53
 频道名称: 黑龙江卫视
 匹配关键词: 黑龙江卫视
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 57
 频道名称: 吉林卫视
 匹配关键词: 吉林卫视
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 65
 频道名称: 青海卫视
 匹配关键词: 青海卫视
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 74
 频道名称: 厦门卫视
 匹配关键词: 厦门卫视
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 77
 频道名称: 西藏卫视
 匹配关键词: 西藏卫视
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 1424
 频道名称: 风云足球
-匹配关键词: 足球
-来源: Backup Source 2
+匹配关键词: CCTV风云足球
+来源: Backup Source
 
 频道ID: 1643
 频道名称: CHC动作电影
 匹配关键词: CHC动作电影
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 1645
 频道名称: 梨园
 匹配关键词: 梨园
-来源: Backup Source 2
+来源: Backup Source
+
+频道ID: 1646
+频道名称: 风云音乐
+匹配关键词: CCTV风云音乐
+来源: Backup Source
+
+频道ID: 1647
+频道名称: 第一剧场
+匹配关键词: CCTV第一剧场
+来源: Backup Source
+
+频道ID: 1648
+频道名称: 风云剧场
+匹配关键词: CCTV风云剧场
+来源: Backup Source
 
 频道ID: 1649
 频道名称: 世界地理
-匹配关键词: 地理
-来源: Backup Source 2
+匹配关键词: CCTV世界地理
+来源: Backup Source
+
+频道ID: 1651
+频道名称: 怀旧剧场
+匹配关键词: CCTV怀旧剧场
+来源: Backup Source
+
+频道ID: 1652
+频道名称: 兵器科技
+匹配关键词: CCTV兵器科技
+来源: Backup Source
+
+频道ID: 1653
+频道名称: 女性时尚
+匹配关键词: CCTV女性时尚
+来源: Backup Source
+
+频道ID: 1657
+频道名称: 高尔夫网球
+匹配关键词: CCTV高尔夫网球
+来源: Backup Source
 
 频道ID: 1662
 频道名称: 汽摩
 匹配关键词: 汽摩
-来源: Backup Source 2
+来源: Backup Source
 
-频道ID: 1674
-频道名称: 茶频道
-匹配关键词: 茶
-来源: Backup Source 2
+频道ID: 1673
+频道名称: 央视台球
+匹配关键词: CCTV央视台球
+来源: Backup Source
 
 频道ID: 1675
 频道名称: 武术世界
 匹配关键词: 武术世界
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 1677
 频道名称: 发现之旅
 匹配关键词: 发现之旅
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 1679
 频道名称: 国学
 匹配关键词: 国学
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 1680
 频道名称: 文物宝库
 匹配关键词: 文物宝库
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 1683
 频道名称: 老故事
 匹配关键词: 老故事
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 1684
 频道名称: 快乐垂钓
 匹配关键词: 快乐垂钓
-来源: Backup Source 2
-
-频道ID: 1685
-频道名称: 书画频道
-匹配关键词: 书画
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 1695
 频道名称: 四海钓鱼
 匹配关键词: 四海钓鱼
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 1697
 频道名称: 环球旅游
 匹配关键词: 环球旅游
-来源: Backup Source 2
-
-频道ID: 1860
-频道名称: 中国教育4台
-匹配关键词: 中国教育4
-来源: Backup Source 2
+来源: Backup Source
 
 频道ID: 1864
 频道名称: CCTV16
-匹配关键词: CCTV1
-来源: Backup Source 2
+匹配关键词: CCTV16
+来源: Backup Source
 
 频道ID: 1969
 频道名称: CHC影迷电影
 匹配关键词: CHC影迷电影
+来源: Backup Source
+
+频道ID: CCTV1
+频道名称: CCTV1
+匹配关键词: CCTV1
+来源: Backup Source 2
+
+频道ID: CCTV10
+频道名称: CCTV10
+匹配关键词: CCTV10
+来源: Backup Source 2
+
+频道ID: CCTV11
+频道名称: CCTV11
+匹配关键词: CCTV11
+来源: Backup Source 2
+
+频道ID: CCTV12
+频道名称: CCTV12
+匹配关键词: CCTV12
+来源: Backup Source 2
+
+频道ID: CCTV13
+频道名称: CCTV13
+匹配关键词: CCTV13
+来源: Backup Source 2
+
+频道ID: CCTV14
+频道名称: CCTV14
+匹配关键词: CCTV14
+来源: Backup Source 2
+
+频道ID: CCTV15
+频道名称: CCTV15
+匹配关键词: CCTV15
+来源: Backup Source 2
+
+频道ID: CCTV16
+频道名称: CCTV16
+匹配关键词: CCTV16
+来源: Backup Source 2
+
+频道ID: CCTV17
+频道名称: CCTV17
+匹配关键词: CCTV17
+来源: Backup Source 2
+
+频道ID: CCTV2
+频道名称: CCTV2
+匹配关键词: CCTV2
+来源: Backup Source 2
+
+频道ID: CCTV3
+频道名称: CCTV3
+匹配关键词: CCTV3
+来源: Backup Source 2
+
+频道ID: CCTV4
+频道名称: CCTV4
+匹配关键词: CCTV4
+来源: Backup Source 2
+
+频道ID: CCTV4K
+频道名称: CCTV4K
+匹配关键词: CCTV4K
+来源: Backup Source 2
+
+频道ID: CCTV4欧洲
+频道名称: CCTV4欧洲
+匹配关键词: CCTV4欧洲
+来源: Backup Source 2
+
+频道ID: CCTV4美洲
+频道名称: CCTV4美洲
+匹配关键词: CCTV4美洲
+来源: Backup Source 2
+
+频道ID: CCTV5
+频道名称: CCTV5
+匹配关键词: CCTV5
+来源: Backup Source 2
+
+频道ID: CCTV5+
+频道名称: CCTV5+
+匹配关键词: CCTV5
+来源: Backup Source 2
+
+频道ID: CCTV6
+频道名称: CCTV6
+匹配关键词: CCTV6
+来源: Backup Source 2
+
+频道ID: CCTV7
+频道名称: CCTV7
+匹配关键词: CCTV7
+来源: Backup Source 2
+
+频道ID: CCTV8
+频道名称: CCTV8
+匹配关键词: CCTV8
+来源: Backup Source 2
+
+频道ID: CCTV9
+频道名称: CCTV9
+匹配关键词: CCTV9
+来源: Backup Source 2
+
+频道ID: CCTV怀旧剧场
+频道名称: CCTV怀旧剧场
+匹配关键词: CCTV怀旧剧场
+来源: Backup Source 2
+
+频道ID: CCTV第一剧场
+频道名称: CCTV第一剧场
+匹配关键词: CCTV第一剧场
+来源: Backup Source 2
+
+频道ID: CCTV风云剧场
+频道名称: CCTV风云剧场
+匹配关键词: CCTV风云剧场
+来源: Backup Source 2
+
+频道ID: CGTN
+频道名称: CGTN
+匹配关键词: CGTN
+来源: Backup Source 2
+
+频道ID: CGTN(中国环球电视网)英语频道
+频道名称: CGTN(中国环球电视网)英语频道, CGTN英语
+匹配关键词: CGTN
+来源: Backup Source 2
+
+频道ID: CGTN(中国环球电视网)记录频道
+频道名称: CGTN(中国环球电视网)记录频道, CGTN记录
+匹配关键词: CGTN
+来源: Backup Source 2
+
+频道ID: CGTN俄语
+频道名称: CGTN俄语
+匹配关键词: CGTN俄语
+来源: Backup Source 2
+
+频道ID: CGTN法语
+频道名称: CGTN法语
+匹配关键词: CGTN法语
+来源: Backup Source 2
+
+频道ID: CGTN纪录
+频道名称: CGTN纪录
+匹配关键词: CGTN纪录
+来源: Backup Source 2
+
+频道ID: CGTN西语
+频道名称: CGTN西语
+匹配关键词: CGTN西语
+来源: Backup Source 2
+
+频道ID: CGTN阿语
+频道名称: CGTN阿语
+匹配关键词: CGTN阿语
+来源: Backup Source 2
+
+频道ID: CHC动作电影
+频道名称: CHC动作电影
+匹配关键词: CHC动作电影
+来源: Backup Source 2
+
+频道ID: CHC家庭影院
+频道名称: CHC家庭影院
+匹配关键词: CHC家庭影院
+来源: Backup Source 2
+
+频道ID: CHC高清电影
+频道名称: CHC高清电影, CHC影迷电影
+匹配关键词: CHC影迷电影
+来源: Backup Source 2
+
+频道ID: 三沙卫视
+频道名称: 三沙卫视
+匹配关键词: 三沙卫视
+来源: Backup Source 2
+
+频道ID: 世界地理
+频道名称: 世界地理
+匹配关键词: CCTV世界地理
+来源: Backup Source 2
+
+频道ID: 东南卫视
+频道名称: 东南卫视
+匹配关键词: 东南卫视
+来源: Backup Source 2
+
+频道ID: 东方卫视
+频道名称: 东方卫视, 东方卫视4K
+匹配关键词: 东方卫视
+来源: Backup Source 2
+
+频道ID: 东方财经
+频道名称: 东方财经
+匹配关键词: 东方财经
+来源: Backup Source 2
+
+频道ID: 中华特产
+频道名称: 中华特产
+匹配关键词: 中华特产
+来源: Backup Source 2
+
+频道ID: 中国交通
+频道名称: 中国交通
+匹配关键词: 中国交通
+来源: Backup Source 2
+
+频道ID: 中学生
+频道名称: 中学生
+匹配关键词: 中学生
+来源: Backup Source 2
+
+频道ID: 乐游
+频道名称: 乐游
+匹配关键词: 乐游
+来源: Backup Source 2
+
+频道ID: 书画
+频道名称: 书画
+匹配关键词: 书画
+来源: Backup Source 2
+
+频道ID: 云南卫视
+频道名称: 云南卫视
+匹配关键词: 云南卫视
+来源: Backup Source 2
+
+频道ID: 优优宝贝
+频道名称: 优优宝贝
+匹配关键词: 优优宝贝
+来源: Backup Source 2
+
+频道ID: 优漫卡通
+频道名称: 优漫卡通
+匹配关键词: 优漫卡通
+来源: Backup Source 2
+
+频道ID: 光影
+频道名称: 光影
+匹配关键词: 光影
+来源: Backup Source 2
+
+频道ID: 兵器科技
+频道名称: 兵器科技
+匹配关键词: CCTV兵器科技
+来源: Backup Source 2
+
+频道ID: 兵团卫视
+频道名称: 兵团卫视
+匹配关键词: 兵团卫视
+来源: Backup Source 2
+
+频道ID: 内蒙古卫视
+频道名称: 内蒙古卫视
+匹配关键词: 内蒙古卫视
+来源: Backup Source 2
+
+频道ID: 军旅剧场
+频道名称: 军旅剧场
+匹配关键词: 军旅剧场
+来源: Backup Source 2
+
+频道ID: 农林卫视
+频道名称: 农林卫视
+匹配关键词: 农林卫视
+来源: Backup Source 2
+
+频道ID: 动作影院
+频道名称: 动作影院
+匹配关键词: 动作影院
+来源: Backup Source 2
+
+频道ID: 动漫秀场
+频道名称: 动漫秀场
+匹配关键词: 动漫秀场
+来源: Backup Source 2
+
+频道ID: 北京卫视
+频道名称: 北京卫视
+匹配关键词: 北京卫视
+来源: Backup Source 2
+
+频道ID: 北京纪实科教
+频道名称: 北京纪实科教
+匹配关键词: 北京纪实科教
+来源: Backup Source 2
+
+频道ID: 卡酷少儿
+频道名称: 卡酷少儿
+匹配关键词: 卡酷少儿
+来源: Backup Source 2
+
+频道ID: 厦门卫视
+频道名称: 厦门卫视
+匹配关键词: 厦门卫视
+来源: Backup Source 2
+
+频道ID: 发现之旅
+频道名称: 发现之旅
+匹配关键词: 发现之旅
+来源: Backup Source 2
+
+频道ID: 古装剧场
+频道名称: 古装剧场
+匹配关键词: 古装剧场
+来源: Backup Source 2
+
+频道ID: 吉林卫视
+频道名称: 吉林卫视
+匹配关键词: 吉林卫视
+来源: Backup Source 2
+
+频道ID: 喜剧影院
+频道名称: 喜剧影院
+匹配关键词: 喜剧影院
+来源: Backup Source 2
+
+频道ID: 嘉佳卡通
+频道名称: 嘉佳卡通
+匹配关键词: 嘉佳卡通
+来源: Backup Source 2
+
+频道ID: 四川卫视
+频道名称: 四川卫视
+匹配关键词: 四川卫视
+来源: Backup Source 2
+
+频道ID: 四海钓鱼
+频道名称: 四海钓鱼
+匹配关键词: 四海钓鱼
+来源: Backup Source 2
+
+频道ID: 国学
+频道名称: 国学
+匹配关键词: 国学
+来源: Backup Source 2
+
+频道ID: 城市剧场
+频道名称: 城市剧场
+匹配关键词: 城市剧场
+来源: Backup Source 2
+
+频道ID: 天津卫视
+频道名称: 天津卫视
+匹配关键词: 天津卫视
+来源: Backup Source 2
+
+频道ID: 央视台球
+频道名称: 央视台球
+匹配关键词: CCTV央视台球
+来源: Backup Source 2
+
+频道ID: 央视文化精品
+频道名称: 央视文化精品
+匹配关键词: CCTV央视文化精品
+来源: Backup Source 2
+
+频道ID: 女性时尚
+频道名称: 女性时尚
+匹配关键词: CCTV女性时尚
+来源: Backup Source 2
+
+频道ID: 宁夏卫视
+频道名称: 宁夏卫视
+匹配关键词: 宁夏卫视
+来源: Backup Source 2
+
+频道ID: 安徽卫视
+频道名称: 安徽卫视
+匹配关键词: 安徽卫视
+来源: Backup Source 2
+
+频道ID: 家庭影院
+频道名称: 家庭影院
+匹配关键词: 家庭影院
+来源: Backup Source 2
+
+频道ID: 山东体育
+频道名称: 山东体育
+匹配关键词: 山东体育
+来源: Backup Source 2
+
+频道ID: 山东农科
+频道名称: 山东农科
+匹配关键词: 山东农科
+来源: Backup Source 2
+
+频道ID: 山东卫视
+频道名称: 山东卫视
+匹配关键词: 山东卫视
+来源: Backup Source 2
+
+频道ID: 山东少儿
+频道名称: 山东少儿
+匹配关键词: 山东少儿
+来源: Backup Source 2
+
+频道ID: 山东教育
+频道名称: 山东教育
+匹配关键词: 山东教育
+来源: Backup Source 2
+
+频道ID: 山东文旅
+频道名称: 山东文旅
+匹配关键词: 山东文旅
+来源: Backup Source 2
+
+频道ID: 山东新闻
+频道名称: 山东新闻
+匹配关键词: 山东新闻
+来源: Backup Source 2
+
+频道ID: 山东生活
+频道名称: 山东生活
+匹配关键词: 山东生活
+来源: Backup Source 2
+
+频道ID: 山东综艺
+频道名称: 山东综艺
+匹配关键词: 山东综艺
+来源: Backup Source 2
+
+频道ID: 山东齐鲁
+频道名称: 山东齐鲁
+匹配关键词: 山东齐鲁
+来源: Backup Source 2
+
+频道ID: 山西卫视
+频道名称: 山西卫视
+匹配关键词: 山西卫视
+来源: Backup Source 2
+
+频道ID: 广东卫视
+频道名称: 广东卫视
+匹配关键词: 广东卫视
+来源: Backup Source 2
+
+频道ID: 广西卫视
+频道名称: 广西卫视
+匹配关键词: 广西卫视
+来源: Backup Source 2
+
+频道ID: 延边卫视
+频道名称: 延边卫视
+匹配关键词: 延边卫视
+来源: Backup Source 2
+
+频道ID: 快乐垂钓
+频道名称: 快乐垂钓
+匹配关键词: 快乐垂钓
+来源: Backup Source 2
+
+频道ID: 怀旧剧场
+频道名称: 怀旧剧场
+匹配关键词: CCTV怀旧剧场
+来源: Backup Source 2
+
+频道ID: 文物宝库
+频道名称: 文物宝库
+匹配关键词: 文物宝库
+来源: Backup Source 2
+
+频道ID: 新动漫
+频道名称: 新动漫
+匹配关键词: 新动漫
+来源: Backup Source 2
+
+频道ID: 新疆卫视
+频道名称: 新疆卫视
+匹配关键词: 新疆卫视
+来源: Backup Source 2
+
+频道ID: 星影
+频道名称: 星影
+匹配关键词: 星影
+来源: Backup Source 2
+
+频道ID: 梨园
+频道名称: 梨园
+匹配关键词: 梨园
+来源: Backup Source 2
+
+频道ID: 武侠剧场
+频道名称: 武侠剧场
+匹配关键词: 武侠剧场
+来源: Backup Source 2
+
+频道ID: 武术世界
+频道名称: 武术世界
+匹配关键词: 武术世界
+来源: Backup Source 2
+
+频道ID: 求索纪录
+频道名称: 求索纪录
+匹配关键词: 求索纪录
+来源: Backup Source 2
+
+频道ID: 江苏卫视
+频道名称: 江苏卫视
+匹配关键词: 江苏卫视
+来源: Backup Source 2
+
+频道ID: 江西卫视
+频道名称: 江西卫视
+匹配关键词: 江西卫视
+来源: Backup Source 2
+
+频道ID: 汽摩
+频道名称: 汽摩
+匹配关键词: 汽摩
+来源: Backup Source 2
+
+频道ID: 河北卫视
+频道名称: 河北卫视
+匹配关键词: 河北卫视
+来源: Backup Source 2
+
+频道ID: 河南卫视
+频道名称: 河南卫视
+匹配关键词: 河南卫视
+来源: Backup Source 2
+
+频道ID: 法治天地
+频道名称: 法治天地
+匹配关键词: 法治天地
+来源: Backup Source 2
+
+频道ID: 浙江卫视
+频道名称: 浙江卫视
+匹配关键词: 浙江卫视
+来源: Backup Source 2
+
+频道ID: 海南卫视
+频道名称: 海南卫视
+匹配关键词: 海南卫视
+来源: Backup Source 2
+
+频道ID: 深圳卫视
+频道名称: 深圳卫视
+匹配关键词: 深圳卫视
+来源: Backup Source 2
+
+频道ID: 游戏风云
+频道名称: 游戏风云
+匹配关键词: 游戏风云
+来源: Backup Source 2
+
+频道ID: 湖北卫视
+频道名称: 湖北卫视
+匹配关键词: 湖北卫视
+来源: Backup Source 2
+
+频道ID: 湖南卫视
+频道名称: 湖南卫视
+匹配关键词: 湖南卫视
+来源: Backup Source 2
+
+频道ID: 热播剧场
+频道名称: 热播剧场
+匹配关键词: 热播剧场
+来源: Backup Source 2
+
+频道ID: 环球旅游
+频道名称: 环球旅游
+匹配关键词: 环球旅游
+来源: Backup Source 2
+
+频道ID: 甘肃卫视
+频道名称: 甘肃卫视
+匹配关键词: 甘肃卫视
+来源: Backup Source 2
+
+频道ID: 生态环境
+频道名称: 生态环境
+匹配关键词: 生态环境
+来源: Backup Source 2
+
+频道ID: 生活时尚
+频道名称: 生活时尚
+匹配关键词: 生活时尚
+来源: Backup Source 2
+
+频道ID: 电视指南
+频道名称: 电视指南
+匹配关键词: CCTV电视指南
+来源: Backup Source 2
+
+频道ID: 第一剧场
+频道名称: 第一剧场
+匹配关键词: CCTV第一剧场
+来源: Backup Source 2
+
+频道ID: 精彩影视
+频道名称: 精彩影视
+匹配关键词: 精彩影视
+来源: Backup Source 2
+
+频道ID: 经典剧场
+频道名称: 经典剧场
+匹配关键词: 经典剧场
+来源: Backup Source 2
+
+频道ID: 经典电影
+频道名称: 经典电影
+匹配关键词: 经典电影
+来源: Backup Source 2
+
+频道ID: 老故事
+频道名称: 老故事
+匹配关键词: 老故事
+来源: Backup Source 2
+
+频道ID: 茶
+频道名称: 茶
+匹配关键词: 茶
+来源: Backup Source 2
+
+频道ID: 西藏卫视
+频道名称: 西藏卫视
+匹配关键词: 西藏卫视
+来源: Backup Source 2
+
+频道ID: 贵州卫视
+频道名称: 贵州卫视
+匹配关键词: 贵州卫视
+来源: Backup Source 2
+
+频道ID: 足球
+频道名称: 足球
+匹配关键词: 足球
+来源: Backup Source 2
+
+频道ID: 辽宁卫视
+频道名称: 辽宁卫视
+匹配关键词: 辽宁卫视
+来源: Backup Source 2
+
+频道ID: 都市剧场
+频道名称: 都市剧场
+匹配关键词: 都市剧场
+来源: Backup Source 2
+
+频道ID: 重庆卫视
+频道名称: 重庆卫视
+匹配关键词: 重庆卫视
+来源: Backup Source 2
+
+频道ID: 金色学堂
+频道名称: 金色学堂
+匹配关键词: 金色学堂
+来源: Backup Source 2
+
+频道ID: 金鹰卡通
+频道名称: 金鹰卡通
+匹配关键词: 金鹰卡通
+来源: Backup Source 2
+
+频道ID: 金鹰纪实
+频道名称: 金鹰纪实
+匹配关键词: 金鹰纪实
+来源: Backup Source 2
+
+频道ID: 陕西卫视
+频道名称: 陕西卫视
+匹配关键词: 陕西卫视
+来源: Backup Source 2
+
+频道ID: 青海卫视
+频道名称: 青海卫视
+匹配关键词: 青海卫视
+来源: Backup Source 2
+
+频道ID: 风云剧场
+频道名称: 风云剧场
+匹配关键词: CCTV风云剧场
+来源: Backup Source 2
+
+频道ID: 风云足球
+频道名称: 风云足球
+匹配关键词: CCTV风云足球
+来源: Backup Source 2
+
+频道ID: 风云音乐
+频道名称: 风云音乐
+匹配关键词: CCTV风云音乐
+来源: Backup Source 2
+
+频道ID: 高尔夫网球
+频道名称: 高尔夫网球
+匹配关键词: CCTV高尔夫网球
+来源: Backup Source 2
+
+频道ID: 黑龙江卫视
+频道名称: 黑龙江卫视
+匹配关键词: 黑龙江卫视
 来源: Backup Source 2
 
 
-【未匹配到频道的白名单关键词】共 51 个
+【未匹配到频道的白名单关键词】共 73 个
 ------------------------------------------------------------
+关键词: CCTV1
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: CCTV2
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: CCTV3
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: CCTV4
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: CCTV5
+原因: 在所有源中均未找到匹配的频道名称
+
 关键词: CCTV5+
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: CCTV6
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: CCTV7
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: CCTV8
+原因: 找到包含该关键词的频道，但可能因格式/前缀差异被过滤规则排除
+
+关键词: CCTV9
 原因: 在所有源中均未找到匹配的频道名称
 
 关键词: CCTV10
@@ -1009,7 +1761,40 @@ EPG 聚合日志
 关键词: 山东卫视4K
 原因: 在所有源中均未找到匹配的频道名称
 
+关键词: 江苏卫视4K
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: 湖南卫视4K
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: 浙江卫视4K
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: 东方卫视4K
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: 四川卫视4K
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: 北京卫视4K
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: 深圳卫视4K
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: 广东卫视4K
+原因: 在所有源中均未找到匹配的频道名称
+
 关键词: 爱上4K测试体验
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: CHC家庭影院
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: CHC动作电影
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: CHC影迷电影
 原因: 在所有源中均未找到匹配的频道名称
 
 关键词: CCTV第一剧场
@@ -1048,6 +1833,9 @@ EPG 聚合日志
 关键词: CCTV电视指南
 原因: 在所有源中均未找到匹配的频道名称
 
+关键词: CGTN
+原因: 在所有源中均未找到匹配的频道名称
+
 关键词: CGTN纪录
 原因: 在所有源中均未找到匹配的频道名称
 
@@ -1069,137 +1857,6519 @@ EPG 聚合日志
 关键词: 山东经济广播
 原因: 在所有源中均未找到匹配的频道名称
 
-关键词: 少儿动画
+关键词: IPTV野外
+原因: 在所有源中均未找到匹配的频道名称
+
+关键词: IPTV法治
 原因: 在所有源中均未找到匹配的频道名称
 
 关键词: 海看演艺
 原因: 在所有源中均未找到匹配的频道名称
 
 
-【被忽略的频道】共 25 个
+【被忽略的频道】共 1626 个
 ------------------------------------------------------------
 频道ID: 65
 频道名称: 哈哈炫动
 来源: Main Source
-忽略原因: 不在白名单关键词列表中
 
 频道ID: 282
 频道名称: 泰安经济生活
 来源: Main Source
-忽略原因: 不在白名单关键词列表中
 
 频道ID: 489
 频道名称: 泰山电视频道
 来源: Main Source
-忽略原因: 不在白名单关键词列表中
 
 频道ID: 709
 频道名称: 泰安综合
 来源: Main Source
-忽略原因: 不在白名单关键词列表中
 
 频道ID: 76
 频道名称: 康巴卫视
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
 
 频道ID: 128
 频道名称: 凤凰中文
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
 
 频道ID: 129
 频道名称: 凤凰资讯
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
 
 频道ID: 1639
 频道名称: CHC高清电影
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
 
 频道ID: 1642
 频道名称: 求索记录
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
 
 频道ID: 1644
 频道名称: CHC家庭电影
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
-
-频道ID: 1646
-频道名称: 风云音乐
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
-
-频道ID: 1647
-频道名称: 第一剧场
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
-
-频道ID: 1648
-频道名称: 风云剧场
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
-
-频道ID: 1651
-频道名称: 怀旧剧场
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
-
-频道ID: 1652
-频道名称: 兵器科技
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
-
-频道ID: 1653
-频道名称: 女性时尚
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
-
-频道ID: 1657
-频道名称: 高尔夫网球
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
 
 频道ID: 1658
 频道名称: 央视精品
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
 
 频道ID: 1667
 频道名称: 天元围棋
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
 
 频道ID: 1670
 频道名称: 早期教育
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
 
 频道ID: 1671
 频道名称: 证券资讯
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
 
-频道ID: 1673
-频道名称: 央视台球
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+频道ID: 1674
+频道名称: 茶频道
+来源: Backup Source
 
 频道ID: 1678
 频道名称: 环球奇观
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
+
+频道ID: 1685
+频道名称: 书画频道
+来源: Backup Source
 
 频道ID: 1691
 频道名称: 先锋乒羽
-来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+来源: Backup Source
 
 频道ID: 1712
 频道名称: 财富天下
+来源: Backup Source
+
+频道ID: 1860
+频道名称: 中国教育4台
+来源: Backup Source
+
+频道ID: 100%
+频道名称: 100%
 来源: Backup Source 2
-忽略原因: 不在白名单关键词列表中
+
+频道ID: 1905环球经典
+频道名称: 1905环球经典
+来源: Backup Source 2
+
+频道ID: 4K健身
+频道名称: 4K健身
+来源: Backup Source 2
+
+频道ID: 4K宝贝
+频道名称: 4K宝贝
+来源: Backup Source 2
+
+频道ID: 4K时尚
+频道名称: 4K时尚
+来源: Backup Source 2
+
+频道ID: 4K演唱会
+频道名称: 4K演唱会
+来源: Backup Source 2
+
+频道ID: 4K电影
+频道名称: 4K电影
+来源: Backup Source 2
+
+频道ID: 4K电视剧
+频道名称: 4K电视剧
+来源: Backup Source 2
+
+频道ID: 4K纪实
+频道名称: 4K纪实
+来源: Backup Source 2
+
+频道ID: 4K美食
+频道名称: 4K美食
+来源: Backup Source 2
+
+频道ID: 4ＫQVC
+频道名称: 4ＫQVC
+来源: Backup Source 2
+
+频道ID: ABCAUSTRALIA
+频道名称: ABCAUSTRALIA
+来源: Backup Source 2
+
+频道ID: ACTIONHOLLYWODMOVIES
+频道名称: ACTIONHOLLYWODMOVIES
+来源: Backup Source 2
+
+频道ID: AMC电影台
+频道名称: AMC电影台
+来源: Backup Source 2
+
+频道ID: ANIMAX
+频道名称: ANIMAX
+来源: Backup Source 2
+
+频道ID: ARIRANGTV
+频道名称: ARIRANGTV
+来源: Backup Source 2
+
+频道ID: ARIRANGTVHD
+频道名称: ARIRANGTVHD
+来源: Backup Source 2
+
+频道ID: ARIRANG阿里郎频道
+频道名称: ARIRANG阿里郎频道
+来源: Backup Source 2
+
+频道ID: ASTROCRICKET
+频道名称: ASTROCRICKET
+来源: Backup Source 2
+
+频道ID: AXN
+频道名称: AXN
+来源: Backup Source 2
+
+频道ID: AXNHD　海外ドラマ
+频道名称: AXNHD　海外ドラマ
+来源: Backup Source 2
+
+频道ID: AXNミステリーHD
+频道名称: AXNミステリーHD
+来源: Backup Source 2
+
+频道ID: BAYFM78
+频道名称: BAYFM78
+来源: Backup Source 2
+
+频道ID: BBCEARTH
+频道名称: BBCEARTH
+来源: Backup Source 2
+
+频道ID: BBCEARTHHD
+频道名称: BBCEARTHHD
+来源: Backup Source 2
+
+频道ID: BBCLIFESTYLE
+频道名称: BBCLIFESTYLE
+来源: Backup Source 2
+
+频道ID: BBCLIFESTYLEHD
+频道名称: BBCLIFESTYLEHD
+来源: Backup Source 2
+
+频道ID: BBCNEWS
+频道名称: BBCNEWS
+来源: Backup Source 2
+
+频道ID: BBCNEWSHD
+频道名称: BBCNEWSHD
+来源: Backup Source 2
+
+频道ID: BBCニ
+频道名称: BBCニ
+来源: Backup Source 2
+
+频道ID: BBCニュース
+频道名称: BBCニュース
+来源: Backup Source 2
+
+频道ID: BEINSPORTS1
+频道名称: BEINSPORTS1
+来源: Backup Source 2
+
+频道ID: BEINSPORTS2
+频道名称: BEINSPORTS2
+来源: Backup Source 2
+
+频道ID: BEINSPORTS3
+频道名称: BEINSPORTS3
+来源: Backup Source 2
+
+频道ID: BEINSPORTS4
+频道名称: BEINSPORTS4
+来源: Backup Source 2
+
+频道ID: BEINSPORTS5
+频道名称: BEINSPORTS5
+来源: Backup Source 2
+
+频道ID: BEINSPORTS6
+频道名称: BEINSPORTS6
+来源: Backup Source 2
+
+频道ID: BLOOMBERG
+频道名称: BLOOMBERG
+来源: Backup Source 2
+
+频道ID: BLOOMBERGTELEVISION
+频道名称: BLOOMBERGTELEVISION
+来源: Backup Source 2
+
+频道ID: BLOOMBERGTV
+频道名称: BLOOMBERGTV
+来源: Backup Source 2
+
+频道ID: BS11イ
+频道名称: BS11イ
+来源: Backup Source 2
+
+频道ID: BS11イレブン
+频道名称: BS11イレブン
+来源: Backup Source 2
+
+频道ID: BS12ト
+频道名称: BS12ト
+来源: Backup Source 2
+
+频道ID: BS12トゥエルビ
+频道名称: BS12トゥエルビ
+来源: Backup Source 2
+
+频道ID: BSTBS
+频道名称: BSTBS
+来源: Backup Source 2
+
+频道ID: BSTBS4K
+频道名称: BSTBS4K
+来源: Backup Source 2
+
+频道ID: BSよしもと
+频道名称: BSよしもと
+来源: Backup Source 2
+
+频道ID: BSアニマックス
+频道名称: BSアニマックス
+来源: Backup Source 2
+
+频道ID: BSテレ东
+频道名称: BSテレ东
+来源: Backup Source 2
+
+频道ID: BSテレ东4K
+频道名称: BSテレ东4K
+来源: Backup Source 2
+
+频道ID: BSフジ4K
+频道名称: BSフジ4K
+来源: Backup Source 2
+
+频道ID: BSフジ・181
+频道名称: BSフジ・181
+来源: Backup Source 2
+
+频道ID: BS日テレ
+频道名称: BS日テレ
+来源: Backup Source 2
+
+频道ID: BS日テレ4K
+频道名称: BS日テレ4K
+来源: Backup Source 2
+
+频道ID: BS朝日1
+频道名称: BS朝日1
+来源: Backup Source 2
+
+频道ID: BS朝日4K
+频道名称: BS朝日4K
+来源: Backup Source 2
+
+频道ID: BS钓りビジョン
+频道名称: BS钓りビジョン
+来源: Backup Source 2
+
+频道ID: BTV体育
+频道名称: BTV体育
+来源: Backup Source 2
+
+频道ID: BTV影视
+频道名称: BTV影视
+来源: Backup Source 2
+
+频道ID: BTV文艺
+频道名称: BTV文艺
+来源: Backup Source 2
+
+频道ID: BTV新闻
+频道名称: BTV新闻
+来源: Backup Source 2
+
+频道ID: BTV生活
+频道名称: BTV生活
+来源: Backup Source 2
+
+频道ID: BTV科教
+频道名称: BTV科教
+来源: Backup Source 2
+
+频道ID: BTV财经
+频道名称: BTV财经
+来源: Backup Source 2
+
+频道ID: CARTOONITO
+频道名称: CARTOONITO
+来源: Backup Source 2
+
+频道ID: CARTOONITOHD
+频道名称: CARTOONITOHD
+来源: Backup Source 2
+
+频道ID: CARTOONNETWORK
+频道名称: CARTOONNETWORK
+来源: Backup Source 2
+
+频道ID: CATCHPLAYHD
+频道名称: CATCHPLAYHD
+来源: Backup Source 2
+
+频道ID: CATCHPLAY电影台
+频道名称: CATCHPLAY电影台
+来源: Backup Source 2
+
+频道ID: CBEEBIES
+频道名称: CBEEBIES
+来源: Backup Source 2
+
+频道ID: CBEEBIESHD
+频道名称: CBEEBIESHD
+来源: Backup Source 2
+
+频道ID: CCTV8K
+频道名称: CCTV8K
+来源: Backup Source 2
+
+频道ID: CCTVNEWS
+频道名称: CCTVNEWS
+来源: Backup Source 2
+
+频道ID: CCTV娱乐
+频道名称: CCTV娱乐
+来源: Backup Source 2
+
+频道ID: CDTV1
+频道名称: CDTV1
+来源: Backup Source 2
+
+频道ID: CDTV2
+频道名称: CDTV2
+来源: Backup Source 2
+
+频道ID: CDTV3
+频道名称: CDTV3
+来源: Backup Source 2
+
+频道ID: CDTV4
+频道名称: CDTV4
+来源: Backup Source 2
+
+频道ID: CDTV5
+频道名称: CDTV5
+来源: Backup Source 2
+
+频道ID: CDTV6
+频道名称: CDTV6
+来源: Backup Source 2
+
+频道ID: CHANNELNEWSASIA
+频道名称: CHANNELNEWSASIA
+来源: Backup Source 2
+
+频道ID: CINEMAWORLD
+频道名称: CINEMAWORLD
+来源: Backup Source 2
+
+频道ID: CINEMAWORLDHD
+频道名称: CINEMAWORLDHD
+来源: Backup Source 2
+
+频道ID: CINEMAX
+频道名称: CINEMAX
+来源: Backup Source 2
+
+频道ID: CINEMAX热门影院
+频道名称: CINEMAX热门影院
+来源: Backup Source 2
+
+频道ID: CI罪案侦查频道
+频道名称: CI罪案侦查频道
+来源: Backup Source 2
+
+频道ID: CLASSICA古典乐
+频道名称: CLASSICA古典乐
+来源: Backup Source 2
+
+频道ID: CMC北美
+频道名称: CMC北美
+来源: Backup Source 2
+
+频道ID: CMC香港
+频道名称: CMC香港
+来源: Backup Source 2
+
+频道ID: CMUSIC
+频道名称: CMUSIC
+来源: Backup Source 2
+
+频道ID: CNBC
+频道名称: CNBC
+来源: Backup Source 2
+
+频道ID: CNBCASIA
+频道名称: CNBCASIA
+来源: Backup Source 2
+
+频道ID: CNBCASIA财经台
+频道名称: CNBCASIA财经台
+来源: Backup Source 2
+
+频道ID: CNC中文
+频道名称: CNC中文
+来源: Backup Source 2
+
+频道ID: CNC英文
+频道名称: CNC英文
+来源: Backup Source 2
+
+频道ID: CNN
+频道名称: CNN
+来源: Backup Source 2
+
+频道ID: CNNIHD
+频道名称: CNNIHD
+来源: Backup Source 2
+
+频道ID: CNNJ
+频道名称: CNNJ
+来源: Backup Source 2
+
+频道ID: CNNU.S.
+频道名称: CNNU.S.
+来源: Backup Source 2
+
+频道ID: CNN国际新闻网络
+频道名称: CNN国际新闻网络
+来源: Backup Source 2
+
+频道ID: CNNｊ
+频道名称: CNNｊ
+来源: Backup Source 2
+
+频道ID: COLORS
+频道名称: COLORS
+来源: Backup Source 2
+
+频道ID: CONCERTO
+频道名称: CONCERTO
+来源: Backup Source 2
+
+频道ID: DAVINCI
+频道名称: DAVINCI
+来源: Backup Source 2
+
+频道ID: DAZN1
+频道名称: DAZN1
+来源: Backup Source 2
+
+频道ID: DAZN2
+频道名称: DAZN2
+来源: Backup Source 2
+
+频道ID: DAZN3
+频道名称: DAZN3
+来源: Backup Source 2
+
+频道ID: DISCOVERY
+频道名称: DISCOVERY
+来源: Backup Source 2
+
+频道ID: DISCOVERYASIA
+频道名称: DISCOVERYASIA
+来源: Backup Source 2
+
+频道ID: DISCOVERYASIAHD
+频道名称: DISCOVERYASIAHD
+来源: Backup Source 2
+
+频道ID: DISCOVERYCHANNEL
+频道名称: DISCOVERYCHANNEL
+来源: Backup Source 2
+
+频道ID: DISCOVERY科学HD
+频道名称: DISCOVERY科学HD
+来源: Backup Source 2
+
+频道ID: DISCOVERY科学频道
+频道名称: DISCOVERY科学频道
+来源: Backup Source 2
+
+频道ID: DLIFE
+频道名称: DLIFE
+来源: Backup Source 2
+
+频道ID: DMAX
+频道名称: DMAX
+来源: Backup Source 2
+
+频道ID: DMAXHD
+频道名称: DMAXHD
+来源: Backup Source 2
+
+频道ID: DMAX频道
+频道名称: DMAX频道
+来源: Backup Source 2
+
+频道ID: DOCSVILLE
+频道名称: DOCSVILLE
+来源: Backup Source 2
+
+频道ID: DONGFANG1
+频道名称: DONGFANG1
+来源: Backup Source 2
+
+频道ID: DREAMWORKS
+频道名称: DREAMWORKS
+来源: Backup Source 2
+
+频道ID: DREAMWORKS梦工厂动画
+频道名称: DREAMWORKS梦工厂动画
+来源: Backup Source 2
+
+频道ID: DREAMWORKS频道
+频道名称: DREAMWORKS频道
+来源: Backup Source 2
+
+频道ID: DW
+频道名称: DW
+来源: Backup Source 2
+
+频道ID: DW(ENGLISH)
+频道名称: DW(ENGLISH)
+来源: Backup Source 2
+
+频道ID: DW德国之声
+频道名称: DW德国之声
+来源: Backup Source 2
+
+频道ID: ELTV生活英语台
+频道名称: ELTV生活英语台
+来源: Backup Source 2
+
+频道ID: ETTODAY综合台
+频道名称: ETTODAY综合台
+来源: Backup Source 2
+
+频道ID: EURONEWS
+频道名称: EURONEWS
+来源: Backup Source 2
+
+频道ID: EUROSPORTHD
+频道名称: EUROSPORTHD
+来源: Backup Source 2
+
+频道ID: EVE
+频道名称: EVE
+来源: Backup Source 2
+
+频道ID: EVEHD
+频道名称: EVEHD
+来源: Backup Source 2
+
+频道ID: EYETV戏剧台HD
+频道名称: EYETV戏剧台HD
+来源: Backup Source 2
+
+频道ID: EYETV旅游台HD
+频道名称: EYETV旅游台HD
+来源: Backup Source 2
+
+频道ID: FASHIONBOX
+频道名称: FASHIONBOX
+来源: Backup Source 2
+
+频道ID: FASHIONTVHD
+频道名称: FASHIONTVHD
+来源: Backup Source 2
+
+频道ID: FIGHTINGTVサムライ
+频道名称: FIGHTINGTVサムライ
+来源: Backup Source 2
+
+频道ID: FM
+频道名称: FM
+来源: Backup Source 2
+
+频道ID: FOODNETWORK
+频道名称: FOODNETWORK
+来源: Backup Source 2
+
+频道ID: FOODNETWORK美食台HD
+频道名称: FOODNETWORK美食台HD
+来源: Backup Source 2
+
+频道ID: FOXHD
+频道名称: FOXHD
+来源: Backup Source 2
+
+频道ID: FRANCE24
+频道名称: FRANCE24
+来源: Backup Source 2
+
+频道ID: FRANCE24(FRENCH)
+频道名称: FRANCE24(FRENCH)
+来源: Backup Source 2
+
+频道ID: FRANCE24EHD
+频道名称: FRANCE24EHD
+来源: Backup Source 2
+
+频道ID: FRANCE24F
+频道名称: FRANCE24F
+来源: Backup Source 2
+
+频道ID: FRANCE24英文台
+频道名称: FRANCE24英文台
+来源: Backup Source 2
+
+频道ID: FUN探索娱乐台
+频道名称: FUN探索娱乐台
+来源: Backup Source 2
+
+频道ID: FUN探索娱乐台4K
+频道名称: FUN探索娱乐台4K
+来源: Backup Source 2
+
+频道ID: FZTV1
+频道名称: FZTV1
+来源: Backup Source 2
+
+频道ID: GAGAOOLALA精选LGBTQ+好剧
+频道名称: GAGAOOLALA精选LGBTQ+好剧
+来源: Backup Source 2
+
+频道ID: GAOR
+频道名称: GAOR
+来源: Backup Source 2
+
+频道ID: GAORASPORTSHD
+频道名称: GAORASPORTSHD
+来源: Backup Source 2
+
+频道ID: GINXESPORTSTV
+频道名称: GINXESPORTSTV
+来源: Backup Source 2
+
+频道ID: GLOBALTREKKER
+频道名称: GLOBALTREKKER
+来源: Backup Source 2
+
+频道ID: GLOBALTREKKERHD
+频道名称: GLOBALTREKKERHD
+来源: Backup Source 2
+
+频道ID: GLOBALTREKKER探索世界
+频道名称: GLOBALTREKKER探索世界
+来源: Backup Source 2
+
+频道ID: GLOBETROTTER
+频道名称: GLOBETROTTER
+来源: Backup Source 2
+
+频道ID: GMALIFETV
+频道名称: GMALIFETV
+来源: Backup Source 2
+
+频道ID: GMANEWSTV
+频道名称: GMANEWSTV
+来源: Backup Source 2
+
+频道ID: GMAPINOYTV
+频道名称: GMAPINOYTV
+来源: Backup Source 2
+
+频道ID: GTV游戏竞技
+频道名称: GTV游戏竞技
+来源: Backup Source 2
+
+频道ID: HAPPY
+频道名称: HAPPY
+来源: Backup Source 2
+
+频道ID: HBO
+频道名称: HBO
+来源: Backup Source 2
+
+频道ID: HBOFAMILY
+频道名称: HBOFAMILY
+来源: Backup Source 2
+
+频道ID: HBOHD
+频道名称: HBOHD
+来源: Backup Source 2
+
+频道ID: HBOHITS
+频道名称: HBOHITS
+来源: Backup Source 2
+
+频道ID: HBOSIGNATURE
+频道名称: HBOSIGNATURE
+来源: Backup Source 2
+
+频道ID: HBO原创巨献
+频道名称: HBO原创巨献
+来源: Backup Source 2
+
+频道ID: HBO强档巨献
+频道名称: HBO强档巨献
+来源: Backup Source 2
+
+频道ID: HBO温馨家庭
+频道名称: HBO温馨家庭
+来源: Backup Source 2
+
+频道ID: HBO频道
+频道名称: HBO频道
+来源: Backup Source 2
+
+频道ID: HGTV居家乐活频道
+频道名称: HGTV居家乐活频道
+来源: Backup Source 2
+
+频道ID: HISTORY
+频道名称: HISTORY
+来源: Backup Source 2
+
+频道ID: HISTORY历史频道
+频道名称: HISTORY历史频道
+来源: Backup Source 2
+
+频道ID: HITS
+频道名称: HITS
+来源: Backup Source 2
+
+频道ID: HITSHD
+频道名称: HITSHD
+来源: Backup Source 2
+
+频道ID: HITSMOVIES
+频道名称: HITSMOVIES
+来源: Backup Source 2
+
+频道ID: HITS频道
+频道名称: HITS频道
+来源: Backup Source 2
+
+频道ID: HNXTTV1
+频道名称: HNXTTV1
+来源: Backup Source 2
+
+频道ID: HNZKTV1
+频道名称: HNZKTV1
+来源: Backup Source 2
+
+频道ID: HNZKTV2
+频道名称: HNZKTV2
+来源: Backup Source 2
+
+频道ID: HNZKTV3
+频道名称: HNZKTV3
+来源: Backup Source 2
+
+频道ID: HNZKTV4
+频道名称: HNZKTV4
+来源: Backup Source 2
+
+频道ID: HOT
+频道名称: HOT
+来源: Backup Source 2
+
+频道ID: HOY76
+频道名称: HOY76
+来源: Backup Source 2
+
+频道ID: HOY77
+频道名称: HOY77
+来源: Backup Source 2
+
+频道ID: HOY78
+频道名称: HOY78
+来源: Backup Source 2
+
+频道ID: HRBTV1
+频道名称: HRBTV1
+来源: Backup Source 2
+
+频道ID: HZTV1
+频道名称: HZTV1
+来源: Backup Source 2
+
+频道ID: HZTV2
+频道名称: HZTV2
+来源: Backup Source 2
+
+频道ID: IBS茨城放送
+频道名称: IBS茨城放送
+来源: Backup Source 2
+
+频道ID: INTERFM
+频道名称: INTERFM
+来源: Backup Source 2
+
+频道ID: INULTRA
+频道名称: INULTRA
+来源: Backup Source 2
+
+频道ID: IPTV5+
+频道名称: IPTV5+
+来源: Backup Source 2
+
+频道ID: IPTV6+
+频道名称: IPTV6+
+来源: Backup Source 2
+
+频道ID: IPTV少儿动画
+频道名称: IPTV少儿动画
+来源: Backup Source 2
+
+频道ID: IPTV热播剧场
+频道名称: IPTV热播剧场
+来源: Backup Source 2
+
+频道ID: IPTV魅力时尚
+频道名称: IPTV魅力时尚
+来源: Backup Source 2
+
+频道ID: J:COMチャンネル东京
+频道名称: J:COMチャンネル东京
+来源: Backup Source 2
+
+频道ID: J:COMプレミアチャンネル
+频道名称: J:COMプレミアチャンネル
+来源: Backup Source 2
+
+频道ID: J:テレ
+频道名称: J:テレ
+来源: Backup Source 2
+
+频道ID: JET综合台
+频道名称: JET综合台
+来源: Backup Source 2
+
+频道ID: JINHUATV1
+频道名称: JINHUATV1
+来源: Backup Source 2
+
+频道ID: JSPORTS1HD
+频道名称: JSPORTS1HD
+来源: Backup Source 2
+
+频道ID: JSPORTS2HD
+频道名称: JSPORTS2HD
+来源: Backup Source 2
+
+频道ID: JSPORTS3HD
+频道名称: JSPORTS3HD
+来源: Backup Source 2
+
+频道ID: JSPORTS4HD
+频道名称: JSPORTS4HD
+来源: Backup Source 2
+
+频道ID: JSTAR极限台电影频道
+频道名称: JSTAR极限台电影频道
+来源: Backup Source 2
+
+频道ID: JWAVE
+频道名称: JWAVE
+来源: Backup Source 2
+
+频道ID: KBS
+频道名称: KBS
+来源: Backup Source 2
+
+频道ID: KBSWORLD
+频道名称: KBSWORLD
+来源: Backup Source 2
+
+频道ID: KBSWORLDHD
+频道名称: KBSWORLDHD
+来源: Backup Source 2
+
+频道ID: KFTV1
+频道名称: KFTV1
+来源: Backup Source 2
+
+频道ID: KIX
+频道名称: KIX
+来源: Backup Source 2
+
+频道ID: KLT靖天国际台
+频道名称: KLT靖天国际台
+来源: Backup Source 2
+
+频道ID: KLT靖天国际台HD
+频道名称: KLT靖天国际台HD
+来源: Backup Source 2
+
+频道ID: KNTV
+频道名称: KNTV
+来源: Backup Source 2
+
+频道ID: K频道
+频道名称: K频道
+来源: Backup Source 2
+
+频道ID: LALATV
+频道名称: LALATV
+来源: Backup Source 2
+
+频道ID: LIFETIME
+频道名称: LIFETIME
+来源: Backup Source 2
+
+频道ID: LIFETIMEHD
+频道名称: LIFETIMEHD
+来源: Backup Source 2
+
+频道ID: LIFETIME娱乐频道
+频道名称: LIFETIME娱乐频道
+来源: Backup Source 2
+
+频道ID: LIVEABC互动英语频道
+频道名称: LIVEABC互动英语频道
+来源: Backup Source 2
+
+频道ID: LOVENATURE
+频道名称: LOVENATURE
+来源: Backup Source 2
+
+频道ID: LOVENATURE4K
+频道名称: LOVENATURE4K
+来源: Backup Source 2
+
+频道ID: LOVENATUREHD
+频道名称: LOVENATUREHD
+来源: Backup Source 2
+
+频道ID: LSTIME电影台
+频道名称: LSTIME电影台
+来源: Backup Source 2
+
+频道ID: LUXETVCHANNEL
+频道名称: LUXETVCHANNEL
+来源: Backup Source 2
+
+频道ID: LUXETVHD
+频道名称: LUXETVHD
+来源: Backup Source 2
+
+频道ID: MAGELLANTV频道(麦哲伦频道)
+频道名称: MAGELLANTV频道(麦哲伦频道)
+来源: Backup Source 2
+
+频道ID: MCE我的欧洲电影台
+频道名称: MCE我的欧洲电影台
+来源: Backup Source 2
+
+频道ID: MEDICIARTSHD
+频道名称: MEDICIARTSHD
+来源: Backup Source 2
+
+频道ID: MEZZOLIVE
+频道名称: MEZZOLIVE
+来源: Backup Source 2
+
+频道ID: MEZZOLIVEHD
+频道名称: MEZZOLIVEHD
+来源: Backup Source 2
+
+频道ID: MNET
+频道名称: MNET
+来源: Backup Source 2
+
+频道ID: MNETHD
+频道名称: MNETHD
+来源: Backup Source 2
+
+频道ID: MOMO1台
+频道名称: MOMO1台
+来源: Backup Source 2
+
+频道ID: MOMO1台HD
+频道名称: MOMO1台HD
+来源: Backup Source 2
+
+频道ID: MOMO2台
+频道名称: MOMO2台
+来源: Backup Source 2
+
+频道ID: MOMO2台HD
+频道名称: MOMO2台HD
+来源: Backup Source 2
+
+频道ID: MOMO亲子台
+频道名称: MOMO亲子台
+来源: Backup Source 2
+
+频道ID: MOMO综合台
+频道名称: MOMO综合台
+来源: Backup Source 2
+
+频道ID: MOMO综合台HD
+频道名称: MOMO综合台HD
+来源: Backup Source 2
+
+频道ID: MOND
+频道名称: MOND
+来源: Backup Source 2
+
+频道ID: MONDOTVHD
+频道名称: MONDOTVHD
+来源: Backup Source 2
+
+频道ID: MOONBUG
+频道名称: MOONBUG
+来源: Backup Source 2
+
+频道ID: MOOV演唱会/MV台
+频道名称: MOOV演唱会/MV台
+来源: Backup Source 2
+
+频道ID: MOVIEMOVIE
+频道名称: MOVIEMOVIE
+来源: Backup Source 2
+
+频道ID: MTV
+频道名称: MTV
+来源: Backup Source 2
+
+频道ID: MTVHD
+频道名称: MTVHD
+来源: Backup Source 2
+
+频道ID: MTVINDIA
+频道名称: MTVINDIA
+来源: Backup Source 2
+
+频道ID: MTV综合台HD
+频道名称: MTV综合台HD
+来源: Backup Source 2
+
+频道ID: MUSI
+频道名称: MUSI
+来源: Backup Source 2
+
+频道ID: MYCINEMAEUROPEHD我的欧洲电影
+频道名称: MYCINEMAEUROPEHD我的欧洲电影
+来源: Backup Source 2
+
+频道ID: MYTVSUPER18台
+频道名称: MYTVSUPER18台
+来源: Backup Source 2
+
+频道ID: MYTVSUPER直播足球2台
+频道名称: MYTVSUPER直播足球2台
+来源: Backup Source 2
+
+频道ID: MYTVSUPER直播足球3台
+频道名称: MYTVSUPER直播足球3台
+来源: Backup Source 2
+
+频道ID: NACK5
+频道名称: NACK5
+来源: Backup Source 2
+
+频道ID: NBATV
+频道名称: NBATV
+来源: Backup Source 2
+
+频道ID: NETFLIX
+频道名称: NETFLIX
+来源: Backup Source 2
+
+频道ID: NEWSWORLD
+频道名称: NEWSWORLD
+来源: Backup Source 2
+
+频道ID: NEWTV中国功夫
+频道名称: NEWTV中国功夫
+来源: Backup Source 2
+
+频道ID: NEWTV军事评论
+频道名称: NEWTV军事评论
+来源: Backup Source 2
+
+频道ID: NEWTV军旅剧场
+频道名称: NEWTV军旅剧场
+来源: Backup Source 2
+
+频道ID: NEWTV动作电影
+频道名称: NEWTV动作电影
+来源: Backup Source 2
+
+频道ID: NEWTV古装剧场
+频道名称: NEWTV古装剧场
+来源: Backup Source 2
+
+频道ID: NEWTV家庭剧场
+频道名称: NEWTV家庭剧场
+来源: Backup Source 2
+
+频道ID: NEWTV怡伴健康
+频道名称: NEWTV怡伴健康
+来源: Backup Source 2
+
+频道ID: NEWTV惊悚悬疑
+频道名称: NEWTV惊悚悬疑
+来源: Backup Source 2
+
+频道ID: NEWTV潮妈辣婆
+频道名称: NEWTV潮妈辣婆
+来源: Backup Source 2
+
+频道ID: NEWTV炫舞未来
+频道名称: NEWTV炫舞未来
+来源: Backup Source 2
+
+频道ID: NEWTV热播精选
+频道名称: NEWTV热播精选
+来源: Backup Source 2
+
+频道ID: NEWTV爱情喜剧
+频道名称: NEWTV爱情喜剧
+来源: Backup Source 2
+
+频道ID: NEWTV精品体育
+频道名称: NEWTV精品体育
+来源: Backup Source 2
+
+频道ID: NEWTV精品大剧
+频道名称: NEWTV精品大剧
+来源: Backup Source 2
+
+频道ID: NEWTV精品纪录
+频道名称: NEWTV精品纪录
+来源: Backup Source 2
+
+频道ID: NEWTV精品综合
+频道名称: NEWTV精品综合
+来源: Backup Source 2
+
+频道ID: NEWTV超级体育
+频道名称: NEWTV超级体育
+来源: Backup Source 2
+
+频道ID: NEWTV超级电影
+频道名称: NEWTV超级电影
+来源: Backup Source 2
+
+频道ID: NEWTV超级电视剧
+频道名称: NEWTV超级电视剧
+来源: Backup Source 2
+
+频道ID: NEWTV超级综艺
+频道名称: NEWTV超级综艺
+来源: Backup Source 2
+
+频道ID: NEWTV金牌综艺
+频道名称: NEWTV金牌综艺
+来源: Backup Source 2
+
+频道ID: NHK
+频道名称: NHK
+来源: Backup Source 2
+
+频道ID: NHKBS4K
+频道名称: NHKBS4K
+来源: Backup Source 2
+
+频道ID: NHKEテレ
+频道名称: NHKEテレ
+来源: Backup Source 2
+
+频道ID: NHKWORLDJAPAN
+频道名称: NHKWORLDJAPAN
+来源: Backup Source 2
+
+频道ID: NHKWORLDPREMIUM
+频道名称: NHKWORLDPREMIUM
+来源: Backup Source 2
+
+频道ID: NHKワールドJAPAN
+频道名称: NHKワールドJAPAN
+来源: Backup Source 2
+
+频道ID: NHK东京　教育
+频道名称: NHK东京　教育
+来源: Backup Source 2
+
+频道ID: NHK东京　総合
+频道名称: NHK东京　総合
+来源: Backup Source 2
+
+频道ID: NHK新闻资讯台HD
+频道名称: NHK新闻资讯台HD
+来源: Backup Source 2
+
+频道ID: NHK総合1
+频道名称: NHK総合1
+来源: Backup Source 2
+
+频道ID: NICETV靖天欢乐台
+频道名称: NICETV靖天欢乐台
+来源: Backup Source 2
+
+频道ID: NICKELODEON
+频道名称: NICKELODEON
+来源: Backup Source 2
+
+频道ID: NICKJR
+频道名称: NICKJR
+来源: Backup Source 2
+
+频道ID: NICKJR.
+频道名称: NICKJR.
+来源: Backup Source 2
+
+频道ID: NICKJR.儿童频道
+频道名称: NICKJR.儿童频道
+来源: Backup Source 2
+
+频道ID: NOW668
+频道名称: NOW668
+来源: Backup Source 2
+
+频道ID: NOW70S
+频道名称: NOW70S
+来源: Backup Source 2
+
+频道ID: NOW80S
+频道名称: NOW80S
+来源: Backup Source 2
+
+频道ID: NOW90S00S
+频道名称: NOW90S00S
+来源: Backup Source 2
+
+频道ID: NOWGOLF2
+频道名称: NOWGOLF2
+来源: Backup Source 2
+
+频道ID: NOWGOLF3
+频道名称: NOWGOLF3
+来源: Backup Source 2
+
+频道ID: NOWJELLI
+频道名称: NOWJELLI
+来源: Backup Source 2
+
+频道ID: NOWROCK
+频道名称: NOWROCK
+来源: Backup Source 2
+
+频道ID: NOWSPORTS1
+频道名称: NOWSPORTS1
+来源: Backup Source 2
+
+频道ID: NOWSPORTS2
+频道名称: NOWSPORTS2
+来源: Backup Source 2
+
+频道ID: NOWSPORTS3
+频道名称: NOWSPORTS3
+来源: Backup Source 2
+
+频道ID: NOWSPORTS4
+频道名称: NOWSPORTS4
+来源: Backup Source 2
+
+频道ID: NOWSPORTS4K1
+频道名称: NOWSPORTS4K1
+来源: Backup Source 2
+
+频道ID: NOWSPORTS4K2
+频道名称: NOWSPORTS4K2
+来源: Backup Source 2
+
+频道ID: NOWSPORTS4K3
+频道名称: NOWSPORTS4K3
+来源: Backup Source 2
+
+频道ID: NOWSPORTS5
+频道名称: NOWSPORTS5
+来源: Backup Source 2
+
+频道ID: NOWSPORTS6
+频道名称: NOWSPORTS6
+来源: Backup Source 2
+
+频道ID: NOWSPORTS641
+频道名称: NOWSPORTS641
+来源: Backup Source 2
+
+频道ID: NOWSPORTS647
+频道名称: NOWSPORTS647
+来源: Backup Source 2
+
+频道ID: NOWSPORTS651
+频道名称: NOWSPORTS651
+来源: Backup Source 2
+
+频道ID: NOWSPORTS652
+频道名称: NOWSPORTS652
+来源: Backup Source 2
+
+频道ID: NOWSPORTS7
+频道名称: NOWSPORTS7
+来源: Backup Source 2
+
+频道ID: NOWSPORTSPLUS
+频道名称: NOWSPORTSPLUS
+来源: Backup Source 2
+
+频道ID: NOWSPORTSPREMIERLEAGUETV
+频道名称: NOWSPORTSPREMIERLEAGUETV
+来源: Backup Source 2
+
+频道ID: NOWSPORTS精选
+频道名称: NOWSPORTS精选
+来源: Backup Source 2
+
+频道ID: NOWSPORTS英超1台
+频道名称: NOWSPORTS英超1台
+来源: Backup Source 2
+
+频道ID: NOWSPORTS英超2台
+频道名称: NOWSPORTS英超2台
+来源: Backup Source 2
+
+频道ID: NOWSPORTS英超3台
+频道名称: NOWSPORTS英超3台
+来源: Backup Source 2
+
+频道ID: NOWSPORTS英超4台
+频道名称: NOWSPORTS英超4台
+来源: Backup Source 2
+
+频道ID: NOWSPORTS英超5台
+频道名称: NOWSPORTS英超5台
+来源: Backup Source 2
+
+频道ID: NOWSPORTS英超6台
+频道名称: NOWSPORTS英超6台
+来源: Backup Source 2
+
+频道ID: NOWSPORTS英超7台
+频道名称: NOWSPORTS英超7台
+来源: Backup Source 2
+
+频道ID: NOW华剧台
+频道名称: NOW华剧台
+来源: Backup Source 2
+
+频道ID: NOW影视点播站
+频道名称: NOW影视点播站
+来源: Backup Source 2
+
+频道ID: NOW报价台
+频道名称: NOW报价台
+来源: Backup Source 2
+
+频道ID: NOW新闻台
+频道名称: NOW新闻台
+来源: Backup Source 2
+
+频道ID: NOW爆谷台
+频道名称: NOW爆谷台
+来源: Backup Source 2
+
+频道ID: NOW爆谷星影台
+频道名称: NOW爆谷星影台
+来源: Backup Source 2
+
+频道ID: NOW直播台
+频道名称: NOW直播台
+来源: Backup Source 2
+
+频道ID: NOW财经台
+频道名称: NOW财经台
+来源: Backup Source 2
+
+频道ID: OUTTVHD
+频道名称: OUTTVHD
+来源: Backup Source 2
+
+频道ID: PETCLUBTV
+频道名称: PETCLUBTV
+来源: Backup Source 2
+
+频道ID: PETCLUBTVHD
+频道名称: PETCLUBTVHD
+来源: Backup Source 2
+
+频道ID: POPC
+频道名称: POPC
+来源: Backup Source 2
+
+频道ID: PREMIERSPORTS
+频道名称: PREMIERSPORTS
+来源: Backup Source 2
+
+频道ID: PULSEDOCUMENTARIES
+频道名称: PULSEDOCUMENTARIES
+来源: Backup Source 2
+
+频道ID: QHTV1
+频道名称: QHTV1
+来源: Backup Source 2
+
+频道ID: QVC
+频道名称: QVC
+来源: Backup Source 2
+
+频道ID: RIALTOCLASSICMOVIES(RCM)
+频道名称: RIALTOCLASSICMOVIES(RCM)
+来源: Backup Source 2
+
+频道ID: ROCKACTION
+频道名称: ROCKACTION
+来源: Backup Source 2
+
+频道ID: ROCKACTIONHD
+频道名称: ROCKACTIONHD
+来源: Backup Source 2
+
+频道ID: ROCKENTERTAINMENT
+频道名称: ROCKENTERTAINMENT
+来源: Backup Source 2
+
+频道ID: ROCKEXTREME
+频道名称: ROCKEXTREME
+来源: Backup Source 2
+
+频道ID: ROCK综艺娱乐
+频道名称: ROCK综艺娱乐
+来源: Backup Source 2
+
+频道ID: RTHK31
+频道名称: RTHK31
+来源: Backup Source 2
+
+频道ID: RTHK32
+频道名称: RTHK32
+来源: Backup Source 2
+
+频道ID: RTHK33
+频道名称: RTHK33
+来源: Backup Source 2
+
+频道ID: RTHK34
+频道名称: RTHK34
+来源: Backup Source 2
+
+频道ID: RTHK35
+频道名称: RTHK35
+来源: Backup Source 2
+
+频道ID: SATONOKA4K
+频道名称: SATONOKA4K
+来源: Backup Source 2
+
+频道ID: SBN全球财经台
+频道名称: SBN全球财经台
+来源: Backup Source 2
+
+频道ID: SCTV1
+频道名称: SCTV1
+来源: Backup Source 2
+
+频道ID: SCTV2
+频道名称: SCTV2
+来源: Backup Source 2
+
+频道ID: SCTV3
+频道名称: SCTV3
+来源: Backup Source 2
+
+频道ID: SCTV4
+频道名称: SCTV4
+来源: Backup Source 2
+
+频道ID: SCTV5
+频道名称: SCTV5
+来源: Backup Source 2
+
+频道ID: SCTV7
+频道名称: SCTV7
+来源: Backup Source 2
+
+频道ID: SCTV8
+频道名称: SCTV8
+来源: Backup Source 2
+
+频道ID: SCTV9
+频道名称: SCTV9
+来源: Backup Source 2
+
+频道ID: SKYNEWS
+频道名称: SKYNEWS
+来源: Backup Source 2
+
+频道ID: SMART知识HD
+频道名称: SMART知识HD
+来源: Backup Source 2
+
+频道ID: SONYMAX
+频道名称: SONYMAX
+来源: Backup Source 2
+
+频道ID: SONYSAB
+频道名称: SONYSAB
+来源: Backup Source 2
+
+频道ID: SONYTV(INDIA)
+频道名称: SONYTV(INDIA)
+来源: Backup Source 2
+
+频道ID: SPEEDチャンネル
+频道名称: SPEEDチャンネル
+来源: Backup Source 2
+
+频道ID: SPORTS1
+频道名称: SPORTS1
+来源: Backup Source 2
+
+频道ID: SPORTS2
+频道名称: SPORTS2
+来源: Backup Source 2
+
+频道ID: SPORTS3
+频道名称: SPORTS3
+来源: Backup Source 2
+
+频道ID: SPORTS4
+频道名称: SPORTS4
+来源: Backup Source 2
+
+频道ID: STARBHARAT
+频道名称: STARBHARAT
+来源: Backup Source 2
+
+频道ID: STARGOLD
+频道名称: STARGOLD
+来源: Backup Source 2
+
+频道ID: STARPLUS
+频道名称: STARPLUS
+来源: Backup Source 2
+
+频道ID: SUPEREYT
+频道名称: SUPEREYT
+来源: Backup Source 2
+
+频道ID: SUPERFREE
+频道名称: SUPERFREE
+来源: Backup Source 2
+
+频道ID: SUPERKIDSCHANNEL
+频道名称: SUPERKIDSCHANNEL
+来源: Backup Source 2
+
+频道ID: SUPERMUSIC
+频道名称: SUPERMUSIC
+来源: Backup Source 2
+
+频道ID: SUPERSPORTS
+频道名称: SUPERSPORTS
+来源: Backup Source 2
+
+频道ID: SUPER剧场
+频道名称: SUPER剧场
+来源: Backup Source 2
+
+频道ID: SUPER奖门人
+频道名称: SUPER奖门人
+来源: Backup Source 2
+
+频道ID: SUPER煲剧
+频道名称: SUPER煲剧
+来源: Backup Source 2
+
+频道ID: SUPER识叹
+频道名称: SUPER识叹
+来源: Backup Source 2
+
+频道ID: SUPER识食
+频道名称: SUPER识食
+来源: Backup Source 2
+
+频道ID: SUPER话当年(免费)
+频道名称: SUPER话当年(免费)
+来源: Backup Source 2
+
+频道ID: SUPER金曲
+频道名称: SUPER金曲
+来源: Backup Source 2
+
+频道ID: TAIWANPLUS
+频道名称: TAIWANPLUS
+来源: Backup Source 2
+
+频道ID: TAKA
+频道名称: TAKA
+来源: Backup Source 2
+
+频道ID: TATV1
+频道名称: TATV1
+来源: Backup Source 2
+
+频道ID: TATV2
+频道名称: TATV2
+来源: Backup Source 2
+
+频道ID: TATV3
+频道名称: TATV3
+来源: Backup Source 2
+
+频道ID: TATV4
+频道名称: TATV4
+来源: Backup Source 2
+
+频道ID: TBC台中生活台
+频道名称: TBC台中生活台
+来源: Backup Source 2
+
+频道ID: TBC桃园生活台
+频道名称: TBC桃园生活台
+来源: Backup Source 2
+
+频道ID: TBS
+频道名称: TBS
+来源: Backup Source 2
+
+频道ID: TBS1
+频道名称: TBS1
+来源: Backup Source 2
+
+频道ID: TBSチ
+频道名称: TBSチ
+来源: Backup Source 2
+
+频道ID: TBSチャンネル1最新ドラマ・音楽・映画
+频道名称: TBSチャンネル1最新ドラマ・音楽・映画
+来源: Backup Source 2
+
+频道ID: TBSチャンネル2名作ドラマ・スポーツ・アニメ
+频道名称: TBSチャンネル2名作ドラマ・スポーツ・アニメ
+来源: Backup Source 2
+
+频道ID: TBSラジオ
+频道名称: TBSラジオ
+来源: Backup Source 2
+
+频道ID: TFC
+频道名称: TFC
+来源: Backup Source 2
+
+频道ID: THRILL
+频道名称: THRILL
+来源: Backup Source 2
+
+频道ID: TLC旅游生活频道
+频道名称: TLC旅游生活频道
+来源: Backup Source 2
+
+频道ID: TOKYO
+频道名称: TOKYO
+来源: Backup Source 2
+
+频道ID: TOKYO　MX
+频道名称: TOKYO　MX
+来源: Backup Source 2
+
+频道ID: TRACESPORTSTARS
+频道名称: TRACESPORTSTARS
+来源: Backup Source 2
+
+频道ID: TRACESPORTSTARSHD
+频道名称: TRACESPORTSTARSHD
+来源: Backup Source 2
+
+频道ID: TRACEURBAN
+频道名称: TRACEURBAN
+来源: Backup Source 2
+
+频道ID: TRACEURBANHD
+频道名称: TRACEURBANHD
+来源: Backup Source 2
+
+频道ID: TRAVELCHANNELHD
+频道名称: TRAVELCHANNELHD
+来源: Backup Source 2
+
+频道ID: TV5MONDE
+频道名称: TV5MONDE
+来源: Backup Source 2
+
+频道ID: TV5MONDEASIE
+频道名称: TV5MONDEASIE
+来源: Backup Source 2
+
+频道ID: TV5MONDESTYLE
+频道名称: TV5MONDESTYLE
+来源: Backup Source 2
+
+频道ID: TV5MONDESTYLEHD生活时尚
+频道名称: TV5MONDESTYLEHD生活时尚
+来源: Backup Source 2
+
+频道ID: TVBJ2
+频道名称: TVBJ2
+来源: Backup Source 2
+
+频道ID: TVBPEARL
+频道名称: TVBPEARL
+来源: Backup Source 2
+
+频道ID: TVBPLUS
+频道名称: TVBPLUS
+来源: Backup Source 2
+
+频道ID: TVBS
+频道名称: TVBS
+来源: Backup Source 2
+
+频道ID: TVBS台剧台
+频道名称: TVBS台剧台
+来源: Backup Source 2
+
+频道ID: TVBS新闻
+频道名称: TVBS新闻
+来源: Backup Source 2
+
+频道ID: TVBS新闻台
+频道名称: TVBS新闻台
+来源: Backup Source 2
+
+频道ID: TVBS欢乐台
+频道名称: TVBS欢乐台
+来源: Backup Source 2
+
+频道ID: TVBS精采台
+频道名称: TVBS精采台
+来源: Backup Source 2
+
+频道ID: TVBS精采台HD
+频道名称: TVBS精采台HD
+来源: Backup Source 2
+
+频道ID: TVBS综艺台
+频道名称: TVBS综艺台
+来源: Backup Source 2
+
+频道ID: TVB互动新闻台
+频道名称: TVB互动新闻台
+来源: Backup Source 2
+
+频道ID: TVB星河
+频道名称: TVB星河
+来源: Backup Source 2
+
+频道ID: TVB翡翠台
+频道名称: TVB翡翠台
+来源: Backup Source 2
+
+频道ID: TVK1
+频道名称: TVK1
+来源: Backup Source 2
+
+频道ID: TVN
+频道名称: TVN
+来源: Backup Source 2
+
+频道ID: TVNHD
+频道名称: TVNHD
+来源: Backup Source 2
+
+频道ID: VIUTV
+频道名称: VIUTV
+来源: Backup Source 2
+
+频道ID: VIUTVSIX
+频道名称: VIUTVSIX
+来源: Backup Source 2
+
+频道ID: VIU频道
+频道名称: VIU频道
+来源: Backup Source 2
+
+频道ID: VIVA1台
+频道名称: VIVA1台
+来源: Backup Source 2
+
+频道ID: V☆パラダイス
+频道名称: V☆パラダイス
+来源: Backup Source 2
+
+频道ID: WARNERTV
+频道名称: WARNERTV
+来源: Backup Source 2
+
+频道ID: WARNERTVHD
+频道名称: WARNERTVHD
+来源: Backup Source 2
+
+频道ID: WEDOTVMOVIESHD
+频道名称: WEDOTVMOVIESHD
+来源: Backup Source 2
+
+频道ID: WOWOWシネマ
+频道名称: WOWOWシネマ
+来源: Backup Source 2
+
+频道ID: WOWOWプ
+频道名称: WOWOWプ
+来源: Backup Source 2
+
+频道ID: WOWOWプラス
+频道名称: WOWOWプラス
+来源: Backup Source 2
+
+频道ID: WOWOWプラス映画・ドラマ・スポーツ・音楽
+频道名称: WOWOWプラス映画・ドラマ・スポーツ・音楽
+来源: Backup Source 2
+
+频道ID: WOWOWライブ
+频道名称: WOWOWライブ
+来源: Backup Source 2
+
+频道ID: XINYANG1
+频道名称: XINYANG1
+来源: Backup Source 2
+
+频道ID: XSJZTV1
+频道名称: XSJZTV1
+来源: Backup Source 2
+
+频道ID: ZEECINEMAINTERNATIONAL
+频道名称: ZEECINEMAINTERNATIONAL
+来源: Backup Source 2
+
+频道ID: ZEENEWS
+频道名称: ZEENEWS
+来源: Backup Source 2
+
+频道ID: ZEETV
+频道名称: ZEETV
+来源: Backup Source 2
+
+频道ID: ZHTV1
+频道名称: ZHTV1
+来源: Backup Source 2
+
+频道ID: ZHTV2
+频道名称: ZHTV2
+来源: Backup Source 2
+
+频道ID: ZOOMOO
+频道名称: ZOOMOO
+来源: Backup Source 2
+
+频道ID: Z频道
+频道名称: Z频道
+来源: Backup Source 2
+
+频道ID: ご案内チャンネル
+频道名称: ご案内チャンネル
+来源: Backup Source 2
+
+频道ID: アクショ
+频道名称: アクショ
+来源: Backup Source 2
+
+频道ID: アジアドラマチックTV（アジドラ）
+频道名称: アジアドラマチックTV（アジドラ）
+来源: Backup Source 2
+
+频道ID: アニマックスＨＤ
+频道名称: アニマックスＨＤ
+来源: Backup Source 2
+
+频道ID: アニマル
+频道名称: アニマル
+来源: Backup Source 2
+
+频道ID: アニマルプラネット
+频道名称: アニマルプラネット
+来源: Backup Source 2
+
+频道ID: アニメシ
+频道名称: アニメシ
+来源: Backup Source 2
+
+频道ID: アニメシアターX（ATX）
+频道名称: アニメシアターX（ATX）
+来源: Backup Source 2
+
+频道ID: エンタメ
+频道名称: エンタメ
+来源: Backup Source 2
+
+频道ID: エンタメ～テレＨＤ☆
+频道名称: エンタメ～テレＨＤ☆
+来源: Backup Source 2
+
+频道ID: オンデマンドチャンネル290
+频道名称: オンデマンドチャンネル290
+来源: Backup Source 2
+
+频道ID: オンデマンドチャンネル440
+频道名称: オンデマンドチャンネル440
+来源: Backup Source 2
+
+频道ID: カートゥ
+频道名称: カートゥ
+来源: Backup Source 2
+
+频道ID: カートゥーンネットワークHD海外アニメ国内アニメ
+频道名称: カートゥーンネットワークHD海外アニメ国内アニメ
+来源: Backup Source 2
+
+频道ID: キッズス
+频道名称: キッズス
+来源: Backup Source 2
+
+频道ID: キッズステーションHD
+频道名称: キッズステーションHD
+来源: Backup Source 2
+
+频道ID: グリーンチャンネル
+频道名称: グリーンチャンネル
+来源: Backup Source 2
+
+频道ID: グリーンチャンネル2HD
+频道名称: グリーンチャンネル2HD
+来源: Backup Source 2
+
+频道ID: グリーンチャンネルHD
+频道名称: グリーンチャンネルHD
+来源: Backup Source 2
+
+频道ID: ゴルフネ
+频道名称: ゴルフネ
+来源: Backup Source 2
+
+频道ID: ゴルフネットワーク
+频道名称: ゴルフネットワーク
+来源: Backup Source 2
+
+频道ID: ザ・シネマHD
+频道名称: ザ・シネマHD
+来源: Backup Source 2
+
+频道ID: ザ･シネマ
+频道名称: ザ･シネマ
+来源: Backup Source 2
+
+频道ID: ショップチ
+频道名称: ショップチ
+来源: Backup Source 2
+
+频道ID: ショップチャンネル
+频道名称: ショップチャンネル
+来源: Backup Source 2
+
+频道ID: ショップチャンネルプラス
+频道名称: ショップチャンネルプラス
+来源: Backup Source 2
+
+频道ID: ショップチャンネル４Ｋ
+频道名称: ショップチャンネル４Ｋ
+来源: Backup Source 2
+
+频道ID: ジュエリー☆GSTV
+频道名称: ジュエリー☆GSTV
+来源: Backup Source 2
+
+频道ID: スカイA
+频道名称: スカイA
+来源: Backup Source 2
+
+频道ID: スカチャン1
+频道名称: スカチャン1
+来源: Backup Source 2
+
+频道ID: スターチャ
+频道名称: スターチャ
+来源: Backup Source 2
+
+频道ID: スターチャンネル1
+频道名称: スターチャンネル1
+来源: Backup Source 2
+
+频道ID: スポーツ
+频道名称: スポーツ
+来源: Backup Source 2
+
+频道ID: スポーツライブ＋
+频道名称: スポーツライブ＋
+来源: Backup Source 2
+
+频道ID: スーパー
+频道名称: スーパー
+来源: Backup Source 2
+
+频道ID: タカラヅカ・スカイ・ステージ
+频道名称: タカラヅカ・スカイ・ステージ
+来源: Backup Source 2
+
+频道ID: ダンスチャンネルBYエンタメ～テレ
+频道名称: ダンスチャンネルBYエンタメ～テレ
+来源: Backup Source 2
+
+频道ID: チバテレ1
+频道名称: チバテレ1
+来源: Backup Source 2
+
+频道ID: チャンネ
+频道名称: チャンネ
+来源: Backup Source 2
+
+频道ID: チャンネル银河　歴史ドラマ・サスペンス・日本のうた
+频道名称: チャンネル银河　歴史ドラマ・サスペンス・日本のうた
+来源: Backup Source 2
+
+频道ID: テレビ东京
+频道名称: テレビ东京
+来源: Backup Source 2
+
+频道ID: テレビ东京1
+频道名称: テレビ东京1
+来源: Backup Source 2
+
+频道ID: テレビ埼玉
+频道名称: テレビ埼玉
+来源: Backup Source 2
+
+频道ID: テレビ朝日
+频道名称: テレビ朝日
+来源: Backup Source 2
+
+频道ID: テレビ神奈川
+频道名称: テレビ神奈川
+来源: Backup Source 2
+
+频道ID: テレ朝チ
+频道名称: テレ朝チ
+来源: Backup Source 2
+
+频道ID: テレ朝チャンネル１
+频道名称: テレ朝チャンネル１
+来源: Backup Source 2
+
+频道ID: テレ朝チャンネル２
+频道名称: テレ朝チャンネル２
+来源: Backup Source 2
+
+频道ID: テレ玉1
+频道名称: テレ玉1
+来源: Backup Source 2
+
+频道ID: ディスカ
+频道名称: ディスカ
+来源: Backup Source 2
+
+频道ID: ディスカバリーチャンネル
+频道名称: ディスカバリーチャンネル
+来源: Backup Source 2
+
+频道ID: ディズニ
+频道名称: ディズニ
+来源: Backup Source 2
+
+频道ID: ディズニーCH
+频道名称: ディズニーCH
+来源: Backup Source 2
+
+频道ID: ディズニージュニア
+频道名称: ディズニージュニア
+来源: Backup Source 2
+
+频道ID: ディズニー・チャンネルHD
+频道名称: ディズニー・チャンネルHD
+来源: Backup Source 2
+
+频道ID: ナショナ
+频道名称: ナショナ
+来源: Backup Source 2
+
+频道ID: ナショナルジオグラフィック
+频道名称: ナショナルジオグラフィック
+来源: Backup Source 2
+
+频道ID: ニッポン放送
+频道名称: ニッポン放送
+来源: Backup Source 2
+
+频道ID: パチンコ★パチスロTV！
+频道名称: パチンコ★パチスロTV！
+来源: Backup Source 2
+
+频道ID: パラダイステレビ
+频道名称: パラダイステレビ
+来源: Backup Source 2
+
+频道ID: ヒストリ
+频道名称: ヒストリ
+来源: Backup Source 2
+
+频道ID: ヒストリーチャンネル日本・世界の歴史＆エンタメ
+频道名称: ヒストリーチャンネル日本・世界の歴史＆エンタメ
+来源: Backup Source 2
+
+频道ID: ファミリ
+频道名称: ファミリ
+来源: Backup Source 2
+
+频道ID: ファミリー剧场HD
+频道名称: ファミリー剧场HD
+来源: Backup Source 2
+
+频道ID: フジテレ
+频道名称: フジテレ
+来源: Backup Source 2
+
+频道ID: フジテレビ
+频道名称: フジテレビ
+来源: Backup Source 2
+
+频道ID: フジテレビＮＥＸＴ　ライブ・プレミアム
+频道名称: フジテレビＮＥＸＴ　ライブ・プレミアム
+来源: Backup Source 2
+
+频道ID: フジテレビＯＮＥ　スポーツ・バラエティ
+频道名称: フジテレビＯＮＥ　スポーツ・バラエティ
+来源: Backup Source 2
+
+频道ID: フジテレビＴＷＯ　ドラマ・アニメ
+频道名称: フジテレビＴＷＯ　ドラマ・アニメ
+来源: Backup Source 2
+
+频道ID: プレイボーイチャンネル
+频道名称: プレイボーイチャンネル
+来源: Backup Source 2
+
+频道ID: ホームド
+频道名称: ホームド
+来源: Backup Source 2
+
+频道ID: ホームドラマチャンネルＨＤ韩流・时代剧・国内ドラマ
+频道名称: ホームドラマチャンネルＨＤ韩流・时代剧・国内ドラマ
+来源: Backup Source 2
+
+频道ID: ミステリ
+频道名称: ミステリ
+来源: Backup Source 2
+
+频道ID: ミッドナイト・ブルー
+频道名称: ミッドナイト・ブルー
+来源: Backup Source 2
+
+频道ID: ミュージ
+频道名称: ミュージ
+来源: Backup Source 2
+
+频道ID: ミュージック・エア
+频道名称: ミュージック・エア
+来源: Backup Source 2
+
+频道ID: ムービー
+频道名称: ムービー
+来源: Backup Source 2
+
+频道ID: ムービープラス
+频道名称: ムービープラス
+来源: Backup Source 2
+
+频道ID: ラジオNIKKE
+频道名称: ラジオNIKKE
+来源: Backup Source 2
+
+频道ID: ラジオ日本
+频道名称: ラジオ日本
+来源: Backup Source 2
+
+频道ID: レジャーチャンネル
+频道名称: レジャーチャンネル
+来源: Backup Source 2
+
+频道ID: レッドチェリー
+频道名称: レッドチェリー
+来源: Backup Source 2
+
+频道ID: 三圣电视台
+频道名称: 三圣电视台
+来源: Backup Source 2
+
+频道ID: 三立台湾台
+频道名称: 三立台湾台
+来源: Backup Source 2
+
+频道ID: 三立戏剧台HD
+频道名称: 三立戏剧台HD
+来源: Backup Source 2
+
+频道ID: 三立新闻INEWS
+频道名称: 三立新闻INEWS
+来源: Backup Source 2
+
+频道ID: 三立新闻台
+频道名称: 三立新闻台
+来源: Backup Source 2
+
+频道ID: 三立综合台
+频道名称: 三立综合台
+来源: Backup Source 2
+
+频道ID: 三立综合台HD
+频道名称: 三立综合台HD
+来源: Backup Source 2
+
+频道ID: 三立财经新闻台
+频道名称: 三立财经新闻台
+来源: Backup Source 2
+
+频道ID: 三立财经新闻台HD
+频道名称: 三立财经新闻台HD
+来源: Backup Source 2
+
+频道ID: 三立都会台
+频道名称: 三立都会台
+来源: Backup Source 2
+
+频道ID: 三门峡1新闻综合
+频道名称: 三门峡1新闻综合
+来源: Backup Source 2
+
+频道ID: 三门峡2公共
+频道名称: 三门峡2公共
+来源: Backup Source 2
+
+频道ID: 上海
+频道名称: 上海
+来源: Backup Source 2
+
+频道ID: 上海教育
+频道名称: 上海教育
+来源: Backup Source 2
+
+频道ID: 上海教育台
+频道名称: 上海教育台
+来源: Backup Source 2
+
+频道ID: 上海新闻综合
+频道名称: 上海新闻综合
+来源: Backup Source 2
+
+频道ID: 上海星尚
+频道名称: 上海星尚
+来源: Backup Source 2
+
+频道ID: 上海第一财经
+频道名称: 上海第一财经
+来源: Backup Source 2
+
+频道ID: 上海纪实人文
+频道名称: 上海纪实人文
+来源: Backup Source 2
+
+频道ID: 上海艺术人文
+频道名称: 上海艺术人文
+来源: Backup Source 2
+
+频道ID: 上海都市
+频道名称: 上海都市
+来源: Backup Source 2
+
+频道ID: 上视东方影视
+频道名称: 上视东方影视
+来源: Backup Source 2
+
+频道ID: 东北热剧
+频道名称: 东北热剧
+来源: Backup Source 2
+
+频道ID: 东方影视
+频道名称: 东方影视
+来源: Backup Source 2
+
+频道ID: 东方电影
+频道名称: 东方电影
+来源: Backup Source 2
+
+频道ID: 东映チャ
+频道名称: 东映チャ
+来源: Backup Source 2
+
+频道ID: 东映チャンネルHD
+频道名称: 东映チャンネルHD
+来源: Backup Source 2
+
+频道ID: 东森亚洲卫视
+频道名称: 东森亚洲卫视
+来源: Backup Source 2
+
+频道ID: 东森亚洲新闻台
+频道名称: 东森亚洲新闻台
+来源: Backup Source 2
+
+频道ID: 东森幼幼台
+频道名称: 东森幼幼台
+来源: Backup Source 2
+
+频道ID: 东森戏剧台
+频道名称: 东森戏剧台
+来源: Backup Source 2
+
+频道ID: 东森新闻
+频道名称: 东森新闻
+来源: Backup Source 2
+
+频道ID: 东森新闻台
+频道名称: 东森新闻台
+来源: Backup Source 2
+
+频道ID: 东森洋片台
+频道名称: 东森洋片台
+来源: Backup Source 2
+
+频道ID: 东森电影台
+频道名称: 东森电影台
+来源: Backup Source 2
+
+频道ID: 东森综合台
+频道名称: 东森综合台
+来源: Backup Source 2
+
+频道ID: 东森财经新闻台
+频道名称: 东森财经新闻台
+来源: Backup Source 2
+
+频道ID: 东森购物1台
+频道名称: 东森购物1台
+来源: Backup Source 2
+
+频道ID: 东森购物1台HD
+频道名称: 东森购物1台HD
+来源: Backup Source 2
+
+频道ID: 东森购物2台
+频道名称: 东森购物2台
+来源: Backup Source 2
+
+频道ID: 东森购物2台HD
+频道名称: 东森购物2台HD
+来源: Backup Source 2
+
+频道ID: 东森购物3台
+频道名称: 东森购物3台
+来源: Backup Source 2
+
+频道ID: 东森购物3台HD
+频道名称: 东森购物3台HD
+来源: Backup Source 2
+
+频道ID: 东森购物4台HD
+频道名称: 东森购物4台HD
+来源: Backup Source 2
+
+频道ID: 东森购物5台
+频道名称: 东森购物5台
+来源: Backup Source 2
+
+频道ID: 东森购物5台HD
+频道名称: 东森购物5台HD
+来源: Backup Source 2
+
+频道ID: 东森购物一台
+频道名称: 东森购物一台
+来源: Backup Source 2
+
+频道ID: 东森购物三台
+频道名称: 东森购物三台
+来源: Backup Source 2
+
+频道ID: 东森购物二台
+频道名称: 东森购物二台
+来源: Backup Source 2
+
+频道ID: 东森购物四台
+频道名称: 东森购物四台
+来源: Backup Source 2
+
+频道ID: 东森超视
+频道名称: 东森超视
+来源: Backup Source 2
+
+频道ID: 东莞新闻
+频道名称: 东莞新闻
+来源: Backup Source 2
+
+频道ID: 东莞生活资讯
+频道名称: 东莞生活资讯
+来源: Backup Source 2
+
+频道ID: 东风卫视
+频道名称: 东风卫视
+来源: Backup Source 2
+
+频道ID: 中台湾生活网频道
+频道名称: 中台湾生活网频道
+来源: Backup Source 2
+
+频道ID: 中国テレビ★大富チャンネル
+频道名称: 中国テレビ★大富チャンネル
+来源: Backup Source 2
+
+频道ID: 中国功夫
+频道名称: 中国功夫
+来源: Backup Source 2
+
+频道ID: 中国天气
+频道名称: 中国天气
+来源: Backup Source 2
+
+频道ID: 中国教育1台
+频道名称: 中国教育1台, CETV1
+来源: Backup Source 2
+
+频道ID: 中国教育2台
+频道名称: 中国教育2台, CETV2
+来源: Backup Source 2
+
+频道ID: 中国教育3台
+频道名称: 中国教育3台, CETV3
+来源: Backup Source 2
+
+频道ID: 中国教育4台
+频道名称: 中国教育4台, CETV4
+来源: Backup Source 2
+
+频道ID: 中国教育一套
+频道名称: 中国教育一套
+来源: Backup Source 2
+
+频道ID: 中国环球电视网
+频道名称: 中国环球电视网
+来源: Backup Source 2
+
+频道ID: 中国电影频道
+频道名称: 中国电影频道
+来源: Backup Source 2
+
+频道ID: 中天亚洲台
+频道名称: 中天亚洲台
+来源: Backup Source 2
+
+频道ID: 中天娱乐台
+频道名称: 中天娱乐台
+来源: Backup Source 2
+
+频道ID: 中天新闻台
+频道名称: 中天新闻台
+来源: Backup Source 2
+
+频道ID: 中天综合台
+频道名称: 中天综合台
+来源: Backup Source 2
+
+频道ID: 中央台–珠江
+频道名称: 中央台–珠江
+来源: Backup Source 2
+
+频道ID: 中央电视台新闻频道
+频道名称: 中央电视台新闻频道
+来源: Backup Source 2
+
+频道ID: 中央电视台综合频道(港澳版)
+频道名称: 中央电视台综合频道(港澳版)
+来源: Backup Source 2
+
+频道ID: 中山公共
+频道名称: 中山公共
+来源: Backup Source 2
+
+频道ID: 中山教育
+频道名称: 中山教育
+来源: Backup Source 2
+
+频道ID: 中山综合
+频道名称: 中山综合
+来源: Backup Source 2
+
+频道ID: 中视
+频道名称: 中视
+来源: Backup Source 2
+
+频道ID: 中视HD
+频道名称: 中视HD
+来源: Backup Source 2
+
+频道ID: 中视新闻
+频道名称: 中视新闻
+来源: Backup Source 2
+
+频道ID: 中视新闻HD
+频道名称: 中视新闻HD
+来源: Backup Source 2
+
+频道ID: 中视新闻台
+频道名称: 中视新闻台
+来源: Backup Source 2
+
+频道ID: 中视经典台HD
+频道名称: 中视经典台HD
+来源: Backup Source 2
+
+频道ID: 中视菁采台HD
+频道名称: 中视菁采台HD
+来源: Backup Source 2
+
+频道ID: 之江纪录
+频道名称: 之江纪录
+来源: Backup Source 2
+
+频道ID: 乌鲁木齐都市
+频道名称: 乌鲁木齐都市
+来源: Backup Source 2
+
+频道ID: 乐山新闻综合
+频道名称: 乐山新闻综合
+来源: Backup Source 2
+
+频道ID: 乐活频道
+频道名称: 乐活频道
+来源: Backup Source 2
+
+频道ID: 乐视台
+频道名称: 乐视台
+来源: Backup Source 2
+
+频道ID: 云上电影院
+频道名称: 云上电影院
+来源: Backup Source 2
+
+频道ID: 云南康旅
+频道名称: 云南康旅
+来源: Backup Source 2
+
+频道ID: 云南影视
+频道名称: 云南影视
+来源: Backup Source 2
+
+频道ID: 云南都市
+频道名称: 云南都市
+来源: Backup Source 2
+
+频道ID: 五星体育
+频道名称: 五星体育
+来源: Backup Source 2
+
+频道ID: 亚洲剧台
+频道名称: 亚洲剧台
+来源: Backup Source 2
+
+频道ID: 亚洲新闻
+频道名称: 亚洲新闻
+来源: Backup Source 2
+
+频道ID: 亚洲新闻台
+频道名称: 亚洲新闻台
+来源: Backup Source 2
+
+频道ID: 亚洲旅游HD
+频道名称: 亚洲旅游HD
+来源: Backup Source 2
+
+频道ID: 亚洲旅游台
+频道名称: 亚洲旅游台
+来源: Backup Source 2
+
+频道ID: 亚洲电影
+频道名称: 亚洲电影
+来源: Backup Source 2
+
+频道ID: 亚洲综合HD
+频道名称: 亚洲综合HD
+来源: Backup Source 2
+
+频道ID: 亚洲美食台
+频道名称: 亚洲美食台
+来源: Backup Source 2
+
+频道ID: 亚洲美食频道
+频道名称: 亚洲美食频道
+来源: Backup Source 2
+
+频道ID: 京视剧场
+频道名称: 京视剧场
+来源: Backup Source 2
+
+频道ID: 人间卫视
+频道名称: 人间卫视
+来源: Backup Source 2
+
+频道ID: 人间卫视HD
+频道名称: 人间卫视HD
+来源: Backup Source 2
+
+频道ID: 仙游电视
+频道名称: 仙游电视
+来源: Backup Source 2
+
+频道ID: 佛卫慈悲台
+频道名称: 佛卫慈悲台
+来源: Backup Source 2
+
+频道ID: 佛山公共
+频道名称: 佛山公共
+来源: Backup Source 2
+
+频道ID: 佛山南海
+频道名称: 佛山南海
+来源: Backup Source 2
+
+频道ID: 佛山综合
+频道名称: 佛山综合
+来源: Backup Source 2
+
+频道ID: 佛山顺德
+频道名称: 佛山顺德
+来源: Backup Source 2
+
+频道ID: 信吉电视台
+频道名称: 信吉电视台
+来源: Backup Source 2
+
+频道ID: 信吉艺文台HD
+频道名称: 信吉艺文台HD
+来源: Backup Source 2
+
+频道ID: 信大电视台
+频道名称: 信大电视台
+来源: Backup Source 2
+
+频道ID: 信阳1综合
+频道名称: 信阳1综合
+来源: Backup Source 2
+
+频道ID: 先锋乒羽
+频道名称: 先锋乒羽
+来源: Backup Source 2
+
+频道ID: 全大电视台
+频道名称: 全大电视台
+来源: Backup Source 2
+
+频道ID: 全民热练
+频道名称: 全民热练
+来源: Backup Source 2
+
+频道ID: 八大优频道
+频道名称: 八大优频道
+来源: Backup Source 2
+
+频道ID: 八大娱乐台
+频道名称: 八大娱乐台
+来源: Backup Source 2
+
+频道ID: 八大戏剧台
+频道名称: 八大戏剧台
+来源: Backup Source 2
+
+频道ID: 八大第一台
+频道名称: 八大第一台
+来源: Backup Source 2
+
+频道ID: 八大精彩台
+频道名称: 八大精彩台
+来源: Backup Source 2
+
+频道ID: 八大综合台
+频道名称: 八大综合台
+来源: Backup Source 2
+
+频道ID: 八大综艺台
+频道名称: 八大综艺台
+来源: Backup Source 2
+
+频道ID: 公共电视
+频道名称: 公共电视
+来源: Backup Source 2
+
+频道ID: 公视(HD)
+频道名称: 公视(HD)
+来源: Backup Source 2
+
+频道ID: 公视儿少台HD
+频道名称: 公视儿少台HD
+来源: Backup Source 2
+
+频道ID: 公视台语台
+频道名称: 公视台语台
+来源: Backup Source 2
+
+频道ID: 公视台语台HD
+频道名称: 公视台语台HD
+来源: Backup Source 2
+
+频道ID: 公视戏剧
+频道名称: 公视戏剧
+来源: Backup Source 2
+
+频道ID: 六安公共
+频道名称: 六安公共
+来源: Backup Source 2
+
+频道ID: 六安公共LIUANTV1
+频道名称: 六安公共LIUANTV1
+来源: Backup Source 2
+
+频道ID: 六安新闻综合
+频道名称: 六安新闻综合
+来源: Backup Source 2
+
+频道ID: 六安都市生活
+频道名称: 六安都市生活
+来源: Backup Source 2
+
+频道ID: 兰州公共
+频道名称: 兰州公共
+来源: Backup Source 2
+
+频道ID: 兰州文旅
+频道名称: 兰州文旅
+来源: Backup Source 2
+
+频道ID: 兰州新闻综合
+频道名称: 兰州新闻综合
+来源: Backup Source 2
+
+频道ID: 内蒙古农牧
+频道名称: 内蒙古农牧
+来源: Backup Source 2
+
+频道ID: 内蒙古少儿
+频道名称: 内蒙古少儿
+来源: Backup Source 2
+
+频道ID: 内蒙古文体娱乐
+频道名称: 内蒙古文体娱乐
+来源: Backup Source 2
+
+频道ID: 内蒙古新闻综合
+频道名称: 内蒙古新闻综合
+来源: Backup Source 2
+
+频道ID: 内蒙古经济生活
+频道名称: 内蒙古经济生活
+来源: Backup Source 2
+
+频道ID: 内蒙古综合
+频道名称: 内蒙古综合
+来源: Backup Source 2
+
+频道ID: 军事评论
+频道名称: 军事评论
+来源: Backup Source 2
+
+频道ID: 农业致富
+频道名称: 农业致富
+来源: Backup Source 2
+
+频道ID: 冠军梦想台
+频道名称: 冠军梦想台
+来源: Backup Source 2
+
+频道ID: 冠军电视台
+频道名称: 冠军电视台
+来源: Backup Source 2
+
+频道ID: 冬奥纪实
+频道名称: 冬奥纪实
+来源: Backup Source 2
+
+频道ID: 冰火频道
+频道名称: 冰火频道
+来源: Backup Source 2
+
+频道ID: 凤凰中文
+频道名称: 凤凰中文
+来源: Backup Source 2
+
+频道ID: 凤凰卫视中文台
+频道名称: 凤凰卫视中文台
+来源: Backup Source 2
+
+频道ID: 凤凰卫视资讯台
+频道名称: 凤凰卫视资讯台
+来源: Backup Source 2
+
+频道ID: 凤凰卫视香港台
+频道名称: 凤凰卫视香港台
+来源: Backup Source 2
+
+频道ID: 凤凰资讯
+频道名称: 凤凰资讯
+来源: Backup Source 2
+
+频道ID: 凤凰香港
+频道名称: 凤凰香港
+来源: Backup Source 2
+
+频道ID: 力量影院
+频道名称: 力量影院
+来源: Backup Source 2
+
+频道ID: 动作电影
+频道名称: 动作电影
+来源: Backup Source 2
+
+频道ID: 动物星球
+频道名称: 动物星球
+来源: Backup Source 2
+
+频道ID: 动物星球频道
+频道名称: 动物星球频道
+来源: Backup Source 2
+
+频道ID: 劲爆体育
+频道名称: 劲爆体育
+来源: Backup Source 2
+
+频道ID: 北京IPTV4K超清
+频道名称: 北京IPTV4K超清
+来源: Backup Source 2
+
+频道ID: 北京体育休闲
+频道名称: 北京体育休闲
+来源: Backup Source 2
+
+频道ID: 北京国际
+频道名称: 北京国际
+来源: Backup Source 2
+
+频道ID: 北京国际频道
+频道名称: 北京国际频道
+来源: Backup Source 2
+
+频道ID: 北京影视
+频道名称: 北京影视
+来源: Backup Source 2
+
+频道ID: 北京文艺
+频道名称: 北京文艺
+来源: Backup Source 2
+
+频道ID: 北京新闻
+频道名称: 北京新闻
+来源: Backup Source 2
+
+频道ID: 北京生活
+频道名称: 北京生活
+来源: Backup Source 2
+
+频道ID: 北京纪实
+频道名称: 北京纪实
+来源: Backup Source 2
+
+频道ID: 北京财经
+频道名称: 北京财经
+来源: Backup Source 2
+
+频道ID: 北海公共
+频道名称: 北海公共
+来源: Backup Source 2
+
+频道ID: 北海新闻综合
+频道名称: 北海新闻综合
+来源: Backup Source 2
+
+频道ID: 北海经济科教
+频道名称: 北海经济科教
+来源: Backup Source 2
+
+频道ID: 十堰新闻综合
+频道名称: 十堰新闻综合
+来源: Backup Source 2
+
+频道ID: 十堰经济旅游
+频道名称: 十堰经济旅游
+来源: Backup Source 2
+
+频道ID: 十方法界
+频道名称: 十方法界
+来源: Backup Source 2
+
+频道ID: 千禧经典台
+频道名称: 千禧经典台
+来源: Backup Source 2
+
+频道ID: 半岛国际新闻台
+频道名称: 半岛国际新闻台
+来源: Backup Source 2
+
+频道ID: 半岛电视台英语频道
+频道名称: 半岛电视台英语频道
+来源: Backup Source 2
+
+频道ID: 半岛英语新闻台ALJAZEERAENGLISHHD
+频道名称: 半岛英语新闻台ALJAZEERAENGLISHHD
+来源: Backup Source 2
+
+频道ID: 华数军旅剧场
+频道名称: 华数军旅剧场
+来源: Backup Source 2
+
+频道ID: 华数古装剧场
+频道名称: 华数古装剧场
+来源: Backup Source 2
+
+频道ID: 华艺中文台
+频道名称: 华艺中文台
+来源: Backup Source 2
+
+频道ID: 华艺台湾台
+频道名称: 华艺台湾台
+来源: Backup Source 2
+
+频道ID: 华艺台湾台HD
+频道名称: 华艺台湾台HD
+来源: Backup Source 2
+
+频道ID: 华艺影剧台
+频道名称: 华艺影剧台
+来源: Backup Source 2
+
+频道ID: 华藏卫视
+频道名称: 华藏卫视
+来源: Backup Source 2
+
+频道ID: 华藏卫视HD
+频道名称: 华藏卫视HD
+来源: Backup Source 2
+
+频道ID: 华视
+频道名称: 华视
+来源: Backup Source 2
+
+频道ID: 华视HD
+频道名称: 华视HD
+来源: Backup Source 2
+
+频道ID: 华视教育体育文化台
+频道名称: 华视教育体育文化台
+来源: Backup Source 2
+
+频道ID: 华视新闻
+频道名称: 华视新闻
+来源: Backup Source 2
+
+频道ID: 华视新闻资讯HD
+频道名称: 华视新闻资讯HD
+来源: Backup Source 2
+
+频道ID: 华语剧台
+频道名称: 华语剧台
+来源: Backup Source 2
+
+频道ID: 南京信息
+频道名称: 南京信息
+来源: Backup Source 2
+
+频道ID: 南京十八
+频道名称: 南京十八
+来源: Backup Source 2
+
+频道ID: 南京十八生活
+频道名称: 南京十八生活
+来源: Backup Source 2
+
+频道ID: 南京少儿
+频道名称: 南京少儿
+来源: Backup Source 2
+
+频道ID: 南京影视
+频道名称: 南京影视
+来源: Backup Source 2
+
+频道ID: 南京教科
+频道名称: 南京教科
+来源: Backup Source 2
+
+频道ID: 南京教育科技
+频道名称: 南京教育科技
+来源: Backup Source 2
+
+频道ID: 南京文旅纪录
+频道名称: 南京文旅纪录
+来源: Backup Source 2
+
+频道ID: 南京新闻综合
+频道名称: 南京新闻综合
+来源: Backup Source 2
+
+频道ID: 南京电视台
+频道名称: 南京电视台
+来源: Backup Source 2
+
+频道ID: 南充科教
+频道名称: 南充科教
+来源: Backup Source 2
+
+频道ID: 南充综合
+频道名称: 南充综合
+来源: Backup Source 2
+
+频道ID: 南国都市4K
+频道名称: 南国都市4K
+来源: Backup Source 2
+
+频道ID: 南方卫视
+频道名称: 南方卫视
+来源: Backup Source 2
+
+频道ID: 南方少儿
+频道名称: 南方少儿
+来源: Backup Source 2
+
+频道ID: 南方影视
+频道名称: 南方影视
+来源: Backup Source 2
+
+频道ID: 南方经济
+频道名称: 南方经济
+来源: Backup Source 2
+
+频道ID: 南方综艺
+频道名称: 南方综艺
+来源: Backup Source 2
+
+频道ID: 南昌新闻综合
+频道名称: 南昌新闻综合
+来源: Backup Source 2
+
+频道ID: 南昌资讯
+频道名称: 南昌资讯
+来源: Backup Source 2
+
+频道ID: 南昌都市
+频道名称: 南昌都市
+来源: Backup Source 2
+
+频道ID: 南桃园公用频道
+频道名称: 南桃园公用频道
+来源: Backup Source 2
+
+频道ID: 南通新闻综合
+频道名称: 南通新闻综合
+来源: Backup Source 2
+
+频道ID: 南阳3科教
+频道名称: 南阳3科教
+来源: Backup Source 2
+
+频道ID: 博斯无限二台
+频道名称: 博斯无限二台
+来源: Backup Source 2
+
+频道ID: 博斯无限台
+频道名称: 博斯无限台
+来源: Backup Source 2
+
+频道ID: 博斯无限台HD
+频道名称: 博斯无限台HD
+来源: Backup Source 2
+
+频道ID: 博斯网球HD
+频道名称: 博斯网球HD
+来源: Backup Source 2
+
+频道ID: 博斯网球台
+频道名称: 博斯网球台
+来源: Backup Source 2
+
+频道ID: 博斯运动一台
+频道名称: 博斯运动一台
+来源: Backup Source 2
+
+频道ID: 博斯运动二台
+频道名称: 博斯运动二台
+来源: Backup Source 2
+
+频道ID: 博斯运动二台HD
+频道名称: 博斯运动二台HD
+来源: Backup Source 2
+
+频道ID: 博斯高球1台
+频道名称: 博斯高球1台
+来源: Backup Source 2
+
+频道ID: 博斯高球2台
+频道名称: 博斯高球2台
+来源: Backup Source 2
+
+频道ID: 博斯高球一台
+频道名称: 博斯高球一台
+来源: Backup Source 2
+
+频道ID: 博斯高球二台
+频道名称: 博斯高球二台
+来源: Backup Source 2
+
+频道ID: 博斯魅力HD
+频道名称: 博斯魅力HD
+来源: Backup Source 2
+
+频道ID: 博斯魅力网
+频道名称: 博斯魅力网
+来源: Backup Source 2
+
+频道ID: 卡通频道
+频道名称: 卡通频道
+来源: Backup Source 2
+
+频道ID: 卡酷动画
+频道名称: 卡酷动画
+来源: Backup Source 2
+
+频道ID: 卫星剧场
+频道名称: 卫星剧场
+来源: Backup Source 2
+
+频道ID: 卫星剧场HD
+频道名称: 卫星剧场HD
+来源: Backup Source 2
+
+频道ID: 卫生健康
+频道名称: 卫生健康
+来源: Backup Source 2
+
+频道ID: 历史频道
+频道名称: 历史频道
+来源: Backup Source 2
+
+频道ID: 历史频道HD
+频道名称: 历史频道HD
+来源: Backup Source 2
+
+频道ID: 原住民族电视HD
+频道名称: 原住民族电视HD
+来源: Backup Source 2
+
+频道ID: 原住民族电视台
+频道名称: 原住民族电视台
+来源: Backup Source 2
+
+频道ID: 原住民频道
+频道名称: 原住民频道
+来源: Backup Source 2
+
+频道ID: 厦门一套
+频道名称: 厦门一套
+来源: Backup Source 2
+
+频道ID: 厦门三套
+频道名称: 厦门三套
+来源: Backup Source 2
+
+频道ID: 厦门二套
+频道名称: 厦门二套
+来源: Backup Source 2
+
+频道ID: 厦门海峡
+频道名称: 厦门海峡
+来源: Backup Source 2
+
+频道ID: 厦门综合
+频道名称: 厦门综合
+来源: Backup Source 2
+
+频道ID: 古典音乐台HD
+频道名称: 古典音乐台HD
+来源: Backup Source 2
+
+频道ID: 台州公共
+频道名称: 台州公共
+来源: Backup Source 2
+
+频道ID: 台州城市生活
+频道名称: 台州城市生活
+来源: Backup Source 2
+
+频道ID: 台州文化生活
+频道名称: 台州文化生活
+来源: Backup Source 2
+
+频道ID: 台州新闻综合
+频道名称: 台州新闻综合
+来源: Backup Source 2
+
+频道ID: 台湾戏剧HD
+频道名称: 台湾戏剧HD
+来源: Backup Source 2
+
+频道ID: 台湾综合台
+频道名称: 台湾综合台
+来源: Backup Source 2
+
+频道ID: 台湾艺术台
+频道名称: 台湾艺术台
+来源: Backup Source 2
+
+频道ID: 台视
+频道名称: 台视
+来源: Backup Source 2
+
+频道ID: 台视HD
+频道名称: 台视HD
+来源: Backup Source 2
+
+频道ID: 台视新闻HD
+频道名称: 台视新闻HD
+来源: Backup Source 2
+
+频道ID: 台视新闻台
+频道名称: 台视新闻台
+来源: Backup Source 2
+
+频道ID: 台视综合
+频道名称: 台视综合
+来源: Backup Source 2
+
+频道ID: 台视综合台
+频道名称: 台视综合台
+来源: Backup Source 2
+
+频道ID: 台视财经HD
+频道名称: 台视财经HD
+来源: Backup Source 2
+
+频道ID: 台视财经台
+频道名称: 台视财经台
+来源: Backup Source 2
+
+频道ID: 吉林乡村
+频道名称: 吉林乡村
+来源: Backup Source 2
+
+频道ID: 吉林市公共
+频道名称: 吉林市公共
+来源: Backup Source 2
+
+频道ID: 吉林市新闻
+频道名称: 吉林市新闻
+来源: Backup Source 2
+
+频道ID: 吉林市科教
+频道名称: 吉林市科教
+来源: Backup Source 2
+
+频道ID: 吉林影视
+频道名称: 吉林影视
+来源: Backup Source 2
+
+频道ID: 吉林生活
+频道名称: 吉林生活
+来源: Backup Source 2
+
+频道ID: 吉林综艺文化
+频道名称: 吉林综艺文化
+来源: Backup Source 2
+
+频道ID: 吉林都市
+频道名称: 吉林都市
+来源: Backup Source 2
+
+频道ID: 吉视乡村
+频道名称: 吉视乡村
+来源: Backup Source 2
+
+频道ID: 吉视影视
+频道名称: 吉视影视
+来源: Backup Source 2
+
+频道ID: 吉视生活
+频道名称: 吉视生活
+来源: Backup Source 2
+
+频道ID: 吉视综艺文化
+频道名称: 吉视综艺文化
+来源: Backup Source 2
+
+频道ID: 吉视都市
+频道名称: 吉视都市
+来源: Backup Source 2
+
+频道ID: 吴江新闻综合
+频道名称: 吴江新闻综合
+来源: Backup Source 2
+
+频道ID: 周口1新闻综合
+频道名称: 周口1新闻综合
+来源: Backup Source 2
+
+频道ID: 周口2公共
+频道名称: 周口2公共
+来源: Backup Source 2
+
+频道ID: 呼和浩特影视
+频道名称: 呼和浩特影视
+来源: Backup Source 2
+
+频道ID: 呼和浩特综合
+频道名称: 呼和浩特综合
+来源: Backup Source 2
+
+频道ID: 呼和浩特都市
+频道名称: 呼和浩特都市
+来源: Backup Source 2
+
+频道ID: 咪咕综合体育
+频道名称: 咪咕综合体育
+来源: Backup Source 2
+
+频道ID: 咪咕足球
+频道名称: 咪咕足球
+来源: Backup Source 2
+
+频道ID: 哈哈炫动
+频道名称: 哈哈炫动
+来源: Backup Source 2
+
+频道ID: 哈萨克语新闻综合
+频道名称: 哈萨克语新闻综合
+来源: Backup Source 2
+
+频道ID: 哈萨克语综艺
+频道名称: 哈萨克语综艺
+来源: Backup Source 2
+
+频道ID: 哒啵电竞
+频道名称: 哒啵电竞
+来源: Backup Source 2
+
+频道ID: 哒啵赛事
+频道名称: 哒啵赛事
+来源: Backup Source 2
+
+频道ID: 唯心电视HD
+频道名称: 唯心电视HD
+来源: Backup Source 2
+
+频道ID: 唯心电视台
+频道名称: 唯心电视台
+来源: Backup Source 2
+
+频道ID: 四大名著剧场
+频道名称: 四大名著剧场
+来源: Backup Source 2
+
+频道ID: 四川乡村
+频道名称: 四川乡村
+来源: Backup Source 2
+
+频道ID: 四川妇女儿童
+频道名称: 四川妇女儿童
+来源: Backup Source 2
+
+频道ID: 四川影视文艺
+频道名称: 四川影视文艺
+来源: Backup Source 2
+
+频道ID: 四川文化旅游
+频道名称: 四川文化旅游
+来源: Backup Source 2
+
+频道ID: 四川新闻
+频道名称: 四川新闻
+来源: Backup Source 2
+
+频道ID: 四川科教
+频道名称: 四川科教
+来源: Backup Source 2
+
+频道ID: 四川经济
+频道名称: 四川经济
+来源: Backup Source 2
+
+频道ID: 囲碁・将棋チャンネル
+频道名称: 囲碁・将棋チャンネル
+来源: Backup Source 2
+
+频道ID: 囲碁･将
+频道名称: 囲碁･将
+来源: Backup Source 2
+
+频道ID: 国会频道1
+频道名称: 国会频道1
+来源: Backup Source 2
+
+频道ID: 国会频道1HD
+频道名称: 国会频道1HD
+来源: Backup Source 2
+
+频道ID: 国会频道1台
+频道名称: 国会频道1台
+来源: Backup Source 2
+
+频道ID: 国会频道2
+频道名称: 国会频道2
+来源: Backup Source 2
+
+频道ID: 国会频道2HD
+频道名称: 国会频道2HD
+来源: Backup Source 2
+
+频道ID: 国会频道2台
+频道名称: 国会频道2台
+来源: Backup Source 2
+
+频道ID: 国兴卫视
+频道名称: 国兴卫视
+来源: Backup Source 2
+
+频道ID: 壹电视新闻HD
+频道名称: 壹电视新闻HD
+来源: Backup Source 2
+
+频道ID: 壹电视新闻台
+频道名称: 壹电视新闻台
+来源: Backup Source 2
+
+频道ID: 壹电视电影台
+频道名称: 壹电视电影台
+来源: Backup Source 2
+
+频道ID: 壹电视电影台HD
+频道名称: 壹电视电影台HD
+来源: Backup Source 2
+
+频道ID: 壹电视综合HD
+频道名称: 壹电视综合HD
+来源: Backup Source 2
+
+频道ID: 壹电视资讯综合台
+频道名称: 壹电视资讯综合台
+来源: Backup Source 2
+
+频道ID: 外汇理财
+频道名称: 外汇理财
+来源: Backup Source 2
+
+频道ID: 大台中生活频道
+频道名称: 大台中生活频道
+来源: Backup Source 2
+
+频道ID: 大庆新闻综合
+频道名称: 大庆新闻综合
+来源: Backup Source 2
+
+频道ID: 大湾区卫视
+频道名称: 大湾区卫视
+来源: Backup Source 2
+
+频道ID: 大爱二台
+频道名称: 大爱二台
+来源: Backup Source 2
+
+频道ID: 大爱二台HD
+频道名称: 大爱二台HD
+来源: Backup Source 2
+
+频道ID: 大爱电视
+频道名称: 大爱电视
+来源: Backup Source 2
+
+频道ID: 大爱电视HD
+频道名称: 大爱电视HD
+来源: Backup Source 2
+
+频道ID: 大爱电视台
+频道名称: 大爱电视台
+来源: Backup Source 2
+
+频道ID: 大立电视台
+频道名称: 大立电视台
+来源: Backup Source 2
+
+频道ID: 大立电视台HD
+频道名称: 大立电视台HD
+来源: Backup Source 2
+
+频道ID: 天元围棋
+频道名称: 天元围棋
+来源: Backup Source 2
+
+频道ID: 天映CM+
+频道名称: 天映CM+
+来源: Backup Source 2
+
+频道ID: 天映印度尼西亚
+频道名称: 天映印度尼西亚
+来源: Backup Source 2
+
+频道ID: 天映新加坡
+频道名称: 天映新加坡
+来源: Backup Source 2
+
+频道ID: 天映经典
+频道名称: 天映经典
+来源: Backup Source 2
+
+频道ID: 天映经典频道
+频道名称: 天映经典频道
+来源: Backup Source 2
+
+频道ID: 天映马来西亚
+频道名称: 天映马来西亚
+来源: Backup Source 2
+
+频道ID: 天津体育
+频道名称: 天津体育
+来源: Backup Source 2
+
+频道ID: 天津少儿
+频道名称: 天津少儿
+来源: Backup Source 2
+
+频道ID: 天津影视
+频道名称: 天津影视
+来源: Backup Source 2
+
+频道ID: 天津教育
+频道名称: 天津教育
+来源: Backup Source 2
+
+频道ID: 天津文艺
+频道名称: 天津文艺
+来源: Backup Source 2
+
+频道ID: 天津新闻
+频道名称: 天津新闻
+来源: Backup Source 2
+
+频道ID: 天津都市
+频道名称: 天津都市
+来源: Backup Source 2
+
+频道ID: 天美丽电视台
+频道名称: 天美丽电视台
+来源: Backup Source 2
+
+频道ID: 天良综合台
+频道名称: 天良综合台
+来源: Backup Source 2
+
+频道ID: 天良综合台HD
+频道名称: 天良综合台HD
+来源: Backup Source 2
+
+频道ID: 天龙八部集
+频道名称: 天龙八部集
+来源: Backup Source 2
+
+频道ID: 太原影视
+频道名称: 太原影视
+来源: Backup Source 2
+
+频道ID: 太原教育
+频道名称: 太原教育
+来源: Backup Source 2
+
+频道ID: 太原文体
+频道名称: 太原文体
+来源: Backup Source 2
+
+频道ID: 太原新闻综合
+频道名称: 太原新闻综合
+来源: Backup Source 2
+
+频道ID: 太原百姓
+频道名称: 太原百姓
+来源: Backup Source 2
+
+频道ID: 太原社教法制
+频道名称: 太原社教法制
+来源: Backup Source 2
+
+频道ID: 央广健康
+频道名称: 央广健康
+来源: Backup Source 2
+
+频道ID: 央视精品
+频道名称: 央视精品
+来源: Backup Source 2
+
+频道ID: 女性チャンネル♪LALATV
+频道名称: 女性チャンネル♪LALATV
+来源: Backup Source 2
+
+频道ID: 好消息
+频道名称: 好消息
+来源: Backup Source 2
+
+频道ID: 好消息2台
+频道名称: 好消息2台
+来源: Backup Source 2
+
+频道ID: 好消息HD
+频道名称: 好消息HD
+来源: Backup Source 2
+
+频道ID: 好消息二台
+频道名称: 好消息二台
+来源: Backup Source 2
+
+频道ID: 好消息二台HD
+频道名称: 好消息二台HD
+来源: Backup Source 2
+
+频道ID: 好消息频道
+频道名称: 好消息频道
+来源: Backup Source 2
+
+频道ID: 好莱坞电影台
+频道名称: 好莱坞电影台
+来源: Backup Source 2
+
+频道ID: 威达超舜生活台
+频道名称: 威达超舜生活台
+来源: Backup Source 2
+
+频道ID: 娱乐新闻台
+频道名称: 娱乐新闻台
+来源: Backup Source 2
+
+频道ID: 孝感新闻综合
+频道名称: 孝感新闻综合
+来源: Backup Source 2
+
+频道ID: 孝感生活
+频道名称: 孝感生活
+来源: Backup Source 2
+
+频道ID: 宁夏公共
+频道名称: 宁夏公共
+来源: Backup Source 2
+
+频道ID: 宁夏少儿
+频道名称: 宁夏少儿
+来源: Backup Source 2
+
+频道ID: 宁夏教育
+频道名称: 宁夏教育
+来源: Backup Source 2
+
+频道ID: 宁夏文旅
+频道名称: 宁夏文旅
+来源: Backup Source 2
+
+频道ID: 宁夏经济
+频道名称: 宁夏经济
+来源: Backup Source 2
+
+频道ID: 安多卫视
+频道名称: 安多卫视
+来源: Backup Source 2
+
+频道ID: 安徽公共
+频道名称: 安徽公共
+来源: Backup Source 2
+
+频道ID: 安徽农业科教
+频道名称: 安徽农业科教
+来源: Backup Source 2
+
+频道ID: 安徽影视
+频道名称: 安徽影视
+来源: Backup Source 2
+
+频道ID: 安徽科教
+频道名称: 安徽科教
+来源: Backup Source 2
+
+频道ID: 安徽经济生活
+频道名称: 安徽经济生活
+来源: Backup Source 2
+
+频道ID: 安徽经视
+频道名称: 安徽经视
+来源: Backup Source 2
+
+频道ID: 安徽综艺
+频道名称: 安徽综艺
+来源: Backup Source 2
+
+频道ID: 安徽综艺体育
+频道名称: 安徽综艺体育
+来源: Backup Source 2
+
+频道ID: 宜宾新闻综合
+频道名称: 宜宾新闻综合
+来源: Backup Source 2
+
+频道ID: 宜昌旅游生活
+频道名称: 宜昌旅游生活
+来源: Backup Source 2
+
+频道ID: 宜昌综合
+频道名称: 宜昌综合
+来源: Backup Source 2
+
+频道ID: 宜春新闻综合
+频道名称: 宜春新闻综合
+来源: Backup Source 2
+
+频道ID: 宝岛文化台
+频道名称: 宝岛文化台
+来源: Backup Source 2
+
+频道ID: 宠物频道
+频道名称: 宠物频道
+来源: Backup Source 2
+
+频道ID: 客家生活
+频道名称: 客家生活
+来源: Backup Source 2
+
+频道ID: 客家电视HD
+频道名称: 客家电视HD
+来源: Backup Source 2
+
+频道ID: 客家电视台
+频道名称: 客家电视台
+来源: Backup Source 2
+
+频道ID: 家庭剧场
+频道名称: 家庭剧场
+来源: Backup Source 2
+
+频道ID: 寄席チャンネル
+频道名称: 寄席チャンネル
+来源: Backup Source 2
+
+频道ID: 富立电视台
+频道名称: 富立电视台
+来源: Backup Source 2
+
+频道ID: 富立电视台HD
+频道名称: 富立电视台HD
+来源: Backup Source 2
+
+频道ID: 寰宇HD综合
+频道名称: 寰宇HD综合
+来源: Backup Source 2
+
+频道ID: 寰宇新闻HD
+频道名称: 寰宇新闻HD
+来源: Backup Source 2
+
+频道ID: 寰宇新闻台
+频道名称: 寰宇新闻台
+来源: Backup Source 2
+
+频道ID: 寰宇新闻台湾台
+频道名称: 寰宇新闻台湾台
+来源: Backup Source 2
+
+频道ID: 寰宇新闻台湾台HD
+频道名称: 寰宇新闻台湾台HD
+来源: Backup Source 2
+
+频道ID: 寰宇财经HD
+频道名称: 寰宇财经HD
+来源: Backup Source 2
+
+频道ID: 小公视
+频道名称: 小公视
+来源: Backup Source 2
+
+频道ID: 小尼克频道
+频道名称: 小尼克频道
+来源: Backup Source 2
+
+频道ID: 少儿动漫
+频道名称: 少儿动漫
+来源: Backup Source 2
+
+频道ID: 尼克儿童频道
+频道名称: 尼克儿童频道
+来源: Backup Source 2
+
+频道ID: 尼克儿童频道HD
+频道名称: 尼克儿童频道HD
+来源: Backup Source 2
+
+频道ID: 山东体育休闲
+频道名称: 山东体育休闲
+来源: Backup Source 2
+
+频道ID: 山东公共
+频道名称: 山东公共
+来源: Backup Source 2
+
+频道ID: 山东影视
+频道名称: 山东影视
+来源: Backup Source 2
+
+频道ID: 山东教育卫视
+频道名称: 山东教育卫视
+来源: Backup Source 2
+
+频道ID: 山西公共
+频道名称: 山西公共
+来源: Backup Source 2
+
+频道ID: 山西影视
+频道名称: 山西影视
+来源: Backup Source 2
+
+频道ID: 山西文体生活
+频道名称: 山西文体生活
+来源: Backup Source 2
+
+频道ID: 山西社会与法治
+频道名称: 山西社会与法治
+来源: Backup Source 2
+
+频道ID: 山西经济
+频道名称: 山西经济
+来源: Backup Source 2
+
+频道ID: 山西经济与科技
+频道名称: 山西经济与科技
+来源: Backup Source 2
+
+频道ID: 岭南戏曲
+频道名称: 岭南戏曲
+来源: Backup Source 2
+
+频道ID: 峨嵋电影
+频道名称: 峨嵋电影
+来源: Backup Source 2
+
+频道ID: 峨眉电影
+频道名称: 峨眉电影
+来源: Backup Source 2
+
+频道ID: 崇左综合
+频道名称: 崇左综合
+来源: Backup Source 2
+
+频道ID: 常州新闻
+频道名称: 常州新闻
+来源: Backup Source 2
+
+频道ID: 常州综合
+频道名称: 常州综合
+来源: Backup Source 2
+
+频道ID: 平顶山1新闻综合
+频道名称: 平顶山1新闻综合, 平顶山1
+来源: Backup Source 2
+
+频道ID: 平顶山2城市
+频道名称: 平顶山2城市, 平顶山2
+来源: Backup Source 2
+
+频道ID: 平顶山3公共
+频道名称: 平顶山3公共, 平顶山3
+来源: Backup Source 2
+
+频道ID: 年代MUCHTV
+频道名称: 年代MUCHTV
+来源: Backup Source 2
+
+频道ID: 年代新闻台
+频道名称: 年代新闻台
+来源: Backup Source 2
+
+频道ID: 幸福空间居家台
+频道名称: 幸福空间居家台
+来源: Backup Source 2
+
+频道ID: 幼儿教育
+频道名称: 幼儿教育
+来源: Backup Source 2
+
+频道ID: 广东4K超
+频道名称: 广东4K超
+来源: Backup Source 2
+
+频道ID: 广东体育
+频道名称: 广东体育
+来源: Backup Source 2
+
+频道ID: 广东公共
+频道名称: 广东公共
+来源: Backup Source 2
+
+频道ID: 广东国际
+频道名称: 广东国际
+来源: Backup Source 2
+
+频道ID: 广东少儿
+频道名称: 广东少儿
+来源: Backup Source 2
+
+频道ID: 广东影视
+频道名称: 广东影视
+来源: Backup Source 2
+
+频道ID: 广东新闻
+频道名称: 广东新闻
+来源: Backup Source 2
+
+频道ID: 广东民生
+频道名称: 广东民生
+来源: Backup Source 2
+
+频道ID: 广东珠江
+频道名称: 广东珠江
+来源: Backup Source 2
+
+频道ID: 广东移动
+频道名称: 广东移动
+来源: Backup Source 2
+
+频道ID: 广东经济科教
+频道名称: 广东经济科教
+来源: Backup Source 2
+
+频道ID: 广东综艺
+频道名称: 广东综艺
+来源: Backup Source 2
+
+频道ID: 广元公共
+频道名称: 广元公共
+来源: Backup Source 2
+
+频道ID: 广元新闻综合
+频道名称: 广元新闻综合
+来源: Backup Source 2
+
+频道ID: 广州新闻
+频道名称: 广州新闻
+来源: Backup Source 2
+
+频道ID: 广州竞赛
+频道名称: 广州竞赛
+来源: Backup Source 2
+
+频道ID: 广州综合
+频道名称: 广州综合
+来源: Backup Source 2
+
+频道ID: 广州综合台
+频道名称: 广州综合台
+来源: Backup Source 2
+
+频道ID: 广西国际
+频道名称: 广西国际
+来源: Backup Source 2
+
+频道ID: 广西影视
+频道名称: 广西影视
+来源: Backup Source 2
+
+频道ID: 广西新闻
+频道名称: 广西新闻
+来源: Backup Source 2
+
+频道ID: 广西电视台国际频道
+频道名称: 广西电视台国际频道
+来源: Backup Source 2
+
+频道ID: 广西综艺旅游
+频道名称: 广西综艺旅游
+来源: Backup Source 2
+
+频道ID: 广西都市
+频道名称: 广西都市
+来源: Backup Source 2
+
+频道ID: 康巴卫视
+频道名称: 康巴卫视
+来源: Backup Source 2
+
+频道ID: 延边1台
+频道名称: 延边1台
+来源: Backup Source 2
+
+频道ID: 延边2台
+频道名称: 延边2台
+来源: Backup Source 2
+
+频道ID: 开封1新闻综合
+频道名称: 开封1新闻综合
+来源: Backup Source 2
+
+频道ID: 弈坛春秋
+频道名称: 弈坛春秋
+来源: Backup Source 2
+
+频道ID: 彩虹E台
+频道名称: 彩虹E台
+来源: Backup Source 2
+
+频道ID: 彩虹电影台
+频道名称: 彩虹电影台
+来源: Backup Source 2
+
+频道ID: 彩虹频道
+频道名称: 彩虹频道
+来源: Backup Source 2
+
+频道ID: 彭博财经台
+频道名称: 彭博财经台
+来源: Backup Source 2
+
+频道ID: 彰化生活台
+频道名称: 彰化生活台
+来源: Backup Source 2
+
+频道ID: 影迷数位电影台
+频道名称: 影迷数位电影台
+来源: Backup Source 2
+
+频道ID: 影迷数位电影台HD
+频道名称: 影迷数位电影台HD
+来源: Backup Source 2
+
+频道ID: 影迷数位纪实台
+频道名称: 影迷数位纪实台
+来源: Backup Source 2
+
+频道ID: 影迷数位纪实台HD
+频道名称: 影迷数位纪实台HD
+来源: Backup Source 2
+
+频道ID: 徐州文艺影视
+频道名称: 徐州文艺影视
+来源: Backup Source 2
+
+频道ID: 徐州新闻综合
+频道名称: 徐州新闻综合
+来源: Backup Source 2
+
+频道ID: 徐州经济生活
+频道名称: 徐州经济生活
+来源: Backup Source 2
+
+频道ID: 德国之声
+频道名称: 德国之声
+来源: Backup Source 2
+
+频道ID: 怡伴健康
+频道名称: 怡伴健康
+来源: Backup Source 2
+
+频道ID: 惊悚悬疑
+频道名称: 惊悚悬疑
+来源: Backup Source 2
+
+频道ID: 惊艳成人电影台
+频道名称: 惊艳成人电影台
+来源: Backup Source 2
+
+频道ID: 戏曲台
+频道名称: 戏曲台
+来源: Backup Source 2
+
+频道ID: 成人极品台
+频道名称: 成人极品台
+来源: Backup Source 2
+
+频道ID: 成都公共
+频道名称: 成都公共
+来源: Backup Source 2
+
+频道ID: 成都少儿
+频道名称: 成都少儿
+来源: Backup Source 2
+
+频道ID: 成都影视文艺
+频道名称: 成都影视文艺
+来源: Backup Source 2
+
+频道ID: 成都新闻综合
+频道名称: 成都新闻综合
+来源: Backup Source 2
+
+频道ID: 成都经济资讯
+频道名称: 成都经济资讯
+来源: Backup Source 2
+
+频道ID: 成都都市生活
+频道名称: 成都都市生活
+来源: Backup Source 2
+
+频道ID: 户外频道
+频道名称: 户外频道
+来源: Backup Source 2
+
+频道ID: 揭阳生活
+频道名称: 揭阳生活
+来源: Backup Source 2
+
+频道ID: 揭阳综合
+频道名称: 揭阳综合
+来源: Backup Source 2
+
+频道ID: 摄影
+频道名称: 摄影
+来源: Backup Source 2
+
+频道ID: 攀枝花新闻综合
+频道名称: 攀枝花新闻综合
+来源: Backup Source 2
+
+频道ID: 收藏天下
+频道名称: 收藏天下
+来源: Backup Source 2
+
+频道ID: 放送大学テレビ
+频道名称: 放送大学テレビ
+来源: Backup Source 2
+
+频道ID: 文化放送
+频道名称: 文化放送
+来源: Backup Source 2
+
+频道ID: 新乡2公共
+频道名称: 新乡2公共
+来源: Backup Source 2
+
+频道ID: 新乡3影视
+频道名称: 新乡3影视
+来源: Backup Source 2
+
+频道ID: 新乡4生活
+频道名称: 新乡4生活
+来源: Backup Source 2
+
+频道ID: 新余公共
+频道名称: 新余公共
+来源: Backup Source 2
+
+频道ID: 新余新闻综合
+频道名称: 新余新闻综合
+来源: Backup Source 2
+
+频道ID: 新天地民俗台
+频道名称: 新天地民俗台
+来源: Backup Source 2
+
+频道ID: 新天地民俗台HD
+频道名称: 新天地民俗台HD
+来源: Backup Source 2
+
+频道ID: 新片放映厅
+频道名称: 新片放映厅
+来源: Backup Source 2
+
+频道ID: 新疆汉语影视
+频道名称: 新疆汉语影视
+来源: Backup Source 2
+
+频道ID: 新疆汉语综艺
+频道名称: 新疆汉语综艺
+来源: Backup Source 2
+
+频道ID: 新视觉
+频道名称: 新视觉
+来源: Backup Source 2
+
+频道ID: 旅チャンネル　ＨＤ
+频道名称: 旅チャンネル　ＨＤ
+来源: Backup Source 2
+
+频道ID: 旅游卫视
+频道名称: 旅游卫视
+来源: Backup Source 2
+
+频道ID: 无线卫星亚洲台
+频道名称: 无线卫星亚洲台
+来源: Backup Source 2
+
+频道ID: 无线卫星新闻台
+频道名称: 无线卫星新闻台
+来源: Backup Source 2
+
+频道ID: 无线新闻
+频道名称: 无线新闻
+来源: Backup Source 2
+
+频道ID: 无线新闻台
+频道名称: 无线新闻台
+来源: Backup Source 2
+
+频道ID: 无锡娱乐
+频道名称: 无锡娱乐
+来源: Backup Source 2
+
+频道ID: 无锡新闻综合
+频道名称: 无锡新闻综合
+来源: Backup Source 2
+
+频道ID: 无锡生活
+频道名称: 无锡生活
+来源: Backup Source 2
+
+频道ID: 无锡电视娱乐
+频道名称: 无锡电视娱乐
+来源: Backup Source 2
+
+频道ID: 无锡电视生活
+频道名称: 无锡电视生活
+来源: Backup Source 2
+
+频道ID: 无锡电视经济
+频道名称: 无锡电视经济
+来源: Backup Source 2
+
+频道ID: 无锡经济
+频道名称: 无锡经济
+来源: Backup Source 2
+
+频道ID: 无锡都市资讯
+频道名称: 无锡都市资讯
+来源: Backup Source 2
+
+频道ID: 日テレ1
+频道名称: 日テレ1
+来源: Backup Source 2
+
+频道ID: 日テレN
+频道名称: 日テレN
+来源: Backup Source 2
+
+频道ID: 日テレNEWS24HD
+频道名称: 日テレNEWS24HD
+来源: Backup Source 2
+
+频道ID: 日テレジ
+频道名称: 日テレジ
+来源: Backup Source 2
+
+频道ID: 日テレジータスHD
+频道名称: 日テレジータスHD
+来源: Backup Source 2
+
+频道ID: 日テレプ
+频道名称: 日テレプ
+来源: Backup Source 2
+
+频道ID: 日テレプラスドラマ・アニメ・音楽ライブ
+频道名称: 日テレプラスドラマ・アニメ・音楽ライブ
+来源: Backup Source 2
+
+频道ID: 日本テレビ
+频道名称: 日本テレビ
+来源: Backup Source 2
+
+频道ID: 日本映画専门CH
+频道名称: 日本映画専门CH
+来源: Backup Source 2
+
+频道ID: 日本映画専门チャンネル　HD
+频道名称: 日本映画専门チャンネル　HD
+来源: Backup Source 2
+
+频道ID: 日本映画＋时代剧4K
+频道名称: 日本映画＋时代剧4K
+来源: Backup Source 2
+
+频道ID: 日照新闻综合
+频道名称: 日照新闻综合
+来源: Backup Source 2
+
+频道ID: 日照科教
+频道名称: 日照科教
+来源: Backup Source 2
+
+频道ID: 日経CNBC
+频道名称: 日経CNBC
+来源: Backup Source 2
+
+频道ID: 早期教育
+频道名称: 早期教育
+来源: Backup Source 2
+
+频道ID: 时代出行
+频道名称: 时代出行
+来源: Backup Source 2
+
+频道ID: 时代剧専
+频道名称: 时代剧専
+来源: Backup Source 2
+
+频道ID: 时代剧専门チャンネルHD
+频道名称: 时代剧専门チャンネルHD
+来源: Backup Source 2
+
+频道ID: 时代家居
+频道名称: 时代家居
+来源: Backup Source 2
+
+频道ID: 时代风尚
+频道名称: 时代风尚
+来源: Backup Source 2
+
+频道ID: 时尚运动X
+频道名称: 时尚运动X
+来源: Backup Source 2
+
+频道ID: 明星大片
+频道名称: 明星大片
+来源: Backup Source 2
+
+频道ID: 明珠台
+频道名称: 明珠台
+来源: Backup Source 2
+
+频道ID: 星光影院
+频道名称: 星光影院
+来源: Backup Source 2
+
+频道ID: 星空卫视
+频道名称: 星空卫视
+来源: Backup Source 2
+
+频道ID: 星空购物
+频道名称: 星空购物
+来源: Backup Source 2
+
+频道ID: 映画･チ
+频道名称: 映画･チ
+来源: Backup Source 2
+
+频道ID: 映画･チャンネルNECOHD
+频道名称: 映画･チャンネルNECOHD
+来源: Backup Source 2
+
+频道ID: 智林体育HD
+频道名称: 智林体育HD
+来源: Backup Source 2
+
+频道ID: 智林体育台
+频道名称: 智林体育台
+来源: Backup Source 2
+
+频道ID: 曼联电视频道
+频道名称: 曼联电视频道
+来源: Backup Source 2
+
+频道ID: 曼迪日本台HD
+频道名称: 曼迪日本台HD
+来源: Backup Source 2
+
+频道ID: 来宾综合
+频道名称: 来宾综合
+来源: Backup Source 2
+
+频道ID: 杭州导视
+频道名称: 杭州导视
+来源: Backup Source 2
+
+频道ID: 杭州影视
+频道名称: 杭州影视
+来源: Backup Source 2
+
+频道ID: 杭州房产
+频道名称: 杭州房产
+来源: Backup Source 2
+
+频道ID: 杭州文化
+频道名称: 杭州文化
+来源: Backup Source 2
+
+频道ID: 杭州生活
+频道名称: 杭州生活
+来源: Backup Source 2
+
+频道ID: 杭州综合
+频道名称: 杭州综合
+来源: Backup Source 2
+
+频道ID: 杭州西湖明珠
+频道名称: 杭州西湖明珠
+来源: Backup Source 2
+
+频道ID: 杭州青少体育
+频道名称: 杭州青少体育
+来源: Backup Source 2
+
+频道ID: 松原综合
+频道名称: 松原综合
+来源: Backup Source 2
+
+频道ID: 松视1台
+频道名称: 松视1台
+来源: Backup Source 2
+
+频道ID: 松视2台
+频道名称: 松视2台
+来源: Backup Source 2
+
+频道ID: 松视3台
+频道名称: 松视3台
+来源: Backup Source 2
+
+频道ID: 松视4台
+频道名称: 松视4台
+来源: Backup Source 2
+
+频道ID: 柳州新闻综合
+频道名称: 柳州新闻综合
+来源: Backup Source 2
+
+频道ID: 梅州1
+频道名称: 梅州1
+来源: Backup Source 2
+
+频道ID: 梅迪奇艺术
+频道名称: 梅迪奇艺术
+来源: Backup Source 2
+
+频道ID: 梨园频道
+频道名称: 梨园频道
+来源: Backup Source 2
+
+频道ID: 欢乐剧场
+频道名称: 欢乐剧场
+来源: Backup Source 2
+
+频道ID: 欢笑剧场
+频道名称: 欢笑剧场
+来源: Backup Source 2
+
+频道ID: 欧美影院
+频道名称: 欧美影院
+来源: Backup Source 2
+
+频道ID: 欧美电影
+频道名称: 欧美电影
+来源: Backup Source 2
+
+频道ID: 歌手2024
+频道名称: 歌手2024
+来源: Backup Source 2
+
+频道ID: 歌谣ポッ
+频道名称: 歌谣ポッ
+来源: Backup Source 2
+
+频道ID: 歌谣ポップスチャンネル
+频道名称: 歌谣ポップスチャンネル
+来源: Backup Source 2
+
+频道ID: 正德电视台
+频道名称: 正德电视台
+来源: Backup Source 2
+
+频道ID: 正德电视台HD
+频道名称: 正德电视台HD
+来源: Backup Source 2
+
+频道ID: 武汉外语
+频道名称: 武汉外语
+来源: Backup Source 2
+
+频道ID: 武汉少儿
+频道名称: 武汉少儿
+来源: Backup Source 2
+
+频道ID: 武汉教育
+频道名称: 武汉教育
+来源: Backup Source 2
+
+频道ID: 武汉教育电视台
+频道名称: 武汉教育电视台
+来源: Backup Source 2
+
+频道ID: 武汉文体
+频道名称: 武汉文体
+来源: Backup Source 2
+
+频道ID: 武汉新闻综合
+频道名称: 武汉新闻综合
+来源: Backup Source 2
+
+频道ID: 武汉电视剧
+频道名称: 武汉电视剧
+来源: Backup Source 2
+
+频道ID: 武汉科技生活
+频道名称: 武汉科技生活
+来源: Backup Source 2
+
+频道ID: 武汉经济
+频道名称: 武汉经济
+来源: Backup Source 2
+
+频道ID: 民视
+频道名称: 民视
+来源: Backup Source 2
+
+频道ID: 民视HD
+频道名称: 民视HD
+来源: Backup Source 2
+
+频道ID: 民视台湾台
+频道名称: 民视台湾台
+来源: Backup Source 2
+
+频道ID: 民视台湾台HD
+频道名称: 民视台湾台HD
+来源: Backup Source 2
+
+频道ID: 民视影剧台
+频道名称: 民视影剧台
+来源: Backup Source 2
+
+频道ID: 民视新闻台
+频道名称: 民视新闻台
+来源: Backup Source 2
+
+频道ID: 民视新闻台HD
+频道名称: 民视新闻台HD
+来源: Backup Source 2
+
+频道ID: 民视旅游台
+频道名称: 民视旅游台
+来源: Backup Source 2
+
+频道ID: 民视无线台
+频道名称: 民视无线台
+来源: Backup Source 2
+
+频道ID: 民视第一台
+频道名称: 民视第一台
+来源: Backup Source 2
+
+频道ID: 民视第一台HD
+频道名称: 民视第一台HD
+来源: Backup Source 2
+
+频道ID: 民视综艺台
+频道名称: 民视综艺台
+来源: Backup Source 2
+
+频道ID: 求索动物
+频道名称: 求索动物
+来源: Backup Source 2
+
+频道ID: 求索生活
+频道名称: 求索生活
+来源: Backup Source 2
+
+频道ID: 求索科学
+频道名称: 求索科学
+来源: Backup Source 2
+
+频道ID: 求索记录
+频道名称: 求索记录
+来源: Backup Source 2
+
+频道ID: 汉语体育健康
+频道名称: 汉语体育健康
+来源: Backup Source 2
+
+频道ID: 汉语经济生活
+频道名称: 汉语经济生活
+来源: Backup Source 2
+
+频道ID: 汉语综艺
+频道名称: 汉语综艺
+来源: Backup Source 2
+
+频道ID: 汕头文旅体育
+频道名称: 汕头文旅体育
+来源: Backup Source 2
+
+频道ID: 汕头新闻综合
+频道名称: 汕头新闻综合
+来源: Backup Source 2
+
+频道ID: 汕头经济生活
+频道名称: 汕头经济生活
+来源: Backup Source 2
+
+频道ID: 汕头综合
+频道名称: 汕头综合
+来源: Backup Source 2
+
+频道ID: 汕尾文化生活
+频道名称: 汕尾文化生活
+来源: Backup Source 2
+
+频道ID: 汕尾新闻综合
+频道名称: 汕尾新闻综合
+来源: Backup Source 2
+
+频道ID: 江苏休闲体育
+频道名称: 江苏休闲体育
+来源: Backup Source 2
+
+频道ID: 江苏优漫卡通
+频道名称: 江苏优漫卡通
+来源: Backup Source 2
+
+频道ID: 江苏体育休闲
+频道名称: 江苏体育休闲
+来源: Backup Source 2
+
+频道ID: 江苏国际
+频道名称: 江苏国际
+来源: Backup Source 2
+
+频道ID: 江苏城市
+频道名称: 江苏城市
+来源: Backup Source 2
+
+频道ID: 江苏影视
+频道名称: 江苏影视
+来源: Backup Source 2
+
+频道ID: 江苏教育
+频道名称: 江苏教育
+来源: Backup Source 2
+
+频道ID: 江苏新闻
+频道名称: 江苏新闻
+来源: Backup Source 2
+
+频道ID: 江苏综艺
+频道名称: 江苏综艺
+来源: Backup Source 2
+
+频道ID: 江西公共农业
+频道名称: 江西公共农业
+来源: Backup Source 2
+
+频道ID: 江西少儿
+频道名称: 江西少儿
+来源: Backup Source 2
+
+频道ID: 江西新闻
+频道名称: 江西新闻
+来源: Backup Source 2
+
+频道ID: 江西移动
+频道名称: 江西移动
+来源: Backup Source 2
+
+频道ID: 江西经济生活
+频道名称: 江西经济生活
+来源: Backup Source 2
+
+频道ID: 江西都市
+频道名称: 江西都市
+来源: Backup Source 2
+
+频道ID: 江门综合
+频道名称: 江门综合
+来源: Backup Source 2
+
+频道ID: 沈阳新闻
+频道名称: 沈阳新闻
+来源: Backup Source 2
+
+频道ID: 河北三农
+频道名称: 河北三农
+来源: Backup Source 2
+
+频道ID: 河北公共
+频道名称: 河北公共
+来源: Backup Source 2
+
+频道ID: 河北农民
+频道名称: 河北农民
+来源: Backup Source 2
+
+频道ID: 河北少儿科教
+频道名称: 河北少儿科教
+来源: Backup Source 2
+
+频道ID: 河北影视
+频道名称: 河北影视
+来源: Backup Source 2
+
+频道ID: 河北影视剧
+频道名称: 河北影视剧
+来源: Backup Source 2
+
+频道ID: 河北文旅公共
+频道名称: 河北文旅公共
+来源: Backup Source 2
+
+频道ID: 河北经济
+频道名称: 河北经济
+来源: Backup Source 2
+
+频道ID: 河北都市
+频道名称: 河北都市
+来源: Backup Source 2
+
+频道ID: 河南乡村
+频道名称: 河南乡村
+来源: Backup Source 2
+
+频道ID: 河南公共
+频道名称: 河南公共
+来源: Backup Source 2
+
+频道ID: 河南新农村
+频道名称: 河南新农村
+来源: Backup Source 2
+
+频道ID: 河南新闻
+频道名称: 河南新闻
+来源: Backup Source 2
+
+频道ID: 河南梨园
+频道名称: 河南梨园
+来源: Backup Source 2
+
+频道ID: 河南民生
+频道名称: 河南民生
+来源: Backup Source 2
+
+频道ID: 河南法治
+频道名称: 河南法治
+来源: Backup Source 2
+
+频道ID: 河南电视剧
+频道名称: 河南电视剧
+来源: Backup Source 2
+
+频道ID: 河南都市
+频道名称: 河南都市
+来源: Backup Source 2
+
+频道ID: 河源公共
+频道名称: 河源公共
+来源: Backup Source 2
+
+频道ID: 泰州一套
+频道名称: 泰州一套
+来源: Backup Source 2
+
+频道ID: 泰州三套
+频道名称: 泰州三套
+来源: Backup Source 2
+
+频道ID: 泸州新闻综合
+频道名称: 泸州新闻综合
+来源: Backup Source 2
+
+频道ID: 测试频道
+频道名称: 测试频道
+来源: Backup Source 2
+
+频道ID: 济南综合
+频道名称: 济南综合
+来源: Backup Source 2
+
+频道ID: 济南鲁中
+频道名称: 济南鲁中
+来源: Backup Source 2
+
+频道ID: 浙江NEWS
+频道名称: 浙江NEWS
+来源: Backup Source 2
+
+频道ID: 浙江公共新闻
+频道名称: 浙江公共新闻
+来源: Backup Source 2
+
+频道ID: 浙江国际
+频道名称: 浙江国际
+来源: Backup Source 2
+
+频道ID: 浙江少儿
+频道名称: 浙江少儿
+来源: Backup Source 2
+
+频道ID: 浙江教科影视
+频道名称: 浙江教科影视
+来源: Backup Source 2
+
+频道ID: 浙江教育
+频道名称: 浙江教育
+来源: Backup Source 2
+
+频道ID: 浙江数码时代
+频道名称: 浙江数码时代
+来源: Backup Source 2
+
+频道ID: 浙江新闻
+频道名称: 浙江新闻
+来源: Backup Source 2
+
+频道ID: 浙江民生
+频道名称: 浙江民生
+来源: Backup Source 2
+
+频道ID: 浙江民生休闲
+频道名称: 浙江民生休闲
+来源: Backup Source 2
+
+频道ID: 浙江经济生活
+频道名称: 浙江经济生活
+来源: Backup Source 2
+
+频道ID: 浙江经视
+频道名称: 浙江经视
+来源: Backup Source 2
+
+频道ID: 浙江钱江都市
+频道名称: 浙江钱江都市
+来源: Backup Source 2
+
+频道ID: 海南公共
+频道名称: 海南公共
+来源: Backup Source 2
+
+频道ID: 海南少儿
+频道名称: 海南少儿
+来源: Backup Source 2
+
+频道ID: 海南文旅
+频道名称: 海南文旅
+来源: Backup Source 2
+
+频道ID: 海南新闻
+频道名称: 海南新闻
+来源: Backup Source 2
+
+频道ID: 海南自贸
+频道名称: 海南自贸
+来源: Backup Source 2
+
+频道ID: 海外剧场
+频道名称: 海外剧场
+来源: Backup Source 2
+
+频道ID: 海峡卫视
+频道名称: 海峡卫视
+来源: Backup Source 2
+
+频道ID: 海豚综合台
+频道名称: 海豚综合台
+来源: Backup Source 2
+
+频道ID: 淘BABY
+频道名称: 淘BABY
+来源: Backup Source 2
+
+频道ID: 淘剧场
+频道名称: 淘剧场
+来源: Backup Source 2
+
+频道ID: 淘娱乐
+频道名称: 淘娱乐
+来源: Backup Source 2
+
+频道ID: 淘电影
+频道名称: 淘电影
+来源: Backup Source 2
+
+频道ID: 淮南公共
+频道名称: 淮南公共
+来源: Backup Source 2
+
+频道ID: 淮南新闻综合
+频道名称: 淮南新闻综合
+来源: Backup Source 2
+
+频道ID: 深圳体育健康
+频道名称: 深圳体育健康
+来源: Backup Source 2
+
+频道ID: 深圳国际
+频道名称: 深圳国际
+来源: Backup Source 2
+
+频道ID: 深圳少儿
+频道名称: 深圳少儿
+来源: Backup Source 2
+
+频道ID: 深圳电视剧
+频道名称: 深圳电视剧
+来源: Backup Source 2
+
+频道ID: 深圳移动
+频道名称: 深圳移动
+来源: Backup Source 2
+
+频道ID: 深圳财经
+频道名称: 深圳财经
+来源: Backup Source 2
+
+频道ID: 深圳财经生活
+频道名称: 深圳财经生活
+来源: Backup Source 2
+
+频道ID: 深圳都市
+频道名称: 深圳都市
+来源: Backup Source 2
+
+频道ID: 深视体育健康
+频道名称: 深视体育健康
+来源: Backup Source 2
+
+频道ID: 清远新闻综合
+频道名称: 清远新闻综合
+来源: Backup Source 2
+
+频道ID: 港台电视31
+频道名称: 港台电视31
+来源: Backup Source 2
+
+频道ID: 港台电视32
+频道名称: 港台电视32
+来源: Backup Source 2
+
+频道ID: 港台电视33
+频道名称: 港台电视33
+来源: Backup Source 2
+
+频道ID: 港台电视34
+频道名称: 港台电视34
+来源: Backup Source 2
+
+频道ID: 港台电视35
+频道名称: 港台电视35
+来源: Backup Source 2
+
+频道ID: 湖北公共·新闻
+频道名称: 湖北公共·新闻
+来源: Backup Source 2
+
+频道ID: 湖北公共新闻
+频道名称: 湖北公共新闻
+来源: Backup Source 2
+
+频道ID: 湖北垄上
+频道名称: 湖北垄上
+来源: Backup Source 2
+
+频道ID: 湖北影视
+频道名称: 湖北影视
+来源: Backup Source 2
+
+频道ID: 湖北教育
+频道名称: 湖北教育
+来源: Backup Source 2
+
+频道ID: 湖北生活
+频道名称: 湖北生活
+来源: Backup Source 2
+
+频道ID: 湖北经济
+频道名称: 湖北经济
+来源: Backup Source 2
+
+频道ID: 湖北经视
+频道名称: 湖北经视
+来源: Backup Source 2
+
+频道ID: 湖北综合
+频道名称: 湖北综合
+来源: Backup Source 2
+
+频道ID: 湖南卫视国际
+频道名称: 湖南卫视国际
+来源: Backup Source 2
+
+频道ID: 湖南国际
+频道名称: 湖南国际
+来源: Backup Source 2
+
+频道ID: 湖南娱乐
+频道名称: 湖南娱乐
+来源: Backup Source 2
+
+频道ID: 湖南爱晚
+频道名称: 湖南爱晚
+来源: Backup Source 2
+
+频道ID: 湖南电影
+频道名称: 湖南电影
+来源: Backup Source 2
+
+频道ID: 湖南电视剧
+频道名称: 湖南电视剧
+来源: Backup Source 2
+
+频道ID: 湖南经视
+频道名称: 湖南经视
+来源: Backup Source 2
+
+频道ID: 湖南都市
+频道名称: 湖南都市
+来源: Backup Source 2
+
+频道ID: 湛江公共
+频道名称: 湛江公共
+来源: Backup Source 2
+
+频道ID: 湛江综合
+频道名称: 湛江综合
+来源: Backup Source 2
+
+频道ID: 滚动力ROLLOR
+频道名称: 滚动力ROLLOR
+来源: Backup Source 2
+
+频道ID: 滨州民生
+频道名称: 滨州民生
+来源: Backup Source 2
+
+频道ID: 滨州综合
+频道名称: 滨州综合
+来源: Backup Source 2
+
+频道ID: 漳州新闻
+频道名称: 漳州新闻
+来源: Backup Source 2
+
+频道ID: 潘朵啦高画质玩美台
+频道名称: 潘朵啦高画质玩美台
+来源: Backup Source 2
+
+频道ID: 潘朵啦高画质粉红台
+频道名称: 潘朵啦高画质粉红台
+来源: Backup Source 2
+
+频道ID: 潮妈辣婆
+频道名称: 潮妈辣婆
+来源: Backup Source 2
+
+频道ID: 潮安综合
+频道名称: 潮安综合
+来源: Backup Source 2
+
+频道ID: 潮州民生
+频道名称: 潮州民生
+来源: Backup Source 2
+
+频道ID: 潮州综合
+频道名称: 潮州综合
+来源: Backup Source 2
+
+频道ID: 澳视体育
+频道名称: 澳视体育
+来源: Backup Source 2
+
+频道ID: 澳视卫星
+频道名称: 澳视卫星
+来源: Backup Source 2
+
+频道ID: 澳视澳门
+频道名称: 澳视澳门
+来源: Backup Source 2
+
+频道ID: 澳视综艺
+频道名称: 澳视综艺
+来源: Backup Source 2
+
+频道ID: 澳视葡文
+频道名称: 澳视葡文
+来源: Backup Source 2
+
+频道ID: 澳视资讯
+频道名称: 澳视资讯
+来源: Backup Source 2
+
+频道ID: 炫舞未来
+频道名称: 炫舞未来
+来源: Backup Source 2
+
+频道ID: 热播精选
+频道名称: 热播精选
+来源: Backup Source 2
+
+频道ID: 烽烟剧场
+频道名称: 烽烟剧场
+来源: Backup Source 2
+
+频道ID: 熊猫TV
+频道名称: 熊猫TV
+来源: Backup Source 2
+
+频道ID: 爱尔达体育1台
+频道名称: 爱尔达体育1台
+来源: Backup Source 2
+
+频道ID: 爱尔达体育2台
+频道名称: 爱尔达体育2台
+来源: Backup Source 2
+
+频道ID: 爱尔达体育3台
+频道名称: 爱尔达体育3台
+来源: Backup Source 2
+
+频道ID: 爱尔达体育4台
+频道名称: 爱尔达体育4台
+来源: Backup Source 2
+
+频道ID: 爱尔达娱乐台
+频道名称: 爱尔达娱乐台
+来源: Backup Source 2
+
+频道ID: 爱尔达影剧台HD
+频道名称: 爱尔达影剧台HD
+来源: Backup Source 2
+
+频道ID: 爱尔达生活旅游台
+频道名称: 爱尔达生活旅游台
+来源: Backup Source 2
+
+频道ID: 爱尔达综合台HD
+频道名称: 爱尔达综合台HD
+来源: Backup Source 2
+
+频道ID: 爱情喜剧
+频道名称: 爱情喜剧
+来源: Backup Source 2
+
+频道ID: 爱看导视
+频道名称: 爱看导视
+来源: Backup Source 2
+
+频道ID: 猪哥亮歌厅秀
+频道名称: 猪哥亮歌厅秀
+来源: Backup Source 2
+
+频道ID: 玉林公共
+频道名称: 玉林公共
+来源: Backup Source 2
+
+频道ID: 玉林新闻综合
+频道名称: 玉林新闻综合
+来源: Backup Source 2
+
+频道ID: 玩家频道
+频道名称: 玩家频道
+来源: Backup Source 2
+
+频道ID: 环宇电影
+频道名称: 环宇电影
+来源: Backup Source 2
+
+频道ID: 环球奇观
+频道名称: 环球奇观
+来源: Backup Source 2
+
+频道ID: 环球经典
+频道名称: 环球经典
+来源: Backup Source 2
+
+频道ID: 现代女性
+频道名称: 现代女性
+来源: Backup Source 2
+
+频道ID: 现代教育
+频道名称: 现代教育
+来源: Backup Source 2
+
+频道ID: 珠海1
+频道名称: 珠海1
+来源: Backup Source 2
+
+频道ID: 珠海2
+频道名称: 珠海2
+来源: Backup Source 2
+
+频道ID: 珠海新闻
+频道名称: 珠海新闻
+来源: Backup Source 2
+
+频道ID: 珠海生活
+频道名称: 珠海生活
+来源: Backup Source 2
+
+频道ID: 甘肃公共
+频道名称: 甘肃公共
+来源: Backup Source 2
+
+频道ID: 甘肃公共应急
+频道名称: 甘肃公共应急
+来源: Backup Source 2
+
+频道ID: 甘肃少儿
+频道名称: 甘肃少儿
+来源: Backup Source 2
+
+频道ID: 甘肃文化影视
+频道名称: 甘肃文化影视
+来源: Backup Source 2
+
+频道ID: 甘肃科教
+频道名称: 甘肃科教
+来源: Backup Source 2
+
+频道ID: 电影原声台CMUSIC
+频道名称: 电影原声台CMUSIC
+来源: Backup Source 2
+
+频道ID: 电竞天堂
+频道名称: 电竞天堂
+来源: Backup Source 2
+
+频道ID: 番薯卫星电视台
+频道名称: 番薯卫星电视台
+来源: Backup Source 2
+
+频道ID: 番薯电视台
+频道名称: 番薯电视台
+来源: Backup Source 2
+
+频道ID: 百姓健康
+频道名称: 百姓健康
+来源: Backup Source 2
+
+频道ID: 百色综合
+频道名称: 百色综合
+来源: Backup Source 2
+
+频道ID: 眉山综合
+频道名称: 眉山综合
+来源: Backup Source 2
+
+频道ID: 睛彩中原
+频道名称: 睛彩中原
+来源: Backup Source 2
+
+频道ID: 睛彩广场舞
+频道名称: 睛彩广场舞
+来源: Backup Source 2
+
+频道ID: 睛彩竞技
+频道名称: 睛彩竞技
+来源: Backup Source 2
+
+频道ID: 睛彩篮球
+频道名称: 睛彩篮球
+来源: Backup Source 2
+
+频道ID: 睛彩羽毛球
+频道名称: 睛彩羽毛球
+来源: Backup Source 2
+
+频道ID: 睛彩青少
+频道名称: 睛彩青少
+来源: Backup Source 2
+
+频道ID: 石家庄娱乐
+频道名称: 石家庄娱乐
+来源: Backup Source 2
+
+频道ID: 石家庄新闻综合
+频道名称: 石家庄新闻综合
+来源: Backup Source 2
+
+频道ID: 石家庄生活
+频道名称: 石家庄生活
+来源: Backup Source 2
+
+频道ID: 石家庄都市
+频道名称: 石家庄都市
+来源: Backup Source 2
+
+频道ID: 福州1新闻
+频道名称: 福州1新闻
+来源: Backup Source 2
+
+频道ID: 福州2套影视
+频道名称: 福州2套影视
+来源: Backup Source 2
+
+频道ID: 福州3生活
+频道名称: 福州3生活
+来源: Backup Source 2
+
+频道ID: 福建体育
+频道名称: 福建体育
+来源: Backup Source 2
+
+频道ID: 福建公共
+频道名称: 福建公共
+来源: Backup Source 2
+
+频道ID: 福建少儿
+频道名称: 福建少儿
+来源: Backup Source 2
+
+频道ID: 福建教育
+频道名称: 福建教育
+来源: Backup Source 2
+
+频道ID: 福建文体
+频道名称: 福建文体
+来源: Backup Source 2
+
+频道ID: 福建新闻
+频道名称: 福建新闻
+来源: Backup Source 2
+
+频道ID: 福建旅游
+频道名称: 福建旅游
+来源: Backup Source 2
+
+频道ID: 福建电视剧
+频道名称: 福建电视剧
+来源: Backup Source 2
+
+频道ID: 福建经济
+频道名称: 福建经济
+来源: Backup Source 2
+
+频道ID: 福建综合
+频道名称: 福建综合
+来源: Backup Source 2
+
+频道ID: 移动戏曲
+频道名称: 移动戏曲
+来源: Backup Source 2
+
+频道ID: 第一财经
+频道名称: 第一财经
+来源: Backup Source 2
+
+频道ID: 篮球
+频道名称: 篮球
+来源: Backup Source 2
+
+频道ID: 粤语片台
+频道名称: 粤语片台
+来源: Backup Source 2
+
+频道ID: 精品体育
+频道名称: 精品体育
+来源: Backup Source 2
+
+频道ID: 精品剧场
+频道名称: 精品剧场
+来源: Backup Source 2
+
+频道ID: 精品大剧
+频道名称: 精品大剧
+来源: Backup Source 2
+
+频道ID: 精品萌宠
+频道名称: 精品萌宠
+来源: Backup Source 2
+
+频道ID: 精彩电影
+频道名称: 精彩电影
+来源: Backup Source 2
+
+频道ID: 精选动漫台
+频道名称: 精选动漫台
+来源: Backup Source 2
+
+频道ID: 红豆电视台
+频道名称: 红豆电视台
+来源: Backup Source 2
+
+频道ID: 纪实科教
+频道名称: 纪实科教
+来源: Backup Source 2
+
+频道ID: 纬来体育台
+频道名称: 纬来体育台
+来源: Backup Source 2
+
+频道ID: 纬来戏剧台
+频道名称: 纬来戏剧台
+来源: Backup Source 2
+
+频道ID: 纬来日本台
+频道名称: 纬来日本台
+来源: Backup Source 2
+
+频道ID: 纬来电影台
+频道名称: 纬来电影台
+来源: Backup Source 2
+
+频道ID: 纬来精彩台
+频道名称: 纬来精彩台
+来源: Backup Source 2
+
+频道ID: 纬来精采HD
+频道名称: 纬来精采HD
+来源: Backup Source 2
+
+频道ID: 纬来综合台
+频道名称: 纬来综合台
+来源: Backup Source 2
+
+频道ID: 纬来育乐台
+频道名称: 纬来育乐台
+来源: Backup Source 2
+
+频道ID: 纬来音乐台
+频道名称: 纬来音乐台
+来源: Backup Source 2
+
+频道ID: 纯享4K
+频道名称: 纯享4K
+来源: Backup Source 2
+
+频道ID: 绍兴公共
+频道名称: 绍兴公共
+来源: Backup Source 2
+
+频道ID: 绍兴公共频道
+频道名称: 绍兴公共频道
+来源: Backup Source 2
+
+频道ID: 绍兴文化影视
+频道名称: 绍兴文化影视
+来源: Backup Source 2
+
+频道ID: 绍兴新闻综合
+频道名称: 绍兴新闻综合
+来源: Backup Source 2
+
+频道ID: 经典卡通台
+频道名称: 经典卡通台
+来源: Backup Source 2
+
+频道ID: 经典电影台
+频道名称: 经典电影台
+来源: Backup Source 2
+
+频道ID: 经济科教
+频道名称: 经济科教
+来源: Backup Source 2
+
+频道ID: 维吾尔语影视
+频道名称: 维吾尔语影视
+来源: Backup Source 2
+
+频道ID: 维吾尔语新闻综合
+频道名称: 维吾尔语新闻综合
+来源: Backup Source 2
+
+频道ID: 维吾尔语经济生活
+频道名称: 维吾尔语经济生活
+来源: Backup Source 2
+
+频道ID: 绵阳影视科技
+频道名称: 绵阳影视科技
+来源: Backup Source 2
+
+频道ID: 综合体育
+频道名称: 综合体育
+来源: Backup Source 2
+
+频道ID: 罪案+侦缉
+频道名称: 罪案+侦缉
+来源: Backup Source 2
+
+频道ID: 罪案侦缉频道
+频道名称: 罪案侦缉频道
+来源: Backup Source 2
+
+频道ID: 罪案侦缉频道HD
+频道名称: 罪案侦缉频道HD
+来源: Backup Source 2
+
+频道ID: 美丽人生购物台
+频道名称: 美丽人生购物台
+来源: Backup Source 2
+
+频道ID: 美亚电影
+频道名称: 美亚电影
+来源: Backup Source 2
+
+频道ID: 美亚电影HD
+频道名称: 美亚电影HD
+来源: Backup Source 2
+
+频道ID: 美亚电影台
+频道名称: 美亚电影台
+来源: Backup Source 2
+
+频道ID: 美好1台HD
+频道名称: 美好1台HD
+来源: Backup Source 2
+
+频道ID: 美好2台
+频道名称: 美好2台
+来源: Backup Source 2
+
+频道ID: 美食星球HD
+频道名称: 美食星球HD
+来源: Backup Source 2
+
+频道ID: 翡翠台
+频道名称: 翡翠台
+来源: Backup Source 2
+
+频道ID: 肇庆新闻
+频道名称: 肇庆新闻
+来源: Backup Source 2
+
+频道ID: 肇庆生活服务
+频道名称: 肇庆生活服务
+来源: Backup Source 2
+
+频道ID: 自贡公共
+频道名称: 自贡公共
+来源: Backup Source 2
+
+频道ID: 自贡综合
+频道名称: 自贡综合
+来源: Backup Source 2
+
+频道ID: 苏州文化生活
+频道名称: 苏州文化生活
+来源: Backup Source 2
+
+频道ID: 苏州文化生活苏州新闻综合苏州生活资讯苏州社会经济
+频道名称: 苏州文化生活苏州新闻综合苏州生活资讯苏州社会经济
+来源: Backup Source 2
+
+频道ID: 苏州新闻综合
+频道名称: 苏州新闻综合
+来源: Backup Source 2
+
+频道ID: 苏州生活资讯
+频道名称: 苏州生活资讯
+来源: Backup Source 2
+
+频道ID: 苏州社会经济
+频道名称: 苏州社会经济
+来源: Backup Source 2
+
+频道ID: 茂名公共
+频道名称: 茂名公共
+来源: Backup Source 2
+
+频道ID: 茂名综合
+频道名称: 茂名综合
+来源: Backup Source 2
+
+频道ID: 茶频道
+频道名称: 茶频道
+来源: Backup Source 2
+
+频道ID: 荆门科教文旅
+频道名称: 荆门科教文旅
+来源: Backup Source 2
+
+频道ID: 莆田一套
+频道名称: 莆田一套
+来源: Backup Source 2
+
+频道ID: 萌宠TV
+频道名称: 萌宠TV
+来源: Backup Source 2
+
+频道ID: 蒙语卫视
+频道名称: 蒙语卫视
+来源: Backup Source 2
+
+频道ID: 藏语卫视
+频道名称: 藏语卫视
+来源: Backup Source 2
+
+频道ID: 襄阳公共
+频道名称: 襄阳公共
+来源: Backup Source 2
+
+频道ID: 襄阳经济生活
+频道名称: 襄阳经济生活
+来源: Backup Source 2
+
+频道ID: 襄阳综合
+频道名称: 襄阳综合
+来源: Backup Source 2
+
+频道ID: 西宁生活
+频道名称: 西宁生活
+来源: Backup Source 2
+
+频道ID: 西宁综合
+频道名称: 西宁综合
+来源: Backup Source 2
+
+频道ID: 西安丝路
+频道名称: 西安丝路
+来源: Backup Source 2
+
+频道ID: 西安商务资讯
+频道名称: 西安商务资讯
+来源: Backup Source 2
+
+频道ID: 西安商务资迅
+频道名称: 西安商务资迅
+来源: Backup Source 2
+
+频道ID: 西安影视
+频道名称: 西安影视
+来源: Backup Source 2
+
+频道ID: 西安新闻综合
+频道名称: 西安新闻综合
+来源: Backup Source 2
+
+频道ID: 西安移动电视
+频道名称: 西安移动电视
+来源: Backup Source 2
+
+频道ID: 西安都市
+频道名称: 西安都市
+来源: Backup Source 2
+
+频道ID: 西湖明珠
+频道名称: 西湖明珠
+来源: Backup Source 2
+
+频道ID: 西藏影视文化
+频道名称: 西藏影视文化
+来源: Backup Source 2
+
+频道ID: 西藏藏语卫视
+频道名称: 西藏藏语卫视
+来源: Backup Source 2
+
+频道ID: 视纳华仁纪实台HD
+频道名称: 视纳华仁纪实台HD
+来源: Backup Source 2
+
+频道ID: 视纳华仁纪实频道
+频道名称: 视纳华仁纪实频道
+来源: Backup Source 2
+
+频道ID: 许昌1新闻综合
+频道名称: 许昌1新闻综合
+来源: Backup Source 2
+
+频道ID: 诚心电视台
+频道名称: 诚心电视台
+来源: Backup Source 2
+
+频道ID: 谍战大剧
+频道名称: 谍战大剧
+来源: Backup Source 2
+
+频道ID: 象视界
+频道名称: 象视界
+来源: Backup Source 2
+
+频道ID: 财富天下
+频道名称: 财富天下
+来源: Backup Source 2
+
+频道ID: 贵州公共
+频道名称: 贵州公共
+来源: Backup Source 2
+
+频道ID: 贵州大众生活
+频道名称: 贵州大众生活
+来源: Backup Source 2
+
+频道ID: 贵州影视文艺
+频道名称: 贵州影视文艺
+来源: Backup Source 2
+
+频道ID: 贵州法制
+频道名称: 贵州法制
+来源: Backup Source 2
+
+频道ID: 贵州科教
+频道名称: 贵州科教
+来源: Backup Source 2
+
+频道ID: 贵州科教健康
+频道名称: 贵州科教健康
+来源: Backup Source 2
+
+频道ID: 贵阳综合
+频道名称: 贵阳综合
+来源: Backup Source 2
+
+频道ID: 赣州公共
+频道名称: 赣州公共
+来源: Backup Source 2
+
+频道ID: 赣州教育
+频道名称: 赣州教育
+来源: Backup Source 2
+
+频道ID: 赣州新闻综合
+频道名称: 赣州新闻综合
+来源: Backup Source 2
+
+频道ID: 超级体育
+频道名称: 超级体育
+来源: Backup Source 2
+
+频道ID: 超级电影
+频道名称: 超级电影
+来源: Backup Source 2
+
+频道ID: 超级电视剧
+频道名称: 超级电视剧
+来源: Backup Source 2
+
+频道ID: 超级电视台
+频道名称: 超级电视台
+来源: Backup Source 2
+
+频道ID: 超级综艺
+频道名称: 超级综艺
+来源: Backup Source 2
+
+频道ID: 车迷
+频道名称: 车迷
+来源: Backup Source 2
+
+频道ID: 车迷TV
+频道名称: 车迷TV
+来源: Backup Source 2
+
+频道ID: 车迷TVHD
+频道名称: 车迷TVHD
+来源: Backup Source 2
+
+频道ID: 辽宁体育
+频道名称: 辽宁体育
+来源: Backup Source 2
+
+频道ID: 辽宁体育休闲
+频道名称: 辽宁体育休闲
+来源: Backup Source 2
+
+频道ID: 辽宁公共
+频道名称: 辽宁公共
+来源: Backup Source 2
+
+频道ID: 辽宁北方
+频道名称: 辽宁北方
+来源: Backup Source 2
+
+频道ID: 辽宁影视剧
+频道名称: 辽宁影视剧
+来源: Backup Source 2
+
+频道ID: 辽宁教育青少
+频道名称: 辽宁教育青少
+来源: Backup Source 2
+
+频道ID: 辽宁生活
+频道名称: 辽宁生活
+来源: Backup Source 2
+
+频道ID: 辽宁经济
+频道名称: 辽宁经济
+来源: Backup Source 2
+
+频道ID: 辽宁都市
+频道名称: 辽宁都市
+来源: Backup Source 2
+
+频道ID: 辽宁青少
+频道名称: 辽宁青少
+来源: Backup Source 2
+
+频道ID: 达文西频道
+频道名称: 达文西频道
+来源: Backup Source 2
+
+频道ID: 达文西频道HD
+频道名称: 达文西频道HD
+来源: Backup Source 2
+
+频道ID: 运通财经综合台
+频道名称: 运通财经综合台
+来源: Backup Source 2
+
+频道ID: 追剧少女
+频道名称: 追剧少女
+来源: Backup Source 2
+
+频道ID: 遂宁公共
+频道名称: 遂宁公共
+来源: Backup Source 2
+
+频道ID: 遂宁综合
+频道名称: 遂宁综合
+来源: Backup Source 2
+
+频道ID: 郑州商都
+频道名称: 郑州商都
+来源: Backup Source 2
+
+频道ID: 郑州妇女
+频道名称: 郑州妇女
+来源: Backup Source 2
+
+频道ID: 郑州戏曲
+频道名称: 郑州戏曲
+来源: Backup Source 2
+
+频道ID: 郑州文体
+频道名称: 郑州文体
+来源: Backup Source 2
+
+频道ID: 郑州新闻
+频道名称: 郑州新闻
+来源: Backup Source 2
+
+频道ID: 郑州生活
+频道名称: 郑州生活
+来源: Backup Source 2
+
+频道ID: 采昌影剧台
+频道名称: 采昌影剧台
+来源: Backup Source 2
+
+频道ID: 采昌影剧台HD
+频道名称: 采昌影剧台HD
+来源: Backup Source 2
+
+频道ID: 重庆党员教育
+频道名称: 重庆党员教育
+来源: Backup Source 2
+
+频道ID: 重庆农村
+频道名称: 重庆农村
+来源: Backup Source 2
+
+频道ID: 重庆国际
+频道名称: 重庆国际
+来源: Backup Source 2
+
+频道ID: 重庆娱乐
+频道名称: 重庆娱乐
+来源: Backup Source 2
+
+频道ID: 重庆少儿
+频道名称: 重庆少儿
+来源: Backup Source 2
+
+频道ID: 重庆影视
+频道名称: 重庆影视
+来源: Backup Source 2
+
+频道ID: 重庆影视剧
+频道名称: 重庆影视剧
+来源: Backup Source 2
+
+频道ID: 重庆文体娱乐
+频道名称: 重庆文体娱乐
+来源: Backup Source 2
+
+频道ID: 重庆新农村
+频道名称: 重庆新农村
+来源: Backup Source 2
+
+频道ID: 重庆新闻
+频道名称: 重庆新闻
+来源: Backup Source 2
+
+频道ID: 重庆时尚生活
+频道名称: 重庆时尚生活
+来源: Backup Source 2
+
+频道ID: 重庆生活资讯
+频道名称: 重庆生活资讯
+来源: Backup Source 2
+
+频道ID: 重庆社会与法
+频道名称: 重庆社会与法
+来源: Backup Source 2
+
+频道ID: 重庆移动
+频道名称: 重庆移动
+来源: Backup Source 2
+
+频道ID: 重庆红叶
+频道名称: 重庆红叶
+来源: Backup Source 2
+
+频道ID: 重庆红岩文化
+频道名称: 重庆红岩文化
+来源: Backup Source 2
+
+频道ID: 重温经典
+频道名称: 重温经典
+来源: Backup Source 2
+
+频道ID: 金光布袋戏
+频道名称: 金光布袋戏
+来源: Backup Source 2
+
+频道ID: 金华新闻
+频道名称: 金华新闻
+来源: Backup Source 2
+
+频道ID: 钓りビジョンHD
+频道名称: 钓りビジョンHD
+来源: Backup Source 2
+
+频道ID: 钦州公共
+频道名称: 钦州公共
+来源: Backup Source 2
+
+频道ID: 钦州综合
+频道名称: 钦州综合
+来源: Backup Source 2
+
+频道ID: 钱江都市
+频道名称: 钱江都市
+来源: Backup Source 2
+
+频道ID: 银川公共
+频道名称: 银川公共
+来源: Backup Source 2
+
+频道ID: 银川文体
+频道名称: 银川文体
+来源: Backup Source 2
+
+频道ID: 银川生活
+频道名称: 银川生活
+来源: Backup Source 2
+
+频道ID: 锦州公共
+频道名称: 锦州公共
+来源: Backup Source 2
+
+频道ID: 锦州新闻
+频道名称: 锦州新闻
+来源: Backup Source 2
+
+频道ID: 锦州都市
+频道名称: 锦州都市
+来源: Backup Source 2
+
+频道ID: 镜电视新闻台
+频道名称: 镜电视新闻台
+来源: Backup Source 2
+
+频道ID: 长春市民
+频道名称: 长春市民
+来源: Backup Source 2
+
+频道ID: 长春文旅体育
+频道名称: 长春文旅体育
+来源: Backup Source 2
+
+频道ID: 长春汽车
+频道名称: 长春汽车
+来源: Backup Source 2
+
+频道ID: 长春经济
+频道名称: 长春经济
+来源: Backup Source 2
+
+频道ID: 长春综合
+频道名称: 长春综合
+来源: Backup Source 2
+
+频道ID: 长沙影视
+频道名称: 长沙影视
+来源: Backup Source 2
+
+频道ID: 长沙政法
+频道名称: 长沙政法
+来源: Backup Source 2
+
+频道ID: 防城港公共
+频道名称: 防城港公共
+来源: Backup Source 2
+
+频道ID: 防城港新闻综合
+频道名称: 防城港新闻综合
+来源: Backup Source 2
+
+频道ID: 阳江1
+频道名称: 阳江1
+来源: Backup Source 2
+
+频道ID: 阳江2
+频道名称: 阳江2
+来源: Backup Source 2
+
+频道ID: 陕西一套
+频道名称: 陕西一套
+来源: Backup Source 2
+
+频道ID: 陕西七套
+频道名称: 陕西七套
+来源: Backup Source 2
+
+频道ID: 陕西三套
+频道名称: 陕西三套
+来源: Backup Source 2
+
+频道ID: 陕西二套
+频道名称: 陕西二套
+来源: Backup Source 2
+
+频道ID: 陕西五套
+频道名称: 陕西五套
+来源: Backup Source 2
+
+频道ID: 陕西体育休闲
+频道名称: 陕西体育休闲
+来源: Backup Source 2
+
+频道ID: 陕西八套
+频道名称: 陕西八套
+来源: Backup Source 2
+
+频道ID: 陕西六套
+频道名称: 陕西六套
+来源: Backup Source 2
+
+频道ID: 陕西农林卫视
+频道名称: 陕西农林卫视
+来源: Backup Source 2
+
+频道ID: 陕西四套
+频道名称: 陕西四套
+来源: Backup Source 2
+
+频道ID: 陕西影视
+频道名称: 陕西影视
+来源: Backup Source 2
+
+频道ID: 陕西新闻资讯
+频道名称: 陕西新闻资讯
+来源: Backup Source 2
+
+频道ID: 陕西秦腔
+频道名称: 陕西秦腔
+来源: Backup Source 2
+
+频道ID: 陕西都市青春
+频道名称: 陕西都市青春
+来源: Backup Source 2
+
+频道ID: 陕西银龄
+频道名称: 陕西银龄
+来源: Backup Source 2
+
+频道ID: 随州农村
+频道名称: 随州农村
+来源: Backup Source 2
+
+频道ID: 随州综合
+频道名称: 随州综合
+来源: Backup Source 2
+
+频道ID: 霹雳台湾台
+频道名称: 霹雳台湾台
+来源: Backup Source 2
+
+频道ID: 青岛TV1
+频道名称: 青岛TV1
+来源: Backup Source 2
+
+频道ID: 青岛TV2
+频道名称: 青岛TV2
+来源: Backup Source 2
+
+频道ID: 青岛TV3
+频道名称: 青岛TV3
+来源: Backup Source 2
+
+频道ID: 青岛TV4
+频道名称: 青岛TV4
+来源: Backup Source 2
+
+频道ID: 青岛TV5
+频道名称: 青岛TV5
+来源: Backup Source 2
+
+频道ID: 青岛TV6
+频道名称: 青岛TV6
+来源: Backup Source 2
+
+频道ID: 青岛影视
+频道名称: 青岛影视
+来源: Backup Source 2
+
+频道ID: 青岛教育
+频道名称: 青岛教育
+来源: Backup Source 2
+
+频道ID: 青岛新闻综合
+频道名称: 青岛新闻综合
+来源: Backup Source 2
+
+频道ID: 青岛生活服务
+频道名称: 青岛生活服务
+来源: Backup Source 2
+
+频道ID: 青岛财经资讯
+频道名称: 青岛财经资讯
+来源: Backup Source 2
+
+频道ID: 青岛都市
+频道名称: 青岛都市
+来源: Backup Source 2
+
+频道ID: 青年学苑
+频道名称: 青年学苑
+来源: Backup Source 2
+
+频道ID: 青海经视
+频道名称: 青海经视
+来源: Backup Source 2
+
+频道ID: 青海综合
+频道名称: 青海综合
+来源: Backup Source 2
+
+频道ID: 青海都市
+频道名称: 青海都市
+来源: Backup Source 2
+
+频道ID: 靖天卡通台
+频道名称: 靖天卡通台
+来源: Backup Source 2
+
+频道ID: 靖天卡通台HD
+频道名称: 靖天卡通台HD
+来源: Backup Source 2
+
+频道ID: 靖天戏剧HD
+频道名称: 靖天戏剧HD
+来源: Backup Source 2
+
+频道ID: 靖天戏剧台
+频道名称: 靖天戏剧台
+来源: Backup Source 2
+
+频道ID: 靖天日本HD
+频道名称: 靖天日本HD
+来源: Backup Source 2
+
+频道ID: 靖天日本台
+频道名称: 靖天日本台
+来源: Backup Source 2
+
+频道ID: 靖天映画
+频道名称: 靖天映画
+来源: Backup Source 2
+
+频道ID: 靖天映画HD
+频道名称: 靖天映画HD
+来源: Backup Source 2
+
+频道ID: 靖天欢乐台
+频道名称: 靖天欢乐台
+来源: Backup Source 2
+
+频道ID: 靖天电影HD
+频道名称: 靖天电影HD
+来源: Backup Source 2
+
+频道ID: 靖天电影台
+频道名称: 靖天电影台
+来源: Backup Source 2
+
+频道ID: 靖天综合台
+频道名称: 靖天综合台
+来源: Backup Source 2
+
+频道ID: 靖天综合台HD
+频道名称: 靖天综合台HD
+来源: Backup Source 2
+
+频道ID: 靖天育乐HD
+频道名称: 靖天育乐HD
+来源: Backup Source 2
+
+频道ID: 靖天育乐台
+频道名称: 靖天育乐台
+来源: Backup Source 2
+
+频道ID: 靖天资讯HD
+频道名称: 靖天资讯HD
+来源: Backup Source 2
+
+频道ID: 靖天资讯台
+频道名称: 靖天资讯台
+来源: Backup Source 2
+
+频道ID: 靖洋卡通NICEBINGO
+频道名称: 靖洋卡通NICEBINGO
+来源: Backup Source 2
+
+频道ID: 靖洋卡通台
+频道名称: 靖洋卡通台
+来源: Backup Source 2
+
+频道ID: 靖洋卡通台NICEBINGOHD
+频道名称: 靖洋卡通台NICEBINGOHD
+来源: Backup Source 2
+
+频道ID: 靖洋戏剧HD
+频道名称: 靖洋戏剧HD
+来源: Backup Source 2
+
+频道ID: 靖洋戏剧台
+频道名称: 靖洋戏剧台
+来源: Backup Source 2
+
+频道ID: 非凡商业台
+频道名称: 非凡商业台
+来源: Backup Source 2
+
+频道ID: 非凡新闻台
+频道名称: 非凡新闻台
+来源: Backup Source 2
+
+频道ID: 鞍山新闻综合
+频道名称: 鞍山新闻综合
+来源: Backup Source 2
+
+频道ID: 韩国娱乐台KMTV
+频道名称: 韩国娱乐台KMTV
+来源: Backup Source 2
+
+频道ID: 韩国娱乐台KMTVHD
+频道名称: 韩国娱乐台KMTVHD
+来源: Backup Source 2
+
+频道ID: 韩国阿里郎
+频道名称: 韩国阿里郎
+来源: Backup Source 2
+
+频道ID: 音楽・ラ
+频道名称: 音楽・ラ
+来源: Backup Source 2
+
+频道ID: 音楽・ライブ！　スペースシャワーTVHD
+频道名称: 音楽・ライブ！　スペースシャワーTVHD
+来源: Backup Source 2
+
+频道ID: 韶关新闻
+频道名称: 韶关新闻
+来源: Backup Source 2
+
+频道ID: 频道总表
+频道名称: 频道总表
+来源: Backup Source 2
+
+频道ID: 香港卫视
+频道名称: 香港卫视
+来源: Backup Source 2
+
+频道ID: 香蕉台
+频道名称: 香蕉台
+来源: Backup Source 2
+
+频道ID: 驻马店3科教
+频道名称: 驻马店3科教
+来源: Backup Source 2
+
+频道ID: 高点电视台
+频道名称: 高点电视台
+来源: Backup Source 2
+
+频道ID: 高点育乐台
+频道名称: 高点育乐台
+来源: Backup Source 2
+
+频道ID: 魅力足球
+频道名称: 魅力足球
+来源: Backup Source 2
+
+频道ID: 麦哲伦频道HD
+频道名称: 麦哲伦频道HD
+来源: Backup Source 2
+
+频道ID: 黄冈新闻综合
+频道名称: 黄冈新闻综合
+来源: Backup Source 2
+
+频道ID: 黄冈生活
+频道名称: 黄冈生活
+来源: Backup Source 2
+
+频道ID: 黄河卫视
+频道名称: 黄河卫视
+来源: Backup Source 2
+
+频道ID: 黄河电视台
+频道名称: 黄河电视台
+来源: Backup Source 2
+
+频道ID: 黄石新闻综合
+频道名称: 黄石新闻综合
+来源: Backup Source 2
+
+频道ID: 黄石都市
+频道名称: 黄石都市
+来源: Backup Source 2
+
+频道ID: 黄金华剧台
+频道名称: 黄金华剧台
+来源: Backup Source 2
+
+频道ID: 黄金翡翠台
+频道名称: 黄金翡翠台
+来源: Backup Source 2
+
+频道ID: 黑莓动画
+频道名称: 黑莓动画
+来源: Backup Source 2
+
+频道ID: 黑莓电影
+频道名称: 黑莓电影
+来源: Backup Source 2
+
+频道ID: 黑龙江农业科教
+频道名称: 黑龙江农业科教
+来源: Backup Source 2
+
+频道ID: 黑龙江少儿
+频道名称: 黑龙江少儿
+来源: Backup Source 2
+
+频道ID: 黑龙江影视
+频道名称: 黑龙江影视
+来源: Backup Source 2
+
+频道ID: 黑龙江文体
+频道名称: 黑龙江文体
+来源: Backup Source 2
+
+频道ID: 黑龙江新闻法制
+频道名称: 黑龙江新闻法制
+来源: Backup Source 2
+
+频道ID: 黑龙江新闻法治
+频道名称: 黑龙江新闻法治
+来源: Backup Source 2
+
+频道ID: 黑龙江都市
+频道名称: 黑龙江都市
+来源: Backup Source 2
+
+频道ID: 龙华偶像HD
+频道名称: 龙华偶像HD
+来源: Backup Source 2
+
+频道ID: 龙华动画HD
+频道名称: 龙华动画HD
+来源: Backup Source 2
+
+频道ID: 龙华影剧HD
+频道名称: 龙华影剧HD
+来源: Backup Source 2
+
+频道ID: 龙华戏剧HD
+频道名称: 龙华戏剧HD
+来源: Backup Source 2
+
+频道ID: 龙华洋片HD
+频道名称: 龙华洋片HD
+来源: Backup Source 2
+
+频道ID: 龙华电影HD
+频道名称: 龙华电影HD
+来源: Backup Source 2
+
+频道ID: 龙华经典HD
+频道名称: 龙华经典HD
+来源: Backup Source 2
+
+频道ID: 龙岩综合
+频道名称: 龙岩综合
+来源: Backup Source 2
+
+频道ID: 龙祥时代
+频道名称: 龙祥时代
+来源: Backup Source 2
+
+频道ID: ＢＳよしもと
+频道名称: ＢＳよしもと
+来源: Backup Source 2
+
+频道ID: ＢＳテレ东
+频道名称: ＢＳテレ东
+来源: Backup Source 2
+
+频道ID: ＢＳフジ・181
+频道名称: ＢＳフジ・181
+来源: Backup Source 2
+
+频道ID: ＢＳ日テレ
+频道名称: ＢＳ日テレ
+来源: Backup Source 2
+
+频道ID: ＢＳ朝日１
+频道名称: ＢＳ朝日１
+来源: Backup Source 2
+
+频道ID: ＢＳ松竹东急
+频道名称: ＢＳ松竹东急
+来源: Backup Source 2
+
+频道ID: ＢＳ－ＴＢＳ
+频道名称: ＢＳ－ＴＢＳ
+来源: Backup Source 2
+
+频道ID: ＢＳ１０
+频道名称: ＢＳ１０
+来源: Backup Source 2
+
+频道ID: ＢＳ１０ス
+频道名称: ＢＳ１０ス
+来源: Backup Source 2
+
+频道ID: ＦＭヨコハマ
+频道名称: ＦＭヨコハマ
+来源: Backup Source 2
+
+频道ID: ＮＨＫ　ＢＳ
+频道名称: ＮＨＫ　ＢＳ
+来源: Backup Source 2
+
+频道ID: ＮＨＫＢＳ１
+频道名称: ＮＨＫＢＳ１
+来源: Backup Source 2
+
+频道ID: ＴＢＳＮＥＷＳ
+频道名称: ＴＢＳＮＥＷＳ
+来源: Backup Source 2
+
+频道ID: ＴＶ５ＭＯＮＤＥ
+频道名称: ＴＶ５ＭＯＮＤＥ
+来源: Backup Source 2
+
+频道ID: ＷＯＷＯＷシネマ
+频道名称: ＷＯＷＯＷシネマ
+来源: Backup Source 2
+
+频道ID: ＷＯＷＯＷプライム
+频道名称: ＷＯＷＯＷプライム
+来源: Backup Source 2
+
+频道ID: ＷＯＷＯＷライブ
+频道名称: ＷＯＷＯＷライブ
+来源: Backup Source 2
 
