@@ -33,9 +33,13 @@ jobs:
 
     - name: Run EPG Aggregation Script
       run: |
+        mkdir -p EPG
+
         cd private_repo/scripts
         python aggregate_epg.py
 
+        ls -lh ../EPG/
+       
     - name: Commit and Push to Public Repo
       run: |
         cd public_repo
