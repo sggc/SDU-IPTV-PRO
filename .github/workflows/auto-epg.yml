@@ -1,160 +1,64 @@
-name: EPG Aggregation Workflow
+name: EPG Aggregation
 
 on:
   schedule:
-    - cron: '0 4,10,16,22 * * *'  # 每天4:00, 10:00, 16:00, 22:00运行
-  workflow_dispatch:  # 支持手动触发
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/workflows/auto-epg.yml'
+    - cron: '0 4,10,16,22 * * *'  # 每天4、10、16、22点运行
+  workflow_dispatch:
 
 jobs:
   aggregate-epg:
     runs-on: ubuntu-latest
     
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-    
     steps:
-    - name: Checkout public repository
+    - name: Checkout public repository (SDU-IPTV-PRO)
       uses: actions/checkout@v4
       with:
-        repository: sggc/SDU-IPTV-PRO
-        token: ${{ secrets.GITHUB_TOKEN }}
-        path: ./public-repo
+        path: public_repo
     
-    - name: Checkout private repository
+    - name: Checkout private repository (SDU-IPTV-NEW)
       uses: actions/checkout@v4
       with:
         repository: sggc/SDU-IPTV-NEW
+        path: private_repo
         token: ${{ secrets.PRIVATE_REPO_TOKEN }}
-        path: ./private-repo
-        ref: main
     
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-        cache: 'pip'
     
     - name: Install dependencies
       run: |
-        cd ./private-repo
-        pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        # 安装常用EPG处理库
-        pip install lxml beautifulsoup4 requests fuzzywuzzy python-Levenshtein
-    
-    - name: Create EPG directory if not exists
-      run: |
-        mkdir -p ./public-repo/EPG
-        mkdir -p ./public-repo/EPG/logs
+        python -m pip install --upgrade pip
+        pip install requests lxml beautifulsoup4
     
     - name: Run EPG aggregation script
-      id: aggregate
       run: |
-        cd ./private-repo
-        echo "Starting EPG aggregation at $(date)"
-        
-        # 运行聚合脚本
-        python scripts/aggregate_epg.py \
-          --config config/epg_config.json \
-          --output-dir ../public-repo/EPG \
-          --log-file ../public-repo/EPG/logs/aggregation_$(date +%Y%m%d_%H%M%S).log
-        
-        echo "EPG aggregation completed at $(date)"
-        
-        # 检查输出文件
-        if [ -f "../public-repo/EPG/sggc.xml" ]; then
-          echo "Output file created successfully"
-          echo "::set-output name=status::success"
-        else
-          echo "Output file not found"
-          echo "::set-output name=status::failed"
-          exit 1
-        fi
+        cd public_repo
+        python ../private_repo/scripts/aggregate_epg.py \
+          --config ../private_repo/config/epg_config.json \
+          --output-dir ./EPG
     
-    - name: Compress output XML file
-      if: steps.aggregate.outputs.status == 'success'
+    - name: Compress EPG file
       run: |
-        cd ./public-repo/EPG
-        if [ -f "sggc.xml" ]; then
-          echo "Compressing sggc.xml to sggc.xml.gz"
-          gzip -c sggc.xml > sggc.xml.gz
-          echo "Compression completed. File size: $(du -h sggc.xml.gz | cut -f1)"
-        else
-          echo "sggc.xml not found for compression"
-        fi
-    
-    - name: Create summary log file
-      run: |
-        cd ./public-repo/EPG
-        # 创建最新的日志链接
-        latest_log=$(ls -t logs/aggregation_*.log 2>/dev/null | head -1)
-        if [ -n "$latest_log" ]; then
-          cp "$latest_log" latest_aggregation.log
-          echo "Summary log created: latest_aggregation.log"
-        fi
-        
-        # 创建简单的状态文件
-        echo "Last updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" > status.txt
-        echo "Workflow run: ${{ github.run_id }}" >> status.txt
-        echo "Run URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> status.txt
-        if [ -f "sggc.xml" ]; then
-          echo "File size: $(du -h sggc.xml | cut -f1)" >> status.txt
-          echo "Channels count: $(grep -c '<channel id=' sggc.xml 2>/dev/null || echo 'N/A')" >> status.txt
+        cd public_repo/EPG
+        if [ -f sggc.xml ]; then
+          gzip -c -f sggc.xml > sggc.xml.gz
+          echo "File compressed: sggc.xml.gz"
         fi
     
     - name: Commit and push changes
-      if: steps.aggregate.outputs.status == 'success'
       run: |
-        cd ./public-repo
-        
-        # 设置Git配置
+        cd public_repo
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # 检查是否有更改
-        if git status --porcelain | grep -q '^[ MARC]'; then
-          echo "Changes detected, committing..."
-          
-          # 添加所有变更文件
-          git add EPG/
-          
-          # 提交更改
-          commit_message="Auto-update EPG data - $(date +'%Y-%m-%d %H:%M:%S')"
-          git commit -m "$commit_message"
-          
-          # 推送更改
-          git push origin main
-          echo "Changes pushed successfully"
-        else
+        # 添加所有EPG相关文件
+        git add EPG/
+        
+        if git diff --staged --quiet; then
           echo "No changes to commit"
+        else
+          git commit -m "Auto update EPG data - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
         fi
-    
-    - name: Upload log files as artifacts
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: epg-logs
-        path: |
-          ./public-repo/EPG/logs/
-          ./public-repo/EPG/latest_aggregation.log
-          ./public-repo/EPG/status.txt
-        retention-days: 7
-    
-    - name: Notify on failure
-      if: failure()
-      uses: actions/github-script@v6
-      with:
-        script: |
-          github.rest.issues.create({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            title: 'EPG Aggregation Workflow Failed',
-            body: `The EPG aggregation workflow failed. Please check the logs.\n\nRun: ${context.runId}\nURL: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
-          })
