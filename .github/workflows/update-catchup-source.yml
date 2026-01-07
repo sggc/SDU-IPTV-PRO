@@ -1,0 +1,81 @@
+name: Update Catchup Source
+
+on:
+  schedule:
+    # 每6小时检查一次
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: '强制更新（忽略哈希检查）'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  update-catchup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests
+      
+      - name: Create directories if not exist
+        run: |
+          mkdir -p .github/expand
+          mkdir -p .github/scripts
+          mkdir -p .data
+      
+      - name: Clear hash if force update
+        if: ${{ github.event.inputs.force_update == 'true' }}
+        run: |
+          rm -f .data/catchup_source_hash.txt
+          echo "已清除哈希缓存，将强制更新"
+      
+      - name: Run update script
+        id: update
+        run: |
+          python .github/scripts/update_catchup_source.py
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "没有检测到文件变化"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "检测到文件变化:"
+            git diff --stat
+          fi
+      
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "🔄 自动更新 catchup-source [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push
+      
+      - name: Summary
+        run: |
+          echo "## 更新摘要" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.check_changes.outputs.changed }}" == "true" ]; then
+            echo "✅ catchup-source 已成功更新并推送" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ 没有需要更新的内容" >> $GITHUB_STEP_SUMMARY
+          fi
