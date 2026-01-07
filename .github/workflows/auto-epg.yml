@@ -45,10 +45,7 @@ jobs:
         
         # 添加 EPG 目录下的所有文件（包括 epg.xml, epg.xml.gz, epg_log.txt）
         git add EPG/
-        git status 
-    
-        git commit -m "update epg"
-        git push    
+   
         if git diff --staged --quiet; then
           echo "没有变更需要提交"
         else
