@@ -14,6 +14,8 @@ jobs:
       uses: actions/checkout@v4
       with:
         path: public_repo
+        # 添加 fetch-depth: 0 获取完整历史
+        fetch-depth: 0
 
     - name: Checkout private repository (EPG Logic)
       uses: actions/checkout@v4
@@ -30,25 +32,105 @@ jobs:
     - name: Install dependencies
       run: |
         pip install requests
-
+    
     - name: Run EPG Aggregation Script
       run: |
-
         cd private_repo/scripts
+        echo "当前目录: $(pwd)"
+        echo "检查 public_repo 是否存在:"
+        ls -la ../../public_repo/ || echo "目录不存在"
         python aggregate_epg.py
-       
-    - name: Commit and Push to Public Repo
+    
+    - name: Verify and Force Update
+      run: |
+        echo "=== 验证文件生成 ==="
+        
+        # 切换到 public_repo 目录
+        cd public_repo
+        
+        echo "1. 检查EPG目录:"
+        if [ -d "EPG" ]; then
+          echo "✓ EPG目录存在"
+          echo "目录内容:"
+          ls -la EPG/
+          echo ""
+          echo "文件大小:"
+          du -sh EPG/*
+        else
+          echo "✗ EPG目录不存在，创建它"
+          mkdir -p EPG
+        fi
+        
+        echo ""
+        echo "2. 检查当前Git状态:"
+        git status
+        
+        echo ""
+        echo "3. 查看未跟踪的文件:"
+        git status --porcelain
+        
+        # 如果文件不存在，创建占位符文件
+        if [ ! -f "EPG/epg.xml" ]; then
+          echo "创建空的 epg.xml"
+          echo "<!-- 空的EPG文件 -->" > EPG/epg.xml
+        fi
+        
+        if [ ! -f "EPG/epg.xml.gz" ]; then
+          echo "创建空的 epg.xml.gz"
+          echo "empty" | gzip > EPG/epg.xml.gz 2>/dev/null || touch EPG/epg.xml.gz
+        fi
+        
+        if [ ! -f "EPG/epg_log.txt" ]; then
+          echo "创建 epg_log.txt"
+          echo "EPG更新日志" > EPG/epg_log.txt
+          echo "生成时间: $(date '+%Y-%m-%d %H:%M:%S')" >> EPG/epg_log.txt
+        fi
+        
+        # 在日志中添加时间戳确保每次都有变更
+        echo "" >> EPG/epg_log.txt
+        echo "更新时间: $(date '+%Y-%m-%d %H:%M:%S')" >> EPG/epg_log.txt
+    
+    - name: Commit and Push Changes
       run: |
         cd public_repo
+        
+        echo "=== 提交变更 ==="
+        
+        # 配置Git用户
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # 添加 EPG 目录下的所有文件（包括 epg.xml, epg.xml.gz, epg_log.txt）
+        # 确保我们使用正确的分支（main或master）
+        CURRENT_BRANCH=$(git branch --show-current)
+        echo "当前分支: $CURRENT_BRANCH"
+        
+        # 添加所有EPG相关文件
+        echo "添加文件到Git:"
         git add EPG/
-   
-        if git diff --staged --quiet; then
-          echo "没有变更需要提交"
+        
+        echo "暂存区状态:"
+        git diff --staged --name-only
+        
+        # 总是创建提交（即使内容相同）
+        TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+        COMMIT_MSG="自动更新 EPG [$TIMESTAMP]"
+        
+        # 检查是否有变更
+        if ! git diff --staged --quiet || ! git diff --quiet; then
+          echo "有变更需要提交"
+          git commit -m "$COMMIT_MSG"
         else
-          git commit -m "自动更新 EPG [$(date '+%Y-%m-%d %H:%M:%S')]"
-          git push
+          echo "没有内容变更，创建空提交"
+          # 在日志中强制添加一行确保有变更
+          echo "强制更新: $TIMESTAMP" >> EPG/epg_log.txt
+          git add EPG/epg_log.txt
+          git commit -m "$COMMIT_MSG" || git commit --allow-empty -m "$COMMIT_MSG"
         fi
+        
+        echo "提交信息:"
+        git log -1 --oneline
+        
+        echo "推送到远程仓库..."
+        git push origin $CURRENT_BRANCH
+        
+        echo "=== 完成 ==="
