@@ -1,0 +1,53 @@
+name: Auto Update EPG
+
+on:
+  schedule:
+    # 北京时间 02:00, 08:00, 14:00, 20:00 (UTC 18:00, 00:00, 06:00, 12:00)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout public repository
+      uses: actions/checkout@v4
+      with:
+        path: public_repo
+
+    - name: Checkout private repository (EPG Logic)
+      uses: actions/checkout@v4
+      with:
+        repository: sggc/SDU-IPTV-NEW
+        path: private_repo
+        token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install requests
+
+    - name: Run EPG Aggregation Script
+      run: |
+        cd private_repo/scripts
+        python aggregate_epg.py
+
+    - name: Commit and Push to Public Repo
+      run: |
+        cd public_repo
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # 添加 EPG 目录下的所有文件（包括 epg.xml, epg.xml.gz, epg_log.txt）
+        git add EPG/
+        
+        if git diff --staged --quiet; then
+          echo "没有变更需要提交"
+        else
+          git commit -m "自动更新 EPG [$(date '+%Y-%m-%d %H:%M:%S')]"
+          git push
+        fi
