@@ -111,7 +111,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           
           # 文件已经在上一步 add 过了
-          git commit -m "自动更新 catchup-source [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git commit -m "Merge Mul [ $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S']"
           git push
           
           echo "✅ 已提交并推送更改"
