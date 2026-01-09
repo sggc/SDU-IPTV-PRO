@@ -378,3 +378,5 @@ http://192.168.100.1:5140/rtp/239.253.246.132:8000?fcc=60.210.139.78:8027
 http://192.168.100.1:5140/rtp/239.253.246.158:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="收视指南" group-title="轮播频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/收视指南.png", 收视指南
 http://192.168.100.1:5140/rtp/239.253.246.124:8000?fcc=60.210.139.78:8027
+#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="香港频道" tvg-logo="", 凤凰卫视中文台
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="香港频道" tvg-logo="", 凤凰卫视资讯台
