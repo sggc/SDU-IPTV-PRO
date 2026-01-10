@@ -34,7 +34,7 @@ http://192.168.100.1:5140/rtp/239.253.246.236:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV15" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV15.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch11122400365842237336.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV15
 http://192.168.100.1:5140/rtp/239.253.246.170:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV16
-http://114.241.250.59:4022/rtp/239.3.1.184:8001$北京联通1
+http://114.254.35.57:18888/rtp/239.3.1.184:8001$北京联通1
 http://192.168.100.1:5140/rtp/239.253.246.168:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV4K" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV4K.png", CCTV4K
 http://192.168.100.1:5140/rtp/239.253.246.122:8000?fcc=60.210.139.78:8027
@@ -382,8 +382,6 @@ http://192.168.100.1:5140/rtp/239.253.246.124:8000?fcc=60.210.139.78:8027
 #genre#1
 
 # --- Extra Sources ---
-#EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV16
-http://114.254.35.57:18888/rtp/239.3.1.184:8001$北京联通2
 #EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV16
 http://111.162.207.111:8686/rtp/225.1.2.237:5002$天津联通1
 #EXTINF:-1 tvg-name="CCTV第一剧场" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV第一剧场.png",CCTV第一剧场
