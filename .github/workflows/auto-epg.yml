@@ -2,7 +2,7 @@ name: EPG Aggregation
 
 on:
   schedule:
-    - cron: '0 4,10,16,22 * * *'  # 每天4、10、16、22点运行
+    - cron: '0 20,2,8,14 * * *'  # 北京时间每天4、10、16、22点运行
   workflow_dispatch:
 
 jobs:
