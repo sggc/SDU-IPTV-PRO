@@ -2,36 +2,6 @@
 基于 [plsy1/iptv](https://github.com/plsy1/iptv) 项目开发的自动化 IPTV 源处理与发布系统，专注于优化源文件可用性、提升使用便捷性，实现全流程自动化运维。
 
 
-## 📁 项目结构
-```
-SDU-IPTV-PRO/
-├── .data/hash
-├── .github/
-│ └── workflows/
-│   └── update-sources.yml
-│   ├── merge-on-custom-change.yml
-│   └── auto-packaging.yml
-├── custom/
-│ ├── custom.m3u
-│ ├── custom1.m3u
-│ └── …custom*.m3u
-├── scripts/
-│ ├── process_unicast.py
-│ ├── process_multicast.py
-│ └── merge_m3u.py
-├── backup/
-│ ├── temp-unicast.m3u
-│ ├── temp-multicast-r2h.m3u
-│ └── temp-multicast-nofcc.m3u
-├── logo/
-├── external/
-├── unicast.m3u
-├── multicast-r2h.m3u
-├── multicast-nofcc.m3u
-├── multicast-static.m3u
-└── README.md
-```
-
 ## 🚀 核心特性
 - **自动更新机制**: 每小时监测原始源文件变动，实时同步最新内容
 - **灵活频道管理**: 支持创建任意数量的 `custom*.m3u` 文件，自动合并
@@ -41,18 +11,21 @@ SDU-IPTV-PRO/
 - **版本自动留档**: 源文件变更时自动创建Release，保留历史版本
 - **多格式输出**: 提供单播、组播（含去FCC版本）多类型源文件
 
+
+## 📒 聚合型EPG
+以项目 [plsy1/epg](https://github.com/plsy1/epg) 为蓝本，一方面对标多渠道 EPG 数据源进行交叉核验，另一方面定向采集电视猫与搜视网平台的山东地市频道节目信息，通过内容增补、数据替换等精细化优化，着力打造适配本仓库的最全版本 EPG 资源。
+
+### 使用方法
+复制以下任意链接到常见直播壳中即可使用：
+- GitHub：https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/refs/heads/main/EPG/sggc.xml.gz
+- Gitee：https://gitee.com/sggc2005/SDU-IPTV-PRO/raw/main/EPG/sggc.xml.gz
+
 ## 📖 使用指南
 ### 直接使用
 - **单播源**: 下载 `unicast.m3u`，直接导入Ku9等播放器使用
 - **组播源**: 下载 `multicast-r2h.m3u`，配合rtp2httpd服务使用
 - **去FCC组播源**: 下载 `multicast-nofcc.m3u`或`multicast-static.m3u`，适用于无法使用FCC场景
 
-### 自定义你的频道
-1.  Fork 本仓库
-2.  在 `custom/` 目录下，编辑或创建任意 `custom*.m3u` 文件（如 `custom.m3u`, `custom1.m3u`）
-3.  将你想要的频道按标准 M3U 格式写入文件
-4.  提交更改
-5.  系统将自动检测到你的修改，并在几分钟内完成合并、更新和发布
 
 ### 历史版本获取
 访问仓库 [Releases](../../releases) 页面，可查看所有历史版本及更新日志，按需下载。
@@ -78,6 +51,10 @@ SDU-IPTV-PRO/
 3.  **Auto Packaging (自动打包发布)**
     - **触发**：当最终的 `.m3u` 文件发生任何变更时。
     - **任务**：自动创建一个新的 GitHub Release，将最新的播放列表和完整仓库打包存档。
+
+4.  **EPG Aggregation (自动聚合EPG)**
+    - **触发**：定时触发。
+    - **任务**：自动聚合指定平台的EPG，进行增补、删除操作。
 
 ## 🔧 关键转换规则
 ### 频道排序优化
