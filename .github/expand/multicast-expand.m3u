@@ -392,9 +392,9 @@ http://192.168.100.1:5140/rtp/239.253.246.158:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="收视指南" group-title="轮播频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/收视指南.png", 收视指南
 http://192.168.100.1:5140/rtp/239.253.246.124:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰中文台.png", 凤凰卫视中文台
-http://60.176.127.198:55555/rtp/233.50.202.35:5140$浙江电信1
+http://125.120.103.214:8500/rtp/233.50.202.35:5140$浙江电信1
 #EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰资讯台.png", 凤凰卫视资讯台
-http://60.176.127.198:55555/rtp/233.50.202.36:5140$浙江电信1
+http://125.120.103.214:8500/rtp/233.50.202.36:5140$浙江电信1
 # 占位符
 # --- Extra Sources ---
 #EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
@@ -423,7 +423,3 @@ http://121.29.141.237:4022/rtp/239.253.93.175:6439$河北联通1
 http://121.29.141.237:4022/rtp/239.253.93.231:6409$河北联通1
 #EXTINF:-1 tvg-name="CCTV电视指南" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV电视指南.png",CCTV电视指南
 http://121.29.141.237:4022/rtp/239.253.93.249:6427$河北联通1
-#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰中文台.png", 凤凰卫视中文台
-http://115.224.67.84:8000/rtp/233.50.202.35:5140$浙江电信2
-#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰资讯台.png", 凤凰卫视资讯台
-http://115.224.67.84:8000/rtp/233.50.202.36:5140$浙江电信2
