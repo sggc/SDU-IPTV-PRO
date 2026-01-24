@@ -40,7 +40,7 @@ rtsp://150.138.8.132/PLTV/88888888/224/3221226185/100001000000000600000000031107
 rtsp://150.138.8.132/PLTV/88888888/224/3221226736/395256223.smil
 #EXTINF:-1 tvg-name="CCTV-17 农业农村" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV17.png" tvg-chno="22" tvg-shift="0" catchup="default" catchup-days="7" catchup-source="rtsp://150.138.8.132/PLTV/88888888/224/3221226366/10000100000000060000000003766311_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="央视频道" resolution="1920x1080" ,CCTV-17 农业农村
 rtsp://150.138.8.132/PLTV/88888888/224/3221226366/10000100000000060000000003766311_0.smil
-#EXTINF:-1 tvg-id=492576" tvg-name="中学生" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中学生.png" tvg-chno="92" tvg-shift="0" catchup="default" catchup-days="7" catchup-source="rtsp://150.138.8.132/PLTV/88888888/224/3221227434/523619250.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="央视频道" resolution="1920x1080" ,中学生
+#EXTINF:-1 tvg-name="中学生" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中学生.png" tvg-chno="92" tvg-shift="0" catchup="default" catchup-days="7" catchup-source="rtsp://150.138.8.132/PLTV/88888888/224/3221227434/523619250.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="央视频道" resolution="1920x1080" ,中学生
 rtsp://150.138.8.132/PLTV/88888888/224/3221227434/523619250.smil
 
 
