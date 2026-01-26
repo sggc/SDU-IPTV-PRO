@@ -424,6 +424,10 @@ http://121.29.141.162:4022/rtp/239.253.93.231:6409$河北联通1
 #EXTINF:-1 tvg-name="CCTV电视指南" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV电视指南.png",CCTV电视指南
 http://121.29.141.162:4022/rtp/239.253.93.249:6427$河北联通1
 #EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰中文台.png", 凤凰卫视中文台
-http://122.246.147.78:7777/rtp/233.50.202.35:5140$浙江电信2
+http://60.162.8.63:8088/rtp/233.50.202.35:5140$浙江电信2
+#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰中文台.png", 凤凰卫视中文台
+http://122.246.147.78:7777/rtp/233.50.202.35:5140$浙江电信3
 #EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰资讯台.png", 凤凰卫视资讯台
-http://122.246.147.78:7777/rtp/233.50.202.36:5140$浙江电信2
+http://60.162.8.63:8088/rtp/233.50.202.36:5140$浙江电信2
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰资讯台.png", 凤凰卫视资讯台
+http://122.246.147.78:7777/rtp/233.50.202.36:5140$浙江电信3
