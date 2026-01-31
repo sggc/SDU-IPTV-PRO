@@ -98,6 +98,11 @@ rtp://239.253.240.250:8000
 #EXTINF:-1 tvg-name="肥城综合" group-title="山东频道" catchup="default" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/泰安肥城2.png", 肥城综合
 rtp://239.253.240.251:8000
 
+#EXTINF:-1 tvg-name="肥城生活" group-title="山东频道"  tvg-logo="https://img11.iqilu.com/51/2020/10/21/7a8e9cead2c6b4b8fda6dfee8de5e73a.jpg",肥城生活
+https://fastly.jsdelivr.net/k-web/ku9/js/gh/plsy1/iqilu@master/ku9/iqilu.js?orgid=51&num=1
+#EXTINF:-1 tvg-name="东平民生" group-title="山东频道"  tvg-logo="https://img11.iqilu.com/187/2021/01/20/51351221cff29862755d6e84897c11d0.jpg",东平民生
+https://fastly.jsdelivr.net/k-web/ku9/js/gh/plsy1/iqilu@master/ku9/iqilu.js?orgid=187&num=1
+
 #EXTINF:-1 tvg-name="山东卫视4K" group-title="卫视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东卫视4K.png" catchup="default" catchup-source="rtsp://112.245.125.45:1554/iptv/Tvod/iptv/001/001/ch25081411425529721444.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东卫视4K
 rtp://239.253.240.172:8000 
 #EXTINF:-1 tvg-name="江苏卫视4K" group-title="卫视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/江苏卫视4K.png" catchup="default" catchup-source="rtsp://112.245.125.45:1554/iptv/Tvod/iptv/001/001/ch25092214081313070909.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 江苏卫视4K
