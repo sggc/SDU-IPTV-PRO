@@ -83,9 +83,9 @@ rtsp://112.245.125.39:1554/iptv/import/Tvod/iptv/001/001/ch20011717250645892912.
 rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch24020819351237316095.rsc/99977_Uni.sdp
 #EXTINF:-1 tvg-name="新泰乡村" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/新泰乡村2.png" catchup="default" catchup-source="rtsp://112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch20070915444258780250.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", 新泰乡村
 rtsp://112.245.125.41:1554/iptv/import/Tvod/iptv/001/001/ch20070915444258780250.rsc/90389_Uni.sdp
-#EXTINF:-1 tvg-name="肥城生活" group-title="山东频道"  tvg-logo="https://img11.iqilu.com/51/2020/10/21/7a8e9cead2c6b4b8fda6dfee8de5e73a.jpg",肥城生活
+#EXTINF:-1 tvg-name="肥城生活" group-title="山东频道"  tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安肥城生活.png",肥城生活
 https://fastly.jsdelivr.net/k-web/ku9/js/gh/plsy1/iqilu@master/ku9/iqilu.js?orgid=51&num=1
-#EXTINF:-1 tvg-name="东平民生" group-title="山东频道"  tvg-logo="https://img11.iqilu.com/187/2021/01/20/51351221cff29862755d6e84897c11d0.jpg",东平民生
+#EXTINF:-1 tvg-name="东平民生" group-title="山东频道"  tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安东平民生.png",东平民生
 https://fastly.jsdelivr.net/k-web/ku9/js/gh/plsy1/iqilu@master/ku9/iqilu.js?orgid=187&num=1
 #EXTINF:-1 tvg-name="山东经济广播" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东经济广播.png" catchup="default" catchup-source="rtsp://112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch24040915081276788638.rsc?tvdr=${(b)yyyyMMddHHmmss|UTC}GMT-${(e)yyyyMMddHHmmss|UTC}GMT", 山东经济广播
 rtsp://112.245.125.42:1554/iptv/import/Tvod/iptv/001/001/ch24040915081276788638.rsc/100010_Uni.sdp
