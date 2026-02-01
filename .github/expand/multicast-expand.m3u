@@ -1,12 +1,12 @@
-#EXTM3U url-tvg="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/EPG/sggc.xml.gz"
+#EXTM3U url-tvg="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SD-EPG/main/EPG/sggc-desc.xml.gz"
 #EXTINF:-1 tvg-name="CCTV1" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV1.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.38:1554/iptv/Tvod/iptv/001/001/ch12122514263996485740.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",CCTV-1综合
-http://192.168.100.1:5140/rtp/239.253.246.77:8000?fcc=60.210.139.78:8027&fcc-type=huawei
+http://192.168.100.1:5140/rtp/239.253.246.77:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="山东卫视" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东卫视.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch15050916441119736372.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东卫视
-http://192.168.100.1:5140/rtp/239.253.246.78:8000?fcc=60.210.139.78:8027&fcc-type=huawei
+http://192.168.100.1:5140/rtp/239.253.246.78:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV2" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV2.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch15111015505054435886.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV-2财经
-http://192.168.100.1:5140/rtp/239.253.246.232:8000?fcc=60.210.139.78:8027&fcc-type=huawei
+http://192.168.100.1:5140/rtp/239.253.246.232:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV3" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV3.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch21072816504132734115.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",CCTV-3综艺
-http://192.168.100.1:5140/rtp/239.253.246.191:8000?fcc=60.210.139.78:8027&fcc-type=huawei
+http://192.168.100.1:5140/rtp/239.253.246.191:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV4" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV4.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.38:1554/iptv/Tvod/iptv/001/001/ch17121814361050007455.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV-4中文国际
 http://192.168.100.1:5140/rtp/239.253.246.111:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV5" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV5.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch21072816512692879794.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV-5体育
@@ -423,3 +423,7 @@ http://121.29.141.162:4022/rtp/239.253.93.175:6439$河北联通1
 http://121.29.141.162:4022/rtp/239.253.93.231:6409$河北联通1
 #EXTINF:-1 tvg-name="CCTV电视指南" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV电视指南.png",CCTV电视指南
 http://121.29.141.162:4022/rtp/239.253.93.249:6427$河北联通1
+#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰中文台.png", 凤凰卫视中文台
+http://183.157.16.201:4000/rtp/233.50.202.35:5140$浙江电信2
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰资讯台.png", 凤凰卫视资讯台
+http://183.157.16.201:4000/rtp/233.50.202.36:5140$浙江电信2
