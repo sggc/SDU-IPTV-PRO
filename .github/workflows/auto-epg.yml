@@ -47,6 +47,34 @@ jobs:
           echo "File compressed: sggc.xml.gz"
         fi
     
+    # ========== 新增：Desc增强处理 ==========
+    - name: Run Desc Enhancement script
+      run: |
+        cd public_repo
+        python ../private_repo/scripts/desc_enhancer.py \
+          --config ../private_repo/config/epg_config.json \
+          --aggregated-epg ./EPG/sggc.xml.gz \
+          --desc-db ../private_repo/EPG/desc_database.csv \
+          --output-dir ./EPG \
+          --private-output-dir ../private_repo/EPG
+    
+    # ========== 提交私有仓库的更新 ==========
+    - name: Commit and push private repo changes
+      run: |
+        cd private_repo
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        # 添加EPG目录
+        git add EPG/
+        
+        if git diff --staged --quiet; then
+          echo "No changes to private repo"
+        else
+          git commit -m "Update desc database $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+          git push
+        fi
+    
     - name: Commit and push changes
       run: |
         cd public_repo
