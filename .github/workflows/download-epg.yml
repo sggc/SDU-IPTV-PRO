@@ -1,0 +1,50 @@
+name: Download EPG File (6:00 & 13:00)
+
+on:
+  schedule:
+    # 每天 UTC 22:00 = 北京时间次日 6:00
+    - cron: '0 22 * * *'
+    # 每天 UTC 5:00  = 北京时间当天 13:00
+    - cron: '0 5 * * *'
+  # 保留手动触发，方便测试
+  workflow_dispatch:
+    inputs:
+      file_url:
+        description: '要下载的文件URL（手动运行时使用）'
+        required: true
+        type: string
+
+jobs:
+  download-and-save:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create EPG directory
+        run: mkdir -p EPG
+
+      - name: Download file with original name
+        run: |
+          # 定时任务使用固定URL，手动任务使用输入的URL
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            # 【替换为你实际要定时下载的固定URL】
+            EPG_URL="https://gitee.com/link?target=https%3A%2F%2Fraw.githubusercontent.com%2Fsggc%2FSD-EPG%2Frefs%2Fheads%2Fmain%2FEPG%2Fsggc.xml.gz"
+          else
+            EPG_URL="${{ github.event.inputs.file_url }}"
+          fi
+          
+          wget -q --content-disposition -P EPG/ "${EPG_URL}"
+
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Auto update EPG file (${{ github.event_name }})"
+          add: "EPG/*"
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
