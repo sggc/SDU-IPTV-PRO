@@ -298,7 +298,7 @@ http://192.168.100.1:5140/rtp/239.253.246.164:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="新动漫" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/新动漫.png", 新动漫
 http://192.168.100.1:5140/rtp/239.253.246.157:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="财富天下" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/财富天下.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.45:1554/iptv/Tvod/iptv/001/001/ch21082717345151428687.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 财富天下
-http://192.168.100.1:5140/rtp/239.253.230.147:8000?fcc=60.210.139.78:8027
+http://192.168.100.1:5140/rtp/239.253.246.147:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="环球旅游" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/环球旅游.png", 环球旅游
 http://192.168.100.1:5140/rtp/239.253.246.71:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="重温经典影视" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/重温经典影视.png",重温经典影视
