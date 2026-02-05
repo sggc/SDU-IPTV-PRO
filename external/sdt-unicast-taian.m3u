@@ -560,17 +560,17 @@ http://150.138.8.143/00/SNM/CHANNEL00003002/index.m3u8
 http://150.138.8.143/00/SNM/CHANNEL00000650/index.m3u8
 #EXTINF:-1 tvg-id="294" tvg-name="央广购物" group-title="其他频道" tvg-chno="294" tvg-shift="0" catchup="none" catchup-days="0" resolution="720x576" ,央广购物
 http://150.138.8.143/00/SNM/CHANNEL00000704/index.m3u8
-#EXTINF:-1 tvg-id="295" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/停用频道.png" group-title="其他频道" tvg-chno="295" tvg-shift="0" catchup="none" catchup-days="0" resolution="720x576" ,已停用
+#EXTINF:-1 tvg-id="295" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/停用频道.png" group-title="其他频道" tvg-chno="295" tvg-shift="0" catchup="none" catchup-days="0" resolution="720x576" ,已停用
 http://150.138.8.143/00/SNM/CHANNEL00000504/index.m3u8
-#EXTINF:-1 tvg-id="296" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/停用频道.png" group-title="其他频道" tvg-chno="296" tvg-shift="0" catchup="none" catchup-days="0" resolution="1920x1080" ,已停用
+#EXTINF:-1 tvg-id="296" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/停用频道.png" group-title="其他频道" tvg-chno="296" tvg-shift="0" catchup="none" catchup-days="0" resolution="1920x1080" ,已停用
 http://150.138.8.143/00/SNM/CHANNEL00002021/index.m3u8
-#EXTINF:-1 tvg-id="297" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/停用频道.png" group-title="其他频道" tvg-chno="297" tvg-shift="0" catchup="none" catchup-days="0" resolution="720x576" ,已停用
+#EXTINF:-1 tvg-id="297" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/停用频道.png" group-title="其他频道" tvg-chno="297" tvg-shift="0" catchup="none" catchup-days="0" resolution="720x576" ,已停用
 http://150.138.8.143/00/SNM/CHANNEL00000654/index.m3u8
-#EXTINF:-1 tvg-id="298" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/停用频道.png" group-title="其他频道" tvg-chno="298" tvg-shift="0" catchup="none" catchup-days="0" resolution="720x576" ,已停用
+#EXTINF:-1 tvg-id="298" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/停用频道.png" group-title="其他频道" tvg-chno="298" tvg-shift="0" catchup="none" catchup-days="0" resolution="720x576" ,已停用
 http://150.138.8.143/00/SNM/CHANNEL00000645/index.m3u8
-#EXTINF:-1 tvg-id="300" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/停用频道.png" group-title="其他频道" tvg-chno="300" tvg-shift="0" catchup="none" catchup-days="0" resolution="720x576" ,已停用
+#EXTINF:-1 tvg-id="300" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/停用频道.png" group-title="其他频道" tvg-chno="300" tvg-shift="0" catchup="none" catchup-days="0" resolution="720x576" ,已停用
 http://150.138.8.143/00/SNM/CHANNEL00000060/index.m3u8
-#EXTINF:-1 tvg-id="301" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/停用频道.png" group-title="其他频道" tvg-chno="301" tvg-shift="0" catchup="none" catchup-days="0" resolution="720x576" ,已停用
+#EXTINF:-1 tvg-id="301" tvg-name="已停用" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/停用频道.png" group-title="其他频道" tvg-chno="301" tvg-shift="0" catchup="none" catchup-days="0" resolution="720x576" ,已停用
 http://150.138.8.143/00/SNM/CHANNEL00004004/index.m3u8
 
 
