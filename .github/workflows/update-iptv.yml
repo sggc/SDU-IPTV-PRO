@@ -48,11 +48,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Create directories if not exist
-      run: |
-        mkdir -p public_repo/.github/expand
-        mkdir -p public_repo/.data
-
     - name: Check local file exists
       run: |
         cd public_repo
@@ -69,7 +64,7 @@ jobs:
       run: |
         cd public_repo
         echo "Step 1: Update catchup source"
-        python ../private_repo/scripts/update_catchup_source.py
+        python scripts/update_catchup_source.py
 
     - name: Step 2 - Expand Multicast Sources
       run: |
