@@ -28,6 +28,7 @@ jobs:
     - name: Checkout public repository
       uses: actions/checkout@v4
       with:
+        path: public_repo
         fetch-depth: 0
 
     - name: Checkout private repository
@@ -49,11 +50,12 @@ jobs:
 
     - name: Create directories if not exist
       run: |
-        mkdir -p .github/expand
-        mkdir -p .data
+        mkdir -p public_repo/.github/expand
+        mkdir -p public_repo/.data
 
     - name: Check local file exists
       run: |
+        cd public_repo
         if [ -f ".github/expand/multicast-origin.m3u" ]; then
           echo "Local source file exists"
         else
@@ -65,16 +67,19 @@ jobs:
       env:
         FORCE_UPDATE: ${{ github.event.inputs.force_update || false }}
       run: |
+        cd public_repo
         echo "Step 1: Update catchup source"
-        python scripts/update_catchup_source.py
+        python ../private_repo/scripts/update_catchup_source.py
 
     - name: Step 2 - Expand Multicast Sources
       run: |
+        cd public_repo
         echo "Step 2: Expand multicast sources"
-        python private_repo/scripts/expand_multicast.py
+        python ../private_repo/scripts/expand_multicast.py
 
     - name: Commit and push changes
       run: |
+        cd public_repo
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
