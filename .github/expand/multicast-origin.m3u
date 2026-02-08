@@ -217,12 +217,12 @@ http://192.168.100.1:5140/rtp/239.253.246.107:8000?fcc=60.210.139.78:8027
 http://192.168.100.1:5140/rtp/239.253.246.116:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="四海钓鱼" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/四海钓鱼.png", 四海钓鱼
 http://192.168.100.1:5140/rtp/239.253.246.118:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="汽摩" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/汽摩.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch23112715323902470603.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 汽摩
-http://192.168.100.1:5140/rtp/239.253.246.161:8000?fcc=60.210.139.78:8027#player=ijk
+#EXTINF:-1 tvg-name="汽摩" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/汽摩.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch23112715323902470603.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800" player=ijk, 汽摩
+http://192.168.100.1:5140/rtp/239.253.246.161:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="生态环境" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/生态环境.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.47:1554/iptv/Tvod/iptv/001/001/ch24111213061931833007.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 生态环境
 http://192.168.100.1:5140/rtp/239.253.246.119:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="中华特产" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中华特产.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.47:1554/iptv/Tvod/iptv/001/001/ch22122209144768479365.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 中华特产
-http://192.168.100.1:5140/rtp/239.253.246.76:8000?fcc=60.210.139.78:8027#player=ijk
+#EXTINF:-1 tvg-name="中华特产" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中华特产.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.47:1554/iptv/Tvod/iptv/001/001/ch22122209144768479365.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800" player=ijk, 中华特产
+http://192.168.100.1:5140/rtp/239.253.246.76:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="中国交通" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中国交通.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch20110221445820405906.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 中国交通
 http://192.168.100.1:5140/rtp/239.253.246.177:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="动漫秀场" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/动漫秀场.png", 动漫秀场
