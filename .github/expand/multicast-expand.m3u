@@ -34,7 +34,7 @@ http://192.168.100.1:5140/rtp/239.253.246.236:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV15" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV15.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.38:1554/iptv/Tvod/iptv/001/001/ch11122400365842237336.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV-15音乐
 http://192.168.100.1:5140/rtp/239.253.246.170:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
-http://114.254.35.130:18888/rtp/239.3.1.184:8001$北京联通1
+http://114.254.33.207:18888/rtp/239.3.1.184:8001$北京联通1
 #EXTINF:-1 tvg-name="CCTV17" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV17.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch19073116233495000222.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV-17农村农业
 http://192.168.100.1:5140/rtp/239.253.246.168:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV4K" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV4K.png", CCTV-4K超高清
