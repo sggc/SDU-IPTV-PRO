@@ -482,6 +482,18 @@ http://121.29.215.157:2083/rtp/239.253.93.249:6427$河北联通2
 #EXTINF:-1 tvg-name="CCTV电视指南" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV电视指南.png",CCTV电视指南
 http://60.4.29.183:8077/rtp/239.253.93.249:6427$河北联通3
 #EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰中文台.png", 凤凰卫视中文台
-http://122.242.242.207:8001/rtp/233.50.202.35:5140$浙江电信2
+http://60.189.248.43:8088/rtp/233.50.202.35:5140$浙江电信2
+#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰中文台.png", 凤凰卫视中文台
+http://183.129.42.199:8888/rtp/233.50.202.35:5140$浙江电信3
+#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰中文台.png", 凤凰卫视中文台
+http://125.107.72.234:8088/rtp/233.50.202.35:5140$浙江电信4
+#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰中文台.png", 凤凰卫视中文台
+http://122.242.242.207:8001/rtp/233.50.202.35:5140$浙江电信5
 #EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰资讯台.png", 凤凰卫视资讯台
-http://122.242.242.207:8001/rtp/233.50.202.36:5140$浙江电信2
+http://60.189.248.43:8088/rtp/233.50.202.36:5140$浙江电信2
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰资讯台.png", 凤凰卫视资讯台
+http://183.129.42.199:8888/rtp/233.50.202.36:5140$浙江电信3
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰资讯台.png", 凤凰卫视资讯台
+http://125.107.72.234:8088/rtp/233.50.202.36:5140$浙江电信4
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="香港频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/凤凰资讯台.png", 凤凰卫视资讯台
+http://122.242.242.207:8001/rtp/233.50.202.36:5140$浙江电信5
