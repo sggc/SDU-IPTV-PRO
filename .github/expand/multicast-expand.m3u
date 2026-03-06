@@ -402,7 +402,7 @@ http://123.157.31.182:7912/rtp/233.50.202.36:5140$浙江电信1
 #EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
 http://114.254.80.164:8888/rtp/239.3.1.184:8001$北京联通2
 #EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
-http://114.254.81.37:4022/rtp/239.3.1.184:8001$北京联通3
+http://114.254.82.51:4022/rtp/239.3.1.184:8001$北京联通3
 #EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
 http://123.118.52.208:8686/rtp/239.3.1.184:8001$北京联通4
 #EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
