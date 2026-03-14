@@ -34,7 +34,7 @@ http://192.168.100.1:5140/rtp/239.253.246.236:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV15" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV15.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.38:1554/iptv/Tvod/iptv/001/001/ch11122400365842237336.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV-15音乐
 http://192.168.100.1:5140/rtp/239.253.246.170:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
-http://111.196.132.166:20000/rtp/239.3.1.184:8001$北京联通1
+http://111.56.90.5/000000000000/5000000008000023253/index.m3u8
 #EXTINF:-1 tvg-name="CCTV17" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV17.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch19073116233495000222.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", CCTV-17农村农业
 http://192.168.100.1:5140/rtp/239.253.246.168:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="CCTV4K" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV4K.png", CCTV-4K超高清
@@ -399,18 +399,6 @@ http://183.132.77.23:4022/rtp/233.50.202.35:5140$浙江电信1
 http://183.132.77.23:4022/rtp/233.50.202.36:5140$浙江电信1
 # 占位符
 # --- Extra Sources ---
-#EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
-http://114.254.81.181:4022/rtp/239.3.1.184:8001$北京联通2
-#EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
-http://114.254.83.60:8888/rtp/239.3.1.184:8001$北京联通3
-#EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
-http://123.118.54.253:8686/rtp/239.3.1.184:8001$北京联通4
-#EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
-http://123.118.57.24:8686/rtp/239.3.1.184:8001$北京联通5
-#EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
-http://221.220.135.194:8012/rtp/239.3.1.184:8001$北京联通6
-#EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png", CCTV-16奥林匹克
-http://111.162.204.109:8686/rtp/225.1.2.237:5002$天津联通1
 #EXTINF:-1 tvg-name="CCTV第一剧场" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV第一剧场.png",CCTV第一剧场
 http://121.29.169.87:2083/rtp/239.253.93.138:6428$河北联通1
 #EXTINF:-1 tvg-name="CCTV第一剧场" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV第一剧场.png",CCTV第一剧场
