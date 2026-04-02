@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/plsy1/epg/main/e/seven-days.xml.gz"
 # 源文件: https://raw.githubusercontent.com/plsy1/iptv/refs/heads/main/multicast/multicast-weifang.m3u
-# 修改时间: 2026-02-04 16:18:02 (北京时间)
+# 修改时间: 2026-04-02 19:38:07 (北京时间)
 # 处理规则:
 # 1. CGTN频道改为"其他频道"
 # 2. 复制山东卫视到CCTV1下面并改为"央视频道"
@@ -154,8 +154,6 @@ http://192.168.100.1:5140/rtp/239.253.246.66:8000
 http://192.168.100.1:5140/rtp/239.253.246.82:8000
 #EXTINF:-1 tvg-name="金鹰纪实" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/金鹰纪实.png" , 金鹰纪实
 http://192.168.100.1:5140/rtp/239.253.246.103:8000
-#EXTINF:-1 tvg-name="茶" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/茶.png" , 茶
-http://192.168.100.1:5140/rtp/239.253.246.143:8000
 #EXTINF:-1 tvg-name="快乐垂钓" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/快乐垂钓.png" , 快乐垂钓
 http://192.168.100.1:5140/rtp/239.253.246.144:8000
 #EXTINF:-1 tvg-name="金鹰卡通" group-title="其他频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/金鹰卡通.png" , 金鹰卡通
