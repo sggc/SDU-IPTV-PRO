@@ -9,7 +9,6 @@
 - 无desc节目描述：https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc.xml.gz
 - 有desc节目描述：https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz
 
-## 📖 频道列表
 <!-- CHANNEL_TABLE_START -->
 ## 📖 频道列表
 ### 更新时间
