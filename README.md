@@ -9,7 +9,7 @@
 - 无desc节目描述：https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc.xml.gz
 - 有desc节目描述：https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz
 
-## 📖 山东联通组播源第三段
+## 📖 联通组播源第三段及FCC
 rtp://239.253.xxx.77:8000?fcc=xx.xx.xx.xx:xxxx
 | 城市 | 标识 | FCC 服务器地址 |
 | ---- | ---- | -------------- |
