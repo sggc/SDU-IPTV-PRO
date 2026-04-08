@@ -15,14 +15,14 @@ jobs:
         with:
           repository: sggc/SDU-IPTV-PRO
           path: public-repo
-          token: ${{ secrets.PAT_TOKEN }}   # 需要有写入权限的 PAT
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
 
       - name: Checkout private repo (scripts)
         uses: actions/checkout@v4
         with:
           repository: sggc/SDU-IPTV-NEW
           path: private-repo
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
