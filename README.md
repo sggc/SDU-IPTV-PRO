@@ -9,15 +9,10 @@
 - 无desc节目描述：https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc.xml.gz
 - 有desc节目描述：https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz
 
-## 📖 使用指南
-### 直接使用
-- **单播源**: 下载 `unicast.m3u`，直接导入Ku9等播放器使用
-- **组播源**: 下载 `multicast-r2h.m3u`，配合rtp2httpd服务使用
-- **去FCC组播源**: 下载 `multicast-nofcc.m3u`或`multicast-static.m3u`，适用于无法使用FCC场景
+## 📖 频道列表
+### 更新时间
 
-
-### 历史版本获取
-访问仓库 [Releases](../../releases) 页面，可查看所有历史版本及更新日志，按需下载。
+### 所有频道
 
 
 ## 🔧 关键转换规则
