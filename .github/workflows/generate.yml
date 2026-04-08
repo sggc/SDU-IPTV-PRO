@@ -1,0 +1,32 @@
+name: Generate M3U Files
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate SDM-Unicast files
+        run: python scripts/generate_sdm_unicast.py
+
+      - name: Generate SDT-Unicast files
+        run: python scripts/generate_sdt_unicast.py
+
+      - name: Generate SDU-Multicast files
+        run: python scripts/generate_sdu_multicast.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --staged --quiet || git commit -m "Update generated M3U files"
+          git push
