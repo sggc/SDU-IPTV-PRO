@@ -61,12 +61,6 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000338/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000331/index.m3u8
 #EXTINF:-1 tvg-name="山东购物" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东居家购物裁切.png" group-title="山东频道"  catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000700/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",山东购物
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000700/index.m3u8
-#EXTINF:-1 tvg-name="枣庄新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/枣庄.png" group-title="市级频道" ,枣庄新闻综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001025/index.m3u8
-#EXTINF:-1 tvg-name="枣庄经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/枣庄.png" group-title="市级频道" ,枣庄经济生活
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001026/index.m3u8
-#EXTINF:-1 tvg-name="滕州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/枣庄滕州.png" group-title="枣庄" ,滕州综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001028/index.m3u8
 #EXTINF:-1 tvg-name="山东卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东卫视4K.png" group-title="卫视频道" catchup="default" catchup-source="http://39.134.144.6:8089/PLTV/88888888/224/3221226760/index.m3u8?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" ,山东卫视4K
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000005/index.m3u8
 #EXTINF:-1 tvg-name="江苏卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/江苏卫视4K.png" group-title="卫视频道" catchup="default" catchup-source="http://39.134.144.6:8089/PLTV/88888888/224/3221226778/index.m3u8?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" ,江苏卫视4K
@@ -625,6 +619,12 @@ http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001077/index.m3u8
 #EXTINF:-1 tvg-name="牟平综合" tvg-logo="https://raw.githubusercontent.com/sumingyd/IPTV-Scanner-Editor-Pro/main/logo/山东/烟台牟平.png" group-title="山东频道" ,牟平综合
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001076/index.m3u8
+#EXTINF:-1 tvg-name="枣庄新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/枣庄.png" group-title="市级频道" ,枣庄新闻综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001025/index.m3u8
+#EXTINF:-1 tvg-name="枣庄经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/枣庄.png" group-title="市级频道" ,枣庄经济生活
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001026/index.m3u8
+#EXTINF:-1 tvg-name="滕州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/枣庄滕州.png" group-title="枣庄" ,滕州综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001028/index.m3u8
 #EXTINF:-1 tvg-name="文登综合" tvg-logo="" group-title="威海",文登综合
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001017/index.m3u8
 #EXTINF:-1 tvg-name="宁阳影视" tvg-logo="" group-title="泰安",宁阳影视
