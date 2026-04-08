@@ -1,6 +1,8 @@
 # SDU-IPTV-PRO
 基于 [plsy1/iptv](https://github.com/plsy1/iptv) 
 
+
+
 ## 📒 聚合型EPG
 以项目 [plsy1/epg](https://github.com/plsy1/epg) 为蓝本，一方面对标多渠道 EPG 数据源进行交叉核验，另一方面定向采集电视猫与搜视网平台的山东地市频道节目信息，通过内容增补、数据替换等精细化优化，着力打造适配本仓库的最全版本 EPG 资源。
 
@@ -9,6 +11,18 @@
 - 无desc节目描述：https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc.xml.gz
 - 有desc节目描述：https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz
 
+## 📖 山东联通组播源第三段
+rtp://239.253.xxx.77:8000
+| 城市 | 标识 | 城市 | 标识 |
+| ---- | ---- | ---- | ---- |
+| 济南 | 254  | 泰安 | 242  |
+| 德州 | 240  | 济宁 | 250  |
+| 威海 | 244  | 菏泽 | 230  |
+| 烟台 | 236  | 潍坊 | 248  |
+| 莱芜 | 246  | 滨州 | 222  |
+| 聊城 | 234  | 日照 | 228  |
+| 淄博 | 224  | 东营 | 252  |
+| 青岛 | 232  | 枣庄 | 254  |
 <!-- CHANNEL_TABLE_START -->
 ## 📖 频道列表
 ### 更新时间
