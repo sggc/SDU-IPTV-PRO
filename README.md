@@ -236,4 +236,4 @@ rtp://239.253.xxx.77:8000?fcc=xx.xx.xx.xx:xxxx
 5. 若本项目内容侵犯您的合法权益（如版权、商标权等），请通过GitHub Issues联系，我们将在核实后24小时内删除相关内容。
 
 ## 🙏 致谢
-正是无数技术先行者的默默耕耘与无私分享，才让优质IPTV资源触手可及。特别感谢 [plsy1/iptv](https://github.com/plsy1/iptv) 项目提供的原始源文件与核心处理思路，以及 [sumingyd/IPTV-Scanner-Editor-Pro](https://github.com/sumingyd/IPTV-Scanner-Editor-Pro) 项目提供的检测源有效性工具，为本次开发奠定了坚实基础，谨致以最诚挚的敬意与感谢！
+正是无数技术先行者的默默耕耘与无私分享，才让优质IPTV资源触手可及。特别感谢 [plsy1/iptv](https://github.com/plsy1/iptv)与[sumingyd/Telecom-Shandong-IPTV-List](https://github.com/sumingyd/Telecom-Shandong-IPTV-List) 项目提供的源文件，以及 [sumingyd/IPTV-Scanner-Editor-Pro](https://github.com/sumingyd/IPTV-Scanner-Editor-Pro) 项目提供的检测源有效性工具，为本次开发奠定了坚实基础，谨致以最诚挚的敬意与感谢！
