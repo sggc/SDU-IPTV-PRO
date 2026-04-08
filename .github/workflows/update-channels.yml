@@ -1,0 +1,80 @@
+name: Update Channel List
+
+on:
+  schedule:
+    # 每天北京时间 02:00、08:00、14:00、20:00 运行（UTC 时间相应调整）
+    - cron: '0 0 * * *'
+  workflow_dispatch:   # 允许手动触发
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public repo
+        uses: actions/checkout@v4
+        with:
+          repository: sggc/SDU-IPTV-PRO
+          path: public-repo
+          token: ${{ secrets.PAT_TOKEN }}   # 需要有写入权限的 PAT
+
+      - name: Checkout private repo (scripts)
+        uses: actions/checkout@v4
+        with:
+          repository: sggc/SDU-IPTV-NEW
+          path: private-repo
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run parser script
+        id: parser
+        run: |
+          cd private-repo/SDU-IPTV-PRO/scripts
+          OUTPUT=$(python parse_channels.py)
+          # 第一行是时间，其余是表格
+          UPDATE_TIME=$(echo "$OUTPUT" | head -n1)
+          TABLE_CONTENT=$(echo "$OUTPUT" | tail -n +2)
+          echo "update_time=$UPDATE_TIME" >> $GITHUB_OUTPUT
+          # 将表格内容写入临时文件（避免特殊字符问题）
+          echo "$TABLE_CONTENT" > table.md
+          cat table.md
+
+      - name: Update README.md
+        run: |
+          cd public-repo
+          # 定义标记
+          START_MARKER="<!-- CHANNEL_TABLE_START -->"
+          END_MARKER="<!-- CHANNEL_TABLE_END -->"
+          
+          # 构建要插入的内容
+          INSERT_CONTENT="${START_MARKER}
+          ## 📖 频道列表
+          ### 更新时间
+          ${{ steps.parser.outputs.update_time }}
+
+          ### 所有频道
+          $(cat ../private-repo/SDU-IPTV-PRO/scripts/table.md)
+          ${END_MARKER}"
+
+          # 使用 awk 替换标记区域（兼容 macOS/Linux）
+          awk -v insert="$INSERT_CONTENT" '
+            /<!-- CHANNEL_TABLE_START -->/ { print insert; skip=1; next }
+            /<!-- CHANNEL_TABLE_END -->/   { skip=0; next }
+            !skip
+          ' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Commit and push if changed
+        run: |
+          cd public-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 自动更新频道列表 $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
