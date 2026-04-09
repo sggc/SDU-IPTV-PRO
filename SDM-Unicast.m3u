@@ -174,7 +174,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002010/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002012/index.m3u8
 #EXTINF:-1 tvg-name="环球旅游" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/环球旅游.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000643/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,环球旅游
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000643/index.m3u8
-#EXTINF:-1 tvg-name="纪实科教" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sumingyd/IPTV-Scanner-Editor-Pro/main/logo/纪实科教.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000332/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,纪实科教
+#EXTINF:-1 tvg-name="纪实科教" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/北京纪实科教.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000332/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,纪实科教
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000332/index.m3u8
 #EXTINF:-1 tvg-name="嘉佳卡通" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/嘉佳卡通.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000074/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,嘉佳卡通
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000074/index.m3u8
