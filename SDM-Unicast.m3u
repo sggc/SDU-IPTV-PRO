@@ -636,11 +636,11 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001026/index.m3u8
 #EXTINF:-1 tvg-name="滕州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/枣庄滕州.png" group-title="枣庄" ,滕州综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001028/index.m3u8
 
-#EXTINF:-1 tvg-name="文登综合" tvg-logo="" group-title="威海",文登综合
+#EXTINF:-1 tvg-name="文登综合" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/威海文登.png" group-title="威海",文登综合
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001017/index.m3u8
-#EXTINF:-1 tvg-name="宁阳影视" tvg-logo="" group-title="泰安",宁阳影视
+#EXTINF:-1 tvg-name="宁阳影视" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安宁阳二套.png" group-title="泰安",宁阳影视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001072/index.m3u8
-#EXTINF:-1 tvg-name="泰山电视频道" tvg-logo="" group-title="泰安",泰山电视频道
+#EXTINF:-1 tvg-name="泰山电视频道" tvg-logo="https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安泰山2.png" group-title="泰安",泰山电视频道
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001114/index.m3u8
 #EXTINF:-1 tvg-name="微山综合" tvg-logo="" group-title="济宁",微山综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001078/index.m3u8
@@ -660,5 +660,5 @@ http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000282/index.m3u8
 #EXTINF:-1 tvg-name="烟台影视" tvg-logo="" group-title="市级频道",烟台影视
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000283/index.m3u8
-#EXTINF:-1 tvg-name="即墨新闻"tvg-logo="" group-title="青岛",即墨新闻
+#EXTINF:-1 tvg-name="即墨新闻" tvg-logo="" group-title="青岛",即墨新闻
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001080/index.m3u8
