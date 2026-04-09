@@ -4,17 +4,15 @@
 
 ## 📁 文件说明
 
-| 文件名 | 说明 |
-| --- | --- |
-| **SDU-Unicast.m3u** | 山东联通单播源（通用版） |
-| **SDT-Unicast.m3u** | 山东电信单播源（通用版） |
-| **SDM-Unicast.m3u** | 山东移动单播源（通用版） |
-| **SDU-Multicast.m3u** | 山东联通组播源（通用版） |
-| **multicast-static.m3u** | 静态组播源 |
-| **external/** | 各运营商地市定制版源文件 |
-| └ SDU-xxx | 山东联通地市版本 |
-| └ SDM-xxx | 山东移动地市版本 |
-| └ SDT-xxx | 山东电信地市版本 |
+| 文件名                      | 说明           |
+| ------------------------ | ------------ |
+| **SDU-Unicast.m3u**      | 山东联通单播源（通用版） |
+| **SDT-Unicast.m3u**      | 山东电信单播源（通用版） |
+| **SDM-Unicast.m3u**      | 山东移动单播源（通用版） |
+| **SDU-Multicast.m3u**    | 山东联通组播源（潍坊版） |
+| **SDM-Unicast/**          | 山东移动单播源地市版本 |
+| **SDT-Unicast/**              | 山东电信单播源地市版本     |
+| **SDU-Multicast/**                | 山东联通组播源地市版本     |
 
 > **说明**：文件前缀 SDU/SDM/SDT 分别代表山东联通、山东移动、山东电信三大运营商
 
@@ -27,6 +25,7 @@
 - 无desc节目描述：<https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc.xml.gz>
 - 有desc节目描述：<https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz>
 - suming的EPG：<https://raw.githubusercontent.com/sumingyd/xml/refs/heads/main/epg.xml>
+
 ## 📖 联通组播源第三段及FCC
 
 rtp\://239.253.xxx.77:8000?fcc=xx.xx.xx.xx:xxxx
