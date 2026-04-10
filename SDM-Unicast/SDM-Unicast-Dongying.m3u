@@ -235,81 +235,81 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000353/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000354/index.m3u8
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CGTN阿语.png" group-title="其他频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000356/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,CGTN阿语
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000356/index.m3u8
-#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://logo.catvod.com/睛彩竞技.png" group-title="咪视界" ,睛彩竞技
+#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩竞技.png" group-title="咪视界" ,睛彩竞技
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000020000011528/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://logo.catvod.com/睛彩竞技.png" group-title="咪视界" ,睛彩竞技
+#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩竞技.png" group-title="咪视界" ,睛彩竞技
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000027691/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://logo.catvod.com/睛彩篮球.png" group-title="咪视界" ,睛彩篮球
+#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩篮球.png" group-title="咪视界" ,睛彩篮球
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000020000011529/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://logo.catvod.com/睛彩青少.png" group-title="咪视界" ,睛彩青少
+#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩青少.png" group-title="咪视界" ,睛彩青少
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000020000031315/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://logo.catvod.com/睛彩青少.png" group-title="咪视界" ,睛彩青少
+#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩青少.png" group-title="咪视界" ,睛彩青少
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000015560/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="睛彩广场舞" tvg-logo="https://logo.catvod.com/睛彩广场舞.png" group-title="咪视界" ,睛彩广场舞
+#EXTINF:-1 tvg-name="睛彩广场舞" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩广场舞.png" group-title="咪视界" ,睛彩广场舞
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000020000011523/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="睛彩广场舞" tvg-logo="https://logo.catvod.com/睛彩广场舞.png" group-title="咪视界" ,睛彩广场舞
+#EXTINF:-1 tvg-name="睛彩广场舞" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩广场舞.png" group-title="咪视界" ,睛彩广场舞
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000002809/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-3D" tvg-logo="https://logo.catvod.com/咪视界-3D.png" group-title="咪视界" ,咪视界-3D
+#EXTINF:-1 tvg-name="咪视界-3D" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界3D.png" group-title="咪视界" ,咪视界-3D
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000027638/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="至臻视界4K" tvg-logo="https://logo.catvod.com/至臻视界4K.png" group-title="咪视界" ,至臻视界4K
+#EXTINF:-1 tvg-name="至臻视界4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/至臻视界4K.png" group-title="咪视界" ,至臻视界4K
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000015686/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-4K" tvg-logo="https://logo.catvod.com/咪视界-4K.png" group-title="咪视界" ,咪视界-4K
+#EXTINF:-1 tvg-name="咪视界-4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界4K.png" group-title="咪视界" ,咪视界-4K
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000005180/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-01" tvg-logo="https://logo.catvod.com/咪视界-01.png" group-title="咪视界" ,咪视界-01
+#EXTINF:-1 tvg-name="咪视界-01" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-01
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000001000005308/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-02" tvg-logo="https://logo.catvod.com/咪视界-02.png" group-title="咪视界" ,咪视界-02
+#EXTINF:-1 tvg-name="咪视界-02" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-02
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000001000005969/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-03" tvg-logo="https://logo.catvod.com/咪视界-03.png" group-title="咪视界" ,咪视界-03
+#EXTINF:-1 tvg-name="咪视界-03" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-03
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000001000007218/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-04" tvg-logo="https://logo.catvod.com/咪视界-04.png" group-title="咪视界" ,咪视界-04
+#EXTINF:-1 tvg-name="咪视界-04" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-04
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000001000008001/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-05" tvg-logo="https://logo.catvod.com/咪视界-05.png" group-title="咪视界" ,咪视界-05
+#EXTINF:-1 tvg-name="咪视界-05" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-05
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000001000008176/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-06" tvg-logo="https://logo.catvod.com/咪视界-06.png" group-title="咪视界" ,咪视界-06
+#EXTINF:-1 tvg-name="咪视界-06" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-06
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000001000008379/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-07" tvg-logo="https://logo.catvod.com/咪视界-07.png" group-title="咪视界" ,咪视界-07
+#EXTINF:-1 tvg-name="咪视界-07" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-07
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000001000010129/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-08" tvg-logo="https://logo.catvod.com/咪视界-08.png" group-title="咪视界" ,咪视界-08
+#EXTINF:-1 tvg-name="咪视界-08" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-08
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000001000010948/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-09" tvg-logo="https://logo.catvod.com/咪视界-09.png" group-title="咪视界" ,咪视界-09
+#EXTINF:-1 tvg-name="咪视界-09" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-09
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000001000028638/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-10" tvg-logo="https://logo.catvod.com/咪视界-10.png" group-title="咪视界" ,咪视界-10
+#EXTINF:-1 tvg-name="咪视界-10" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-10
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000001000031494/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-11" tvg-logo="https://logo.catvod.com/咪视界-11.png" group-title="咪视界" ,咪视界-11
+#EXTINF:-1 tvg-name="咪视界-11" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-11
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000005837/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-12" tvg-logo="https://logo.catvod.com/咪视界-12.png" group-title="咪视界" ,咪视界-12
+#EXTINF:-1 tvg-name="咪视界-12" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-12
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000000097/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-13" tvg-logo="https://logo.catvod.com/咪视界-13.png" group-title="咪视界" ,咪视界-13
+#EXTINF:-1 tvg-name="咪视界-13" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-13
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000002019/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-14" tvg-logo="https://logo.catvod.com/咪视界-14.png" group-title="咪视界" ,咪视界-14
+#EXTINF:-1 tvg-name="咪视界-14" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-14
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000003915/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-15" tvg-logo="https://logo.catvod.com/咪视界-15.png" group-title="咪视界" ,咪视界-15
+#EXTINF:-1 tvg-name="咪视界-15" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-15
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000004193/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-16" tvg-logo="https://logo.catvod.com/咪视界-16.png" group-title="咪视界" ,咪视界-16
+#EXTINF:-1 tvg-name="咪视界-16" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-16
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000006077/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-17" tvg-logo="https://logo.catvod.com/咪视界-17.png" group-title="咪视界" ,咪视界-17
+#EXTINF:-1 tvg-name="咪视界-17" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-17
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000006658/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-18" tvg-logo="https://logo.catvod.com/咪视界-18.png" group-title="咪视界" ,咪视界-18
+#EXTINF:-1 tvg-name="咪视界-18" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-18
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000009788/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-19" tvg-logo="https://logo.catvod.com/咪视界-19.png" group-title="咪视界" ,咪视界-19
+#EXTINF:-1 tvg-name="咪视界-19" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-19
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000010833/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-20" tvg-logo="https://logo.catvod.com/咪视界-20.png" group-title="咪视界" ,咪视界-20
+#EXTINF:-1 tvg-name="咪视界-20" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-20
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000011297/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-21" tvg-logo="https://logo.catvod.com/咪视界-21.png" group-title="咪视界" ,咪视界-21
+#EXTINF:-1 tvg-name="咪视界-21" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-21
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000011518/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-22" tvg-logo="https://logo.catvod.com/咪视界-22.png" group-title="咪视界" ,咪视界-22
+#EXTINF:-1 tvg-name="咪视界-22" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-22
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000012558/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-23" tvg-logo="https://logo.catvod.com/咪视界-23.png" group-title="咪视界" ,咪视界-23
+#EXTINF:-1 tvg-name="咪视界-23" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-23
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000012616/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-24" tvg-logo="https://logo.catvod.com/咪视界-24.png" group-title="咪视界" ,咪视界-24
+#EXTINF:-1 tvg-name="咪视界-24" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-24
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000019839/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-25" tvg-logo="https://logo.catvod.com/咪视界-25.png" group-title="咪视界" ,咪视界-25
+#EXTINF:-1 tvg-name="咪视界-25" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-25
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000021904/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-26" tvg-logo="https://logo.catvod.com/咪视界-26.png" group-title="咪视界" ,咪视界-26
+#EXTINF:-1 tvg-name="咪视界-26" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-26
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000023434/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-27" tvg-logo="https://logo.catvod.com/咪视界-27.png" group-title="咪视界" ,咪视界-27
+#EXTINF:-1 tvg-name="咪视界-27" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-27
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000025380/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="咪视界-28" tvg-logo="https://logo.catvod.com/咪视界-28.png" group-title="咪视界" ,咪视界-28
+#EXTINF:-1 tvg-name="咪视界-28" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-28
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000031669/1.m3u8?channel-id=FifastbLive
 #EXTINF:-1 tvg-name="潍坊新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊新闻.png" group-title="市级频道" ,潍坊新闻综合
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000215/index.m3u8
@@ -355,7 +355,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000065/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00004000/index.m3u8
 #EXTINF:-1 tvg-name="济南新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南新闻综合.png" group-title="市级频道" ,济南新闻综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000312/index.m3u8
-#EXTINF:-1 tvg-name="济宁高新" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁.png" group-title="市级频道" ,济宁高新
+#EXTINF:-1 tvg-name="济宁高新" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁高新区.png" group-title="市级频道" ,济宁高新
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001101/index.m3u8
 #EXTINF:-1 tvg-name="济宁公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁.png" group-title="市级频道" ,济宁公共
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000241/index.m3u8
@@ -541,7 +541,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00003001/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001025/index.m3u8
 #EXTINF:-1 tvg-name="枣庄经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄.png" group-title="市级频道" ,枣庄经济生活
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001026/index.m3u8
-#EXTINF:-1 tvg-name="滕州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安.png" group-title="枣庄" ,滕州综合
+#EXTINF:-1 tvg-name="滕州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄滕州.png" group-title="枣庄" ,滕州综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001028/index.m3u8
 #EXTINF:-1 tvg-name="广饶综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/东营广饶.png" group-title="山东频道" ,广饶综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001043/index.m3u8
