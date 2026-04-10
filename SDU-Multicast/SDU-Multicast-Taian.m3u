@@ -333,23 +333,23 @@ http://192.168.100.1:5140/rtp/239.253.240.132:8000?fcc=124.132.240.66:15970
 http://192.168.100.1:5140/rtp/239.253.240.158:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="收视指南" group-title="轮播频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/收视指南.png",收视指南
 http://192.168.100.1:5140/rtp/239.253.240.124:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="泰安综合" group-title="山东频道", 泰安综合
+#EXTINF:-1 tvg-name="泰安综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安.png", 泰安综合
 http://192.168.0.1:5140/rtp/239.253.240.252:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="泰安经济生活" group-title="山东频道", 泰安经济生活
+#EXTINF:-1 tvg-name="泰安经济生活" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安.png", 泰安经济生活
 http://192.168.0.1:5140/rtp/239.253.240.253:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="泰山电视频道" group-title="山东频道", 泰山电视频道
+#EXTINF:-1 tvg-name="泰山电视频道" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安泰山.png", 泰山电视频道
 http://192.168.0.1:5140/rtp/239.253.240.244:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="岱岳" group-title="山东频道" catchup="default", 岱岳
+#EXTINF:-1 tvg-name="岱岳" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安岱岳.png", 岱岳
 http://192.168.0.1:5140/rtp/239.253.240.245:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="新泰乡村" group-title="山东频道", 新泰乡村
+#EXTINF:-1 tvg-name="新泰乡村" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安新泰乡村.png", 新泰乡村
 http://192.168.0.1:5140/rtp/239.253.240.246:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="宁阳综合" group-title="山东频道" catchup="default", 宁阳综合
+#EXTINF:-1 tvg-name="宁阳综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安宁阳.png", 宁阳综合
 http://192.168.0.1:5140/rtp/239.253.240.247:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="宁阳二台" group-title="山东频道" catchup="default", 宁阳二台
+#EXTINF:-1 tvg-name="宁阳二台" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安宁阳.png", 宁阳二台
 http://192.168.0.1:5140/rtp/239.253.240.248:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="东平综合" group-title="山东频道" catchup="default", 东平综合
+#EXTINF:-1 tvg-name="东平综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安东平.png", 东平综合
 http://192.168.0.1:5140/rtp/239.253.240.249:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="新泰综合" group-title="山东频道" catchup="default", 新泰综合
+#EXTINF:-1 tvg-name="新泰综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安新泰.png", 新泰综合
 http://192.168.0.1:5140/rtp/239.253.240.250:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="肥城综合" group-title="山东频道" catchup="default", 肥城综合
+#EXTINF:-1 tvg-name="肥城综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安肥城.png", 肥城综合
 http://192.168.0.1:5140/rtp/239.253.240.251:8000?fcc=124.132.240.66:15970

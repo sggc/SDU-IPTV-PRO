@@ -333,29 +333,29 @@ http://192.168.100.1:5140/rtp/239.253.254.132:8000
 http://192.168.100.1:5140/rtp/239.253.254.158:8000
 #EXTINF:-1 tvg-name="收视指南" group-title="轮播频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/收视指南.png",收视指南
 http://192.168.100.1:5140/rtp/239.253.254.124:8000
-#EXTINF:-1 tvg-name="青岛QTV-1" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV1.png", QTV1
-http://192.168.0.1:5140/rtp/239.253.254.249:8000
-#EXTINF:-1 tvg-name="青岛QTV-2" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV2.png", QTV2
-http://192.168.0.1:5140/rtp/239.253.254.250:8000
-#EXTINF:-1 tvg-name="青岛QTV-3" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV3.png", QTV3
-http://192.168.0.1:5140/rtp/239.253.254.251:8000
-#EXTINF:-1 tvg-name="青岛QTV-4" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV4.png", QTV4
-http://192.168.0.1:5140/rtp/239.253.254.252:8000
-#EXTINF:-1 tvg-name="青岛QTV-5" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV5.png", QTV5
-http://192.168.0.1:5140/rtp/239.253.254.253:8000
-#EXTINF:-1 tvg-name="青岛QTV-6" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV6.png", QTV6
-http://192.168.0.1:5140/rtp/239.253.254.254:8000
-#EXTINF:-1 tvg-name="崂山综合" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛崂山.png", 崂山
-http://192.168.0.1:5140/rtp/239.253.254.242:8000
-#EXTINF:-1 tvg-name="西海岸新闻" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛西海岸.png", 西海岸新闻
-http://192.168.0.1:5140/rtp/239.253.254.243:8000
-#EXTINF:-1 tvg-name="西海岸生活" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛西海岸.png", 西海岸生活
-http://192.168.0.1:5140/rtp/239.253.254.244:8000
-#EXTINF:-1 tvg-name="即墨综合" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛即墨.png", 即墨
-http://192.168.0.1:5140/rtp/239.253.254.245:8000
-#EXTINF:-1 tvg-name="青岛胶州" roup-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛胶州.png", 胶州综合
-http://192.168.0.1:5140/rtp/239.253.254.246:8000
-#EXTINF:-1 tvg-name="莱西综合" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛莱西.png", 莱西综合
-http://192.168.0.1:5140/rtp/239.253.254.247:8000
-#EXTINF:-1 tvg-name="平度综合" group-title="山东频道", tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛平度.png", 平度电视台
-http://192.168.0.1:5140/rtp/239.253.254.248:8000
+#EXTINF:-1 tvg-name="青岛QTV-1" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV1.png", QTV1
+http://192.168.100.1:5140/rtp/239.253.254.249:8000
+#EXTINF:-1 tvg-name="青岛QTV-2" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV2.png", QTV2
+http://192.168.100.1:5140/rtp/239.253.254.250:8000
+#EXTINF:-1 tvg-name="青岛QTV-3" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV3.png", QTV3
+http://192.168.100.1:5140/rtp/239.253.254.251:8000
+#EXTINF:-1 tvg-name="青岛QTV-4" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV4.png", QTV4
+http://192.168.100.1:5140/rtp/239.253.254.252:8000
+#EXTINF:-1 tvg-name="青岛QTV-5" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV5.png", QTV5
+http://192.168.100.1:5140/rtp/239.253.254.253:8000
+#EXTINF:-1 tvg-name="青岛QTV-6" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/QTV6.png", QTV6
+http://192.168.100.1:5140/rtp/239.253.254.254:8000
+#EXTINF:-1 tvg-name="崂山综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛崂山.png", 崂山
+http://192.168.100.1:5140/rtp/239.253.254.242:8000
+#EXTINF:-1 tvg-name="西海岸新闻" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛西海岸.png", 西海岸新闻
+http://192.168.100.1:5140/rtp/239.253.254.243:8000
+#EXTINF:-1 tvg-name="西海岸生活" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛西海岸.png", 西海岸生活
+http://192.168.100.1:5140/rtp/239.253.254.244:8000
+#EXTINF:-1 tvg-name="即墨综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛即墨.png", 即墨
+http://192.168.100.1:5140/rtp/239.253.254.245:8000
+#EXTINF:-1 tvg-name="青岛胶州" roup-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛胶州.png", 胶州综合
+http://192.168.100.1:5140/rtp/239.253.254.246:8000
+#EXTINF:-1 tvg-name="莱西综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛莱西.png", 莱西综合
+http://192.168.100.1:5140/rtp/239.253.254.247:8000
+#EXTINF:-1 tvg-name="平度综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/青岛平度.png", 平度电视台
+http://192.168.100.1:5140/rtp/239.253.254.248:8000
