@@ -213,8 +213,14 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002024/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000073/index.m3u8
 #EXTINF:-1 tvg-name="中华特产" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中华特产.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000642/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,中华特产
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000642/index.m3u8
-#EXTINF:-1 tvg-name="劲爆体育" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002026/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,劲爆体育
+#EXTINF:-1 tvg-name="劲爆体育" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/劲爆体育.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002026/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,劲爆体育
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002026/index.m3u8
+#EXTINF:-1 tvg-name="影视解说" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/影视解说.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002032/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,影视解说
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002032/index.m3u8
+#EXTINF:-1 tvg-name="短剧" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/短剧.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002031/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",短剧
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002031/index.m3u8
+#EXTINF:-1 tvg-name="电影大片" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/电影大片.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002033/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",电影大片
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002033/index.m3u8
 #EXTINF:-1 tvg-name="CETV-1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中国教育1.png" group-title="其他频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000076/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,CETV-1
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000076/index.m3u8
 #EXTINF:-1 tvg-name="CETV-2" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中国教育2.png" group-title="其他频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000077/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,CETV-2
@@ -235,6 +241,10 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000353/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000354/index.m3u8
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CGTN阿语.png" group-title="其他频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000356/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,CGTN阿语
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000356/index.m3u8
+#EXTINF:-1 tvg-name="山东交通广播" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东交通广播.png" group-title="其他频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00003002/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",山东交通广播
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00003002/index.m3u8
+#EXTINF:-1 tvg-name="山东经济广播" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东经济广播.png" group-title="其他频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00003001/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",山东经济广播
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00003001/index.m3u8
 #EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩竞技.png" group-title="咪视界" ,睛彩竞技
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000020000011528/1.m3u8?channel-id=FifastbLive
 #EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩竞技.png" group-title="咪视界" ,睛彩竞技
@@ -311,343 +321,327 @@ http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000023434/1.m3u8?
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000025380/1.m3u8?channel-id=FifastbLive
 #EXTINF:-1 tvg-name="咪视界-28" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="咪视界" ,咪视界-28
 http://ucdn-zte.sd.chinamobile.com:8089/000000001001/3000000010000031669/1.m3u8?channel-id=FifastbLive
-#EXTINF:-1 tvg-name="潍坊新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊新闻.png" group-title="市级频道" ,潍坊新闻综合
+#EXTINF:-1 tvg-name="潍坊新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊新闻.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000215/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",潍坊新闻综合
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000215/index.m3u8
-#EXTINF:-1 tvg-name="潍坊经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊生活.png" group-title="市级频道" ,潍坊经济生活
+#EXTINF:-1 tvg-name="潍坊经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊生活.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000216/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",潍坊经济生活
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000216/index.m3u8
-#EXTINF:-1 tvg-name="潍坊公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊影视.png" group-title="市级频道" ,潍坊公共
+#EXTINF:-1 tvg-name="潍坊公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊影视.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000217/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",潍坊公共
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000217/index.m3u8
-#EXTINF:-1 tvg-name="潍坊科教文化" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊文旅.png" group-title="市级频道" ,潍坊科教文化
+#EXTINF:-1 tvg-name="潍坊科教文化" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊文旅.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000218/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",潍坊科教文化
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000218/index.m3u8
-#EXTINF:-1 tvg-name="滨州民生" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州.png" group-title="市级频道" ,滨州民生
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000221/index.m3u8
-#EXTINF:-1 tvg-name="滨州新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州.png" group-title="市级频道" ,滨州新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000220/index.m3u8
-#EXTINF:-1 tvg-name="德州生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州.png" group-title="市级频道" ,德州生活
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000207/index.m3u8
-#EXTINF:-1 tvg-name="德州新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州.png" group-title="市级频道" ,德州新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000206/index.m3u8
-#EXTINF:-1 tvg-name="东营公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/东营.png" group-title="市级频道" ,东营公共
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000227/index.m3u8
-#EXTINF:-1 tvg-name="东营新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/东营.png" group-title="市级频道" ,东营新闻综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000226/index.m3u8
-#EXTINF:-1 tvg-name="菏泽-1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽.png" group-title="市级频道" ,菏泽-1
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000232/index.m3u8
-#EXTINF:-1 tvg-name="菏泽-2" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽.png" group-title="市级频道" ,菏泽-2
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000234/index.m3u8
-#EXTINF:-1 tvg-name="济南都市" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南都市.png" group-title="市级频道" ,济南都市
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000062/index.m3u8
-#EXTINF:-1 tvg-name="济南教育" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南教育.png" group-title="市级频道" ,济南教育
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000069/index.m3u8
-#EXTINF:-1 tvg-name="济南鲁中" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南鲁中.png" group-title="市级频道" ,济南鲁中
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000244/index.m3u8
-#EXTINF:-1 tvg-name="济南少儿" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南少儿.png" group-title="市级频道" ,济南少儿
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000067/index.m3u8
-#EXTINF:-1 tvg-name="济南生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南生活.png" group-title="市级频道" ,济南生活
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000063/index.m3u8
-#EXTINF:-1 tvg-name="济南文旅体育" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南文旅体育.png" group-title="市级频道" ,济南文旅体育
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000064/index.m3u8
-#EXTINF:-1 tvg-name="济南新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南新闻综合.png" group-title="市级频道" ,济南新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000061/index.m3u8
-#EXTINF:-1 tvg-name="济南娱乐" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南娱乐.png" group-title="市级频道" ,济南娱乐
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000065/index.m3u8
-#EXTINF:-1 tvg-name="济南新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南新闻综合.png" group-title="市级频道" ,济南新闻综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00004000/index.m3u8
-#EXTINF:-1 tvg-name="济南新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南新闻综合.png" group-title="市级频道" ,济南新闻综合
+#EXTINF:-1 tvg-name="济南新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南新闻综合.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000312/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济南新闻综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000312/index.m3u8
-#EXTINF:-1 tvg-name="济宁高新" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁高新区.png" group-title="山东频道" ,济宁高新
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001101/index.m3u8
-#EXTINF:-1 tvg-name="济宁公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁.png" group-title="山东频道" ,济宁公共
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000241/index.m3u8
-#EXTINF:-1 tvg-name="济宁生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁.png" group-title="山东频道" ,济宁生活
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000239/index.m3u8
-#EXTINF:-1 tvg-name="济宁综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁.png" group-title="山东频道" ,济宁综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000240/index.m3u8
-#EXTINF:-1 tvg-name="聊城民生" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城.png" group-title="市级频道" ,聊城民生
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000251/index.m3u8
-#EXTINF:-1 tvg-name="聊城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城.png" group-title="市级频道" ,聊城综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000250/index.m3u8
-#EXTINF:-1 tvg-name="临沂综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂.png" group-title="市级频道" ,临沂综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000120/index.m3u8
-#EXTINF:-1 tvg-name="临沂经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂.png" group-title="市级频道" ,临沂经济生活
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000256/index.m3u8
-#EXTINF:-1 tvg-name="泰安经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安.png" group-title="市级频道" ,泰安经济生活
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000270/index.m3u8
-#EXTINF:-1 tvg-name="泰安综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安.png" group-title="市级频道" ,泰安综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000269/index.m3u8
-#EXTINF:-1 tvg-name="淄博民生" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博.png" group-title="市级频道" ,淄博民生
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000294/index.m3u8
-#EXTINF:-1 tvg-name="淄博文旅" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博.png" group-title="市级频道" ,淄博文旅
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000293/index.m3u8
-#EXTINF:-1 tvg-name="淄博新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博.png" group-title="市级频道" ,淄博新闻综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000292/index.m3u8
-#EXTINF:-1 tvg-name="淄博影视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博.png" group-title="市级频道" ,淄博影视
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001037/index.m3u8
-#EXTINF:-1 tvg-name="威海新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/威海.png" group-title="市级频道" ,威海新闻
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000274/index.m3u8
-#EXTINF:-1 tvg-name="威海海洋生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/威海.png" group-title="市级频道" ,威海海洋生活
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000275/index.m3u8
-#EXTINF:-1 tvg-name="日照公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照.png" group-title="市级频道" ,日照公共
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001100/index.m3u8
-#EXTINF:-1 tvg-name="日照新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照.png" group-title="市级频道" ,日照新闻
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000262/index.m3u8
-#EXTINF:-1 tvg-name="日照科教" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照.png" group-title="市级频道" ,日照科教
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000263/index.m3u8
-#EXTINF:-1 tvg-name="烟台公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台.png" group-title="市级频道" ,烟台公共
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000281/index.m3u8
-#EXTINF:-1 tvg-name="青岛QTV-3" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/QTV3.png" group-title="市级频道" ,青岛QTV-3
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000502/index.m3u8
-#EXTINF:-1 tvg-name="青岛QTV-5" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/QTV5.png" group-title="市级频道" ,青岛QTV-5
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000505/index.m3u8
-#EXTINF:-1 tvg-name="寿光综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊寿光.png" group-title="潍坊" ,寿光综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000702/index.m3u8
-#EXTINF:-1 tvg-name="寿光综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊寿光.png" group-title="潍坊" ,寿光综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001000/index.m3u8
-#EXTINF:-1 tvg-name="诸城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊诸城.png" group-title="潍坊" ,诸城综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001004/index.m3u8
-#EXTINF:-1 tvg-name="栖霞综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台栖霞.png" group-title="烟台" ,栖霞综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001055/index.m3u8
-#EXTINF:-1 tvg-name="胶州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛胶州.png" group-title="青岛" ,胶州综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001074/index.m3u8
-#EXTINF:-1 tvg-name="莱西综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛莱西.png" group-title="青岛" ,莱西综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001067/index.m3u8
-#EXTINF:-1 tvg-name="莒县综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照莒县.png" group-title="日照" ,莒县综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001014/index.m3u8
-#EXTINF:-1 tvg-name="乳山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/威海乳山.png" group-title="威海" ,乳山综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001049/index.m3u8
-#EXTINF:-1 tvg-name="安丘综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊安丘.png" group-title="潍坊" ,安丘综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001015/index.m3u8
-#EXTINF:-1 tvg-name="昌邑综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊昌邑.png" group-title="潍坊" ,昌邑综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001083/index.m3u8
-#EXTINF:-1 tvg-name="青州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊青州.png" group-title="潍坊" ,青州综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001042/index.m3u8
-#EXTINF:-1 tvg-name="高密综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊高密.png" group-title="潍坊" ,高密综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001089/index.m3u8
-#EXTINF:-1 tvg-name="招远综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台招远.png" group-title="烟台" ,招远综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001113/index.m3u8
-#EXTINF:-1 tvg-name="临朐综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊临朐.png" group-title="潍坊" ,临朐综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001085/index.m3u8
-#EXTINF:-1 tvg-name="惠民综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州惠民.png" group-title="滨州" ,惠民综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001009/index.m3u8
-#EXTINF:-1 tvg-name="邹平综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州邹平.png" group-title="滨州" ,邹平综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001058/index.m3u8
-#EXTINF:-1 tvg-name="阳信综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州阳信.png" group-title="滨州" ,阳信综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001036/index.m3u8
-#EXTINF:-1 tvg-name="临邑综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州临邑.png" group-title="德州" ,临邑综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001104/index.m3u8
-#EXTINF:-1 tvg-name="夏津综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州夏津.png" group-title="德州" ,夏津综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001069/index.m3u8
-#EXTINF:-1 tvg-name="宁津综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州宁津.png" group-title="德州" ,宁津综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001003/index.m3u8
-#EXTINF:-1 tvg-name="武城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州武城.png" group-title="德州" ,武城综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001059/index.m3u8
-#EXTINF:-1 tvg-name="禹城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州禹城.png" group-title="德州" ,禹城综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001061/index.m3u8
-#EXTINF:-1 tvg-name="禹城综艺" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州禹城.png" group-title="德州" ,禹城综艺
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001062/index.m3u8
-#EXTINF:-1 tvg-name="齐河综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州齐河.png" group-title="德州" ,齐河综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001056/index.m3u8
-#EXTINF:-1 tvg-name="东明综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽东明.png" group-title="菏泽" ,东明综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001065/index.m3u8
-#EXTINF:-1 tvg-name="巨野新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽巨野.png" group-title="菏泽" ,巨野新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001046/index.m3u8
-#EXTINF:-1 tvg-name="微山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁微山.png" group-title="山东频道" ,微山综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001078/index.m3u8
-#EXTINF:-1 tvg-name="郓城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽郓城.png" group-title="菏泽" ,郓城综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001041/index.m3u8
-#EXTINF:-1 tvg-name="郓城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽郓城.png" group-title="菏泽" ,郓城综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001084/index.m3u8
-#EXTINF:-1 tvg-name="商河综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南商河.png" group-title="济南" ,商河综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001008/index.m3u8
-#EXTINF:-1 tvg-name="平阴综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南平阴.png" group-title="济南" ,平阴综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001050/index.m3u8
-#EXTINF:-1 tvg-name="济阳综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南济阳.png" group-title="济南" ,济阳综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001030/index.m3u8
-#EXTINF:-1 tvg-name="长清综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南长清.png" group-title="济南" ,长清综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001018/index.m3u8
-#EXTINF:-1 tvg-name="任城生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁任城.png" group-title="山东频道" ,任城生活
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001112/index.m3u8
-#EXTINF:-1 tvg-name="任城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁任城.png" group-title="山东频道" ,任城综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001111/index.m3u8
-#EXTINF:-1 tvg-name="兖州新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁兖州.png" group-title="山东频道" ,兖州新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001051/index.m3u8
-#EXTINF:-1 tvg-name="嘉祥新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁嘉祥.png" group-title="山东频道" ,嘉祥新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001016/index.m3u8
-#EXTINF:-1 tvg-name="曲阜新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁曲阜.png" group-title="山东频道" ,曲阜新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001052/index.m3u8
-#EXTINF:-1 tvg-name="汶上综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁汶上.png" group-title="山东频道" ,汶上综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001116/index.m3u8
-#EXTINF:-1 tvg-name="邹城新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁邹城.png" group-title="山东频道" ,邹城新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001038/index.m3u8
-#EXTINF:-1 tvg-name="鱼台新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁鱼台.png" group-title="山东频道" ,鱼台新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001107/index.m3u8
-#EXTINF:-1 tvg-name="鱼台生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁鱼台.png" group-title="山东频道" ,鱼台生活
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001108/index.m3u8
-#EXTINF:-1 tvg-name="东阿综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城东阿.png" group-title="聊城" ,东阿综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001093/index.m3u8
-#EXTINF:-1 tvg-name="临清综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城临清.png" group-title="聊城" ,临清综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001103/index.m3u8
-#EXTINF:-1 tvg-name="冠县综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城冠县.png" group-title="聊城" ,冠县综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001040/index.m3u8
-#EXTINF:-1 tvg-name="茌平综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城茌平.png" group-title="聊城" ,茌平综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001048/index.m3u8
-#EXTINF:-1 tvg-name="莘县综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城莘县.png" group-title="聊城" ,莘县综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001047/index.m3u8
-#EXTINF:-1 tvg-name="临沭综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂临沭.png" group-title="临沂" ,临沭综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001094/index.m3u8
-#EXTINF:-1 tvg-name="兰陵公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂兰陵.png" group-title="临沂" ,兰陵公共
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001095/index.m3u8
-#EXTINF:-1 tvg-name="兰陵综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂兰陵.png" group-title="临沂" ,兰陵综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001032/index.m3u8
-#EXTINF:-1 tvg-name="沂南综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂沂南.png" group-title="临沂" ,沂南综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001096/index.m3u8
-#EXTINF:-1 tvg-name="沂水生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂沂水.png" group-title="临沂" ,沂水生活
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001099/index.m3u8
-#EXTINF:-1 tvg-name="沂水综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂沂水.png" group-title="临沂" ,沂水综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001098/index.m3u8
-#EXTINF:-1 tvg-name="河东综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂河东.png" group-title="临沂" ,河东综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001109/index.m3u8
-#EXTINF:-1 tvg-name="红色影视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂沂南.png" group-title="临沂" ,红色影视
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001097/index.m3u8
-#EXTINF:-1 tvg-name="莒南综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂莒南.png" group-title="临沂" ,莒南综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001011/index.m3u8
-#EXTINF:-1 tvg-name="崂山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛崂山.png" group-title="青岛" ,崂山综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001075/index.m3u8
-#EXTINF:-1 tvg-name="东平综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安东平.png" group-title="泰安" ,东平综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001001/index.m3u8
-#EXTINF:-1 tvg-name="宁阳综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安宁阳.png" group-title="泰安" ,宁阳综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001071/index.m3u8
-#EXTINF:-1 tvg-name="新泰乡村" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安新泰乡村.png" group-title="泰安" ,新泰乡村
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001066/index.m3u8
-#EXTINF:-1 tvg-name="新泰新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安新泰.png" group-title="泰安" ,新泰新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001029/index.m3u8
-#EXTINF:-1 tvg-name="肥城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安肥城.png" group-title="泰安" ,肥城综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001039/index.m3u8
-#EXTINF:-1 tvg-name="寿光综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊寿光.png" group-title="潍坊" ,寿光综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000702/index.m3u8
-#EXTINF:-1 tvg-name="张店综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博张店.png" group-title="淄博" ,张店综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001012/index.m3u8
-#EXTINF:-1 tvg-name="沂源综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博沂源.png" group-title="淄博" ,沂源综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001002/index.m3u8
-#EXTINF:-1 tvg-name="淄川新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博淄川.png" group-title="淄博" ,淄川新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001007/index.m3u8
-#EXTINF:-1 tvg-name="高青综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博高青.png" group-title="淄博" ,高青综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001023/index.m3u8
-#EXTINF:-1 tvg-name="山东交通广播" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东交通广播.png" group-title="其他频道" ,山东交通广播
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00003002/index.m3u8
-#EXTINF:-1 tvg-name="山东经济广播" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东经济广播.png" group-title="其他频道" ,山东经济广播
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00003001/index.m3u8
-#EXTINF:-1 tvg-name="枣庄新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄.png" group-title="市级频道" ,枣庄新闻综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001025/index.m3u8
-#EXTINF:-1 tvg-name="枣庄经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄.png" group-title="市级频道" ,枣庄经济生活
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001026/index.m3u8
-#EXTINF:-1 tvg-name="滕州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄滕州.png" group-title="枣庄" ,滕州综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001028/index.m3u8
-#EXTINF:-1 tvg-name="广饶综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/东营广饶.png" group-title="东营" ,广饶综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001043/index.m3u8
-#EXTINF:-1 tvg-name="平原综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州平原.png" group-title="德州" ,平原综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001064/index.m3u8
-#EXTINF:-1 tvg-name="陵城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州陵城.png" group-title="德州" ,陵城综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001082/index.m3u8
-#EXTINF:-1 tvg-name="夏津公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州夏津.png" group-title="德州" ,夏津公共
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001070/index.m3u8
-#EXTINF:-1 tvg-name="禹城综艺" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州禹城.png" group-title="德州" ,禹城综艺
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001062/index.m3u8
-#EXTINF:-1 tvg-name="定陶综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽定陶.png" group-title="菏泽" ,定陶综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001063/index.m3u8
-#EXTINF:-1 tvg-name="鄄城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽鄄城.png" group-title="菏泽" ,鄄城综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001084/index.m3u8
-#EXTINF:-1 tvg-name="单县综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽单县.png" group-title="菏泽" ,单县综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001079/index.m3u8
-#EXTINF:-1 tvg-name="无棣综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州无棣.png" group-title="滨州" ,无棣综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001024/index.m3u8
-#EXTINF:-1 tvg-name="沾化综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州沾化.png" group-title="滨州" ,沾化综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001035/index.m3u8
-#EXTINF:-1 tvg-name="桓台综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博桓台.png" group-title="淄博" ,桓台综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001020/index.m3u8
-#EXTINF:-1 tvg-name="周村新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博周村.png" group-title="淄博" ,周村新闻
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001019/index.m3u8
-#EXTINF:-1 tvg-name="临淄TV-1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博临淄1.png" group-title="淄博" ,临淄TV-1
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001021/index.m3u8
-#EXTINF:-1 tvg-name="蒙阴综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂蒙阴.png" group-title="临沂" ,蒙阴综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001031/index.m3u8
-#EXTINF:-1 tvg-name="历城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南历城.png" group-title="济南" ,历城综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001105/index.m3u8
-#EXTINF:-1 tvg-name="章丘综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南章丘.png" group-title="济南" ,章丘综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001073/index.m3u8
-#EXTINF:-1 tvg-name="东昌综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城东昌.png" group-title="聊城" ,东昌综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001119/index.m3u8
-#EXTINF:-1 tvg-name="梁山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁梁山.png" group-title="济宁" ,梁山综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001075/index.m3u8
-#EXTINF:-1 tvg-name="泗水综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁泗水.png" group-title="山东频道" ,泗水综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001081/index.m3u8
-#EXTINF:-1 tvg-name="泰山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安泰山.png" group-title="泰安" ,泰山综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001114/index.m3u8
-#EXTINF:-1 tvg-name="岱岳综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安岱岳.png" group-title="泰安" ,岱岳综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001013/index.m3u8
-#EXTINF:-1 tvg-name="淄博新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博.png" group-title="市级频道" ,淄博新闻综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000283/index.m3u8
-#EXTINF:-1 tvg-name="青岛QTV-1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/QTV1.png" group-title="市级频道" ,青岛QTV-1
+#EXTINF:-1 tvg-name="济南都市" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南都市.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000062/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济南都市
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000062/index.m3u8
+#EXTINF:-1 tvg-name="济南生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南生活.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000063/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济南生活
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000063/index.m3u8
+#EXTINF:-1 tvg-name="济南文旅体育" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南文旅体育.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000064/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济南文旅体育
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000064/index.m3u8
+#EXTINF:-1 tvg-name="济南娱乐" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南娱乐.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000065/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济南娱乐
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000065/index.m3u8
+#EXTINF:-1 tvg-name="济南少儿" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南少儿.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000067/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济南少儿
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000067/index.m3u8
+#EXTINF:-1 tvg-name="济南教育" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南教育.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000069/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济南教育
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000069/index.m3u8
+#EXTINF:-1 tvg-name="济南鲁中" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南鲁中.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000244/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济南鲁中
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000244/index.m3u8
+#EXTINF:-1 tvg-name="青岛QTV-1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/QTV1.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000500/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",青岛QTV-1
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000500/index.m3u8
-#EXTINF:-1 tvg-name="青岛QTV-2" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/QTV2.png" group-title="市级频道" ,青岛QTV-2
+#EXTINF:-1 tvg-name="青岛QTV-2" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/QTV2.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000501/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",青岛QTV-2
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000501/index.m3u8
-#EXTINF:-1 tvg-name="青岛QTV-4" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/QTV4.png" group-title="市级频道" ,青岛QTV-4
+#EXTINF:-1 tvg-name="青岛QTV-3" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/QTV3.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000502/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",青岛QTV-3
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000502/index.m3u8
+#EXTINF:-1 tvg-name="青岛QTV-4" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/QTV4.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000503/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",青岛QTV-4
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000503/index.m3u8
-#EXTINF:-1 tvg-name="岚山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照岚山.png" group-title="日照" ,岚山综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001044/index.m3u8
-#EXTINF:-1 tvg-name="荣成综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/威海荣成.png" group-title="威海" ,荣成综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001053/index.m3u8
-#EXTINF:-1 tvg-name="平度综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛平度.png" group-title="青岛" ,平度综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001054/index.m3u8
-#EXTINF:-1 tvg-name="青州文化旅游" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊青州.png" group-title="潍坊" ,青州文化旅游
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001057/index.m3u8
-#EXTINF:-1 tvg-name="蓬莱综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台蓬莱.png" group-title="烟台" ,蓬莱综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001088/index.m3u8
-#EXTINF:-1 tvg-name="黄岛生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛黄岛.png" group-title="青岛" ,黄岛生活
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001087/index.m3u8
-#EXTINF:-1 tvg-name="黄岛综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛黄岛.png" group-title="青岛" ,黄岛综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001086/index.m3u8
-#EXTINF:-1 tvg-name="长岛综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台蓬莱长岛.png" group-title="烟台" ,长岛综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001090/index.m3u8
-#EXTINF:-1 tvg-name="海阳综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台海阳.png" group-title="烟台" ,海阳综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001091/index.m3u8
-#EXTINF:-1 tvg-name="海阳综艺" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台海阳.png" group-title="烟台" ,海阳综艺
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001092/index.m3u8
-#EXTINF:-1 tvg-name="五莲新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照五莲.png" group-title="日照" ,五莲新闻
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001068/index.m3u8
-#EXTINF:-1 tvg-name="牟平生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台牟平.png" group-title="烟台" ,牟平生活
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001077/index.m3u8
-#EXTINF:-1 tvg-name="牟平综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台牟平.png" group-title="烟台" ,牟平综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001076/index.m3u8
-#EXTINF:-1 tvg-name="枣庄新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄.png" group-title="市级频道" ,枣庄新闻综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001025/index.m3u8
-#EXTINF:-1 tvg-name="枣庄经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄.png" group-title="市级频道" ,枣庄经济生活
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001026/index.m3u8
-#EXTINF:-1 tvg-name="滕州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄滕州.png" group-title="枣庄" ,滕州综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001028/index.m3u8
-#EXTINF:-1 tvg-name="文登综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/威海文登.png" group-title="威海",文登综合
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001017/index.m3u8
-#EXTINF:-1 tvg-name="宁阳影视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安宁阳.png" group-title="泰安",宁阳影视
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001072/index.m3u8
-#EXTINF:-1 tvg-name="泰山电视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安泰山.png" group-title="泰安",泰山电视频道
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001114/index.m3u8
-#EXTINF:-1 tvg-name="微山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁微山.png" group-title="山东频道",微山综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001078/index.m3u8
-#EXTINF:-1 tvg-name="博兴综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州博兴.png" group-title="滨州",博兴综合
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001102/index.m3u8
-#EXTINF:-1 tvg-name="潍坊高新" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊高新区.png" group-title="潍坊",潍坊高新
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001106/index.m3u8
-#EXTINF:-1 tvg-name="奎文频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊奎文.png" group-title="潍坊",奎文频道
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001027/index.m3u8
-#EXTINF:-1 tvg-name="昌乐新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊昌乐.png" group-title="潍坊",昌乐新闻
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001033/index.m3u8
-#EXTINF:-1 tvg-name="寿光蔬菜" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊寿光蔬菜.png" group-title="潍坊",寿光蔬菜
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001045/index.m3u8
-#EXTINF:-1 tvg-name="烟台新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台.png" group-title="市级频道",烟台新闻
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000280/index.m3u8
-#EXTINF:-1 tvg-name="烟台经济科技" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台.png" group-title="市级频道",烟台经济科技
-http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000282/index.m3u8
-#EXTINF:-1 tvg-name="烟台影视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台.png" group-title="市级频道",烟台影视
+#EXTINF:-1 tvg-name="青岛QTV-5" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/QTV5.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000505/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",青岛QTV-5
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000505/index.m3u8
+#EXTINF:-1 tvg-name="淄博新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000292/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",淄博新闻综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000292/index.m3u8
+#EXTINF:-1 tvg-name="淄博新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000283/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",淄博新闻综合
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000283/index.m3u8
-#EXTINF:-1 tvg-name="即墨新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛即墨.png" group-title="青岛",即墨新闻
+#EXTINF:-1 tvg-name="淄博民生" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000294/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",淄博民生
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000294/index.m3u8
+#EXTINF:-1 tvg-name="淄博文旅" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000293/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",淄博文旅
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000293/index.m3u8
+#EXTINF:-1 tvg-name="淄博影视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001037/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",淄博影视
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001037/index.m3u8
+#EXTINF:-1 tvg-name="枣庄新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001025/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",枣庄新闻综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001025/index.m3u8
+#EXTINF:-1 tvg-name="枣庄经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001026/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",枣庄经济生活
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001026/index.m3u8
+#EXTINF:-1 tvg-name="东营新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/东营.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000226/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",东营新闻综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000226/index.m3u8
+#EXTINF:-1 tvg-name="东营公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/东营.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000227/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",东营公共
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000227/index.m3u8
+#EXTINF:-1 tvg-name="烟台新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000280/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",烟台新闻
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000280/index.m3u8
+#EXTINF:-1 tvg-name="烟台经济科技" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000282/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",烟台经济科技
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000282/index.m3u8
+#EXTINF:-1 tvg-name="烟台影视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000283/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",烟台影视
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000283/index.m3u8
+#EXTINF:-1 tvg-name="烟台公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000281/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",烟台公共
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000281/index.m3u8
+#EXTINF:-1 tvg-name="枣庄新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001025/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",枣庄新闻综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001025/index.m3u8
+#EXTINF:-1 tvg-name="枣庄经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001026/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",枣庄经济生活
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001026/index.m3u8
+#EXTINF:-1 tvg-name="济宁综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000240/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济宁综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000240/index.m3u8
+#EXTINF:-1 tvg-name="济宁公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000241/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济宁公共
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000241/index.m3u8
+#EXTINF:-1 tvg-name="济宁生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000239/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济宁生活
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000239/index.m3u8
+#EXTINF:-1 tvg-name="济宁高新" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁高新区.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001101/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济宁高新
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001101/index.m3u8
+#EXTINF:-1 tvg-name="泰安综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000269/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",泰安综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000269/index.m3u8
+#EXTINF:-1 tvg-name="泰安经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000270/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",泰安经济生活
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000270/index.m3u8
+#EXTINF:-1 tvg-name="威海新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/威海.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000274/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",威海新闻
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000274/index.m3u8
+#EXTINF:-1 tvg-name="威海海洋生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/威海.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000275/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",威海海洋生活
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000275/index.m3u8
+#EXTINF:-1 tvg-name="日照新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000262/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",日照新闻
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000262/index.m3u8
+#EXTINF:-1 tvg-name="日照公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001100/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",日照公共
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001100/index.m3u8
+#EXTINF:-1 tvg-name="日照科教" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000263/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",日照科教
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000263/index.m3u8
+#EXTINF:-1 tvg-name="临沂综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000120/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",临沂综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000120/index.m3u8
+#EXTINF:-1 tvg-name="临沂经济生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000256/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",临沂经济生活
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000256/index.m3u8
+#EXTINF:-1 tvg-name="德州新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000206/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",德州新闻
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000206/index.m3u8
+#EXTINF:-1 tvg-name="德州生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000207/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",德州生活
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000207/index.m3u8
+#EXTINF:-1 tvg-name="聊城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000250/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",聊城综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000250/index.m3u8
+#EXTINF:-1 tvg-name="聊城民生" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000251/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",聊城民生
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000251/index.m3u8
+#EXTINF:-1 tvg-name="滨州新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000220/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",滨州新闻
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000220/index.m3u8
+#EXTINF:-1 tvg-name="滨州民生" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000221/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",滨州民生
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000221/index.m3u8
+#EXTINF:-1 tvg-name="菏泽-1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000232/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",菏泽-1
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000232/index.m3u8
+#EXTINF:-1 tvg-name="菏泽-2" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000234/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",菏泽-2
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000234/index.m3u8
+#EXTINF:-1 tvg-name="临朐综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊临朐.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001085/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",临朐综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001085/index.m3u8
+#EXTINF:-1 tvg-name="安丘综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊安丘.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001015/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",安丘综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001015/index.m3u8
+#EXTINF:-1 tvg-name="昌乐新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊昌乐.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001033/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",昌乐新闻
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001033/index.m3u8
+#EXTINF:-1 tvg-name="昌邑综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊昌邑.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001083/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",昌邑综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001083/index.m3u8
+#EXTINF:-1 tvg-name="高密综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊高密.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001089/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",高密综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001089/index.m3u8
+#EXTINF:-1 tvg-name="奎文频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊奎文.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001027/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",奎文频道
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001027/index.m3u8
+#EXTINF:-1 tvg-name="青州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊青州.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001042/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",青州综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001042/index.m3u8
+#EXTINF:-1 tvg-name="青州文化旅游" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊青州.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001057/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",青州文化旅游
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001057/index.m3u8
+#EXTINF:-1 tvg-name="寿光综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊寿光.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000702/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",寿光综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00000702/index.m3u8
+#EXTINF:-1 tvg-name="寿光综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊寿光.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001000/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",寿光综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001000/index.m3u8
+#EXTINF:-1 tvg-name="寿光蔬菜" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊寿光蔬菜.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001045/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",寿光蔬菜
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001045/index.m3u8
+#EXTINF:-1 tvg-name="诸城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊诸城.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001004/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",诸城综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001004/index.m3u8
+#EXTINF:-1 tvg-name="潍坊高新" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊高新区.png" group-title="潍坊" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001106/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",潍坊高新
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001106/index.m3u8
+#EXTINF:-1 tvg-name="商河综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南商河.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001008/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",商河综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001008/index.m3u8
+#EXTINF:-1 tvg-name="平阴综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南平阴.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001050/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",平阴综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001050/index.m3u8
+#EXTINF:-1 tvg-name="济阳综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南济阳.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001030/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济阳综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001030/index.m3u8
+#EXTINF:-1 tvg-name="长清综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南长清.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001018/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",长清综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001018/index.m3u8
+#EXTINF:-1 tvg-name="历城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南历城.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001105/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",历城综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001105/index.m3u8
+#EXTINF:-1 tvg-name="章丘综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南章丘.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001073/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",章丘综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001073/index.m3u8
+#EXTINF:-1 tvg-name="胶州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛胶州.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001074/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",胶州综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001074/index.m3u8
+#EXTINF:-1 tvg-name="莱西综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛莱西.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001067/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",莱西综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001067/index.m3u8
+#EXTINF:-1 tvg-name="崂山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛崂山.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001075/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",崂山综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001075/index.m3u8
+#EXTINF:-1 tvg-name="平度综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛平度.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001054/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",平度综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001054/index.m3u8
+#EXTINF:-1 tvg-name="即墨新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛即墨.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001080/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",即墨新闻
 http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001080/index.m3u8
+#EXTINF:-1 tvg-name="黄岛生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛黄岛.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001087/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",黄岛生活
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001087/index.m3u8
+#EXTINF:-1 tvg-name="黄岛综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/青岛黄岛.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001086/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",黄岛综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001086/index.m3u8
+#EXTINF:-1 tvg-name="栖霞综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台栖霞.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001055/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",栖霞综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001055/index.m3u8
+#EXTINF:-1 tvg-name="招远综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台招远.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001113/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",招远综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001113/index.m3u8
+#EXTINF:-1 tvg-name="蓬莱综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台蓬莱.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001088/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",蓬莱综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001088/index.m3u8
+#EXTINF:-1 tvg-name="长岛综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台蓬莱长岛.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001090/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",长岛综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001090/index.m3u8
+#EXTINF:-1 tvg-name="海阳综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台海阳.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001091/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",海阳综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001091/index.m3u8
+#EXTINF:-1 tvg-name="海阳综艺" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台海阳.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001092/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",海阳综艺
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001092/index.m3u8
+#EXTINF:-1 tvg-name="牟平生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台牟平.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001077/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",牟平生活
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001077/index.m3u8
+#EXTINF:-1 tvg-name="牟平综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/烟台牟平.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001076/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",牟平综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001076/index.m3u8
+#EXTINF:-1 tvg-name="滕州综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/枣庄滕州.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001028/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",滕州综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001028/index.m3u8
+#EXTINF:-1 tvg-name="广饶综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/东营广饶.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001043/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",广饶综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001043/index.m3u8
+#EXTINF:-1 tvg-name="莒县综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照莒县.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001014/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",莒县综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001014/index.m3u8
+#EXTINF:-1 tvg-name="岚山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照岚山.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001044/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",岚山综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001044/index.m3u8
+#EXTINF:-1 tvg-name="五莲新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照五莲.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001068/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",五莲新闻
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001068/index.m3u8
+#EXTINF:-1 tvg-name="乳山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/威海乳山.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001049/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",乳山综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001049/index.m3u8
+#EXTINF:-1 tvg-name="荣成综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/威海荣成.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001053/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",荣成综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001053/index.m3u8
+#EXTINF:-1 tvg-name="文登综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/威海文登.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.tvod.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00001017/index.m3u8?startTime=${(b)yyyyMMdd'T'HHmmss'.00Z'|-08:00}&endTime=${(e)yyyyMMdd'T'HHmmss'.00Z'|-08:00}",文登综合
+http://ucdn-zte.sd.chinamobile.com:8089/shandong_cabletv.live.zte.com////CHANNEL00001017/index.m3u8
+#EXTINF:-1 tvg-name="惠民综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州惠民.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001009/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",惠民综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001009/index.m3u8
+#EXTINF:-1 tvg-name="邹平综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州邹平.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001058/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",邹平综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001058/index.m3u8
+#EXTINF:-1 tvg-name="阳信综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州阳信.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001036/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",阳信综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001036/index.m3u8
+#EXTINF:-1 tvg-name="无棣综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州无棣.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001024/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",无棣综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001024/index.m3u8
+#EXTINF:-1 tvg-name="沾化综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州沾化.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001035/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",沾化综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001035/index.m3u8
+#EXTINF:-1 tvg-name="博兴综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/滨州博兴.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001102/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",博兴综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001102/index.m3u8
+#EXTINF:-1 tvg-name="临邑综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州临邑.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001104/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",临邑综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001104/index.m3u8
+#EXTINF:-1 tvg-name="夏津综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州夏津.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001069/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",夏津综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001069/index.m3u8
+#EXTINF:-1 tvg-name="宁津综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州宁津.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001003/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",宁津综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001003/index.m3u8
+#EXTINF:-1 tvg-name="武城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州武城.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001059/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",武城综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001059/index.m3u8
+#EXTINF:-1 tvg-name="禹城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州禹城.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001061/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",禹城综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001061/index.m3u8
+#EXTINF:-1 tvg-name="禹城综艺" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州禹城.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001062/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",禹城综艺
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001062/index.m3u8
+#EXTINF:-1 tvg-name="齐河综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州齐河.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001056/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",齐河综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001056/index.m3u8
+#EXTINF:-1 tvg-name="平原综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州平原.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001064/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",平原综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001064/index.m3u8
+#EXTINF:-1 tvg-name="陵城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州陵城.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001082/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",陵城综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001082/index.m3u8
+#EXTINF:-1 tvg-name="夏津公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/德州夏津.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001070/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",夏津公共
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001070/index.m3u8
+#EXTINF:-1 tvg-name="东阿综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城东阿.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001093/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",东阿综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001093/index.m3u8
+#EXTINF:-1 tvg-name="临清综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城临清.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001103/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",临清综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001103/index.m3u8
+#EXTINF:-1 tvg-name="冠县综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城冠县.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001040/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",冠县综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001040/index.m3u8
+#EXTINF:-1 tvg-name="茌平综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城茌平.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001048/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",茌平综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001048/index.m3u8
+#EXTINF:-1 tvg-name="莘县综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城莘县.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001047/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",莘县综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001047/index.m3u8
+#EXTINF:-1 tvg-name="东昌综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/聊城东昌.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001119/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",东昌综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001119/index.m3u8
+#EXTINF:-1 tvg-name="临沭综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂临沭.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001094/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",临沭综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001094/index.m3u8
+#EXTINF:-1 tvg-name="兰陵公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂兰陵.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001095/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",兰陵公共
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001095/index.m3u8
+#EXTINF:-1 tvg-name="兰陵综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂兰陵.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001032/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",兰陵综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001032/index.m3u8
+#EXTINF:-1 tvg-name="沂南综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂沂南.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001096/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",沂南综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001096/index.m3u8
+#EXTINF:-1 tvg-name="沂水生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂沂水.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001099/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",沂水生活
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001099/index.m3u8
+#EXTINF:-1 tvg-name="沂水综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂沂水.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001098/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",沂水综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001098/index.m3u8
+#EXTINF:-1 tvg-name="河东综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂河东.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001109/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",河东综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001109/index.m3u8
+#EXTINF:-1 tvg-name="红色影视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂沂南.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001097/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",红色影视
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001097/index.m3u8
+#EXTINF:-1 tvg-name="莒南综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂莒南.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001011/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",莒南综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001011/index.m3u8
+#EXTINF:-1 tvg-name="蒙阴综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂蒙阴.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001031/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",蒙阴综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001031/index.m3u8
+#EXTINF:-1 tvg-name="东平综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安东平.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001001/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",东平综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001001/index.m3u8
+#EXTINF:-1 tvg-name="宁阳综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安宁阳.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001071/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",宁阳综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001071/index.m3u8
+#EXTINF:-1 tvg-name="新泰新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安新泰.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001029/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",新泰新闻
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001029/index.m3u8
+#EXTINF:-1 tvg-name="新泰乡村" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安新泰乡村.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001066/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",新泰乡村
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001066/index.m3u8
+#EXTINF:-1 tvg-name="肥城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安肥城.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001039/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",肥城综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001039/index.m3u8
+#EXTINF:-1 tvg-name="泰山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安泰山.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001114/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",泰山综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001114/index.m3u8
+#EXTINF:-1 tvg-name="岱岳综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安岱岳.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001013/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",岱岳综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001013/index.m3u8
+#EXTINF:-1 tvg-name="宁阳影视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安宁阳.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001072/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",宁阳影视
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001072/index.m3u8
+#EXTINF:-1 tvg-name="泰山电视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安泰山.png" group-title="泰安" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001114/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",泰山电视频道
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001114/index.m3u8
+#EXTINF:-1 tvg-name="东明综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽东明.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001065/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",东明综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001065/index.m3u8
+#EXTINF:-1 tvg-name="巨野新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽巨野.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001046/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",巨野新闻
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001046/index.m3u8
+#EXTINF:-1 tvg-name="郓城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽郓城.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001041/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",郓城综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001041/index.m3u8
+#EXTINF:-1 tvg-name="郓城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽郓城.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001084/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",郓城综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001084/index.m3u8
+#EXTINF:-1 tvg-name="定陶综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽定陶.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001063/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",定陶综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001063/index.m3u8
+#EXTINF:-1 tvg-name="鄄城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽鄄城.png" group-title="菏泽" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001084/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",鄄城综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001084/index.m3u8
+#EXTINF:-1 tvg-name="单县综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽单县.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001079/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",单县综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001079/index.m3u8
+#EXTINF:-1 tvg-name="微山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁微山.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001078/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",微山综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001078/index.m3u8
+#EXTINF:-1 tvg-name="任城生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁任城.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001112/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",任城生活
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001112/index.m3u8
+#EXTINF:-1 tvg-name="任城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁任城.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001111/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",任城综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001111/index.m3u8
+#EXTINF:-1 tvg-name="兖州新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁兖州.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001051/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",兖州新闻
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001051/index.m3u8
+#EXTINF:-1 tvg-name="嘉祥新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁嘉祥.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001016/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",嘉祥新闻
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001016/index.m3u8
+#EXTINF:-1 tvg-name="曲阜新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁曲阜.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001052/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",曲阜新闻
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001052/index.m3u8
+#EXTINF:-1 tvg-name="汶上综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁汶上.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001116/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",汶上综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001116/index.m3u8
+#EXTINF:-1 tvg-name="邹城新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁邹城.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001038/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",邹城新闻
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001038/index.m3u8
+#EXTINF:-1 tvg-name="鱼台新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁鱼台.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001107/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",鱼台新闻
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001107/index.m3u8
+#EXTINF:-1 tvg-name="鱼台生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁鱼台.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001108/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",鱼台生活
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001108/index.m3u8
+#EXTINF:-1 tvg-name="梁山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁梁山.png" group-title="济宁" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001075/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",梁山综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001075/index.m3u8
+#EXTINF:-1 tvg-name="泗水综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁泗水.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001081/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",泗水综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001081/index.m3u8
+#EXTINF:-1 tvg-name="张店综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博张店.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001012/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",张店综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001012/index.m3u8
+#EXTINF:-1 tvg-name="沂源综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博沂源.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001002/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",沂源综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001002/index.m3u8
+#EXTINF:-1 tvg-name="淄川新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博淄川.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001007/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",淄川新闻
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001007/index.m3u8
+#EXTINF:-1 tvg-name="高青综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博高青.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001023/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",高青综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001023/index.m3u8
+#EXTINF:-1 tvg-name="桓台综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博桓台.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001020/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",桓台综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001020/index.m3u8
+#EXTINF:-1 tvg-name="周村新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博周村.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001019/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",周村新闻
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001019/index.m3u8
+#EXTINF:-1 tvg-name="临淄TV-1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/淄博临淄1.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001021/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",临淄TV-1
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001021/index.m3u8
