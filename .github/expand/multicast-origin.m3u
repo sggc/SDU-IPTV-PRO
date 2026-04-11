@@ -61,13 +61,13 @@ http://192.168.100.1:5140/rtp/239.253.246.24:8000?fcc=60.210.139.78:8027
 http://192.168.100.1:5140/rtp/239.253.246.25:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="山东教育" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东教育.png" catchup="default" catchup-source="http://192.168.100.1:5140/rtsp/112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch10120118342495301658.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800", 山东教育
 http://192.168.100.1:5140/rtp/239.253.246.59:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="潍坊新闻综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊新闻.png", 潍坊新闻综合
+#EXTINF:-1 tvg-name="潍坊新闻综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊1.png", 潍坊新闻综合
 http://192.168.100.1:5140/rtp/239.253.246.253:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="潍坊经济生活" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊生活.png", 潍坊经济生活
+#EXTINF:-1 tvg-name="潍坊经济生活" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊2.png", 潍坊经济生活
 http://192.168.100.1:5140/rtp/239.253.246.254:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="潍坊公共" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊影视.png", 潍坊公共
+#EXTINF:-1 tvg-name="潍坊公共" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊3.png", 潍坊公共
 http://192.168.100.1:5140/rtp/239.253.246.242:8000?fcc=60.210.139.78:8027
-#EXTINF:-1 tvg-name="潍坊科教文化" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊文旅.png", 潍坊科教文化
+#EXTINF:-1 tvg-name="潍坊科教文化" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊4.png", 潍坊科教文化
 http://192.168.100.1:5140/rtp/239.253.246.241:8000?fcc=60.210.139.78:8027
 #EXTINF:-1 tvg-name="临朐综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊临朐.png", 临朐综合
 http://192.168.100.1:5140/rtp/239.253.246.240:8000?fcc=60.210.139.78:8027
