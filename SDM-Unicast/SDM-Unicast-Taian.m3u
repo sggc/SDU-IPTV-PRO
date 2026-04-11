@@ -581,7 +581,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001013/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001029/index.m3u8
 #EXTINF:-1 tvg-name="新泰乡村" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安新泰乡村.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001066/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",新泰乡村
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001066/index.m3u8
-#EXTINF:-1 tvg-name="蒙阴综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂蒙阴.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001031/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",蒙阴综合
+#EXTINF:-1 tvg-name="蒙阴综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/临沂蒙阴.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001031/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",蒙阴综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001031/index.m3u8
 #EXTINF:-1 tvg-name="肥城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安肥城.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001039/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",肥城综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001039/index.m3u8
