@@ -591,8 +591,6 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001114/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001013/index.m3u8
 #EXTINF:-1 tvg-name="宁阳影视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安宁阳.png" group-title="山东频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001072/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",宁阳影视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001072/index.m3u8
-#EXTINF:-1 tvg-name="泰山电视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/泰安泰山.png" group-title="泰安" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001114/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",泰山电视频道
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001114/index.m3u8
 #EXTINF:-1 tvg-name="东明综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽东明.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001065/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",东明综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001065/index.m3u8
 #EXTINF:-1 tvg-name="巨野新闻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽巨野.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001046/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",巨野新闻
@@ -603,7 +601,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001041/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001084/index.m3u8
 #EXTINF:-1 tvg-name="定陶综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽定陶.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001063/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",定陶综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001063/index.m3u8
-#EXTINF:-1 tvg-name="鄄城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽鄄城.png" group-title="菏泽" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001084/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",鄄城综合
+#EXTINF:-1 tvg-name="鄄城综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽鄄城.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001084/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",鄄城综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001084/index.m3u8
 #EXTINF:-1 tvg-name="单县综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/菏泽单县.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001079/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",单县综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001079/index.m3u8
@@ -627,7 +625,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001038/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001107/index.m3u8
 #EXTINF:-1 tvg-name="鱼台生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁鱼台.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001108/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",鱼台生活
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001108/index.m3u8
-#EXTINF:-1 tvg-name="梁山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁梁山.png" group-title="济宁" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001075/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",梁山综合
+#EXTINF:-1 tvg-name="梁山综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁梁山.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001075/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",梁山综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001075/index.m3u8
 #EXTINF:-1 tvg-name="泗水综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁泗水.png" group-title="县级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001081/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",泗水综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001081/index.m3u8
