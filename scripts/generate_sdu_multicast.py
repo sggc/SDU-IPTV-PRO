@@ -41,10 +41,10 @@ FCC_CONFIG = {
 
 CITY_CHANNELS = {
     "潍坊": [
-        {"extinf": '#EXTINF:-1 tvg-name="潍坊新闻综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊新闻.png", 潍坊新闻综合', "url": "http://192.168.100.1:5140/rtp/239.253.246.253:8000"},
-        {"extinf": '#EXTINF:-1 tvg-name="潍坊经济生活" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊生活.png", 潍坊经济生活', "url": "http://192.168.100.1:5140/rtp/239.253.246.254:8000"},
-        {"extinf": '#EXTINF:-1 tvg-name="潍坊公共" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊影视.png", 潍坊公共', "url": "http://192.168.100.1:5140/rtp/239.253.246.242:8000"},
-        {"extinf": '#EXTINF:-1 tvg-name="潍坊科教文化" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊文旅.png", 潍坊科教文化', "url": "http://192.168.100.1:5140/rtp/239.253.246.241:8000"},
+        {"extinf": '#EXTINF:-1 tvg-name="潍坊新闻综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊1.png", 潍坊新闻综合', "url": "http://192.168.100.1:5140/rtp/239.253.246.253:8000"},
+        {"extinf": '#EXTINF:-1 tvg-name="潍坊经济生活" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊2.png", 潍坊经济生活', "url": "http://192.168.100.1:5140/rtp/239.253.246.254:8000"},
+        {"extinf": '#EXTINF:-1 tvg-name="潍坊公共" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊3.png", 潍坊公共', "url": "http://192.168.100.1:5140/rtp/239.253.246.242:8000"},
+        {"extinf": '#EXTINF:-1 tvg-name="潍坊科教文化" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/潍坊4.png", 潍坊科教文化', "url": "http://192.168.100.1:5140/rtp/239.253.246.241:8000"},
         {"extinf": '#EXTINF:-1 tvg-name="奎文电视台" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊奎文.png", 奎文电视台', "url": "http://192.168.100.1:5140/rtp/239.253.246.250:8000"},
         {"extinf": '#EXTINF:-1 tvg-name="临朐综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊临朐.png", 临朐综合', "url": "http://192.168.100.1:5140/rtp/239.253.246.240:8000"},
         {"extinf": '#EXTINF:-1 tvg-name="昌乐综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/潍坊昌乐.png", 昌乐综合', "url": "http://192.168.100.1:5140/rtp/239.253.246.251:8000"},
