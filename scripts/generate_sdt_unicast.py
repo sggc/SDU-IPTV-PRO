@@ -19,26 +19,35 @@ CITY_NAMES_EN = {
     "滨州": "Binzhou", "菏泽": "Heze", "枣庄": "Zaozhuang", "东营": "Dongying"
 }
 
+# 根据实际M3U文件中的频道名修正
 CITY_CHANNELS = {
-    "济南": ["济南新闻综合", "济南生活", "济南都市", "济南娱乐", "济南文旅体育", "济南教育", "济南少儿", "济南鲁中", "历城综合", "商河综合", "平阴综合", "济阳综合", "章丘综合", "长清综合"],
-    "青岛": ["青岛QTV-1", "青岛QTV-2", "青岛QTV-3", "青岛QTV-4", "青岛QTV-5", "崂山综合", "平度综合", "胶州综合", "莱西综合", "黄岛生活", "黄岛综合"],
-    "烟台": ["烟台新闻综合", "烟台经济科技", "烟台公共", "招远综合", "海阳综合", "海阳综艺", "牟平生活", "牟平综合", "蓬莱综合", "长岛综合", "龙口综合", "栖霞综合"],
-    "潍坊": ["潍坊新闻综合", "潍坊经济生活", "潍坊公共", "潍坊科教文化", "潍坊高新区", "临朐综合", "安丘综合", "寿光蔬菜", "昌乐综合", "昌邑综合", "青州文化旅游", "青州综合", "高密综合", "寿光综合", "诸城综合"],
-    "淄博": ["淄博新闻综合", "淄博影视", "淄博民生", "淄博文旅", "淄川新闻", "临淄综合", "周村新闻", "张店综合", "桓台综合", "沂源综合", "高青综合"],
-    "济宁": ["济宁综合", "济宁生活", "济宁公共", "济宁高新", "任城生活", "任城综合", "兖州新闻", "嘉祥综合", "曲阜综合", "汶上综合", "邹城综合", "鱼台生活", "鱼台综合"],
-    "泰安": ["泰山综合", "岱岳综合", "新泰综合", "新泰乡村", "宁阳综合", "宁阳生活", "东平综合", "肥城综合"],
-    "威海": ["威海新闻综合", "威海海洋生活", "乳山综合", "荣成综合"],
-    "德州": ["德州新闻综合", "德州经济生活", "临邑综合", "夏津公共", "夏津综合", "宁津综合", "平原综合", "武城综合频道", "武城综艺", "禹城综合", "禹城综艺", "陵城综合", "齐河综合"],
-    "聊城": ["聊城综合", "聊城民生", "东昌综合", "东阿综合", "临清综合", "茌平综合", "莘县综合", "冠县综合"],
-    "临沂": ["临沭综合", "兰陵公共", "兰陵综合", "沂水生活", "沂水综合", "河东综合", "莒南综合", "蒙阴综合"],
-    "滨州": ["滨州新闻综合", "滨州民生", "无棣综合", "沾化综合", "邹平综合", "阳信综合", "惠民综合"],
-    "菏泽": ["菏泽-1", "菏泽-2", "单县综合", "定陶综合", "巨野新闻", "郓城综合", "东明综合"],
+    "滨州": ["滨州新闻综合", "滨州民生", "惠民综合", "无棣综合", "阳信综合", "沾化综合", "邹平综合"],
+    "德州": ["德州新闻综合", "德州经济生活", "临邑综合", "陵城综合", "宁津综合", "平原综合", "齐河综合", 
+             "武城综合频道", "武城综艺", "夏津公共", "夏津综合", "禹城综合", "禹城综艺"],
     "东营": ["东营新闻综合", "东营公共", "广饶综合"],
+    "菏泽": ["菏泽-1", "菏泽-2", "单县综合", "定陶综合", "巨野新闻", "郓城综合", "东明综合"],
+    "济南": ["济南新闻综合", "济南生活", "济南都市", "济南娱乐", "济南文旅体育", "济南教育", "济南少儿", 
+             "济南鲁中", "济阳综合", "历城综合", "平阴综合", "商河综合", "长清综合", "章丘综合"],
+    "济宁": ["济宁综合", "济宁生活", "济宁公共", "济宁高新", "嘉祥综合", "曲阜综合", "任城生活", 
+             "任城综合", "汶上综合", "鱼台生活", "鱼台综合", "兖州新闻", "邹城综合"],
+    "聊城": ["聊城综合", "聊城民生", "东阿综合", "东昌综合", "冠县综合", "临清综合", "莘县综合", "茌平综合"],
+    "临沂": ["河东综合", "莒南综合", "兰陵公共", "兰陵综合", "临沭综合", "蒙阴综合", "沂水生活", "沂水综合"],
+    "青岛": ["青岛QTV-1", "青岛QTV-2", "青岛QTV-3", "青岛QTV-4", "青岛QTV-5", "胶州综合", "崂山综合", 
+             "莱西综合", "平度综合", "黄岛生活", "黄岛综合"],
     "日照": ["日照新闻综合", "日照公共", "日照科教", "岚山综合", "莒县综合", "五莲新闻"],
-    "枣庄": [],
+    "泰安": ["岱岳综合", "东平综合", "肥城综合", "宁阳生活", "宁阳综合", "泰山综合", "新泰乡村", "新泰综合"],
+    "威海": ["威海新闻综合", "威海海洋生活", "乳山综合", "荣成综合"],
+    "潍坊": ["潍坊新闻综合", "潍坊经济生活", "潍坊公共", "潍坊科教文化", "潍坊高新区", "安丘综合", "昌乐综合", 
+             "昌邑综合", "高密综合", "临朐综合", "青州文化旅游", "青州综合", "寿光蔬菜", "寿光综合", "诸城综合"],
+    "烟台": ["烟台新闻综合", "烟台经济科技", "烟台公共", "海阳综合", "海阳综艺", "龙口综合", "牟平生活", 
+             "牟平综合", "蓬莱综合", "栖霞综合", "长岛综合", "招远综合"],
+    "淄博": ["淄博新闻综合", "淄博影视", "淄博民生", "淄博文旅", "高青综合", "桓台综合", "临淄综合", 
+             "沂源综合", "张店综合", "周村新闻", "淄川新闻"],
+    "枣庄": [],  # 电信源中没有枣庄的频道
 }
 
 def parse_m3u():
+    """解析M3U文件，提取频道信息和group-title"""
     channels = []
     with open(SOURCE_M3U_FILE, "r", encoding="utf-8") as f:
         content = f.read()
@@ -48,28 +57,43 @@ def parse_m3u():
         extinf_attrs = match[0]
         channel_name = match[1].strip()
         stream_url = match[2].strip()
+        
+        # 提取当前的 group-title
+        group_match = re.search(r'group-title="([^"]*)"', extinf_attrs)
+        current_group = group_match.group(1) if group_match else ""
+        
         channels.append({
             "name": channel_name,
             "url": stream_url,
-            "extinf": f"#EXTINF:-1 {extinf_attrs},{channel_name}"
+            "extinf": f"#EXTINF:-1 {extinf_attrs},{channel_name}",
+            "group": current_group
         })
     return channels
 
 def generate_sdt_unicast():
+    """生成分城市的M3U文件"""
     if os.path.exists(OUTPUT_DIR):
         shutil.rmtree(OUTPUT_DIR)
 
     all_channels = parse_m3u()
-
+    
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     for city in CITY_NAMES:
         city_channel_names = set(CITY_CHANNELS.get(city, []))
-
+        
         output_lines = ['#EXTM3U url-tvg="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SD-EPG/main/EPG/sggc-desc.xml.gz"']
-
+        
+        local_count = 0
+        county_count = 0
+        other_count = 0
+        
         for ch in all_channels:
-            if ch["name"] in city_channel_names:
+            channel_name = ch["name"]
+            current_group = ch["group"]
+            
+            if channel_name in city_channel_names:
+                # 当前城市的频道（包括市级和县级）→ 分类为"山东频道"
                 modified_extinf = re.sub(
                     r'group-title="[^"]*"',
                     'group-title="山东频道"',
@@ -77,14 +101,40 @@ def generate_sdt_unicast():
                 )
                 output_lines.append(modified_extinf)
                 output_lines.append(ch["url"])
-            else:
+                local_count += 1
+                
+            elif current_group in CITY_NAMES and current_group != city:
+                # 其他地市的县级频道（group-title 是其他城市名）→ 分类为"县级频道"
+                modified_extinf = re.sub(
+                    r'group-title="[^"]*"',
+                    'group-title="县级频道"',
+                    ch["extinf"]
+                )
+                output_lines.append(modified_extinf)
+                output_lines.append(ch["url"])
+                county_count += 1
+                
+            elif current_group == "市级频道":
+                # 其他地市的市级频道 → 保持原样
                 output_lines.append(ch["extinf"])
                 output_lines.append(ch["url"])
-
+                other_count += 1
+                
+            else:
+                # 其他频道（央视、卫视等）→ 保持原样
+                output_lines.append(ch["extinf"])
+                output_lines.append(ch["url"])
+                other_count += 1
+        
         output_file = OUTPUT_DIR / f"SDT-Unicast-{CITY_NAMES_EN[city]}.m3u"
         with open(output_file, "w", encoding="utf-8") as f:
             f.write("\n".join(output_lines))
-        print(f"Generated: {output_file.name} ({len(city_channel_names)} channels)")
+        
+        print(f"Generated: {output_file.name}")
+        print(f"  - 本地频道（山东频道）: {local_count}")
+        print(f"  - 县级频道: {county_count}")
+        print(f"  - 其他频道: {other_count}")
+        print()
 
 if __name__ == "__main__":
     generate_sdt_unicast()
