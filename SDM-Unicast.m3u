@@ -220,10 +220,8 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000642/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002026/index.m3u8
 #EXTINF:-1 tvg-name="影视解说" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/影视解说.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002032/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,影视解说
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002032/index.m3u8
-#EXTINF:-1 tvg-name="智慧康养" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/智慧康养.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002031/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",智慧康养
+#EXTINF:-1 tvg-name="短剧" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/短剧.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002031/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",短剧
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002031/index.m3u8
-#EXTINF:-1 tvg-name="热血剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/热血剧场.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002032/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",热血剧场
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002032/index.m3u8
 #EXTINF:-1 tvg-name="电影大片" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/电影大片.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002033/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",电影大片
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002033/index.m3u8
 #EXTINF:-1 tvg-name="CETV-1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中国教育1.png" group-title="其他频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000076/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,CETV-1
