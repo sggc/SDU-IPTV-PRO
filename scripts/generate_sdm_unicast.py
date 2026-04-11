@@ -39,6 +39,7 @@ CITY_CHANNELS = {
 }
 
 def parse_m3u():
+    """解析M3U文件，提取频道信息"""
     channels = []
     with open(SOURCE_M3U_FILE, "r", encoding="utf-8") as f:
         content = f.read()
@@ -55,21 +56,66 @@ def parse_m3u():
         })
     return channels
 
+def build_channel_city_map():
+    """构建频道名到所属城市的映射（仅用于县级频道判断）"""
+    channel_to_city = {}
+    for city, channels in CITY_CHANNELS.items():
+        for channel in channels:
+            channel_to_city[channel] = city
+    return channel_to_city
+
+def is_county_level_channel(channel_name, current_city, channel_to_city):
+    """
+    判断是否为其他地市的县级频道
+    县级频道特征：属于其他地市，但不是该地市的市级频道
+    例如：对于淄博文件，"寿光综合"属于潍坊市的县级频道
+    """
+    if channel_name not in channel_to_city:
+        return False
+    
+    channel_city = channel_to_city[channel_name]
+    
+    # 不是当前城市的频道
+    if channel_city == current_city:
+        return False
+    
+    # 判断是否为县级频道（频道名不包含城市名，或者包含县/区名）
+    # 这里我们通过排除市级频道来判断
+    city_channels = CITY_CHANNELS.get(channel_city, [])
+    
+    # 如果是该城市的市级频道（如"潍坊新闻综合"），不算县级频道
+    # 县级频道通常包含具体的区县名称
+    city_keywords = [channel_city, "新闻", "综合", "公共", "生活", "经济", "科教", "文旅", "影视", "都市", "教育"]
+    
+    # 检查是否为市级频道（简单判断：频道名以城市名开头或包含城市名+通用词）
+    for keyword in city_keywords:
+        if channel_name.startswith(channel_city) and keyword in channel_name:
+            # 可能是市级频道
+            return False
+    
+    # 其他情况视为县级频道
+    return True
+
 def generate_sdm_unicast():
+    """生成分城市的M3U文件"""
     if os.path.exists(OUTPUT_DIR):
         shutil.rmtree(OUTPUT_DIR)
 
     all_channels = parse_m3u()
-
+    channel_to_city = build_channel_city_map()
+    
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     for city in CITY_NAMES:
         city_channel_names = set(CITY_CHANNELS.get(city, []))
-
+        
         output_lines = ['#EXTM3U url-tvg="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SD-EPG/main/EPG/sggc-desc.xml.gz"']
-
+        
         for ch in all_channels:
-            if ch["name"] in city_channel_names:
+            channel_name = ch["name"]
+            
+            if channel_name in city_channel_names:
+                # 当前城市的频道 → 分类为"山东频道"
                 modified_extinf = re.sub(
                     r'group-title="[^"]*"',
                     'group-title="山东频道"',
@@ -77,14 +123,32 @@ def generate_sdm_unicast():
                 )
                 output_lines.append(modified_extinf)
                 output_lines.append(ch["url"])
+            elif is_county_level_channel(channel_name, city, channel_to_city):
+                # 其他地市的县级频道 → 分类为"县级频道"
+                modified_extinf = re.sub(
+                    r'group-title="[^"]*"',
+                    'group-title="县级频道"',
+                    ch["extinf"]
+                )
+                output_lines.append(modified_extinf)
+                output_lines.append(ch["url"])
             else:
+                # 其他频道（央视、卫视等）→ 保持原样
                 output_lines.append(ch["extinf"])
                 output_lines.append(ch["url"])
-
+        
         output_file = OUTPUT_DIR / f"SDM-Unicast-{CITY_NAMES_EN[city]}.m3u"
         with open(output_file, "w", encoding="utf-8") as f:
             f.write("\n".join(output_lines))
-        print(f"Generated: {output_file.name} ({len(city_channel_names)} channels)")
+        
+        # 统计各类频道数量
+        local_count = sum(1 for ch in all_channels if ch["name"] in city_channel_names)
+        county_count = sum(1 for ch in all_channels if is_county_level_channel(ch["name"], city, channel_to_city))
+        
+        print(f"Generated: {output_file.name}")
+        print(f"  - 本地频道（山东频道）: {local_count}")
+        print(f"  - 县级频道: {county_count}")
+        print()
 
 if __name__ == "__main__":
     generate_sdm_unicast()
