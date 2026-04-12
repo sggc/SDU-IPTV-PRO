@@ -26,8 +26,26 @@
 - 有desc节目描述：<https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz>
 - suming的EPG：<https://raw.githubusercontent.com/sumingyd/xml/refs/heads/main/epg.xml>
 
+## 📖 联通单播源的特别说明
+### 单播
+
+目前山东联通单播仅支持 RTP over UDP，处于 NAT 环境下的设备无法直接收到 RTP 数据。要正常收看单播，需满足以下条件之一：
+- 拥有公网 IPv4，通过 PPPoE 接口访问（山东联通默认分配公网 IP；如无公网 IP，可在宽带账号后加 `@e` 重新拨号）
+- 无公网 IPv4 时，通过 NAT 穿透实现，可部署 `rtsproxy`
+- 通过 IPTV 接口访问（仅支持宽带所在地区的单播源）
+
+### 组播
+
+- 推荐使用 `rtp2httpd` 代理组播数据，支持 FCC 快速频道切换，起播/换台体验接近单播
+- 播放设备可直接接收组播数据。
+
+---
+
+> 内容引用自：[https://github.com/plsy1/iptv](https://github.com/plsy1/iptv)
+
 ## 📖 联通组播源第三段及FCC
 
+说明：山东联通分为中兴、华为两大平台，FCC 地址不通用。其中中兴平台地市 IP 统一为 124.132.240.66:15970，通过负载均衡跳转至本地；华为平台各地市 IP 不同，需通过抓包获取。如有相关信息，欢迎直接提交 issue，感谢支持
 rtp\://239.253.xxx.77:8000?fcc=xx.xx.xx.xx:xxxx
 
 | 城市 | 标识  | FCC 服务器地址            |
