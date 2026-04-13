@@ -230,7 +230,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000076/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000077/index.m3u8
 #EXTINF:-1 tvg-name="CETV-4" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中国教育4.png" group-title="其他频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000666/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,CETV-4
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000666/index.m3u8
-#EXTINF:-1 tvg-name="CETV-生态环境" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/生态环境.png" group-title="其他频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000671/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,CETV-生态环境
+#EXTINF:-1 tvg-name="生态环境" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/生态环境.png" group-title="其他频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000671/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,EETV-生态环境
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000671/index.m3u8
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CGTN.png" group-title="其他频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000352/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,CGTN
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000352/index.m3u8
