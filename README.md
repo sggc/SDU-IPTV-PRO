@@ -29,14 +29,11 @@
 
 将以下任意链接复制到常见的 IPTV 播放壳（如 TiviMate、IPTV Pro 等）的 EPG 设置中即可使用：
 
-- **无节目描述版**（`desc` 字段为空）：  
-  `https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc.xml.gz`
-
-- **含节目描述版**（`desc` 字段有内容）：  
-  `https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz`
-
-- **suming 维护版**：  
-  `https://raw.githubusercontent.com/sumingyd/xml/refs/heads/main/epg.xml`
+| 版本说明 | EPG 地址 |
+| :--- | :--- |
+| **无节目描述版**（`desc` 字段为空） | [https://gh-proxy.com/https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc.xml.gz](https://gh-proxy.com/https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc.xml.gz) |
+| **含节目描述版**（`desc` 字段有内容） | [https://gh-proxy.com/https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz](https://gh-proxy.com/https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz) |
+| **suming 维护版** | [https://gh-proxy.com/https://raw.githubusercontent.com/sumingyd/xml/refs/heads/main/epg.xml](https://gh-proxy.com/https://raw.githubusercontent.com/sumingyd/xml/refs/heads/main/epg.xml) |
 
 ## 📶 联通单播源特别说明
 
