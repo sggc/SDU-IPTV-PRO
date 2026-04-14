@@ -333,3 +333,31 @@ http://192.168.100.1:5140/rtp/239.253.242.132:8000?fcc=124.132.240.66:15970
 http://192.168.100.1:5140/rtp/239.253.242.158:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="收视指南" group-title="轮播频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/收视指南.png",收视指南
 http://192.168.100.1:5140/rtp/239.253.242.124:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="济南新闻综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南新闻综合.png", 济南新闻综合
+http://192.168.100.1:5140/rtp/239.253.242.254:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="济南都市" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南都市.png", 济南都市
+http://192.168.100.1:5140/rtp/239.253.242.248:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="济南生活" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南生活.png", 济南生活
+http://192.168.100.1:5140/rtp/239.253.242.251:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="济南文旅体育" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南文旅体育.png", 济南文旅体育
+http://192.168.100.1:5140/rtp/239.253.242.249:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="济南娱乐" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南娱乐.png", 济南娱乐
+http://192.168.100.1:5140/rtp/239.253.242.250:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="济南鲁中" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南鲁中.png", 济南鲁中
+http://192.168.100.1:5140/rtp/239.253.242.244:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="济南少儿" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南少儿.png", 济南少儿
+http://192.168.100.1:5140/rtp/239.253.242.252:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="济南教育" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南教育.png", 济南教育
+http://192.168.100.1:5140/rtp/239.253.242.246:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="历城综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南历城.png", 历城综合
+http://192.168.100.1:5140/rtp/239.253.242.159:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="商河综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南商河.png", 商河综合
+http://192.168.100.1:5140/rtp/239.253.242.240:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="章丘综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南章丘.png", 章丘综合
+http://192.168.100.1:5140/rtp/239.253.242.241:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="长清新闻" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南长清.png", 长清新闻
+http://192.168.100.1:5140/rtp/239.253.242.242:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="济阳综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南济阳.png", 济阳综合
+http://192.168.100.1:5140/rtp/239.253.242.245:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="平阴综合" group-title="山东频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南平阴.png", 平阴综合
+http://192.168.100.1:5140/rtp/239.253.242.247:8000?fcc=124.132.240.66:15970
