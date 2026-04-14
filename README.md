@@ -16,69 +16,28 @@
 | **SDU-Multicast.m3u** | 山东联通组播源（通用版） | [订阅](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast.m3u) |
 | **multicast-static.m3u** | 静态组播源 | [订阅](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/multicast-static.m3u) |
 
-### 📍 山东移动单播源 - 地市版本
+### 📍 各地市版本
 
-| 地市 | 订阅链接 |
-| --- | --- |
-| 济南 | [SDM-Unicast-Jinan.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Jinan.m3u) |
-| 青岛 | [SDM-Unicast-Qingdao.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Qingdao.m3u) |
-| 淄博 | [SDM-Unicast-Zibo.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Zibo.m3u) |
-| 枣庄 | [SDM-Unicast-Zaozhuang.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Zaozhuang.m3u) |
-| 东营 | [SDM-Unicast-Dongying.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Dongying.m3u) |
-| 烟台 | [SDM-Unicast-Yantai.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Yantai.m3u) |
-| 潍坊 | [SDM-Unicast-Weifang.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Weifang.m3u) |
-| 济宁 | [SDM-Unicast-Jining.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Jining.m3u) |
-| 泰安 | [SDM-Unicast-Taian.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Taian.m3u) |
-| 威海 | [SDM-Unicast-Weihai.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Weihai.m3u) |
-| 日照 | [SDM-Unicast-Rizhao.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Rizhao.m3u) |
-| 临沂 | [SDM-Unicast-Linyi.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Linyi.m3u) |
-| 德州 | [SDM-Unicast-Dezhou.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Dezhou.m3u) |
-| 聊城 | [SDM-Unicast-Liaocheng.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Liaocheng.m3u) |
-| 滨州 | [SDM-Unicast-Binzhou.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Binzhou.m3u) |
-| 菏泽 | [SDM-Unicast-Heze.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Heze.m3u) |
-
-### 📍 山东电信单播源 - 地市版本
-
-| 地市 | 订阅链接 |
-| --- | --- |
-| 济南 | [SDT-Unicast-Jinan.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Jinan.m3u) |
-| 青岛 | [SDT-Unicast-Qingdao.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Qingdao.m3u) |
-| 淄博 | [SDT-Unicast-Zibo.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Zibo.m3u) |
-| 枣庄 | [SDT-Unicast-Zaozhuang.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Zaozhuang.m3u) |
-| 东营 | [SDT-Unicast-Dongying.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Dongying.m3u) |
-| 烟台 | [SDT-Unicast-Yantai.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Yantai.m3u) |
-| 潍坊 | [SDT-Unicast-Weifang.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Weifang.m3u) |
-| 济宁 | [SDT-Unicast-Jining.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Jining.m3u) |
-| 泰安 | [SDT-Unicast-Taian.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Taian.m3u) |
-| 威海 | [SDT-Unicast-Weihai.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Weihai.m3u) |
-| 日照 | [SDT-Unicast-Rizhao.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Rizhao.m3u) |
-| 临沂 | [SDT-Unicast-Linyi.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Linyi.m3u) |
-| 德州 | [SDT-Unicast-Dezhou.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Dezhou.m3u) |
-| 聊城 | [SDT-Unicast-Liaocheng.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Liaocheng.m3u) |
-| 滨州 | [SDT-Unicast-Binzhou.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Binzhou.m3u) |
-| 菏泽 | [SDT-Unicast-Heze.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Heze.m3u) |
-
-### 📍 山东联通组播源 - 地市版本
-
-| 地市 | 订阅链接 |
-| --- | --- |
-| 济南 | [SDU-Multicast-Jinan.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Jinan.m3u) |
-| 青岛 | [SDU-Multicast-Qingdao.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Qingdao.m3u) |
-| 淄博 | [SDU-Multicast-Zibo.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Zibo.m3u) |
-| 枣庄 | [SDU-Multicast-Zaozhuang.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Zaozhuang.m3u) |
-| 东营 | [SDU-Multicast-Dongying.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Dongying.m3u) |
-| 烟台 | [SDU-Multicast-Yantai.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Yantai.m3u) |
-| 潍坊 | [SDU-Multicast-Weifang.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Weifang.m3u) |
-| 济宁 | [SDU-Multicast-Jining.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Jining.m3u) |
-| 泰安 | [SDU-Multicast-Taian.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Taian.m3u) |
-| 威海 | [SDU-Multicast-Weihai.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Weihai.m3u) |
-| 日照 | [SDU-Multicast-Rizhao.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Rizhao.m3u) |
-| 临沂 | [SDU-Multicast-Linyi.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Linyi.m3u) |
-| 德州 | [SDU-Multicast-Dezhou.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Dezhou.m3u) |
-| 聊城 | [SDU-Multicast-Liaocheng.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Liaocheng.m3u) |
-| 滨州 | [SDU-Multicast-Binzhou.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Binzhou.m3u) |
-| 菏泽 | [SDU-Multicast-Heze.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Heze.m3u) |
-| 莱芜 | [SDU-Multicast-Laiwu.m3u](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Laiwu.m3u) |
+| 地市 | 山东联通组播 | 山东电信单播 | 山东移动单播 |
+| :---: | :---: | :---: | :---: |
+| **通用** | [SDU-Multicast](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast.m3u) | [SDT-Unicast](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast.m3u) | [SDM-Unicast](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast.m3u) |
+| 济南 | [SDU-Multicast-Jinan](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Jinan.m3u) | [SDT-Unicast-Jinan](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Jinan.m3u) | [SDM-Unicast-Jinan](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Jinan.m3u) |
+| 青岛 | [SDU-Multicast-Qingdao](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Qingdao.m3u) | [SDT-Unicast-Qingdao](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Qingdao.m3u) | [SDM-Unicast-Qingdao](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Qingdao.m3u) |
+| 淄博 | [SDU-Multicast-Zibo](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Zibo.m3u) | [SDT-Unicast-Zibo](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Zibo.m3u) | [SDM-Unicast-Zibo](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Zibo.m3u) |
+| 枣庄 | [SDU-Multicast-Zaozhuang](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Zaozhuang.m3u) | [SDT-Unicast-Zaozhuang](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Zaozhuang.m3u) | [SDM-Unicast-Zaozhuang](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Zaozhuang.m3u) |
+| 东营 | [SDU-Multicast-Dongying](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Dongying.m3u) | [SDT-Unicast-Dongying](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Dongying.m3u) | [SDM-Unicast-Dongying](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Dongying.m3u) |
+| 烟台 | [SDU-Multicast-Yantai](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Yantai.m3u) | [SDT-Unicast-Yantai](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Yantai.m3u) | [SDM-Unicast-Yantai](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Yantai.m3u) |
+| 潍坊 | [SDU-Multicast-Weifang](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Weifang.m3u) | [SDT-Unicast-Weifang](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Weifang.m3u) | [SDM-Unicast-Weifang](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Weifang.m3u) |
+| 济宁 | [SDU-Multicast-Jining](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Jining.m3u) | [SDT-Unicast-Jining](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Jining.m3u) | [SDM-Unicast-Jining](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Jining.m3u) |
+| 泰安 | [SDU-Multicast-Taian](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Taian.m3u) | [SDT-Unicast-Taian](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Taian.m3u) | [SDM-Unicast-Taian](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Taian.m3u) |
+| 威海 | [SDU-Multicast-Weihai](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Weihai.m3u) | [SDT-Unicast-Weihai](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Weihai.m3u) | [SDM-Unicast-Weihai](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Weihai.m3u) |
+| 日照 | [SDU-Multicast-Rizhao](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Rizhao.m3u) | [SDT-Unicast-Rizhao](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Rizhao.m3u) | [SDM-Unicast-Rizhao](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Rizhao.m3u) |
+| 临沂 | [SDU-Multicast-Linyi](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Linyi.m3u) | [SDT-Unicast-Linyi](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Linyi.m3u) | [SDM-Unicast-Linyi](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Linyi.m3u) |
+| 德州 | [SDU-Multicast-Dezhou](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Dezhou.m3u) | [SDT-Unicast-Dezhou](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Dezhou.m3u) | [SDM-Unicast-Dezhou](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Dezhou.m3u) |
+| 聊城 | [SDU-Multicast-Liaocheng](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Liaocheng.m3u) | [SDT-Unicast-Liaocheng](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Liaocheng.m3u) | [SDM-Unicast-Liaocheng](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Liaocheng.m3u) |
+| 滨州 | [SDU-Multicast-Binzhou](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Binzhou.m3u) | [SDT-Unicast-Binzhou](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Binzhou.m3u) | [SDM-Unicast-Binzhou](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Binzhou.m3u) |
+| 菏泽 | [SDU-Multicast-Heze](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Heze.m3u) | [SDT-Unicast-Heze](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDT-Unicast/SDT-Unicast-Heze.m3u) | [SDM-Unicast-Heze](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDM-Unicast/SDM-Unicast-Heze.m3u) |
+| 莱芜 | [SDU-Multicast-Laiwu](https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/SDU-Multicast/SDU-Multicast-Laiwu.m3u) | - | - |
 
 ## 📒 聚合型 EPG
 
