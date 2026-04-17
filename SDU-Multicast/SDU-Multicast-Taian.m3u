@@ -31,6 +31,8 @@ http://192.168.100.1:5140/rtp/239.253.240.175:8000?fcc=124.132.240.66:15970
 http://192.168.100.1:5140/rtp/239.253.240.236:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="CCTV15" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV15.png" catchup="default" catchup-source="rtsp://112.245.125.39:1554/iptv/Tvod/iptv/001/001/ch11122400365842237336.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",CCTV15
 http://192.168.100.1:5140/rtp/239.253.240.170:8000?fcc=124.132.240.66:15970
+#EXTINF:-1 tvg-name="CCTV16" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png",CCTV16
+http://192.168.100.1:5140/rtp/239.253.240.143:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="CCTV17" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV17.png" catchup="default" catchup-source="rtsp://112.245.125.41:1554/iptv/Tvod/iptv/001/001/ch19073116233495000222.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",CCTV17
 http://192.168.100.1:5140/rtp/239.253.240.168:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="CCTV4K" group-title="央视频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV4K.png",CCTV4K
@@ -165,8 +167,6 @@ http://192.168.100.1:5140/rtp/239.253.240.165:8000?fcc=124.132.240.66:15970
 http://192.168.100.1:5140/rtp/239.253.240.66:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="金鹰纪实" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/金鹰纪实.png" catchup="default" catchup-source="rtsp://112.245.125.48:1554/iptv/Tvod/iptv/001/001/ch15050917541337365144.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",金鹰纪实
 http://192.168.100.1:5140/rtp/239.253.240.103:8000?fcc=124.132.240.66:15970
-#EXTINF:-1 tvg-name="茶" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/茶.png",茶
-http://192.168.100.1:5140/rtp/239.253.240.143:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="快乐垂钓" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/快乐垂钓.png",快乐垂钓
 http://192.168.100.1:5140/rtp/239.253.240.144:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="金鹰卡通" group-title="其他频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/金鹰卡通.png" catchup="default" catchup-source="rtsp://112.245.125.42:1554/iptv/Tvod/iptv/001/001/ch11122400412227153064.rsc?tvdr=${(b)yyyyMMddHHmmss}GMT-${(e)yyyyMMddHHmmss}GMT&r2h-seek-offset=-28800",金鹰卡通
