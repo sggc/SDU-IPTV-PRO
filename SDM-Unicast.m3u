@@ -127,7 +127,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000335/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000368/index.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/吉林卫视.png" group-title="卫视频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000363/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,吉林卫视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000363/index.m3u8
-#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/云南卫视.png" group-title="卫视频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000039/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,云南卫视
+#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/云南卫视.png" group-title="卫视频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000367/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,云南卫视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000367/index.m3u8
 #EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/新疆卫视.png" group-title="卫视频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000393/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,新疆卫视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000393/index.m3u8
@@ -182,10 +182,10 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000074/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002018/index.m3u8
 #EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/金鹰纪实.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000334/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,金鹰纪实
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000334/index.m3u8
-#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/金鹰卡通.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000047/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,金鹰卡通
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000047/index.m3u8
-#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/卡酷少儿.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000048/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,卡酷少儿
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000048/index.m3u8
+#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/金鹰卡通.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002027/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,金鹰卡通
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002027/index.m3u8
+#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/卡酷少儿.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000661/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,卡酷少儿
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000661/index.m3u8
 #EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/快乐垂钓.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000648/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,快乐垂钓
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000648/index.m3u8
 #EXTINF:-1 tvg-name="乐游" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/乐游.png" group-title="特色频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002016/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,乐游
