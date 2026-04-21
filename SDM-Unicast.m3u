@@ -138,7 +138,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000366/index.m3u8
 #EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/西藏卫视.png" group-title="卫视频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000392/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,西藏卫视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000392/index.m3u8
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/兵团卫视.png" group-title="卫视频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000071/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,兵团卫视
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000071/index.m3u8
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000394/index.m3u8
 #EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/宁夏卫视.png" group-title="卫视频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000395/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,宁夏卫视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000395/index.m3u8
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山西卫视.png" group-title="卫视频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000032/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,山西卫视
