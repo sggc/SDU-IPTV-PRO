@@ -64,21 +64,21 @@ rtsp://223.99.188.13/PLTV/88888888/224/3221226112/100001000000000600000000018115
 #EXTINF:-1 tvg-name="山东教育卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东教育.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="山东频道",山东教育卫视
 rtsp://223.99.188.13/PLTV/88888888/224/3221226265/10000100000000060000000002766841_0.smil
 #EXTINF:-1 tvg-name="山东卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东卫视4K.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视频道",山东卫视4K
-rtsp://223.99.188.13/PLTV/88888888/224/3221227238/10000100000000060000000005622090_0.smil
-#EXTINF:-1 tvg-name="江苏卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/江苏卫视4K.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视频道",江苏卫视4K
-rtsp://223.99.188.13/PLTV/88888888/224/3221227238/10000100000000060000000005622090_0.smil
-#EXTINF:-1 tvg-name="湖南卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/湖南卫视4K.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视频道",湖南卫视4K
-rtsp://223.99.188.13/PLTV/88888888/224/3221227238/10000100000000060000000005622090_0.smil
-#EXTINF:-1 tvg-name="浙江卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/浙江卫视4K.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视频道",浙江卫视4K
-rtsp://223.99.188.13/PLTV/88888888/224/3221227238/10000100000000060000000005622090_0.smil
-#EXTINF:-1 tvg-name="东方卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/东方卫视4K.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视频道",东方卫视4K
-rtsp://223.99.188.13/PLTV/88888888/224/3221227238/10000100000000060000000005622090_0.smil
-#EXTINF:-1 tvg-name="四川卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/四川卫视4K.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视频道",四川卫视4K
-rtsp://223.99.188.13/PLTV/88888888/224/3221227238/10000100000000060000000005622090_0.smil
+rtsp://223.99.188.13/PLTV/88888888/224/3221227649/376517349.smil
+#EXTINF:-1 tvg-name="江苏卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/江苏卫视4K.png" group-title="卫视频道" catchup="default" catchup-source="http://39.134.144.6:8089/PLTV/88888888/224/3221226778/index.m3u8?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" ,江苏卫视4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000007/index.m3u8
+#EXTINF:-1 tvg-name="湖南卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/湖南卫视4K.png" group-title="卫视频道" catchup="default" catchup-source="http://39.134.144.6:8089/PLTV/88888888/224/3221226783/index.m3u8?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" ,湖南卫视4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000006/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/浙江卫视4K.png" group-title="卫视频道" catchup="default" catchup-source="http://39.134.144.6:8089/PLTV/88888888/224/3221226776/index.m3u8?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" ,浙江卫视4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000008/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/东方卫视4K.png" group-title="卫视频道" catchup="default" catchup-source="http://39.134.144.6:8089/PLTV/88888888/224/3221226786/index.m3u8?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" ,东方卫视4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000009/index.m3u8
+#EXTINF:-1 tvg-name="四川卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/四川卫视4K.png" group-title="卫视频道" catchup="default" catchup-source="http://39.134.144.6:8089/PLTV/88888888/224/3221226781/index.m3u8?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" ,四川卫视4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000010/index.m3u8
 #EXTINF:-1 tvg-name="北京卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/北京卫视4K.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视频道",北京卫视4K
 rtsp://223.99.188.13/PLTV/88888888/224/3221227608/373300526.smil
 #EXTINF:-1 tvg-name="深圳卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/深圳卫视4K.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视频道",深圳卫视4K
-rtsp://223.99.188.13/PLTV/88888888/224/3221227238/10000100000000060000000005622090_0.smil
+rtsp://223.99.188.13/PLTV/88888888/224/3221227620/375567094.smil
 #EXTINF:-1 tvg-name="广东卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/广东卫视4K.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视频道",广东卫视4K
 rtsp://223.99.188.13/PLTV/88888888/224/3221227616/375567159.smil
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/北京卫视.png" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="卫视频道",北京卫视
