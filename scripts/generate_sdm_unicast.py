@@ -71,7 +71,7 @@ def build_channel_city_map():
 
 
 def generate_sdm_unicast(source_m3u, output_dir):
-    """生成分城市的M3U文件"""
+    """生成分城市的M3U文件，输出文件名使用源文件前缀"""
     source_file = BASE_DIR / source_m3u
     if not source_file.exists():
         print(f"Warning: {source_file} not found, skipping.")
@@ -85,6 +85,9 @@ def generate_sdm_unicast(source_m3u, output_dir):
     channel_to_city = build_channel_city_map()
     
     os.makedirs(output_path, exist_ok=True)
+
+    # 提取源文件名的主干部分作为输出文件前缀，例如 "SDM-Unicast" 或 "SDM-Unicast-Rtsp"
+    file_prefix = Path(source_m3u).stem
 
     for city in CITY_NAMES:
         city_channel_names = set(CITY_CHANNELS.get(city, []))
@@ -133,7 +136,8 @@ def generate_sdm_unicast(source_m3u, output_dir):
                 output_lines.append(ch["url"])
                 other_count += 1
         
-        output_file = output_path / f"SDM-Unicast-{CITY_NAMES_EN[city]}.m3u"
+        # 生成文件名，例如 SDM-Unicast-Rtsp-Weifang.m3u
+        output_file = output_path / f"{file_prefix}-{CITY_NAMES_EN[city]}.m3u"
         with open(output_file, "w", encoding="utf-8") as f:
             f.write("\n".join(output_lines))
         
