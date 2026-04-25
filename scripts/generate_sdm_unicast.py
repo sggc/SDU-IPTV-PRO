@@ -4,9 +4,6 @@ import shutil
 from pathlib import Path
 
 BASE_DIR = Path(r".")
-SOURCE_M3U_FILE = BASE_DIR / "SDM-Unicast.m3u"
-OUTPUT_DIR = BASE_DIR / "SDM-Unicast"
-
 CITY_NAMES = [
     "济南", "青岛", "淄博", "潍坊", "烟台", "威海", "日照", "临沂",
     "济宁", "泰安", "德州", "聊城", "滨州", "菏泽", "枣庄", "东营"
@@ -38,10 +35,11 @@ CITY_CHANNELS = {
     "青岛": ["青岛QTV-1", "青岛QTV-2", "青岛QTV-3", "青岛QTV-4", "青岛QTV-5", "胶州综合", "莱西综合", "崂山综合", "平度综合", "黄岛生活", "黄岛综合", "即墨新闻"],
 }
 
-def parse_m3u():
+
+def parse_m3u(source_file):
     """解析M3U文件，提取频道信息"""
     channels = []
-    with open(SOURCE_M3U_FILE, "r", encoding="utf-8") as f:
+    with open(source_file, "r", encoding="utf-8") as f:
         content = f.read()
 
     pattern = r'#EXTINF:-1 (.*?),(.*?)\n(.*?)(?=\n#EXTINF|$)'
@@ -62,6 +60,7 @@ def parse_m3u():
         })
     return channels
 
+
 def build_channel_city_map():
     """构建频道名到所属城市的映射"""
     channel_to_city = {}
@@ -70,15 +69,22 @@ def build_channel_city_map():
             channel_to_city[channel] = city
     return channel_to_city
 
-def generate_sdm_unicast():
-    """生成分城市的M3U文件"""
-    if os.path.exists(OUTPUT_DIR):
-        shutil.rmtree(OUTPUT_DIR)
 
-    all_channels = parse_m3u()
+def generate_sdm_unicast(source_m3u, output_dir):
+    """生成分城市的M3U文件"""
+    source_file = BASE_DIR / source_m3u
+    if not source_file.exists():
+        print(f"Warning: {source_file} not found, skipping.")
+        return
+
+    output_path = BASE_DIR / output_dir
+    if output_path.exists():
+        shutil.rmtree(output_path)
+
+    all_channels = parse_m3u(source_file)
     channel_to_city = build_channel_city_map()
     
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(output_path, exist_ok=True)
 
     for city in CITY_NAMES:
         city_channel_names = set(CITY_CHANNELS.get(city, []))
@@ -127,7 +133,7 @@ def generate_sdm_unicast():
                 output_lines.append(ch["url"])
                 other_count += 1
         
-        output_file = OUTPUT_DIR / f"SDM-Unicast-{CITY_NAMES_EN[city]}.m3u"
+        output_file = output_path / f"SDM-Unicast-{CITY_NAMES_EN[city]}.m3u"
         with open(output_file, "w", encoding="utf-8") as f:
             f.write("\n".join(output_lines))
         
@@ -137,6 +143,13 @@ def generate_sdm_unicast():
         print(f"  - 其他频道: {other_count}")
         print()
 
+
 if __name__ == "__main__":
-    generate_sdm_unicast()
-    print(f"\nAll files generated in: {OUTPUT_DIR}")
+    # 处理第一个源文件
+    generate_sdm_unicast("SDM-Unicast.m3u", "SDM-Unicast")
+    # 处理第二个源文件
+    generate_sdm_unicast("SDM-Unicast-Rtsp.m3u", "SDM-Unicast-Rtsp")
+    
+    print(f"All files generated in:")
+    print(f"  - {BASE_DIR / 'SDM-Unicast'}")
+    print(f"  - {BASE_DIR / 'SDM-Unicast-Rtsp'}")
