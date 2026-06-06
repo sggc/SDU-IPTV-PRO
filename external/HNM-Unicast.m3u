@@ -103,6 +103,32 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227390/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227392/index.m3u8
 #EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CGTN俄语.png" group-title="中央-河南移动",CGTN俄语
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227394/index.m3u8
+
+#EXTINF:-1 tvg-name="CCTV兵器科技" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV兵器科技.png" group-title="卫视-央视风云",CCTV兵器科技
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227485/index.m3u8
+#EXTINF:-1 tvg-name="CCTV风云足球" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV风云足球.png" group-title="卫视-央视风云",CCTV风云足球
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227489/index.m3u8
+#EXTINF:-1 tvg-name="CCTV第一剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV第一剧场.png" group-title="卫视-央视风云",CCTV第一剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227498/index.m3u8
+#EXTINF:-1 tvg-name="CCTV风云剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV风云剧场.png" group-title="卫视-央视风云",CCTV风云剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227500/index.m3u8
+#EXTINF:-1 tvg-name="CCTV怀旧剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV怀旧剧场.png" group-title="卫视-央视风云",CCTV怀旧剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227502/index.m3u8
+#EXTINF:-1 tvg-name="CCTV风云音乐" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV风云音乐.png" group-title="卫视-央视风云",CCTV风云音乐
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227504/index.m3u8
+#EXTINF:-1 tvg-name="CCTV央视台球" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV央视台球.png" group-title="卫视-央视风云",CCTV央视台球
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227506/index.m3u8
+#EXTINF:-1 tvg-name="CCTV高尔夫网球" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV高尔夫网球.png" group-title="卫视-央视风云",CCTV高尔夫网球
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227508/index.m3u8
+#EXTINF:-1 tvg-name="CCTV女性时尚" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV女性时尚.png" group-title="卫视-央视风云",CCTV女性时尚
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227510/index.m3u8
+#EXTINF:-1 tvg-name="CCTV世界地理" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV世界地理.png" group-title="卫视-央视风云",CCTV世界地理
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227512/index.m3u8
+#EXTINF:-1 tvg-name="CCTV卫生健康" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV卫生健康.png" group-title="卫视-央视风云",CCTV卫生健康
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227516/index.m3u8
+#EXTINF:-1 tvg-name="CCTV央视文化精品" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV央视文化精品.png" group-title="卫视-央视风云",CCTV央视文化精品
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227514/index.m3u8
+
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南卫视.png" group-title="卫视-河南移动",河南卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南卫视.png" group-title="卫视-河南移动",河南卫视
@@ -331,6 +357,307 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226615/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227403/index.m3u8
 #EXTINF:-1 tvg-name="长葛" group-title="地方-河南移动",长葛
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227456/index.m3u8
+#EXTINF:-1 tvg-name="巩义" group-title="地方-河南移动",巩义
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226499/index.m3u8
+#EXTINF:-1 tvg-name="巩义" group-title="地方-河南移动",巩义
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227088/index.m3u8
+#EXTINF:-1 tvg-name="荥阳" group-title="地方-河南移动",荥阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226490/index.m3u8
+#EXTINF:-1 tvg-name="荥阳" group-title="地方-河南移动",荥阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226673/index.m3u8
+#EXTINF:-1 tvg-name="新密" group-title="地方-河南移动",新密
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226488/index.m3u8
+#EXTINF:-1 tvg-name="新密" group-title="地方-河南移动",新密
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226565/index.m3u8
+#EXTINF:-1 tvg-name="新郑" group-title="地方-河南移动",新郑
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226492/index.m3u8
+#EXTINF:-1 tvg-name="新郑" group-title="地方-河南移动",新郑
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226577/index.m3u8
+#EXTINF:-1 tvg-name="登封" group-title="地方-河南移动",登封
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226497/index.m3u8
+#EXTINF:-1 tvg-name="登封" group-title="地方-河南移动",登封
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226661/index.m3u8
+#EXTINF:-1 tvg-name="开封新闻综合" group-title="地方-河南移动",开封新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
+#EXTINF:-1 tvg-name="开封新闻综合" group-title="地方-河南移动",开封新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226689/index.m3u8
+#EXTINF:-1 tvg-name="开封文化旅游" group-title="地方-河南移动",开封文化旅游
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226396/index.m3u8
+#EXTINF:-1 tvg-name="开封文化旅游" group-title="地方-河南移动",开封文化旅游
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226515/index.m3u8
+#EXTINF:-1 tvg-name="祥符" group-title="地方-河南移动",祥符
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227349/index.m3u8
+#EXTINF:-1 tvg-name="杞县" group-title="地方-河南移动",杞县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227100/index.m3u8
+#EXTINF:-1 tvg-name="兰考" group-title="地方-河南移动",兰考
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227377/index.m3u8
+#EXTINF:-1 tvg-name="洛阳新闻综合" group-title="地方-河南移动",洛阳新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226394/index.m3u8
+#EXTINF:-1 tvg-name="洛阳新闻综合" group-title="地方-河南移动",洛阳新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226542/index.m3u8
+#EXTINF:-1 tvg-name="洛阳科教频道" group-title="地方-河南移动",洛阳科教频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226392/index.m3u8
+#EXTINF:-1 tvg-name="洛阳科教频道" group-title="地方-河南移动",洛阳科教频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226554/index.m3u8
+#EXTINF:-1 tvg-name="洛阳文体频道" group-title="地方-河南移动",洛阳文体频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226390/index.m3u8
+#EXTINF:-1 tvg-name="洛阳文体频道" group-title="地方-河南移动",洛阳文体频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+#EXTINF:-1 tvg-name="孟津" group-title="地方-河南移动",孟津
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226869/index.m3u8
+#EXTINF:-1 tvg-name="新安" group-title="地方-河南移动",新安
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227299/index.m3u8
+#EXTINF:-1 tvg-name="嵩县" group-title="地方-河南移动",嵩县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226513/index.m3u8
+#EXTINF:-1 tvg-name="嵩县" group-title="地方-河南移动",嵩县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226672/index.m3u8
+#EXTINF:-1 tvg-name="汝阳" group-title="地方-河南移动",汝阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227067/index.m3u8
+#EXTINF:-1 tvg-name="宜阳" group-title="地方-河南移动",宜阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227059/index.m3u8
+#EXTINF:-1 tvg-name="平顶山新闻综合" group-title="地方-河南移动",平顶山新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226401/index.m3u8
+#EXTINF:-1 tvg-name="平顶山新闻综合" group-title="地方-河南移动",平顶山新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226549/index.m3u8
+#EXTINF:-1 tvg-name="平顶山城市频道" group-title="地方-河南移动",平顶山城市频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226388/index.m3u8
+#EXTINF:-1 tvg-name="平顶山城市频道" group-title="地方-河南移动",平顶山城市频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226555/index.m3u8
+#EXTINF:-1 tvg-name="平顶山公共频道" group-title="地方-河南移动",平顶山公共频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226399/index.m3u8
+#EXTINF:-1 tvg-name="平顶山公共频道" group-title="地方-河南移动",平顶山公共频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226593/index.m3u8
+#EXTINF:-1 tvg-name="平顶山教育台" group-title="地方-河南移动",平顶山教育台
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227244/index.m3u8
+#EXTINF:-1 tvg-name="舞钢" group-title="地方-河南移动",舞钢
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226361/index.m3u8
+#EXTINF:-1 tvg-name="舞钢" group-title="地方-河南移动",舞钢
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226527/index.m3u8
+#EXTINF:-1 tvg-name="宝丰" group-title="地方-河南移动",宝丰
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227081/index.m3u8
+#EXTINF:-1 tvg-name="叶县" group-title="地方-河南移动",叶县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227159/index.m3u8
+#EXTINF:-1 tvg-name="鲁山" group-title="地方-河南移动",鲁山
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227370/index.m3u8
+#EXTINF:-1 tvg-name="郏县" group-title="地方-河南移动",郏县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226514/index.m3u8
+#EXTINF:-1 tvg-name="郏县" group-title="地方-河南移动",郏县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226712/index.m3u8
+#EXTINF:-1 tvg-name="安阳新闻综合" group-title="地方-河南移动",安阳新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226386/index.m3u8
+#EXTINF:-1 tvg-name="安阳新闻综合" group-title="地方-河南移动",安阳新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226634/index.m3u8
+#EXTINF:-1 tvg-name="安阳文旅" group-title="地方-河南移动",安阳文旅
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226397/index.m3u8
+#EXTINF:-1 tvg-name="安阳文旅" group-title="地方-河南移动",安阳文旅
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226642/index.m3u8
+#EXTINF:-1 tvg-name="林州" group-title="地方-河南移动",林州
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227384/index.m3u8
+#EXTINF:-1 tvg-name="汤阴" group-title="地方-河南移动",汤阴
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227372/index.m3u8
+#EXTINF:-1 tvg-name="内黄" group-title="地方-河南移动",内黄
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226356/index.m3u8
+#EXTINF:-1 tvg-name="内黄" group-title="地方-河南移动",内黄
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226531/index.m3u8
+#EXTINF:-1 tvg-name="鹤壁新闻综合" group-title="地方-河南移动",鹤壁新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226384/index.m3u8
+#EXTINF:-1 tvg-name="鹤壁新闻综合" group-title="地方-河南移动",鹤壁新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226563/index.m3u8
+#EXTINF:-1 tvg-name="浚县" group-title="地方-河南移动",浚县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227344/index.m3u8
+#EXTINF:-1 tvg-name="淇县" group-title="地方-河南移动",淇县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227061/index.m3u8
+#EXTINF:-1 tvg-name="新乡新闻综合" group-title="地方-河南移动",新乡新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226395/index.m3u8
+#EXTINF:-1 tvg-name="新乡新闻综合" group-title="地方-河南移动",新乡新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226688/index.m3u8
+#EXTINF:-1 tvg-name="新乡公共" group-title="地方-河南移动",新乡公共
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226393/index.m3u8
+#EXTINF:-1 tvg-name="新乡公共" group-title="地方-河南移动",新乡公共
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226667/index.m3u8
+#EXTINF:-1 tvg-name="卫辉" group-title="地方-河南移动",卫辉
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226538/index.m3u8
+#EXTINF:-1 tvg-name="辉县" group-title="地方-河南移动",辉县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227332/index.m3u8
+#EXTINF:-1 tvg-name="长垣" group-title="地方-河南移动",长垣
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227313/index.m3u8
+#EXTINF:-1 tvg-name="新乡县" group-title="地方-河南移动",新乡县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226359/index.m3u8
+#EXTINF:-1 tvg-name="新乡县" group-title="地方-河南移动",新乡县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226603/index.m3u8
+#EXTINF:-1 tvg-name="获嘉" group-title="地方-河南移动",获嘉
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227097/index.m3u8
+#EXTINF:-1 tvg-name="原阳" group-title="地方-河南移动",原阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227069/index.m3u8
+#EXTINF:-1 tvg-name="延津" group-title="地方-河南移动",延津
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227098/index.m3u8
+#EXTINF:-1 tvg-name="封丘" group-title="地方-河南移动",封丘
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226346/index.m3u8
+#EXTINF:-1 tvg-name="封丘" group-title="地方-河南移动",封丘
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226595/index.m3u8
+#EXTINF:-1 tvg-name="焦作综合" group-title="地方-河南移动",焦作综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226382/index.m3u8
+#EXTINF:-1 tvg-name="焦作综合" group-title="地方-河南移动",焦作综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226604/index.m3u8
+#EXTINF:-1 tvg-name="焦作公共" group-title="地方-河南移动",焦作公共
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226391/index.m3u8
+#EXTINF:-1 tvg-name="焦作公共" group-title="地方-河南移动",焦作公共
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226616/index.m3u8
+#EXTINF:-1 tvg-name="沁阳" group-title="地方-河南移动",沁阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227066/index.m3u8
+#EXTINF:-1 tvg-name="孟州" group-title="地方-河南移动",孟州
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227035/index.m3u8
+#EXTINF:-1 tvg-name="濮阳综合" group-title="地方-河南移动",濮阳综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226378/index.m3u8
+#EXTINF:-1 tvg-name="濮阳综合" group-title="地方-河南移动",濮阳综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226643/index.m3u8
+#EXTINF:-1 tvg-name="濮阳公共" group-title="地方-河南移动",濮阳公共
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226380/index.m3u8
+#EXTINF:-1 tvg-name="濮阳公共" group-title="地方-河南移动",濮阳公共
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226664/index.m3u8
+#EXTINF:-1 tvg-name="华龙" group-title="地方-河南移动",华龙
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227307/index.m3u8
+#EXTINF:-1 tvg-name="漯河新闻综合" group-title="地方-河南移动",漯河新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226376/index.m3u8
+#EXTINF:-1 tvg-name="漯河新闻综合" group-title="地方-河南移动",漯河新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226530/index.m3u8
+#EXTINF:-1 tvg-name="舞阳" group-title="地方-河南移动",舞阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226902/index.m3u8
+#EXTINF:-1 tvg-name="临颍" group-title="地方-河南移动",临颍
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226873/index.m3u8
+#EXTINF:-1 tvg-name="三门峡新闻综合" group-title="地方-河南移动",三门峡新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226381/index.m3u8
+#EXTINF:-1 tvg-name="三门峡新闻综合" group-title="地方-河南移动",三门峡新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226523/index.m3u8
+#EXTINF:-1 tvg-name="义马" group-title="地方-河南移动",义马
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227079/index.m3u8
+#EXTINF:-1 tvg-name="灵宝" group-title="地方-河南移动",灵宝
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227099/index.m3u8
+#EXTINF:-1 tvg-name="渑池" group-title="地方-河南移动",渑池
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226496/index.m3u8
+#EXTINF:-1 tvg-name="渑池" group-title="地方-河南移动",渑池
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226619/index.m3u8
+#EXTINF:-1 tvg-name="卢氏" group-title="地方-河南移动",卢氏
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227023/index.m3u8
+#EXTINF:-1 tvg-name="南阳新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/南阳.png" group-title="地方-河南移动",南阳新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226362/index.m3u8
+#EXTINF:-1 tvg-name="南阳新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/南阳.png" group-title="地方-河南移动",南阳新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226671/index.m3u8
+#EXTINF:-1 tvg-name="南阳科教" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/南阳.png" group-title="地方-河南移动",南阳科教
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226371/index.m3u8
+#EXTINF:-1 tvg-name="南阳科教" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/南阳.png" group-title="地方-河南移动",南阳科教
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226620/index.m3u8
+#EXTINF:-1 tvg-name="南阳公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/南阳.png" group-title="地方-河南移动",南阳公共
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226373/index.m3u8
+#EXTINF:-1 tvg-name="南阳公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/南阳.png" group-title="地方-河南移动",南阳公共
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226575/index.m3u8
+#EXTINF:-1 tvg-name="邓州" group-title="地方-河南移动",邓州
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226348/index.m3u8
+#EXTINF:-1 tvg-name="邓州" group-title="地方-河南移动",邓州
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226553/index.m3u8
+#EXTINF:-1 tvg-name="方城" group-title="地方-河南移动",方城
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227254/index.m3u8
+#EXTINF:-1 tvg-name="镇平" group-title="地方-河南移动",镇平
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226510/index.m3u8
+#EXTINF:-1 tvg-name="镇平" group-title="地方-河南移动",镇平
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226534/index.m3u8
+#EXTINF:-1 tvg-name="淅川" group-title="地方-河南移动",淅川
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226501/index.m3u8
+#EXTINF:-1 tvg-name="淅川" group-title="地方-河南移动",淅川
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226631/index.m3u8
+#EXTINF:-1 tvg-name="唐河" group-title="地方-河南移动",唐河
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227063/index.m3u8
+#EXTINF:-1 tvg-name="商丘新闻综合" group-title="地方-河南移动",商丘新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226374/index.m3u8
+#EXTINF:-1 tvg-name="商丘新闻综合" group-title="地方-河南移动",商丘新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226550/index.m3u8
+#EXTINF:-1 tvg-name="商丘公共频道" group-title="地方-河南移动",商丘公共频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226372/index.m3u8
+#EXTINF:-1 tvg-name="商丘公共频道" group-title="地方-河南移动",商丘公共频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226539/index.m3u8
+#EXTINF:-1 tvg-name="商丘文体科教" group-title="地方-河南移动",商丘文体科教
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226370/index.m3u8
+#EXTINF:-1 tvg-name="商丘文体科教" group-title="地方-河南移动",商丘文体科教
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226551/index.m3u8
+#EXTINF:-1 tvg-name="永城" group-title="地方-河南移动",永城
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227057/index.m3u8
+#EXTINF:-1 tvg-name="信阳新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/信阳.png" group-title="地方-河南移动",信阳新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226369/index.m3u8
+#EXTINF:-1 tvg-name="信阳新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/信阳.png" group-title="地方-河南移动",信阳新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226646/index.m3u8
+#EXTINF:-1 tvg-name="信阳文旅频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/信阳.png" group-title="地方-河南移动",信阳文旅频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226367/index.m3u8
+#EXTINF:-1 tvg-name="信阳文旅频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/信阳.png" group-title="地方-河南移动",信阳文旅频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226658/index.m3u8
+#EXTINF:-1 tvg-name="信阳教育台" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/信阳.png" group-title="地方-河南移动",信阳教育台
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226518/index.m3u8
+#EXTINF:-1 tvg-name="信阳教育台" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/信阳.png" group-title="地方-河南移动",信阳教育台
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226674/index.m3u8
+#EXTINF:-1 tvg-name="光山" group-title="地方-河南移动",光山
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227055/index.m3u8
+#EXTINF:-1 tvg-name="新县" group-title="地方-河南移动",新县
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227090/index.m3u8
+#EXTINF:-1 tvg-name="淮滨" group-title="地方-河南移动",淮滨
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227070/index.m3u8
+#EXTINF:-1 tvg-name="周口新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/周口.png" group-title="地方-河南移动",周口新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226368/index.m3u8
+#EXTINF:-1 tvg-name="周口新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/周口.png" group-title="地方-河南移动",周口新闻综合
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226582/index.m3u8
+#EXTINF:-1 tvg-name="周口公共频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/周口.png" group-title="地方-河南移动",周口公共频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226366/index.m3u8
+#EXTINF:-1 tvg-name="周口公共频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/周口.png" group-title="地方-河南移动",周口公共频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226626/index.m3u8
+#EXTINF:-1 tvg-name="周口教育频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/周口.png" group-title="地方-河南移动",周口教育频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226636/index.m3u8
+#EXTINF:-1 tvg-name="周口教育频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/周口.png" group-title="地方-河南移动",周口教育频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226379/index.m3u8
+#EXTINF:-1 tvg-name="项城" group-title="地方-河南移动",项城
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226354/index.m3u8
+#EXTINF:-1 tvg-name="项城" group-title="地方-河南移动",项城
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226541/index.m3u8
+#EXTINF:-1 tvg-name="西华" group-title="地方-河南移动",西华
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227321/index.m3u8
+#EXTINF:-1 tvg-name="沈丘" group-title="地方-河南移动",沈丘
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227311/index.m3u8
+#EXTINF:-1 tvg-name="郸城" group-title="地方-河南移动",郸城
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227083/index.m3u8
+#EXTINF:-1 tvg-name="太康" group-title="地方-河南移动",太康
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227330/index.m3u8
+#EXTINF:-1 tvg-name="驻马店新闻综合频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/驻马店.png" group-title="地方-河南移动",驻马店新闻综合频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226377/index.m3u8
+#EXTINF:-1 tvg-name="驻马店新闻综合频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/驻马店.png" group-title="地方-河南移动",驻马店新闻综合频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226613/index.m3u8
+#EXTINF:-1 tvg-name="驻马店公共频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/驻马店.png" group-title="地方-河南移动",驻马店公共频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226375/index.m3u8
+#EXTINF:-1 tvg-name="驻马店公共频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/驻马店.png" group-title="地方-河南移动",驻马店公共频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226690/index.m3u8
+#EXTINF:-1 tvg-name="驻马店科教频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/驻马店.png" group-title="地方-河南移动",驻马店科教频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226364/index.m3u8
+#EXTINF:-1 tvg-name="驻马店科教频道" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/河南/驻马店.png" group-title="地方-河南移动",驻马店科教频道
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226598/index.m3u8
+#EXTINF:-1 tvg-name="上蔡" group-title="地方-河南移动",上蔡
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227065/index.m3u8
+#EXTINF:-1 tvg-name="正阳" group-title="地方-河南移动",正阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227420/index.m3u8
+#EXTINF:-1 tvg-name="泌阳" group-title="地方-河南移动",泌阳
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227347/index.m3u8
+#EXTINF:-1 tvg-name="遂平" group-title="地方-河南移动",遂平
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227396/index.m3u8
+#EXTINF:-1 tvg-name="新蔡" group-title="地方-河南移动",新蔡
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226512/index.m3u8
+#EXTINF:-1 tvg-name="新蔡" group-title="地方-河南移动",新蔡
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226691/index.m3u8
+#EXTINF:-1 tvg-name="济源" group-title="地方-河南移动",济源
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226365/index.m3u8
+#EXTINF:-1 tvg-name="济源" group-title="地方-河南移动",济源
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226693/index.m3u8
+
+#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CHC影迷电影.png" group-title="数字-河南移动",CHC影迷电影
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227522/index.m3u8
+#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CHC动作电影.png" group-title="数字-河南移动",CHC动作电影
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227479/index.m3u8
+#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CHC家庭影院.png" group-title="数字-河南移动",CHC家庭影院
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227477/index.m3u8
 #EXTINF:-1 tvg-name="多彩文体" group-title="数字-河南移动",多彩文体
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226704/index.m3u8
 #EXTINF:-1 tvg-name="多彩文体" group-title="数字-河南移动",多彩文体
@@ -465,3 +792,32 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227354/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227382/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV4K.png" group-title="数字-河南移动4K",CCTV4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227426/index.m3u8
+
+#EXTINF:-1 tvg-name="咪咕视界4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界4K.png" group-title="数字-咪咕晴彩体育",咪咕视界4K
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227285/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="咪咕视界1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="数字-咪咕晴彩体育",咪咕视界1
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227260/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="咪咕视界1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="数字-咪咕晴彩体育",咪咕视界1
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227229/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="咪咕视界1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="数字-咪咕晴彩体育",咪咕视界1
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227277/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="咪咕视界2" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="数字-咪咕晴彩体育",咪咕视界2
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227291/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="咪咕视界3" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="数字-咪咕晴彩体育",咪咕视界3
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227294/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="咪咕视界3" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="数字-咪咕晴彩体育",咪咕视界3
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227302/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="咪咕视界4" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="数字-咪咕晴彩体育",咪咕视界4
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227300/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="咪咕视界5" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="数字-咪咕晴彩体育",咪咕视界5
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227306/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="咪咕视界6" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/咪视界.png" group-title="数字-咪咕晴彩体育",咪咕视界6
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227312/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="睛彩青少" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩青少.png" group-title="数字-咪咕晴彩体育",睛彩青少
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227315/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="睛彩篮球" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩篮球.png" group-title="数字-咪咕晴彩体育",睛彩篮球
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227317/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="睛彩竞技" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩竞技.png" group-title="数字-咪咕晴彩体育",睛彩竞技
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227334/1.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-name="睛彩广场舞" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/睛彩广场舞.png" group-title="数字-咪咕晴彩体育",睛彩广场舞
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227407/1.m3u8?fmt=ts2hls
