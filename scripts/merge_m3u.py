@@ -36,7 +36,14 @@ def find_and_sort_custom_files():
     # 使用 glob 查找所有匹配的文件，例如 'custom/custom.m3u', 'custom/custom1.m3u'
     pattern = os.path.join(custom_dir, 'custom*.m3u')
     custom_files = glob.glob(pattern)
-    
+
+    # 防止路径穿越：过滤掉解析到 custom 目录之外的文件（如符号链接攻击）
+    custom_dir_abs = os.path.realpath(custom_dir)
+    custom_files = [
+        f for f in custom_files
+        if os.path.realpath(f).startswith(custom_dir_abs + os.sep)
+    ]
+
     # 对文件列表进行自然排序
     custom_files.sort(key=natural_sort_key)
     
