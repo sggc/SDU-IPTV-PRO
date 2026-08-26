@@ -15,6 +15,8 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226468/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226305/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV5.png" group-title="中央-河南移动",CCTV5
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226487/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV5+.png" group-title="中央-河南移动",CCTV5+
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV6.png" group-title="中央-河南移动",CCTV6
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226485/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV6.png" group-title="中央-河南移动",CCTV6
@@ -45,8 +47,8 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226572/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226590/index.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV15.png" group-title="中央-河南移动",CCTV15
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226478/index.m3u8
-#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV5+.png" group-title="中央-河南移动",CCTV5+
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226477/index.m3u8
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png" group-title="中央-河南移动",CCTV16
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227532/index.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV17.png" group-title="中央-河南移动",CCTV17
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226630/index.m3u8
 #EXTINF:-1 tvg-name="CETV1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中国教育1.png" group-title="中央-河南移动",CETV1
