@@ -31,6 +31,8 @@ http://222.85.69.6/PLTV/88888888/224/3221227041/index.m3u8
 http://222.85.69.6/PLTV/88888888/224/3221227038/index.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV15.png" group-title="央视频道",CCTV15
 http://222.85.69.6/PLTV/88888888/224/3221227037/index.m3u8
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV16.png" group-title="中央频道",CCTV16
+http://222.85.69.6/PLTV/88888888/224/3221227280/index.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV17.png" group-title="央视频道",CCTV17
 http://222.85.69.6/PLTV/88888888/224/3221227072/index.m3u8
 #EXTINF:-1 tvg-name="中国教育1" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/中国教育1.png" group-title="央视频道",中国教育1
