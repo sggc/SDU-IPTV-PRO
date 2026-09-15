@@ -223,8 +223,6 @@ http://150.138.8.143/00/SNM/CHANNEL00002018/index.m3u8
 http://150.138.8.143/00/SNM/CHANNEL00000651/index.m3u8
 #EXTINF:-1 tvg-name="优漫卡通" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/优漫卡通.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00000049/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="7" tvg-shift="0" resolution="720x576" group-title="特色频道",优漫卡通
 http://150.138.8.143/00/SNM/CHANNEL00000049/index.m3u8
-#EXTINF:-1 tvg-name="新动漫" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/新动漫.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00000659/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="7" tvg-shift="0" resolution="720x576" group-title="特色频道",新动漫
-http://150.138.8.143/00/SNM/CHANNEL00000659/index.m3u8
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/金鹰卡通.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00002027/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="7" tvg-shift="0" resolution="1920x1080" group-title="特色频道",金鹰卡通
 http://150.138.8.143/00/SNM/CHANNEL00002027/index.m3u8
 #EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/卡酷少儿.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00000661/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="7" tvg-shift="0" resolution="1920x1080" group-title="特色频道",卡酷少儿
@@ -287,8 +285,6 @@ http://150.138.8.143/00/SNM/CHANNEL00000065/index.m3u8
 http://150.138.8.143/00/SNM/CHANNEL00000064/index.m3u8
 #EXTINF:-1 tvg-name="济南教育" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南教育.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00000069/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="0" tvg-shift="0" resolution="1920x1080" group-title="山东频道",济南教育
 http://150.138.8.143/00/SNM/CHANNEL00000069/index.m3u8
-#EXTINF:-1 tvg-name="济南少儿" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南少儿.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00000067/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="0" tvg-shift="0" resolution="720x576" group-title="山东频道",济南少儿
-http://150.138.8.143/00/SNM/CHANNEL00000067/index.m3u8
 #EXTINF:-1 tvg-name="济南鲁中" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济南鲁中.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00000244/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="0" tvg-shift="0" resolution="720x576" group-title="山东频道",济南鲁中
 http://150.138.8.143/00/SNM/CHANNEL00000244/index.m3u8
 #EXTINF:-1 tvg-name="济宁综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/济宁.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00000240/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="0" tvg-shift="0" resolution="1920x1080" group-title="市级频道",济宁综合
@@ -313,8 +309,6 @@ http://150.138.8.143/00/SNM/CHANNEL00000503/index.m3u8
 http://150.138.8.143/00/SNM/CHANNEL00000505/index.m3u8
 #EXTINF:-1 tvg-name="日照新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00000262/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="0" tvg-shift="0" resolution="720x576" group-title="市级频道",日照新闻综合
 http://150.138.8.143/00/SNM/CHANNEL00000262/index.m3u8
-#EXTINF:-1 tvg-name="日照公共" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00001100/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="0" tvg-shift="0" resolution="720x576" group-title="市级频道",日照公共
-http://150.138.8.143/00/SNM/CHANNEL00001100/index.m3u8
 #EXTINF:-1 tvg-name="日照科教" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/日照.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00000263/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="0" tvg-shift="0" resolution="720x576" group-title="市级频道",日照科教
 http://150.138.8.143/00/SNM/CHANNEL00000263/index.m3u8
 #EXTINF:-1 tvg-name="威海新闻综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东2/威海.png" catchup="default" catchup-source="http://150.138.8.143/00/SNM/CHANNEL00000274/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" catchup-days="0" tvg-shift="0" resolution="720x576" group-title="市级频道",威海新闻综合
