@@ -700,6 +700,16 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227442/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227444/index.m3u8
 #EXTINF:-1 tvg-name="江苏卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/江苏卫视4K.png" group-title="数字-河南移动4K",江苏卫视4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227436/index.m3u8
+#EXTINF:-1 tvg-name="辽宁卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/辽宁卫视4K.png" group-title="数字-河南移动4K",辽宁卫视4K
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227546/index.m3u8
+#EXTINF:-1 tvg-name="江西卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/江西卫视4K.png" group-title="数字-河南移动4K",江西卫视4K
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227552/index.m3u8
+#EXTINF:-1 tvg-name="天津卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/天津卫视4K.png" group-title="数字-河南移动4K",天津卫视4K
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227544/index.m3u8
+#EXTINF:-1 tvg-name="重庆卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/重庆卫视4K.png" group-title="数字-河南移动4K",重庆卫视4K
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227540/index.m3u8
+#EXTINF:-1 tvg-name="贵州卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/贵州卫视4K.png" group-title="数字-河南移动4K",贵州卫视4K
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227542/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/CCTV4K.png" group-title="数字-河南移动4K",CCTV4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227426/index.m3u8
 
