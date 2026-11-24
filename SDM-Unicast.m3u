@@ -84,6 +84,17 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000001/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000004/index.m3u8
 #EXTINF:-1 tvg-name="广东卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/广东卫视4K.png" group-title="卫视频道" catchup="default" catchup-source="http://39.134.144.6:8089/PLTV/88888888/224/3221226741/index.m3u8?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" ,广东卫视4K
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000003/index.m3u8
+#EXTINF:-1 tvg-name="天津卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/天津卫视4K.png" group-title="卫视频道",天津卫视4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000016/index.m3u8
+#EXTINF:-1 tvg-name="重庆卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/重庆卫视4K.png" group-title="卫视频道",重庆卫视4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000014/index.m3u8
+#EXTINF:-1 tvg-name="辽宁卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/辽宁卫视4K.png" group-title="卫视频道",辽宁卫视4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000013/index.m3u8
+#EXTINF:-1 tvg-name="贵州卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/贵州卫视4K.png" group-title="卫视频道",贵州卫视4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000012/index.m3u8
+#EXTINF:-1 tvg-name="江西卫视4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/江西卫视4K.png" group-title="卫视频道",江西卫视4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000015/index.m3u8
+
 
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/北京卫视.png" group-title="卫视频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000302/index.m3u8?startTime=${(b)10}&endTime=${(e)10}" ,北京卫视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000302/index.m3u8
