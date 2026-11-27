@@ -406,8 +406,6 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000240/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000241/index.m3u8
 #EXTINF:-1 tvg-name="济宁生活" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/济宁.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000239/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济宁生活
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000239/index.m3u8
-#EXTINF:-1 tvg-name="济宁高新" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/济宁高新区.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001101/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",济宁高新
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001101/index.m3u8
 
 #EXTINF:-1 tvg-name="泰安综合" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/sggc/SDU-IPTV-PRO/main/logo/山东/泰安.png" group-title="市级频道" catchup="default" catchup-source="http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000269/index.m3u8?startTime=${(b)10}&endTime=${(e)10}",泰安综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000269/index.m3u8
